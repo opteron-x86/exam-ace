@@ -1,0 +1,400 @@
+{
+    "bank_id": "d3_quality_charts_001",
+    "title": "Domain 3: Quality & Performance Charts (3.3)",
+    "description": "Covers histograms, Pareto charts, scatter diagrams, fishbone (cause-and-effect) diagrams, control charts with UCL/LCL, run charts, decision trees, five-why analysis, common vs. special cause variation, and process analysis.",
+    "version": "1.0",
+    "questions": [
+        {
+            "id": "d3qc_mc001",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.3",
+            "tags": ["pareto-chart", "80-20"],
+            "difficulty": "easy",
+            "question": "A bar chart that ranks causes of problems from most to least significant and illustrates the 80/20 rule is called a:",
+            "options": [
+                {"key": "A", "text": "Histogram"},
+                {"key": "B", "text": "Control chart"},
+                {"key": "C", "text": "Pareto chart"},
+                {"key": "D", "text": "Scatter diagram"}
+            ],
+            "correct": "C",
+            "explanation": "A Pareto chart is a bar chart or histogram that ranks causes of problems from most to least significant. It illustrates the Pareto principle (80/20 rule), which states that approximately 80% of problems are caused by approximately 20% of the causes."
+        },
+        {
+            "id": "d3qc_mc002",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.3",
+            "tags": ["histogram"],
+            "difficulty": "easy",
+            "question": "Quality control tools that organize individual measured values in a data set according to the frequency of occurrence are called:",
+            "options": [
+                {"key": "A", "text": "Scatter diagrams"},
+                {"key": "B", "text": "Histograms"},
+                {"key": "C", "text": "Decision trees"},
+                {"key": "D", "text": "Flowcharts"}
+            ],
+            "correct": "B",
+            "explanation": "Histograms are quality control tools that organize individual measured values according to the frequency (number or percentage) of occurrence. They provide a visual distribution of data, showing how often each value appears."
+        },
+        {
+            "id": "d3qc_mc003",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.3",
+            "tags": ["scatter-diagram", "correlation"],
+            "difficulty": "medium",
+            "question": "A scatter diagram revealed a positive correlation between site visitors and email signups. What does this mean?",
+            "options": [
+                {"key": "A", "text": "As site visitors increase, email signups decrease"},
+                {"key": "B", "text": "As site visitors increase, email signups also increase"},
+                {"key": "C", "text": "There is no relationship between the two variables"},
+                {"key": "D", "text": "Site visitors cause email signups to remain constant"}
+            ],
+            "correct": "B",
+            "explanation": "A positive correlation means that as one variable increases, the other variable also increases. In this case, as the number of site visitors goes up, the number of email signups goes up as well."
+        },
+        {
+            "id": "d3qc_mc004",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.3",
+            "tags": ["scatter-diagram", "r-squared"],
+            "difficulty": "hard",
+            "question": "A scatter diagram for two variables returns an R² value of 0. How would you describe this relationship?",
+            "options": [
+                {"key": "A", "text": "Strong positive correlation"},
+                {"key": "B", "text": "Strong negative correlation"},
+                {"key": "C", "text": "No correlation between the two variables"},
+                {"key": "D", "text": "Perfect linear relationship"}
+            ],
+            "correct": "C",
+            "explanation": "An R² value of 0 indicates no correlation between the two variables — changes in one variable do not predict changes in the other. An R² of 1 would indicate a perfect correlation."
+        },
+        {
+            "id": "d3qc_mc005",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.3",
+            "tags": ["fishbone-diagram", "root-cause"],
+            "difficulty": "easy",
+            "question": "A diagram that provides a structured method to identify and analyze potential causes of a problem in a process or system, with the problem at the head and potential causes branching off like bones, is called a:",
+            "options": [
+                {"key": "A", "text": "Decision tree"},
+                {"key": "B", "text": "Fishbone (cause-and-effect) diagram"},
+                {"key": "C", "text": "Gantt chart"},
+                {"key": "D", "text": "Run chart"}
+            ],
+            "correct": "B",
+            "explanation": "A fishbone diagram (also called a cause-and-effect or Ishikawa diagram) provides a structured method to identify and analyze potential causes of problems. The problem is at the head, and potential causes branch off like the bones of a fish."
+        },
+        {
+            "id": "d3qc_mc006",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.3",
+            "tags": ["fishbone-diagram", "scenario"],
+            "difficulty": "medium",
+            "question": "A project is three weeks behind schedule and the PM does not know why. The PM wants to lead a problem-solving activity with the team to brainstorm potential causes. Which tool should the PM use?",
+            "options": [
+                {"key": "A", "text": "Pareto chart"},
+                {"key": "B", "text": "Control chart"},
+                {"key": "C", "text": "Fishbone diagram"},
+                {"key": "D", "text": "Scatter diagram"}
+            ],
+            "correct": "C",
+            "explanation": "A fishbone diagram is ideal for brainstorming potential causes of a single problem. The team can list all possible causes across categories (people, process, tools, environment, etc.) to identify what is driving the schedule delay."
+        },
+        {
+            "id": "d3qc_mc007",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.3",
+            "tags": ["control-chart", "ucl-lcl"],
+            "difficulty": "medium",
+            "question": "On a control chart, what do the Upper Control Limit (UCL) and Lower Control Limit (LCL) represent?",
+            "options": [
+                {"key": "A", "text": "The project's budget ceiling and floor"},
+                {"key": "B", "text": "The acceptable range of variation for a process — data points outside these limits indicate a process is out of control"},
+                {"key": "C", "text": "The earliest and latest start dates for an activity"},
+                {"key": "D", "text": "The maximum and minimum team size"}
+            ],
+            "correct": "B",
+            "explanation": "UCL and LCL define the acceptable range of variation for a process. Data points within these limits represent normal (common cause) variation. Data points outside these limits indicate the process may be out of control due to special cause variation."
+        },
+        {
+            "id": "d3qc_mc008",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.3",
+            "tags": ["control-chart", "ucl"],
+            "difficulty": "medium",
+            "question": "What does the UCL on a control chart represent?",
+            "options": [
+                {"key": "A", "text": "The average performance value"},
+                {"key": "B", "text": "The highest expected value for the process, assuming everything is under control"},
+                {"key": "C", "text": "The total project budget"},
+                {"key": "D", "text": "The maximum number of defects allowed"}
+            ],
+            "correct": "B",
+            "explanation": "The UCL (Upper Control Limit) shows the highest expected value for the process, assuming everything is under control. It represents the upper boundary of normal variation."
+        },
+        {
+            "id": "d3qc_mc009",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.3",
+            "tags": ["common-cause-variation"],
+            "difficulty": "medium",
+            "question": "Everyday occurrences that are always present in project work and may be unavoidable are classified as:",
+            "options": [
+                {"key": "A", "text": "Special cause variation"},
+                {"key": "B", "text": "Common cause variation"},
+                {"key": "C", "text": "Quality escapes"},
+                {"key": "D", "text": "Defects"}
+            ],
+            "correct": "B",
+            "explanation": "Common cause variation consists of everyday occurrences that are always present in project work and may be unavoidable. They can be insignificant with little quality impact, or they may have a dramatic effect. They fall within the control limits."
+        },
+        {
+            "id": "d3qc_mc010",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.3",
+            "tags": ["special-cause-variation"],
+            "difficulty": "medium",
+            "question": "Unusual, sporadic occurrences that are the result of some unexpected circumstance and are typically not caused by a flaw in the overall production process are classified as:",
+            "options": [
+                {"key": "A", "text": "Common cause variation"},
+                {"key": "B", "text": "Special cause variation"},
+                {"key": "C", "text": "Scope creep"},
+                {"key": "D", "text": "Progressive elaboration"}
+            ],
+            "correct": "B",
+            "explanation": "Special cause variation represents unusual, sporadic occurrences resulting from unexpected circumstances. They are not caused by a flaw in the overall process and typically fall outside the control limits, requiring investigation."
+        },
+        {
+            "id": "d3qc_mc011",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.3",
+            "tags": ["decision-tree"],
+            "difficulty": "medium",
+            "question": "A type of screening system decision model that uses a branch diagram to choose among different alternatives, incorporating probabilities of occurrence and costs or rewards, is called a:",
+            "options": [
+                {"key": "A", "text": "Fishbone diagram"},
+                {"key": "B", "text": "Pareto chart"},
+                {"key": "C", "text": "Decision tree"},
+                {"key": "D", "text": "Scatter diagram"}
+            ],
+            "correct": "C",
+            "explanation": "A decision tree uses a branch diagram to choose among alternatives. It incorporates probabilities of occurrence and costs or rewards of each decision path, helping project managers evaluate options quantitatively."
+        },
+        {
+            "id": "d3qc_mc012",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.3",
+            "tags": ["decision-tree", "flowchart"],
+            "difficulty": "medium",
+            "question": "What is the key difference between a flowchart and a decision tree?",
+            "options": [
+                {"key": "A", "text": "A flowchart is used in agile; a decision tree is used in waterfall"},
+                {"key": "B", "text": "A flowchart describes a process and may include many decisions; a decision tree represents a single decision with many factors"},
+                {"key": "C", "text": "They are the same tool"},
+                {"key": "D", "text": "A decision tree is always automated; a flowchart is always manual"}
+            ],
+            "correct": "B",
+            "explanation": "A flowchart describes an entire process and may include many decision points throughout. A decision tree focuses on a single decision with multiple factors, branches, and outcomes to help choose the best alternative."
+        },
+        {
+            "id": "d3qc_mc013",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.3",
+            "tags": ["run-chart"],
+            "difficulty": "medium",
+            "question": "A line graph that plots data longitudinally, with time on the horizontal axis and the measured output on the vertical axis, is called a:",
+            "options": [
+                {"key": "A", "text": "Scatter diagram"},
+                {"key": "B", "text": "Run chart"},
+                {"key": "C", "text": "Pareto chart"},
+                {"key": "D", "text": "Histogram"}
+            ],
+            "correct": "B",
+            "explanation": "A run chart is a line graph that plots data over time — time is on the horizontal axis and the measured output is on the vertical axis. It helps identify trends, shifts, and patterns in a process over time."
+        },
+        {
+            "id": "d3qc_mc014",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.3",
+            "tags": ["five-why", "root-cause"],
+            "difficulty": "medium",
+            "question": "A simple root cause analysis technique that continues to ask 'why' an issue occurred until reaching a solvable root cause is called:",
+            "options": [
+                {"key": "A", "text": "Fishbone analysis"},
+                {"key": "B", "text": "Five-Why analysis"},
+                {"key": "C", "text": "Pareto analysis"},
+                {"key": "D", "text": "Monte Carlo analysis"}
+            ],
+            "correct": "B",
+            "explanation": "The Five-Why technique looks for hidden root causes of issues by continuously asking 'why' until you reach a solvable root cause. It typically takes about five iterations to get from the symptom to the underlying cause."
+        },
+        {
+            "id": "d3qc_mc015",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.3",
+            "tags": ["quality-escape"],
+            "difficulty": "hard",
+            "question": "A deliverable containing an unacceptable deviation or defect that was not detected by the producer or quality team is called a:",
+            "options": [
+                {"key": "A", "text": "Change request"},
+                {"key": "B", "text": "Quality escape"},
+                {"key": "C", "text": "Common cause variation"},
+                {"key": "D", "text": "Risk event"}
+            ],
+            "correct": "B",
+            "explanation": "A quality escape is a deliverable containing an unacceptable deviation or defect that was not detected before reaching the customer. A Notice of Escape (NOE) may be issued to a supplier requiring corrective measures."
+        },
+        {
+            "id": "d3qc_mc016",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.3",
+            "tags": ["process-flowchart"],
+            "difficulty": "easy",
+            "question": "A diagram that shows the sequence of events and the flow of inputs and outputs between elements in a process or system is called a:",
+            "options": [
+                {"key": "A", "text": "Process flowchart"},
+                {"key": "B", "text": "Pareto chart"},
+                {"key": "C", "text": "Histogram"},
+                {"key": "D", "text": "Scatter diagram"}
+            ],
+            "correct": "A",
+            "explanation": "A process flowchart shows the sequence of events and the flow of inputs and outputs between elements in a process or system. It helps teams understand and analyze how a process works."
+        },
+        {
+            "id": "d3qc_mc017",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.3",
+            "tags": ["root-cause-analysis"],
+            "difficulty": "medium",
+            "question": "A technique used to determine the true cause of a problem that, when removed, prevents the problem from occurring again is called:",
+            "options": [
+                {"key": "A", "text": "Gap analysis"},
+                {"key": "B", "text": "Root cause analysis"},
+                {"key": "C", "text": "Reserve analysis"},
+                {"key": "D", "text": "Alternatives analysis"}
+            ],
+            "correct": "B",
+            "explanation": "Root cause analysis is a technique used to determine the true underlying cause of a problem. When the root cause is identified and removed, the problem is prevented from occurring again. Fishbone diagrams and Five-Why are common RCA tools."
+        },
+        {
+            "id": "d3qc_mc018",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.3",
+            "tags": ["cost-of-quality"],
+            "difficulty": "hard",
+            "question": "The total cost of effort to achieve an acceptable level of quality in the project's product or service is called the:",
+            "options": [
+                {"key": "A", "text": "Budget at completion"},
+                {"key": "B", "text": "Cost of quality"},
+                {"key": "C", "text": "Earned value"},
+                {"key": "D", "text": "Variance at completion"}
+            ],
+            "correct": "B",
+            "explanation": "The cost of quality (CoQ) is the total cost of effort to achieve an acceptable quality level. It includes prevention costs (training, planning), appraisal costs (testing, inspections), and failure costs (rework, warranty, scrap)."
+        },
+        {
+            "id": "d3qc_ms001",
+            "type": "multiple_select",
+            "domain": "3",
+            "objective": "3.3",
+            "tags": ["root-cause-tools"],
+            "difficulty": "medium",
+            "select_count": 3,
+            "question": "Which THREE of the following are tools or techniques used to identify root causes of problems?",
+            "options": [
+                {"key": "A", "text": "Fishbone (cause-and-effect) diagram"},
+                {"key": "B", "text": "Gantt chart"},
+                {"key": "C", "text": "Five-Why analysis"},
+                {"key": "D", "text": "Scatter diagram"},
+                {"key": "E", "text": "Burndown chart"}
+            ],
+            "correct": ["A", "C", "D"],
+            "explanation": "Fishbone diagrams structure potential causes of a problem. Five-Why drills down to root causes by asking 'why' repeatedly. Scatter diagrams identify correlations between variables that may point to causes. Gantt charts and burndown charts are scheduling/tracking tools."
+        },
+        {
+            "id": "d3qc_ms002",
+            "type": "multiple_select",
+            "domain": "3",
+            "objective": "3.3",
+            "tags": ["control-chart", "variation"],
+            "difficulty": "hard",
+            "select_count": 2,
+            "question": "Which TWO of the following are indicators that a process may be out of control on a control chart?",
+            "options": [
+                {"key": "A", "text": "A single data point outside the UCL or LCL"},
+                {"key": "B", "text": "All data points near the center line"},
+                {"key": "C", "text": "Seven or more consecutive data points on one side of the center line"},
+                {"key": "D", "text": "Random variation within the control limits"}
+            ],
+            "correct": ["A", "C"],
+            "explanation": "A process may be out of control when: (1) a data point falls outside the UCL or LCL (special cause variation), or (2) there is a run of seven or more consecutive points on one side of the center line (indicating a trend or shift). Random variation within limits is normal."
+        },
+        {
+            "id": "d3qc_match001",
+            "type": "matching",
+            "domain": "3",
+            "objective": "3.3",
+            "tags": ["quality-charts", "purpose"],
+            "difficulty": "hard",
+            "question": "Match each quality chart to its primary purpose.",
+            "pairs": [
+                {"left": "Pareto chart", "right": "Ranks causes by frequency to identify the vital few (80/20 rule)"},
+                {"left": "Fishbone diagram", "right": "Structures potential causes of a single problem into categories"},
+                {"left": "Control chart", "right": "Monitors process variation over time against upper and lower limits"},
+                {"left": "Scatter diagram", "right": "Plots pairs of data points to identify correlation between two variables"}
+            ],
+            "explanation": "Each chart serves a distinct quality purpose: Pareto prioritizes causes, fishbone brainstorms causes categorically, control charts track process stability over time, and scatter diagrams identify variable relationships."
+        },
+        {
+            "id": "d3qc_match002",
+            "type": "matching",
+            "domain": "3",
+            "objective": "3.3",
+            "tags": ["variation-types"],
+            "difficulty": "medium",
+            "question": "Match each type of variation to its correct description.",
+            "pairs": [
+                {"left": "Common cause variation", "right": "Everyday occurrences that are always present and may be unavoidable"},
+                {"left": "Special cause variation", "right": "Unusual, sporadic occurrences resulting from unexpected circumstances"}
+            ],
+            "explanation": "Common cause variation is inherent in every process — minor fluctuations that are expected and fall within control limits. Special cause variation is unexpected, falls outside normal bounds, and requires investigation to identify the unique cause."
+        },
+        {
+            "id": "d3qc_dd001",
+            "type": "drag_drop",
+            "domain": "3",
+            "objective": "3.3",
+            "tags": ["chart-type", "categorization"],
+            "difficulty": "hard",
+            "question": "Categorize each chart by what type of analysis it primarily supports.",
+            "categories": ["Cause Analysis", "Trend / Process Monitoring", "Data Distribution / Comparison"],
+            "items": [
+                {"text": "Fishbone diagram", "correct_category": "Cause Analysis"},
+                {"text": "Control chart", "correct_category": "Trend / Process Monitoring"},
+                {"text": "Histogram", "correct_category": "Data Distribution / Comparison"},
+                {"text": "Pareto chart", "correct_category": "Cause Analysis"},
+                {"text": "Run chart", "correct_category": "Trend / Process Monitoring"},
+                {"text": "Scatter diagram", "correct_category": "Data Distribution / Comparison"}
+            ],
+            "explanation": "Cause analysis tools (fishbone, Pareto) help identify why problems occur. Trend/monitoring tools (control charts, run charts) track data over time. Distribution/comparison tools (histograms, scatter diagrams) show how data is spread or related."
+        }
+    ]
+}

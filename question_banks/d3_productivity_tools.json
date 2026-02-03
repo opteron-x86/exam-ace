@@ -1,0 +1,353 @@
+{
+    "bank_id": "d3_prod_tools_001",
+    "title": "Domain 3: Productivity Tools (3.2)",
+    "description": "Covers communication tools (email, SMS, chat, telephone, enterprise social media), collaboration tools (wikis, knowledge bases, whiteboards, real-time editing, file sharing), meeting tools (video conferencing), documentation tools (word processing, spreadsheets, presentations), scheduling tools (calendaring), ticketing systems, workflow management, and project management software.",
+    "version": "1.0",
+    "questions": [
+        {
+            "id": "d3pd_mc001",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.2",
+            "tags": ["email"],
+            "difficulty": "easy",
+            "question": "An electronic store-and-forward messaging system that supports text messages and binary file attachments, using protocols such as SMTP, POP3, and IMAP, is:",
+            "options": [
+                {"key": "A", "text": "SMS"},
+                {"key": "B", "text": "Chat messaging"},
+                {"key": "C", "text": "Email"},
+                {"key": "D", "text": "VoIP"}
+            ],
+            "correct": "C",
+            "explanation": "Email is an electronic store-and-forward messaging system. An SMTP server forwards mail, and mail clients use POP3 or IMAP to access and download messages. Email supports text messages and binary file attachments."
+        },
+        {
+            "id": "d3pd_mc002",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.2",
+            "tags": ["sms", "chat"],
+            "difficulty": "medium",
+            "question": "How does the message transmission differ between chat messaging and SMS?",
+            "options": [
+                {"key": "A", "text": "Chat messages and SMS both use cellular networks"},
+                {"key": "B", "text": "Chat messages transmit via an internet connection; SMS messages transmit via cellular networks"},
+                {"key": "C", "text": "SMS transmits via the internet; chat messages use cellular networks"},
+                {"key": "D", "text": "There is no difference in transmission method"}
+            ],
+            "correct": "B",
+            "explanation": "Chat messages transmit via an internet connection (Wi-Fi or data), while SMS (Short Message Service) messages transmit via cellular networks. This distinction affects availability and reliability in different environments."
+        },
+        {
+            "id": "d3pd_mc003",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.2",
+            "tags": ["voip"],
+            "difficulty": "easy",
+            "question": "A generic name for protocols that carry voice traffic over data networks is:",
+            "options": [
+                {"key": "A", "text": "SMS"},
+                {"key": "B", "text": "VoIP (Voice over Internet Protocol)"},
+                {"key": "C", "text": "SMTP"},
+                {"key": "D", "text": "IMAP"}
+            ],
+            "correct": "B",
+            "explanation": "VoIP (Voice over Internet Protocol) is a generic name for protocols that carry voice traffic over data networks, enabling phone calls over the internet rather than traditional telephone lines."
+        },
+        {
+            "id": "d3pd_mc004",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.2",
+            "tags": ["enterprise-social-media"],
+            "difficulty": "easy",
+            "question": "Social networking tools used to connect with others within an organization who share professional interests are called:",
+            "options": [
+                {"key": "A", "text": "Public social media platforms"},
+                {"key": "B", "text": "Enterprise social media"},
+                {"key": "C", "text": "Ticketing systems"},
+                {"key": "D", "text": "Knowledge bases"}
+            ],
+            "correct": "B",
+            "explanation": "Enterprise social media are social networking tools used within an organization to connect people with shared professional interests. They facilitate internal communication and collaboration."
+        },
+        {
+            "id": "d3pd_mc005",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.2",
+            "tags": ["wiki"],
+            "difficulty": "medium",
+            "question": "A collaborative knowledge base built and maintained by contributors who are also the product's users or audience, often more informal than traditional KBs, is called a:",
+            "options": [
+                {"key": "A", "text": "Document management system"},
+                {"key": "B", "text": "Wiki"},
+                {"key": "C", "text": "Workflow management system"},
+                {"key": "D", "text": "Ticketing system"}
+            ],
+            "correct": "B",
+            "explanation": "A wiki is a collaborative knowledge base built and maintained by its own users or audience. It is typically more informal than a traditional KB and allows anyone with access to contribute and edit content."
+        },
+        {
+            "id": "d3pd_mc006",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.2",
+            "tags": ["knowledge-base"],
+            "difficulty": "easy",
+            "question": "A searchable database of product FAQs, advice, and known troubleshooting issues is called a:",
+            "options": [
+                {"key": "A", "text": "Wiki"},
+                {"key": "B", "text": "Knowledge base (KB)"},
+                {"key": "C", "text": "Data warehouse"},
+                {"key": "D", "text": "CRM system"}
+            ],
+            "correct": "B",
+            "explanation": "A knowledge base (KB) is a searchable database of Frequently Asked Questions, advice, and known troubleshooting issues. It provides self-service access to information for users and support teams."
+        },
+        {
+            "id": "d3pd_mc007",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.2",
+            "tags": ["whiteboard"],
+            "difficulty": "easy",
+            "question": "A virtual, interactive canvas where multiple users can contribute to the contents, often featuring electronic sticky notes, is called a:",
+            "options": [
+                {"key": "A", "text": "Spreadsheet"},
+                {"key": "B", "text": "Whiteboard"},
+                {"key": "C", "text": "Wiki"},
+                {"key": "D", "text": "Gantt chart"}
+            ],
+            "correct": "B",
+            "explanation": "A virtual whiteboard is an interactive canvas where multiple users can contribute. It typically includes a blank white space and electronic sticky notes to recreate the look and feel of a physical whiteboard for remote collaboration."
+        },
+        {
+            "id": "d3pd_mc008",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.2",
+            "tags": ["real-time-editing"],
+            "difficulty": "medium",
+            "question": "An application that allows multiple users to update the same file simultaneously, view version history, and comment on each other's work is called:",
+            "options": [
+                {"key": "A", "text": "A file sharing platform"},
+                {"key": "B", "text": "Real-time, multi-authoring editing software"},
+                {"key": "C", "text": "A ticketing system"},
+                {"key": "D", "text": "A workflow management system"}
+            ],
+            "correct": "B",
+            "explanation": "Real-time, multi-authoring editing software allows multiple users to update the same file simultaneously. It typically includes commenting, version history, and the ability to see other contributors' changes in real time."
+        },
+        {
+            "id": "d3pd_mc009",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.2",
+            "tags": ["file-sharing"],
+            "difficulty": "easy",
+            "question": "Tools that allow users to post files in a single location and grant access to one or more users are called:",
+            "options": [
+                {"key": "A", "text": "File sharing platforms"},
+                {"key": "B", "text": "Ticketing systems"},
+                {"key": "C", "text": "Calendaring tools"},
+                {"key": "D", "text": "Decision trees"}
+            ],
+            "correct": "A",
+            "explanation": "File sharing platforms allow users to post files in a single centralized location and grant access to other users, enabling collaboration and ensuring everyone works with the same version of documents."
+        },
+        {
+            "id": "d3pd_mc010",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.2",
+            "tags": ["video-conferencing"],
+            "difficulty": "easy",
+            "question": "Software that allows users to configure virtual meeting rooms with options for voice, video, instant messaging, and screen sharing is called:",
+            "options": [
+                {"key": "A", "text": "Email client"},
+                {"key": "B", "text": "Video conferencing platform"},
+                {"key": "C", "text": "Ticketing system"},
+                {"key": "D", "text": "Workflow management system"}
+            ],
+            "correct": "B",
+            "explanation": "Video conferencing platforms allow users to configure virtual meeting rooms with voice, video, instant messaging, and screen-sharing capabilities. They enable remote team communication and collaboration."
+        },
+        {
+            "id": "d3pd_mc011",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.2",
+            "tags": ["ticketing-system"],
+            "difficulty": "medium",
+            "question": "Database software designed to implement a structured support process by identifying each case with a unique job ticket ID and recording how issues are resolved is called a:",
+            "options": [
+                {"key": "A", "text": "Knowledge base"},
+                {"key": "B", "text": "Ticketing system"},
+                {"key": "C", "text": "Project management software"},
+                {"key": "D", "text": "Calendaring tool"}
+            ],
+            "correct": "B",
+            "explanation": "A ticketing system is database software that implements a structured support process. Each case gets a unique job ticket ID with descriptive fields to record how the issue was resolved, providing an audit trail."
+        },
+        {
+            "id": "d3pd_mc012",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.2",
+            "tags": ["workflow-management"],
+            "difficulty": "medium",
+            "question": "Automated applications that create and execute repeatable tasks, track progress, send notifications, and collect approvals are called:",
+            "options": [
+                {"key": "A", "text": "Workflow management systems"},
+                {"key": "B", "text": "Spreadsheets"},
+                {"key": "C", "text": "Word processors"},
+                {"key": "D", "text": "Whiteboards"}
+            ],
+            "correct": "A",
+            "explanation": "Workflow management systems are automated applications that create and execute repeatable tasks. They track progress, send notifications, and collect and track approvals — streamlining routine processes."
+        },
+        {
+            "id": "d3pd_mc013",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.2",
+            "tags": ["calendaring"],
+            "difficulty": "easy",
+            "question": "Software that maintains electronic calendars for individuals and groups, synchronizes schedules across time zones, and updates in real time is called:",
+            "options": [
+                {"key": "A", "text": "A Gantt chart tool"},
+                {"key": "B", "text": "A calendaring tool"},
+                {"key": "C", "text": "A ticketing system"},
+                {"key": "D", "text": "A burndown chart"}
+            ],
+            "correct": "B",
+            "explanation": "Calendaring tools maintain electronic calendars for individuals and groups, synchronize schedules across time zones, and update in real time to keep everyone's availability current."
+        },
+        {
+            "id": "d3pd_mc014",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.2",
+            "tags": ["project-management-software"],
+            "difficulty": "medium",
+            "question": "A software application that generates and organizes resource information such as cost estimates and Work Breakdown Structures to help optimize resource utilization is called:",
+            "options": [
+                {"key": "A", "text": "Spreadsheet software"},
+                {"key": "B", "text": "Project management software"},
+                {"key": "C", "text": "A ticketing system"},
+                {"key": "D", "text": "Enterprise social media"}
+            ],
+            "correct": "B",
+            "explanation": "Project management software generates and organizes resource information, including cost estimates and WBS structures. It helps optimize resource utilization and supports project planning, scheduling, and tracking."
+        },
+        {
+            "id": "d3pd_mc015",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.2",
+            "tags": ["survey-polling"],
+            "difficulty": "easy",
+            "question": "Software products that allow many participants to respond to predetermined questions quickly, with structured formats that generate insights and visualizations, are called:",
+            "options": [
+                {"key": "A", "text": "Survey and polling tools"},
+                {"key": "B", "text": "Workflow management systems"},
+                {"key": "C", "text": "Ticketing systems"},
+                {"key": "D", "text": "Version control systems"}
+            ],
+            "correct": "A",
+            "explanation": "Survey and polling tools allow many participants to respond to predetermined questions quickly. Their structured formats generate valuable insights and visualizations from collected responses."
+        },
+        {
+            "id": "d3pd_mc016",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.2",
+            "tags": ["edms"],
+            "difficulty": "medium",
+            "question": "Software that allows users to create, track, and share business documents with built-in workflows and features for streamlined processes is called:",
+            "options": [
+                {"key": "A", "text": "A knowledge base"},
+                {"key": "B", "text": "An electronic document management system (EDMS)"},
+                {"key": "C", "text": "A content management system (CMS)"},
+                {"key": "D", "text": "A ticketing system"}
+            ],
+            "correct": "B",
+            "explanation": "An Electronic Document Management System (EDMS) allows users to create, track, and share business documents. It builds in workflows and other features to create streamlined document management processes."
+        },
+        {
+            "id": "d3pd_ms001",
+            "type": "multiple_select",
+            "domain": "3",
+            "objective": "3.2",
+            "tags": ["collaboration-tools"],
+            "difficulty": "medium",
+            "select_count": 3,
+            "question": "Which THREE of the following are collaboration tools?",
+            "options": [
+                {"key": "A", "text": "Virtual whiteboards"},
+                {"key": "B", "text": "Gantt charts"},
+                {"key": "C", "text": "Real-time multi-authoring editing software"},
+                {"key": "D", "text": "Pareto charts"},
+                {"key": "E", "text": "File sharing platforms"}
+            ],
+            "correct": ["A", "C", "E"],
+            "explanation": "Virtual whiteboards, real-time editing software, and file sharing platforms are collaboration tools that enable multiple people to work together. Gantt charts and Pareto charts are project scheduling and quality tools, respectively."
+        },
+        {
+            "id": "d3pd_ms002",
+            "type": "multiple_select",
+            "domain": "3",
+            "objective": "3.2",
+            "tags": ["communication-tools"],
+            "difficulty": "easy",
+            "select_count": 3,
+            "question": "Which THREE of the following are communication tools?",
+            "options": [
+                {"key": "A", "text": "Email"},
+                {"key": "B", "text": "Risk register"},
+                {"key": "C", "text": "Chat messaging (Slack, Teams)"},
+                {"key": "D", "text": "Video conferencing platforms"},
+                {"key": "E", "text": "Work breakdown structure"}
+            ],
+            "correct": ["A", "C", "D"],
+            "explanation": "Email, chat messaging, and video conferencing are all communication tools used for exchanging project information. Risk registers and WBS are documentation and planning tools."
+        },
+        {
+            "id": "d3pd_match001",
+            "type": "matching",
+            "domain": "3",
+            "objective": "3.2",
+            "tags": ["tool-categories"],
+            "difficulty": "medium",
+            "question": "Match each tool to its primary category.",
+            "pairs": [
+                {"left": "Ticketing system", "right": "A structured support process tool that assigns unique IDs to cases"},
+                {"left": "Wiki", "right": "A collaborative knowledge base maintained by its users"},
+                {"left": "Workflow management system", "right": "An automated tool that executes repeatable tasks and tracks approvals"},
+                {"left": "Calendaring tool", "right": "Software that synchronizes schedules across time zones in real time"}
+            ],
+            "explanation": "Each tool category serves a specific purpose: ticketing systems manage support cases, wikis enable collaborative knowledge sharing, workflow systems automate processes, and calendaring tools coordinate schedules."
+        },
+        {
+            "id": "d3pd_dd001",
+            "type": "drag_drop",
+            "domain": "3",
+            "objective": "3.2",
+            "tags": ["tool-categorization"],
+            "difficulty": "medium",
+            "question": "Categorize each tool into its correct category.",
+            "categories": ["Communication", "Collaboration", "Documentation"],
+            "items": [
+                {"text": "Email", "correct_category": "Communication"},
+                {"text": "Virtual whiteboard", "correct_category": "Collaboration"},
+                {"text": "Word processing software", "correct_category": "Documentation"},
+                {"text": "Chat messaging", "correct_category": "Communication"},
+                {"text": "Real-time multi-authoring editor", "correct_category": "Collaboration"},
+                {"text": "Spreadsheet software", "correct_category": "Documentation"}
+            ],
+            "explanation": "Communication tools (email, chat) transmit information between people. Collaboration tools (whiteboards, real-time editors) enable people to work together simultaneously. Documentation tools (word processors, spreadsheets) create and manage project documents."
+        }
+    ]
+}

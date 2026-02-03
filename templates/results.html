@@ -1,0 +1,153 @@
+{% extends "base.html" %}
+{% block title %}Quiz Results{% endblock %}
+
+{% block content %}
+<div class="results-container">
+
+    <!-- Score Card -->
+    <section class="score-card {% if session.passed %}passed{% else %}failed{% endif %}">
+        <div class="score-main">
+            <div class="score-number">{{ session.scaled_score }}</div>
+            <div class="score-max">/ 900</div>
+        </div>
+        <div class="score-status">
+            {% if session.passed %}
+            <span class="status-badge pass">PASS</span>
+            {% else %}
+            <span class="status-badge fail">NOT YET PASSING</span>
+            {% endif %}
+        </div>
+        <div class="score-details">
+            <div class="score-detail">
+                <span class="detail-label">Correct</span>
+                <span class="detail-value">{{ session.correct_count }} / {{ session.total_questions }}</span>
+            </div>
+            <div class="score-detail">
+                <span class="detail-label">Percentage</span>
+                <span class="detail-value">{{ "%.1f"|format(session.score_percentage) }}%</span>
+            </div>
+            <div class="score-detail">
+                <span class="detail-label">Mode</span>
+                <span class="detail-value">{{ session.mode|capitalize }}</span>
+            </div>
+            <div class="score-detail">
+                <span class="detail-label">Time</span>
+                <span class="detail-value">
+                    {% set mins = (session.time_spent_seconds or 0) // 60 %}
+                    {% set secs = (session.time_spent_seconds or 0) % 60 %}
+                    {{ mins }}m {{ secs }}s
+                </span>
+            </div>
+            <div class="score-detail">
+                <span class="detail-label">Passing Score</span>
+                <span class="detail-value">{{ passing_score }} / 900</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Domain Breakdown -->
+    <section class="card">
+        <h2>Domain Breakdown</h2>
+        <div class="domain-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Domain</th>
+                        <th>Correct</th>
+                        <th>Score</th>
+                        <th>Performance</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for d in domains %}
+                    <tr>
+                        <td>
+                            <strong>{{ domain_weights.get(d.domain, {}).get('name', 'Domain ' + d.domain) }}</strong>
+                            <br><small>Weight: {{ (domain_weights.get(d.domain, {}).get('weight', 0) * 100)|int }}%</small>
+                        </td>
+                        <td>{{ d.correct }} / {{ d.total }}</td>
+                        <td>{{ d.pct }}%</td>
+                        <td>
+                            <div class="progress-bar sm">
+                                <div class="progress-fill {% if d.pct >= 79 %}good{% elif d.pct >= 60 %}ok{% else %}poor{% endif %}"
+                                     style="width: {{ d.pct }}%"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Question Review -->
+    <section class="card">
+        <h2>Question Review</h2>
+        <div class="review-filters">
+            <button class="btn btn-sm btn-outline active" data-filter="all">All ({{ responses|length }})</button>
+            <button class="btn btn-sm btn-outline" data-filter="incorrect">
+                Incorrect ({{ responses|selectattr('is_correct', 'equalto', 0)|list|length }})
+            </button>
+            <button class="btn btn-sm btn-outline" data-filter="correct">
+                Correct ({{ responses|selectattr('is_correct', 'equalto', 1)|list|length }})
+            </button>
+        </div>
+
+        <div class="review-list" id="review-list">
+            {% for r in responses %}
+            <div class="review-item {% if r.is_correct %}correct{% else %}incorrect{% endif %}"
+                 data-correct="{{ r.is_correct }}">
+                <div class="review-header">
+                    <span class="review-num">#{{ loop.index }}</span>
+                    <span class="review-icon">{% if r.is_correct %}&#10003;{% else %}&#10007;{% endif %}</span>
+                    <span class="review-type badge">{{ r.question_type }}</span>
+                    {% if r.domain %}
+                    <span class="review-domain badge">D{{ r.domain }}{% if r.objective %}.{{ r.objective.split('.')|last }}{% endif %}</span>
+                    {% endif %}
+                    <button class="btn btn-xs btn-outline review-toggle">Details</button>
+                </div>
+                <div class="review-details" style="display:none">
+                    <div class="review-answer">
+                        <div><strong>Your answer:</strong> <span class="answer-text">{{ r.user_answer }}</span></div>
+                        <div><strong>Correct answer:</strong> <span class="answer-text">{{ r.correct_answer }}</span></div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <div class="results-actions">
+        <a href="/" class="btn btn-primary">New Quiz</a>
+        <a href="/history" class="btn btn-outline">View History</a>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    // Toggle question details
+    document.querySelectorAll('.review-toggle').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const details = btn.closest('.review-item').querySelector('.review-details');
+            const visible = details.style.display !== 'none';
+            details.style.display = visible ? 'none' : 'block';
+            btn.textContent = visible ? 'Details' : 'Hide';
+        });
+    });
+
+    // Filter buttons
+    document.querySelectorAll('.review-filters .btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            document.querySelectorAll('.review-filters .btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            const filter = btn.dataset.filter;
+            document.querySelectorAll('.review-item').forEach(item => {
+                if (filter === 'all') item.style.display = '';
+                else if (filter === 'correct') item.style.display = item.dataset.correct === '1' ? '' : 'none';
+                else if (filter === 'incorrect') item.style.display = item.dataset.correct === '0' ? '' : 'none';
+            });
+        });
+    });
+});
+</script>
+{% endblock %}

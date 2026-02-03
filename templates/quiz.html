@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+{% block title %}Quiz in Progress{% endblock %}
+
+{% block head %}
+<style>
+    .app-header { display: none; }
+    body { padding-top: 0; }
+</style>
+{% endblock %}
+
+{% block content %}
+<div id="quiz-app" class="quiz-container">
+
+    <!-- Quiz Header -->
+    <div class="quiz-header">
+        <div class="quiz-header-left">
+            <span class="quiz-mode-badge" id="mode-badge">STUDY</span>
+            <span class="quiz-progress" id="progress-text">1 / 25</span>
+        </div>
+        <div class="quiz-header-center">
+            <div class="progress-bar quiz-progress-bar">
+                <div class="progress-fill" id="progress-bar" style="width: 0%"></div>
+            </div>
+        </div>
+        <div class="quiz-header-right">
+            <span class="quiz-timer" id="timer" style="display:none">100:00</span>
+            <button class="btn btn-sm btn-outline" id="end-quiz-btn">End Quiz</button>
+        </div>
+    </div>
+
+    <!-- Main Quiz Area -->
+    <div class="quiz-body">
+        <!-- Question Navigator (sidebar) -->
+        <div class="quiz-nav" id="quiz-nav">
+            <div class="nav-title">Questions</div>
+            <div class="nav-grid" id="nav-grid">
+                <!-- Filled by JS -->
+            </div>
+            <div class="nav-legend">
+                <span class="legend-item"><span class="legend-dot current"></span>Current</span>
+                <span class="legend-item"><span class="legend-dot answered"></span>Answered</span>
+                <span class="legend-item"><span class="legend-dot flagged"></span>Flagged</span>
+                <span class="legend-item"><span class="legend-dot correct"></span>Correct</span>
+                <span class="legend-item"><span class="legend-dot incorrect"></span>Incorrect</span>
+            </div>
+        </div>
+
+        <!-- Question Content -->
+        <div class="quiz-content">
+            <div class="question-area" id="question-area">
+                <!-- Rendered by JS -->
+            </div>
+
+            <!-- Feedback area (study mode) -->
+            <div class="feedback-area" id="feedback-area" style="display:none">
+                <div class="feedback-box" id="feedback-box"></div>
+            </div>
+
+            <!-- Navigation buttons -->
+            <div class="quiz-controls">
+                <button class="btn btn-outline" id="prev-btn" disabled>&larr; Previous</button>
+                <div class="quiz-controls-center">
+                    <button class="btn btn-outline btn-flag" id="flag-btn" title="Flag for review">&#9873; Flag</button>
+                    <button class="btn btn-primary" id="check-btn" style="display:none">Check Answer</button>
+                </div>
+                <button class="btn btn-outline" id="next-btn">Next &rarr;</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Submit overlay (exam mode) -->
+    <div class="submit-overlay" id="submit-overlay" style="display:none">
+        <div class="submit-dialog">
+            <h2>Submit Exam?</h2>
+            <div id="submit-summary"></div>
+            <div class="submit-actions">
+                <button class="btn btn-outline" id="cancel-submit-btn">Continue Quiz</button>
+                <button class="btn btn-primary" id="confirm-submit-btn">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='js/quiz.js') }}"></script>
+<script>
+    const SESSION_ID = "{{ session_id }}";
+    document.addEventListener('DOMContentLoaded', () => {
+        const stored = sessionStorage.getItem(`quiz_${SESSION_ID}`);
+        if (!stored) {
+            alert('Quiz data not found. Returning to home.');
+            window.location.href = '/';
+            return;
+        }
+        const quizData = JSON.parse(stored);
+        window.quizApp = new QuizApp(quizData);
+    });
+</script>
+{% endblock %}

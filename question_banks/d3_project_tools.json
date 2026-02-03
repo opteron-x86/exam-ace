@@ -1,0 +1,403 @@
+{
+    "bank_id": "d3_proj_tools_001",
+    "title": "Domain 3: Project Tools (3.1)",
+    "description": "Covers Gantt charts, burndown/burnup charts, PERT charts, issue logs, change logs, defect logs, risk registers, dashboards, time-tracking tools, task boards, version control, throughput charts, and velocity charts.",
+    "version": "1.0",
+    "questions": [
+        {
+            "id": "d3pt_mc001",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.1",
+            "tags": ["gantt-chart"],
+            "difficulty": "easy",
+            "question": "A visual representation of a project schedule in a bar chart format, showing activities listed down the left side with dates across the top and bars indicating start and finish dates, is called a:",
+            "options": [
+                {"key": "A", "text": "PERT chart"},
+                {"key": "B", "text": "Gantt chart"},
+                {"key": "C", "text": "Burndown chart"},
+                {"key": "D", "text": "Fishbone diagram"}
+            ],
+            "correct": "B",
+            "explanation": "A Gantt chart is a visual bar chart representation of a project schedule. Activities are listed down the left side, dates across the top or bottom, and horizontal bars show start/finish dates, dependencies, and progress."
+        },
+        {
+            "id": "d3pt_mc002",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.1",
+            "tags": ["gantt-chart", "customization"],
+            "difficulty": "medium",
+            "question": "A project sponsor who is a visual learner requests a schedule they can read at a glance without getting distracted by details. Which chart should the PM create and why?",
+            "options": [
+                {"key": "A", "text": "PERT chart — it shows all network dependencies clearly"},
+                {"key": "B", "text": "Gantt chart — it creates a visual timeline that can be customized to show varying levels of detail"},
+                {"key": "C", "text": "Burndown chart — it shows the daily work remaining"},
+                {"key": "D", "text": "Fishbone diagram — it shows all the project's causes and effects"}
+            ],
+            "correct": "B",
+            "explanation": "Gantt charts are ideal for visual learners because they create a clear, visual timeline. They can be customized to show varying levels of detail — a summary view for sponsors or a detailed view for team members."
+        },
+        {
+            "id": "d3pt_mc003",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.1",
+            "tags": ["pert-chart"],
+            "difficulty": "medium",
+            "question": "How does a PERT chart differ from a Precedence Diagram Method (PDM) diagram?",
+            "options": [
+                {"key": "A", "text": "A PERT chart shows costs; a PDM shows schedule"},
+                {"key": "B", "text": "A PDM includes activities, sequencing, and dependencies; a PERT chart adds duration estimates"},
+                {"key": "C", "text": "They are identical tools with different names"},
+                {"key": "D", "text": "A PERT chart is used only in agile projects"}
+            ],
+            "correct": "B",
+            "explanation": "A PDM diagram shows activities, sequencing, and dependencies between them. A PERT chart includes all of this plus a weighted average duration estimate for each activity, making it a more comprehensive scheduling tool."
+        },
+        {
+            "id": "d3pt_mc004",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.1",
+            "tags": ["burndown-chart"],
+            "difficulty": "easy",
+            "question": "A tool that tracks project progress by plotting the number of work days on the x-axis against the number of hours of work remaining on the y-axis is called a:",
+            "options": [
+                {"key": "A", "text": "Burnup chart"},
+                {"key": "B", "text": "Gantt chart"},
+                {"key": "C", "text": "Burndown chart"},
+                {"key": "D", "text": "Velocity chart"}
+            ],
+            "correct": "C",
+            "explanation": "A burndown chart tracks progress by plotting work days against hours of work remaining. The line should trend downward toward zero as the team completes work. If the actual line is below the target line, the team is ahead of schedule."
+        },
+        {
+            "id": "d3pt_mc005",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.1",
+            "tags": ["burnup-chart"],
+            "difficulty": "medium",
+            "question": "A project team is tracking their completed task hours on a burnup chart. The completed hours line has been above the target line for the last five days. What does this indicate?",
+            "options": [
+                {"key": "A", "text": "The team is behind schedule"},
+                {"key": "B", "text": "The team has been ahead of schedule for five days"},
+                {"key": "C", "text": "The project scope has decreased"},
+                {"key": "D", "text": "The project budget is exhausted"}
+            ],
+            "correct": "B",
+            "explanation": "A burnup chart tracks the total amount of work completed. When the completed hours line is above the target line, it means the team has completed more work than planned — they are ahead of schedule."
+        },
+        {
+            "id": "d3pt_mc006",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.1",
+            "tags": ["burndown-chart", "daily-target"],
+            "difficulty": "medium",
+            "question": "A team's burndown chart shows a 'Target Hours' value that decreases by 20 each day. What does this mean?",
+            "options": [
+                {"key": "A", "text": "The team is losing 20 hours of budget daily"},
+                {"key": "B", "text": "The team should complete 20 task hours each day to stay on schedule"},
+                {"key": "C", "text": "20 team members are working on the project"},
+                {"key": "D", "text": "The sprint length is 20 days"}
+            ],
+            "correct": "B",
+            "explanation": "On a burndown chart, the target line shows the ideal rate of work completion. A daily decrease of 20 means the team needs to complete 20 task hours each day to remain on schedule."
+        },
+        {
+            "id": "d3pt_mc007",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.1",
+            "tags": ["velocity-chart"],
+            "difficulty": "medium",
+            "question": "A team's average velocity for the last eight sprints is 40. What does this mean?",
+            "options": [
+                {"key": "A", "text": "The team has 40 members"},
+                {"key": "B", "text": "The team completes an average of 40 story points per sprint"},
+                {"key": "C", "text": "The team completes 40 work items per sprint"},
+                {"key": "D", "text": "The project is 40% complete"}
+            ],
+            "correct": "B",
+            "explanation": "Velocity measures how many story points a team completes per sprint. An average velocity of 40 means the team completes approximately 40 story points each sprint, which helps plan future sprint capacity."
+        },
+        {
+            "id": "d3pt_mc008",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.1",
+            "tags": ["throughput-chart"],
+            "difficulty": "medium",
+            "question": "A team's average throughput for the last eight sprints is 24. How would the team use this information?",
+            "options": [
+                {"key": "A", "text": "Plan to deliver 24 story points in the next sprint"},
+                {"key": "B", "text": "Plan to deliver 24 work items in the next sprint backlog"},
+                {"key": "C", "text": "Add 24 more team members"},
+                {"key": "D", "text": "Extend each sprint by 24 days"}
+            ],
+            "correct": "B",
+            "explanation": "Throughput measures how many work items a team completes per sprint. A throughput of 24 means the team completes about 24 items per sprint. They use this to set the size of the next sprint backlog — plan to deliver 24 items."
+        },
+        {
+            "id": "d3pt_mc009",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.1",
+            "tags": ["issue-log"],
+            "difficulty": "easy",
+            "question": "A document used to list, track, and assign project items that need to be addressed by the project team is called a(n):",
+            "options": [
+                {"key": "A", "text": "Risk register"},
+                {"key": "B", "text": "Change log"},
+                {"key": "C", "text": "Issue log"},
+                {"key": "D", "text": "Lessons learned report"}
+            ],
+            "correct": "C",
+            "explanation": "An issue log is a document used to list, track, and assign project items that need to be addressed. Issues are events already occurring that the team does not control, unlike risks which are potential future events."
+        },
+        {
+            "id": "d3pt_mc010",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.1",
+            "tags": ["change-log"],
+            "difficulty": "easy",
+            "question": "A document used to maintain a list of formal project change requests and their current status is called a:",
+            "options": [
+                {"key": "A", "text": "Issue log"},
+                {"key": "B", "text": "Risk register"},
+                {"key": "C", "text": "Change log"},
+                {"key": "D", "text": "Defect log"}
+            ],
+            "correct": "C",
+            "explanation": "A change log maintains a list of formal project change requests and their status (submitted, under review, approved, rejected, implemented). It provides a historical record of all changes requested on the project."
+        },
+        {
+            "id": "d3pt_mc011",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.1",
+            "tags": ["defect-log"],
+            "difficulty": "easy",
+            "question": "A document containing a list of defects found in a project or product, including when each was found, which environment, and its current status, is called a:",
+            "options": [
+                {"key": "A", "text": "Change log"},
+                {"key": "B", "text": "Risk register"},
+                {"key": "C", "text": "Issue log"},
+                {"key": "D", "text": "Defect log"}
+            ],
+            "correct": "D",
+            "explanation": "A defect log is a document containing a list of defects for a project or product. It includes relevant information such as when the defect was found, which environment it was found in, and its current resolution status."
+        },
+        {
+            "id": "d3pt_mc012",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.1",
+            "tags": ["risk-register"],
+            "difficulty": "easy",
+            "question": "A document that highlights the results of risk assessments in an easily comprehensible format, often using a traffic-light grid, is called a:",
+            "options": [
+                {"key": "A", "text": "Risk breakdown structure"},
+                {"key": "B", "text": "Risk register"},
+                {"key": "C", "text": "Change log"},
+                {"key": "D", "text": "Issue log"}
+            ],
+            "correct": "B",
+            "explanation": "A risk register highlights the results of risk assessments in an easily comprehensible format such as a traffic-light grid. It helps department managers and technicians understand risks associated with the workflows they manage."
+        },
+        {
+            "id": "d3pt_mc013",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.1",
+            "tags": ["dashboard"],
+            "difficulty": "easy",
+            "question": "Graphical summaries of project measures, often a collection of multiple KPIs, that provide an 'at-a-glance' view of important data for decision-making are called:",
+            "options": [
+                {"key": "A", "text": "Gantt charts"},
+                {"key": "B", "text": "Dashboards"},
+                {"key": "C", "text": "PERT charts"},
+                {"key": "D", "text": "Scatter diagrams"}
+            ],
+            "correct": "B",
+            "explanation": "Dashboards are graphical summaries of project measures — often a collection of multiple KPIs — that provide an at-a-glance view of important data that managers can use when making project-related decisions."
+        },
+        {
+            "id": "d3pt_mc014",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.1",
+            "tags": ["time-tracking"],
+            "difficulty": "easy",
+            "question": "Software that tracks task completion and how much time is spent on each task is called a:",
+            "options": [
+                {"key": "A", "text": "Ticketing system"},
+                {"key": "B", "text": "Time-tracking application"},
+                {"key": "C", "text": "Calendaring tool"},
+                {"key": "D", "text": "Workflow management system"}
+            ],
+            "correct": "B",
+            "explanation": "A time-tracking application is software that tracks task completion and how much time is spent on each task. This information is essential for monitoring project progress and making schedule adjustments."
+        },
+        {
+            "id": "d3pt_mc015",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.1",
+            "tags": ["task-board"],
+            "difficulty": "medium",
+            "question": "A project team finds their long task list hard to read. They want something more visual that shows each work item as a card organized into lanes by work state. Which tool should the PM recommend?",
+            "options": [
+                {"key": "A", "text": "Gantt chart"},
+                {"key": "B", "text": "Burndown chart"},
+                {"key": "C", "text": "Task board"},
+                {"key": "D", "text": "PERT chart"}
+            ],
+            "correct": "C",
+            "explanation": "A task board (physical or virtual) shows each work item as a card organized into lanes by work state (e.g., To Do, In Progress, Done). Activity owners move cards across the board as they finish work, making progress highly visible."
+        },
+        {
+            "id": "d3pt_mc016",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.1",
+            "tags": ["version-control"],
+            "difficulty": "medium",
+            "question": "A developer lost a day of productivity searching through personal files to find code problems when a build failed. Which tool would help the software team recover this information faster in the future?",
+            "options": [
+                {"key": "A", "text": "Time-tracking application"},
+                {"key": "B", "text": "Task board"},
+                {"key": "C", "text": "Version control system"},
+                {"key": "D", "text": "Dashboard"}
+            ],
+            "correct": "C",
+            "explanation": "A version control system tracks and manages code changes by automatically logging what changed, when, and by whom. It retains previous code versions, allowing the team to revert to a working version whenever necessary."
+        },
+        {
+            "id": "d3pt_mc017",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.1",
+            "tags": ["budget-burndown"],
+            "difficulty": "medium",
+            "question": "A time series chart that plots how much of the project's budget has been used and how much remains is called a:",
+            "options": [
+                {"key": "A", "text": "Gantt chart"},
+                {"key": "B", "text": "Budget burndown chart"},
+                {"key": "C", "text": "Velocity chart"},
+                {"key": "D", "text": "Pareto chart"}
+            ],
+            "correct": "B",
+            "explanation": "A budget burndown chart is a time series chart that plots how much of the project's budget has been consumed and how much remains. It helps project managers track spending against the plan and identify budget concerns early."
+        },
+        {
+            "id": "d3pt_mc018",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.1",
+            "tags": ["burnup-vs-burndown"],
+            "difficulty": "hard",
+            "question": "Which statement BEST describes the difference between a burnup chart and a burndown chart?",
+            "options": [
+                {"key": "A", "text": "A burnup chart tracks remaining work; a burndown chart tracks completed work"},
+                {"key": "B", "text": "A burnup chart tracks total completed work trending upward; a burndown chart tracks remaining work trending downward"},
+                {"key": "C", "text": "They are identical charts with different names"},
+                {"key": "D", "text": "A burndown chart is used in agile; a burnup chart is used in waterfall only"}
+            ],
+            "correct": "B",
+            "explanation": "A burnup chart tracks the total amount of work completed each day, trending upward toward the total scope. A burndown chart tracks the remaining work, trending downward toward zero. Both are used to visualize progress."
+        },
+        {
+            "id": "d3pt_ms001",
+            "type": "multiple_select",
+            "domain": "3",
+            "objective": "3.1",
+            "tags": ["gantt-chart", "features"],
+            "difficulty": "medium",
+            "select_count": 3,
+            "question": "Which THREE of the following are features typically shown on a Gantt chart?",
+            "options": [
+                {"key": "A", "text": "Start and finish dates as horizontal bars"},
+                {"key": "B", "text": "Activity dependencies"},
+                {"key": "C", "text": "Root cause analysis results"},
+                {"key": "D", "text": "Percentage of activity completed to date"},
+                {"key": "E", "text": "Probability and impact matrix"}
+            ],
+            "correct": ["A", "B", "D"],
+            "explanation": "Gantt charts display horizontal bars showing start and finish dates, lines or arrows indicating activity dependencies, and shading or markers showing the percentage of each activity completed. Root cause analysis and probability/impact matrices are separate quality and risk tools."
+        },
+        {
+            "id": "d3pt_ms002",
+            "type": "multiple_select",
+            "domain": "3",
+            "objective": "3.1",
+            "tags": ["logs", "tracking-documents"],
+            "difficulty": "easy",
+            "select_count": 3,
+            "question": "Which THREE of the following are project tracking documents (logs)?",
+            "options": [
+                {"key": "A", "text": "Issue log"},
+                {"key": "B", "text": "Project charter"},
+                {"key": "C", "text": "Change log"},
+                {"key": "D", "text": "Business case"},
+                {"key": "E", "text": "Defect log"}
+            ],
+            "correct": ["A", "C", "E"],
+            "explanation": "Issue logs, change logs, and defect logs are project tracking documents that record and monitor events throughout the project. The project charter and business case are foundational documents created during initiation and discovery."
+        },
+        {
+            "id": "d3pt_match001",
+            "type": "matching",
+            "domain": "3",
+            "objective": "3.1",
+            "tags": ["logs", "distinction"],
+            "difficulty": "medium",
+            "question": "Match each tracking document to what it records.",
+            "pairs": [
+                {"left": "Issue log", "right": "Events already occurring that the project team needs to address"},
+                {"left": "Change log", "right": "Formal change requests and their approval status"},
+                {"left": "Defect log", "right": "Product defects including environment, discovery date, and resolution status"},
+                {"left": "Risk register", "right": "Identified potential future events with probability, impact, and response strategies"}
+            ],
+            "explanation": "Each log serves a distinct purpose: issues are current events needing attention, changes are formal modification requests, defects are product flaws found during testing or use, and risks are potential future events requiring proactive planning."
+        },
+        {
+            "id": "d3pt_match002",
+            "type": "matching",
+            "domain": "3",
+            "objective": "3.1",
+            "tags": ["agile-charts", "metrics"],
+            "difficulty": "hard",
+            "question": "Match each agile metric chart to what it measures.",
+            "pairs": [
+                {"left": "Velocity chart", "right": "Story points completed per sprint"},
+                {"left": "Throughput chart", "right": "Number of work items completed per sprint"},
+                {"left": "Burndown chart", "right": "Remaining work hours plotted against time, trending downward"},
+                {"left": "Burnup chart", "right": "Total completed work plotted against time, trending upward"}
+            ],
+            "explanation": "Velocity measures story points per sprint. Throughput measures work items (count) per sprint. Burndown shows remaining work decreasing over time. Burnup shows completed work increasing over time."
+        },
+        {
+            "id": "d3pt_dd001",
+            "type": "drag_drop",
+            "domain": "3",
+            "objective": "3.1",
+            "tags": ["tool-purpose", "categorization"],
+            "difficulty": "medium",
+            "question": "Categorize each tool by its primary purpose.",
+            "categories": ["Schedule Visualization", "Progress Tracking", "Documentation & Logging"],
+            "items": [
+                {"text": "Gantt chart", "correct_category": "Schedule Visualization"},
+                {"text": "PERT chart", "correct_category": "Schedule Visualization"},
+                {"text": "Burndown chart", "correct_category": "Progress Tracking"},
+                {"text": "Dashboard", "correct_category": "Progress Tracking"},
+                {"text": "Issue log", "correct_category": "Documentation & Logging"},
+                {"text": "Risk register", "correct_category": "Documentation & Logging"}
+            ],
+            "explanation": "Gantt and PERT charts visualize the project schedule. Burndown charts and dashboards track project progress and KPIs. Issue logs and risk registers document and log project events for tracking and resolution."
+        }
+    ]
+}

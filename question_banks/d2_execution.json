@@ -1,0 +1,572 @@
+{
+    "bank_id": "d2_execution_001",
+    "title": "Domain 2: Project Execution (2.4)",
+    "description": "Covers task management, vendor management, meeting management, budget management, EVM interpretation, conflict resolution, phase gate reviews, rebaselining, monitoring and controlling, and performance reporting.",
+    "version": "1.0",
+    "questions": [
+        {
+            "id": "d2ex_mc001",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["phase-gate", "execution"],
+            "difficulty": "easy",
+            "question": "A checkpoint review of project deliverables and performance at the end of each phase, at which point management sign-off may be required before proceeding, is called a:",
+            "options": [
+                {"key": "A", "text": "Sprint review"},
+                {"key": "B", "text": "Phase gate review"},
+                {"key": "C", "text": "Lessons learned session"},
+                {"key": "D", "text": "Quality audit"}
+            ],
+            "correct": "B",
+            "explanation": "A phase gate review is a checkpoint at the end of each project phase or sub-phase where deliverables and performance are reviewed. Management sign-off may be required before the project can proceed to the next phase."
+        },
+        {
+            "id": "d2ex_mc002",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["evm", "cpi-interpretation"],
+            "difficulty": "medium",
+            "question": "A project manager calculates a CPI of 0.75. What does this tell the project manager?",
+            "options": [
+                {"key": "A", "text": "The project is under budget — for every dollar spent, $1.25 of value is earned"},
+                {"key": "B", "text": "The project is over budget — for every dollar spent, only $0.75 of value is earned"},
+                {"key": "C", "text": "The project is 75% complete"},
+                {"key": "D", "text": "The project is ahead of schedule by 25%"}
+            ],
+            "correct": "B",
+            "explanation": "CPI = EV / AC. A CPI less than 1.0 means the project is over budget. At CPI = 0.75, for every $1.00 spent, only $0.75 worth of value has been earned. The project is getting less value than expected for the money spent."
+        },
+        {
+            "id": "d2ex_mc003",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["evm", "spi-interpretation"],
+            "difficulty": "medium",
+            "question": "A project has an SPI of 1.15. What does this indicate about the project's schedule status?",
+            "options": [
+                {"key": "A", "text": "The project is behind schedule"},
+                {"key": "B", "text": "The project is on schedule"},
+                {"key": "C", "text": "The project is ahead of schedule"},
+                {"key": "D", "text": "The project is over budget"}
+            ],
+            "correct": "C",
+            "explanation": "SPI = EV / PV. An SPI greater than 1.0 means the project has earned more value than planned at this point — it is ahead of schedule. SPI = 1.15 means the project is performing at 115% of its planned schedule rate."
+        },
+        {
+            "id": "d2ex_mc004",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["budget", "burn-rate"],
+            "difficulty": "easy",
+            "question": "The rate at which a project is consuming its budget over time is referred to as the:",
+            "options": [
+                {"key": "A", "text": "Cost variance"},
+                {"key": "B", "text": "Burn rate"},
+                {"key": "C", "text": "Earned value"},
+                {"key": "D", "text": "Budget at completion"}
+            ],
+            "correct": "B",
+            "explanation": "The burn rate is the rate at which you are using up your budget. Monitoring the burn rate helps project managers predict whether the project will finish within the allocated budget or if corrective action is needed."
+        },
+        {
+            "id": "d2ex_mc005",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["budget", "burndown-chart"],
+            "difficulty": "medium",
+            "question": "On a budget burndown chart, the actual remaining budget line is plotted above the target remaining budget line. What does this indicate?",
+            "options": [
+                {"key": "A", "text": "The project is over budget"},
+                {"key": "B", "text": "The project is under budget"},
+                {"key": "C", "text": "The project is behind schedule"},
+                {"key": "D", "text": "The project scope has decreased"}
+            ],
+            "correct": "B",
+            "explanation": "On a budget burndown chart, the y-axis shows remaining budget. If the actual remaining budget is above the target line, the project is spending less money than originally planned and is therefore under budget."
+        },
+        {
+            "id": "d2ex_mc006",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["rebaseline", "baseline"],
+            "difficulty": "medium",
+            "question": "A project team adjusts the project baseline to remove previous variances that are not related to a change request. This action is called:",
+            "options": [
+                {"key": "A", "text": "A revised baseline"},
+                {"key": "B", "text": "A rebaseline"},
+                {"key": "C", "text": "A scope change"},
+                {"key": "D", "text": "A corrective action"}
+            ],
+            "correct": "B",
+            "explanation": "A rebaseline adjusts project baselines to remove variances that are not related to a change request. This helps projects with many unknowns maintain realistic baselines. A revised baseline, by contrast, results from approved project change requests."
+        },
+        {
+            "id": "d2ex_mc007",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["revised-baseline", "change-request"],
+            "difficulty": "medium",
+            "question": "A project team reviews a status report showing that the baseline was revised, increasing the project budget by $15,000. What can be inferred from this information?",
+            "options": [
+                {"key": "A", "text": "The project is over budget due to inefficiency"},
+                {"key": "B", "text": "One or more change requests were approved and incorporated into the plan"},
+                {"key": "C", "text": "Management reserves were consumed"},
+                {"key": "D", "text": "The project team rebaselined to remove variances"}
+            ],
+            "correct": "B",
+            "explanation": "A revised baseline occurs in response to approved project changes. The budget increase of $15,000 indicates that one or more change requests were approved and incorporated into the project plan, adjusting the baseline accordingly."
+        },
+        {
+            "id": "d2ex_mc008",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["evm", "eac"],
+            "difficulty": "hard",
+            "question": "A project manager is calculating the Estimate at Completion (EAC) and expects no further variance from the original plan. Which formula should be used?",
+            "options": [
+                {"key": "A", "text": "EAC = BAC / CPI"},
+                {"key": "B", "text": "EAC = AC + (BAC - EV)"},
+                {"key": "C", "text": "EAC = AC + new ETC"},
+                {"key": "D", "text": "EAC = BAC / SPI"}
+            ],
+            "correct": "B",
+            "explanation": "EAC = AC + (BAC - EV) is used when no further variance is expected — the current variance was a one-time event and the remaining work will be completed at the budgeted rate. EAC = BAC / CPI is used when the current CPI trend is expected to continue."
+        },
+        {
+            "id": "d2ex_mc009",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["evm", "vac"],
+            "difficulty": "hard",
+            "question": "A project has a BAC of $200,000 and an EAC of $220,000. What is the Variance at Completion (VAC), and what does it indicate?",
+            "options": [
+                {"key": "A", "text": "-$20,000; the project is expected to finish $20,000 under budget"},
+                {"key": "B", "text": "-$20,000; the project is expected to finish $20,000 over budget"},
+                {"key": "C", "text": "$20,000; the project is expected to finish $20,000 under budget"},
+                {"key": "D", "text": "$20,000; the project is expected to finish $20,000 over budget"}
+            ],
+            "correct": "B",
+            "explanation": "VAC = BAC - EAC = $200,000 - $220,000 = -$20,000. A negative VAC indicates the project is expected to cost more than originally budgeted — it will finish $20,000 over budget."
+        },
+        {
+            "id": "d2ex_mc010",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["vendor-management", "performance"],
+            "difficulty": "medium",
+            "question": "A project manager has gathered vendor performance data, visualized it in a dashboard, and identified a downward trend in quality. What should the project manager do NEXT?",
+            "options": [
+                {"key": "A", "text": "Immediately terminate the vendor's contract"},
+                {"key": "B", "text": "Escalate to the project sponsor"},
+                {"key": "C", "text": "Meet with the vendor to review their performance"},
+                {"key": "D", "text": "Switch to a different vendor without discussion"}
+            ],
+            "correct": "C",
+            "explanation": "When a vendor performance trend is declining, the appropriate next step is to meet with the vendor to review their performance. This allows for discussion of the issues, understanding root causes, and establishing corrective actions before taking more drastic steps."
+        },
+        {
+            "id": "d2ex_mc011",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["project-momentum"],
+            "difficulty": "easy",
+            "question": "Which of the following BEST describes project momentum?",
+            "options": [
+                {"key": "A", "text": "The total budget remaining for the project"},
+                {"key": "B", "text": "The energy that keeps a project focused and moving forward at an appropriate pace"},
+                {"key": "C", "text": "The number of resources assigned to the project"},
+                {"key": "D", "text": "The velocity of the development team per sprint"}
+            ],
+            "correct": "B",
+            "explanation": "Project momentum is the energy that keeps the project focused and moving forward at an appropriate pace. Maintaining momentum involves keeping the team motivated, removing obstacles, and ensuring adequate work systems and support."
+        },
+        {
+            "id": "d2ex_mc012",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["work-systems", "momentum"],
+            "difficulty": "medium",
+            "question": "A project manager notices team morale has dropped. Several team members complain about slow, outdated tools. How can improving work systems help?",
+            "options": [
+                {"key": "A", "text": "It reduces project scope automatically"},
+                {"key": "B", "text": "Inadequate work systems drain energy; improving them energizes and motivates the team"},
+                {"key": "C", "text": "It eliminates the need for status meetings"},
+                {"key": "D", "text": "It removes the need for a project schedule"}
+            ],
+            "correct": "B",
+            "explanation": "Inadequate work systems drain an employee's energy and demotivate them. Conversely, soliciting feedback from the team and improving their work area is energizing and motivating, helping to maintain project momentum."
+        },
+        {
+            "id": "d2ex_mc013",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["reserves", "management-reserve"],
+            "difficulty": "hard",
+            "question": "A project is 40% complete when the vendor drops out unexpectedly, requiring the team to find a new vendor and restart the process. Which type of reserve should cover this expense?",
+            "options": [
+                {"key": "A", "text": "Contingency reserve"},
+                {"key": "B", "text": "Management reserve"},
+                {"key": "C", "text": "Cost baseline"},
+                {"key": "D", "text": "Budget forecast"}
+            ],
+            "correct": "B",
+            "explanation": "Management reserves cover 'unknown unknown' risks and significant project changes that were not identified during risk assessment. A vendor unexpectedly dropping out is an unplanned, significant change. Contingency reserves cover identified (known) risks."
+        },
+        {
+            "id": "d2ex_mc014",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["budget", "cost-baseline"],
+            "difficulty": "hard",
+            "question": "A project has a cost baseline of $20,000 and contingency reserves of $2,000. A risk event occurs and the team spends $1,000 of the contingency reserves. What is the new cost baseline?",
+            "options": [
+                {"key": "A", "text": "$19,000"},
+                {"key": "B", "text": "$20,000"},
+                {"key": "C", "text": "$21,000"},
+                {"key": "D", "text": "$22,000"}
+            ],
+            "correct": "B",
+            "explanation": "The cost baseline remains $20,000 because spending contingency reserves does not change the cost baseline. The contingency reserve reduces to $1,000 and the cost estimate within the baseline adjusts, but the baseline figure itself is unchanged."
+        },
+        {
+            "id": "d2ex_mc015",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["budget", "project-budget"],
+            "difficulty": "medium",
+            "question": "Which of the following correctly describes the relationship between the project cost baseline and the project budget?",
+            "options": [
+                {"key": "A", "text": "The project budget equals the cost estimate only"},
+                {"key": "B", "text": "The cost baseline includes the cost estimate and contingency reserve; the project budget adds management reserve"},
+                {"key": "C", "text": "The cost baseline and project budget are the same thing"},
+                {"key": "D", "text": "The project budget includes only the management reserve"}
+            ],
+            "correct": "B",
+            "explanation": "The cost baseline = cost estimate + contingency reserve. The project budget = cost estimate + contingency reserve + management reserve. The management reserve is the buffer for unplanned changes to scope and cost, added on top of the baseline."
+        },
+        {
+            "id": "d2ex_mc016",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["performance-reporting", "ad-hoc"],
+            "difficulty": "easy",
+            "question": "Progress summaries that are generated as needed rather than on a regular schedule are called:",
+            "options": [
+                {"key": "A", "text": "Status reports"},
+                {"key": "B", "text": "Ad hoc reports"},
+                {"key": "C", "text": "Dashboards"},
+                {"key": "D", "text": "Performance appraisals"}
+            ],
+            "correct": "B",
+            "explanation": "Ad hoc reports are progress summaries generated as needed, rather than on a fixed reporting schedule. They are created in response to specific situations or requests for information."
+        },
+        {
+            "id": "d2ex_mc017",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["verification", "validation"],
+            "difficulty": "medium",
+            "question": "A project team conducts an internal assessment to confirm that a deliverable meets documented specifications. This is an example of:",
+            "options": [
+                {"key": "A", "text": "Validation"},
+                {"key": "B", "text": "Verification"},
+                {"key": "C", "text": "Acceptance testing"},
+                {"key": "D", "text": "Regression testing"}
+            ],
+            "correct": "B",
+            "explanation": "Verification is an objective, internal assessment that measures whether a project meets its documented specifications. Validation is a subjective, external measure that determines whether the project meets the customer's expectations."
+        },
+        {
+            "id": "d2ex_mc018",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["gap-analysis", "schedule"],
+            "difficulty": "medium",
+            "question": "A project is running two weeks ahead of schedule. The PMO director asks the PM to conduct a gap analysis. Why would a gap analysis be appropriate when the project is exceeding goals?",
+            "options": [
+                {"key": "A", "text": "It is not appropriate — gap analysis is only for underperforming projects"},
+                {"key": "B", "text": "To identify and understand any difference between expected and actual values, regardless of direction"},
+                {"key": "C", "text": "To punish the team for not following the schedule exactly"},
+                {"key": "D", "text": "To reduce the project budget since it is completing early"}
+            ],
+            "correct": "B",
+            "explanation": "Gap analysis measures the difference between expected and actual values in any direction. Understanding why a project is ahead of schedule can improve the reliability of the schedule and provide insights for future projects."
+        },
+        {
+            "id": "d2ex_mc019",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["scope-change", "target-hours"],
+            "difficulty": "medium",
+            "question": "A project team's target remaining hours increased from 1,000 to 1,500 between Month 3 and Month 4. What is the MOST likely cause?",
+            "options": [
+                {"key": "A", "text": "The team is underperforming"},
+                {"key": "B", "text": "The project scope increased"},
+                {"key": "C", "text": "Resources were released from the project"},
+                {"key": "D", "text": "The schedule was compressed"}
+            ],
+            "correct": "B",
+            "explanation": "When the target remaining hours increase rather than decrease over time, the most likely cause is that the project scope increased — new work was added to the project, raising the total hours remaining."
+        },
+        {
+            "id": "d2ex_mc020",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["rtm", "requirements"],
+            "difficulty": "medium",
+            "question": "A project manager reviews the requirements traceability matrix (RTM) and notices one requirement has no associated tests. What does this mean?",
+            "options": [
+                {"key": "A", "text": "The requirement has been validated by the customer"},
+                {"key": "B", "text": "The requirement has not been met yet"},
+                {"key": "C", "text": "The requirement is out of scope"},
+                {"key": "D", "text": "The test plan is complete"}
+            ],
+            "correct": "B",
+            "explanation": "An RTM links requirements to their associated tests and deliverables. A requirement with no tests in the RTM has not been completed or verified yet. All requirements must be tested before they can be considered met."
+        },
+        {
+            "id": "d2ex_mc021",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["schedule-versions", "stakeholder"],
+            "difficulty": "easy",
+            "question": "Why might a project team member and the project sponsor use different versions of the project schedule?",
+            "options": [
+                {"key": "A", "text": "The sponsor's schedule is always more detailed"},
+                {"key": "B", "text": "Team members need detailed activity-level schedules; sponsors need summary-level views"},
+                {"key": "C", "text": "Only one version exists; all stakeholders see the same view"},
+                {"key": "D", "text": "The team member's schedule excludes milestones"}
+            ],
+            "correct": "B",
+            "explanation": "Team members need highly detailed schedules showing specific activities and sequences. Sponsors need a summary-level view with key milestones and high-level progress — too much detail would be inefficient for their oversight role."
+        },
+        {
+            "id": "d2ex_mc022",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["performance-appraisal"],
+            "difficulty": "easy",
+            "question": "Project team reviews conducted to clarify roles and responsibilities, provide constructive feedback, identify unresolved issues, and establish future goals are called:",
+            "options": [
+                {"key": "A", "text": "Lessons learned sessions"},
+                {"key": "B", "text": "Performance appraisals"},
+                {"key": "C", "text": "Sprint retrospectives"},
+                {"key": "D", "text": "Phase gate reviews"}
+            ],
+            "correct": "B",
+            "explanation": "Performance appraisals are project team reviews that clarify roles and responsibilities, provide constructive feedback, identify unknown or unresolved issues, develop individual training plans, and establish future goals."
+        },
+        {
+            "id": "d2ex_mc023",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["evm", "etc"],
+            "difficulty": "hard",
+            "question": "Estimate to Complete (ETC) represents:",
+            "options": [
+                {"key": "A", "text": "The total cost expected when the project is complete"},
+                {"key": "B", "text": "The remaining cost needed to finish all outstanding project work"},
+                {"key": "C", "text": "The difference between BAC and EAC"},
+                {"key": "D", "text": "The ratio of earned value to actual cost"}
+            ],
+            "correct": "B",
+            "explanation": "ETC is the estimated cost required to complete the remaining project work. It can be calculated as ETC = EAC - AC (when using a forecasting technique) or developed as a completely new estimate independent of past performance."
+        },
+        {
+            "id": "d2ex_mc024",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["purchase-order", "vendor"],
+            "difficulty": "medium",
+            "question": "A vendor has already signed a contract with the buyer. Why does the buyer still need to create a purchase order (PO)?",
+            "options": [
+                {"key": "A", "text": "A PO replaces the contract entirely"},
+                {"key": "B", "text": "A contract establishes the agreement; a PO initiates the vendor's work for specific goods or services"},
+                {"key": "C", "text": "A PO is only needed for cost-plus contracts"},
+                {"key": "D", "text": "The PO is created by the vendor, not the buyer"}
+            ],
+            "correct": "B",
+            "explanation": "A contract establishes the agreement to purchase at some point, but it does not specify when to begin work. A purchase order is a customer's order for specific goods or services, which initiates the vendor's actual work."
+        },
+        {
+            "id": "d2ex_mc025",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["external-stakeholder-meeting"],
+            "difficulty": "easy",
+            "question": "How does an external stakeholder meeting typically differ from an internal stakeholder meeting?",
+            "options": [
+                {"key": "A", "text": "External meetings are longer and more detailed"},
+                {"key": "B", "text": "External meetings adopt a more positive tone, focus on successes, and reference major milestones only"},
+                {"key": "C", "text": "External meetings include detailed risk discussions"},
+                {"key": "D", "text": "There is no difference between external and internal meetings"}
+            ],
+            "correct": "B",
+            "explanation": "External stakeholder meetings are public-facing events that adopt a more positive tone, focus on project successes rather than internal problems, and reference only major external milestones."
+        },
+        {
+            "id": "d2ex_mc026",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["mvp", "agile"],
+            "difficulty": "medium",
+            "question": "What is the PRIMARY purpose of delivering a minimum viable product (MVP) in an agile project?",
+            "options": [
+                {"key": "A", "text": "To skip the testing phase and deliver faster"},
+                {"key": "B", "text": "To create an early working product that generates feedback and enables iterative improvement"},
+                {"key": "C", "text": "To reduce the project budget permanently"},
+                {"key": "D", "text": "To satisfy contractual obligations with minimal effort"}
+            ],
+            "correct": "B",
+            "explanation": "The MVP creates an early working product with just enough functionality to demonstrate how the final product will operate. This is a cornerstone of iterative development — it generates feedback early and often so the team can adjust the plan."
+        },
+        {
+            "id": "d2ex_ms001",
+            "type": "multiple_select",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["evm", "formulas"],
+            "difficulty": "hard",
+            "select_count": 3,
+            "question": "Which THREE of the following EVM values indicate a project that is in trouble (either over budget or behind schedule)?",
+            "options": [
+                {"key": "A", "text": "CPI = 0.85"},
+                {"key": "B", "text": "SPI = 1.10"},
+                {"key": "C", "text": "CV = -$5,000"},
+                {"key": "D", "text": "SV = $2,000"},
+                {"key": "E", "text": "SV = -$8,000"}
+            ],
+            "correct": ["A", "C", "E"],
+            "explanation": "CPI < 1.0 means over budget. Negative CV means spending more than earned (over budget). Negative SV means behind schedule. SPI > 1.0 and positive SV both indicate favorable performance."
+        },
+        {
+            "id": "d2ex_ms002",
+            "type": "multiple_select",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["monitoring", "tools"],
+            "difficulty": "medium",
+            "select_count": 3,
+            "question": "Which THREE of the following are tools or techniques used to monitor and control project execution?",
+            "options": [
+                {"key": "A", "text": "Earned value management (EVM)"},
+                {"key": "B", "text": "Business case development"},
+                {"key": "C", "text": "Dashboards and status reports"},
+                {"key": "D", "text": "Requirements traceability matrix (RTM)"},
+                {"key": "E", "text": "Stakeholder analysis"}
+            ],
+            "correct": ["A", "C", "D"],
+            "explanation": "EVM measures cost and schedule performance, dashboards provide at-a-glance views of project KPIs, and the RTM tracks whether requirements are being met. Business case development and stakeholder analysis occur in earlier phases."
+        },
+        {
+            "id": "d2ex_sc001",
+            "type": "scenario",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["evm", "budget-analysis"],
+            "difficulty": "hard",
+            "scenario": "You are managing a data center migration project. At the end of Month 6, you compile the following EVM data:\n\n• Budget at Completion (BAC): $500,000\n• Planned Value (PV): $300,000\n• Earned Value (EV): $270,000\n• Actual Cost (AC): $310,000\n\nThe project sponsor asks for a comprehensive performance analysis.",
+            "parts": [
+                {
+                    "id": "d2ex_sc001a",
+                    "type": "fill_in",
+                    "question": "What is the Cost Variance (CV)? Include the sign and dollar amount.",
+                    "correct_answers": ["-40000", "-$40,000", "-$40000", "-40,000"],
+                    "explanation": "CV = EV - AC = $270,000 - $310,000 = -$40,000. The project is $40,000 over budget."
+                },
+                {
+                    "id": "d2ex_sc001b",
+                    "type": "fill_in",
+                    "question": "What is the Schedule Variance (SV)? Include the sign and dollar amount.",
+                    "correct_answers": ["-30000", "-$30,000", "-$30000", "-30,000"],
+                    "explanation": "SV = EV - PV = $270,000 - $300,000 = -$30,000. The project is $30,000 behind schedule."
+                },
+                {
+                    "id": "d2ex_sc001c",
+                    "type": "fill_in",
+                    "question": "What is the CPI? Round to two decimal places.",
+                    "correct_answers": ["0.87", ".87"],
+                    "explanation": "CPI = EV / AC = $270,000 / $310,000 ≈ 0.87. For every dollar spent, only $0.87 of value is earned."
+                },
+                {
+                    "id": "d2ex_sc001d",
+                    "type": "multiple_choice",
+                    "question": "If current cost trends continue, what is the Estimate at Completion (EAC) using EAC = BAC / CPI? Round to the nearest thousand.",
+                    "options": [
+                        {"key": "A", "text": "$500,000"},
+                        {"key": "B", "text": "$540,000"},
+                        {"key": "C", "text": "$575,000"},
+                        {"key": "D", "text": "$620,000"}
+                    ],
+                    "correct": "C",
+                    "explanation": "EAC = BAC / CPI = $500,000 / 0.87 ≈ $574,713, which rounds to approximately $575,000. The project is expected to cost $75,000 more than originally budgeted."
+                }
+            ],
+            "explanation": "This scenario demonstrates how EVM metrics work together to provide a comprehensive picture of project health. Negative CV and CPI < 1 confirm over budget. Negative SV confirms behind schedule. EAC forecasts the total cost if current trends continue."
+        },
+        {
+            "id": "d2ex_sc002",
+            "type": "scenario",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["rebaseline", "revised-baseline", "change-management"],
+            "difficulty": "hard",
+            "scenario": "You are managing a year-long CRM implementation project. At the six-month mark:\n\n• The project has experienced multiple unknown risks that caused variances\n• An approved change request added a new reporting module worth $30,000\n• The team wants to reset their performance tracking going forward",
+            "parts": [
+                {
+                    "id": "d2ex_sc002a",
+                    "type": "multiple_choice",
+                    "question": "To address the variances caused by unknown risks (not related to change requests), which action should the PM take?",
+                    "options": [
+                        {"key": "A", "text": "Issue a revised baseline"},
+                        {"key": "B", "text": "Perform a rebaseline"},
+                        {"key": "C", "text": "Cancel the project"},
+                        {"key": "D", "text": "Submit a new change request"}
+                    ],
+                    "correct": "B",
+                    "explanation": "A rebaseline adjusts project baselines to remove variances that are not related to change requests. This helps the team track future performance against a realistic baseline."
+                },
+                {
+                    "id": "d2ex_sc002b",
+                    "type": "multiple_choice",
+                    "question": "To incorporate the approved $30,000 reporting module change request, which action should the PM take?",
+                    "options": [
+                        {"key": "A", "text": "Issue a revised baseline"},
+                        {"key": "B", "text": "Perform a rebaseline"},
+                        {"key": "C", "text": "Use management reserves"},
+                        {"key": "D", "text": "Ignore the change until project closing"}
+                    ],
+                    "correct": "A",
+                    "explanation": "A revised baseline results from approved project change requests. The $30,000 module was an approved change, so it should be incorporated via a revised baseline that adjusts scope, cost, and schedule accordingly."
+                }
+            ],
+            "explanation": "Rebaseline and revised baseline serve different purposes. Rebaseline removes non-change-request variances to reset performance tracking. Revised baseline incorporates approved change requests into the project plan."
+        }
+    ]
+}

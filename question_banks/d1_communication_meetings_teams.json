@@ -1,0 +1,427 @@
+{
+    "bank_id": "d1_comm_meet_team_001",
+    "title": "Domain 1: Communication, Meetings & Team Management (1.8, 1.9, 1.10)",
+    "description": "Covers communication types and plans, meeting management (agendas, timeboxing, roles), team life cycle (Tuckman), conflict resolution, resource gaps, and role definitions.",
+    "version": "1.0",
+    "questions": [
+        {
+            "id": "d1cmt_mc001",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.8",
+            "tags": ["communication", "synchronous"],
+            "difficulty": "easy",
+            "question": "A real-time exchange of information where the sender and recipient respond immediately, creating a continuous communication stream, is called:",
+            "options": [
+                {"key": "A", "text": "Asynchronous communication"},
+                {"key": "B", "text": "Synchronous communication"},
+                {"key": "C", "text": "Formal communication"},
+                {"key": "D", "text": "Written communication"}
+            ],
+            "correct": "B",
+            "explanation": "Synchronous communication is real-time — the sender and recipient exchange information immediately, creating a continuous stream. Examples include phone calls, video conferences, and face-to-face meetings. Asynchronous communication has a time delay between sending and receiving."
+        },
+        {
+            "id": "d1cmt_mc002",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.8",
+            "tags": ["communication", "asynchronous"],
+            "difficulty": "easy",
+            "question": "Which of the following is an example of asynchronous communication?",
+            "options": [
+                {"key": "A", "text": "A phone call between the PM and the sponsor"},
+                {"key": "B", "text": "A video conference with the project team"},
+                {"key": "C", "text": "An email sent to stakeholders with a project update"},
+                {"key": "D", "text": "A face-to-face daily standup meeting"}
+            ],
+            "correct": "C",
+            "explanation": "Email is asynchronous — the message is shared and received at different times. Phone calls, video conferences, and face-to-face meetings are synchronous because participants communicate in real time."
+        },
+        {
+            "id": "d1cmt_mc003",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.8",
+            "tags": ["communication", "nonverbal"],
+            "difficulty": "medium",
+            "question": "How does nonverbal communication affect verbal communication?",
+            "options": [
+                {"key": "A", "text": "Nonverbal communication has no effect on verbal exchanges"},
+                {"key": "B", "text": "The audience interprets both verbal and nonverbal cues together, so inconsistencies can create unintended messages"},
+                {"key": "C", "text": "Nonverbal communication only matters in written exchanges"},
+                {"key": "D", "text": "Nonverbal cues always override verbal messages"}
+            ],
+            "correct": "B",
+            "explanation": "The audience receives and interprets both verbal and nonverbal cues during communication. Inconsistencies between the two can create unexpected effects. For example, a sponsor having a sidebar conversation during your presentation might be interpreted as disengagement, even if that wasn't their intent."
+        },
+        {
+            "id": "d1cmt_mc004",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.8",
+            "tags": ["communication", "plan"],
+            "difficulty": "medium",
+            "question": "How often should the project communication plan be revised?",
+            "options": [
+                {"key": "A", "text": "Only at the beginning of the project"},
+                {"key": "B", "text": "Only at the end of each phase"},
+                {"key": "C", "text": "As often as needed throughout the project's life cycle whenever stakeholders, frequencies, or events change"},
+                {"key": "D", "text": "Never — once approved, the plan is final"}
+            ],
+            "correct": "C",
+            "explanation": "The communication plan should be updated as often as needed throughout the project life cycle. Changes are warranted whenever stakeholders change, communication frequencies need adjustment, or any event requires a modification to the plan."
+        },
+        {
+            "id": "d1cmt_mc005",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.8",
+            "tags": ["communication", "time-zones"],
+            "difficulty": "medium",
+            "question": "How can time zones affect a project's communication strategy?",
+            "options": [
+                {"key": "A", "text": "They have no impact on communication planning"},
+                {"key": "B", "text": "Team members across multiple time zones limit synchronous meeting availability, requiring more asynchronous communication and coordinated scheduling"},
+                {"key": "C", "text": "They only affect international projects"},
+                {"key": "D", "text": "They require all communication to be written"}
+            ],
+            "correct": "B",
+            "explanation": "Team members spread across multiple time zones limit the time available for synchronous meetings. The team may need to rely more on asynchronous communication (email, chat, shared documents) and coordinate to find meeting times that work for all participants."
+        },
+        {
+            "id": "d1cmt_mc006",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.8",
+            "tags": ["communication", "security", "nda"],
+            "difficulty": "medium",
+            "question": "A PM is working with third-party contractors who access documents through a secure file share and cannot download files. They have also signed NDAs. These measures exist to:",
+            "options": [
+                {"key": "A", "text": "Slow down the contractors' work"},
+                {"key": "B", "text": "Protect the communication security of confidential data from unauthorized access"},
+                {"key": "C", "text": "Comply with Scrum framework requirements"},
+                {"key": "D", "text": "Track billable hours for contractor invoicing"}
+            ],
+            "correct": "B",
+            "explanation": "These measures protect confidential data from unauthorized access. External parties like vendors or contractors may need to sign NDAs. Data transmitted electronically must move through encrypted, secure channels. Restricted download access limits data exfiltration risk."
+        },
+        {
+            "id": "d1cmt_mc007",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.8",
+            "tags": ["communication", "chat-sms"],
+            "difficulty": "easy",
+            "question": "How does the message transmission differ between chat messaging and SMS?",
+            "options": [
+                {"key": "A", "text": "Chat uses cellular networks; SMS uses internet connections"},
+                {"key": "B", "text": "Chat messages transmit via an internet connection; SMS messages transmit via cellular networks"},
+                {"key": "C", "text": "Both use the same transmission method"},
+                {"key": "D", "text": "Chat is synchronous; SMS is not a communication tool"}
+            ],
+            "correct": "B",
+            "explanation": "Chat messages transmit via an internet connection, while SMS messages transmit via cellular networks. This distinction matters for communication planning — chat requires internet access, while SMS works wherever there is cellular coverage."
+        },
+        {
+            "id": "d1cmt_mc008",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.9",
+            "tags": ["meeting", "facilitator-scribe"],
+            "difficulty": "medium",
+            "question": "Why is it helpful to have separate people fulfill the facilitator and scribe roles in a meeting?",
+            "options": [
+                {"key": "A", "text": "Company policy always requires it"},
+                {"key": "B", "text": "The facilitator should focus on meeting flow, and note-taking disrupts flow; the scribe can take thorough notes without moderating"},
+                {"key": "C", "text": "It reduces the total meeting time"},
+                {"key": "D", "text": "The scribe outranks the facilitator"}
+            ],
+            "correct": "B",
+            "explanation": "The facilitator should focus on ensuring the meeting flows efficiently and meets its objectives. Capturing notes would disrupt that flow. Likewise, the scribe can take more thorough, accurate notes without being distracted by moderating the conversation."
+        },
+        {
+            "id": "d1cmt_mc009",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.9",
+            "tags": ["meeting", "timebox"],
+            "difficulty": "easy",
+            "question": "An agreed-upon, fixed length of time allocated to a specific meeting topic or project activity is called:",
+            "options": [
+                {"key": "A", "text": "A deadline"},
+                {"key": "B", "text": "A timebox"},
+                {"key": "C", "text": "A sprint"},
+                {"key": "D", "text": "A milestone"}
+            ],
+            "correct": "B",
+            "explanation": "A timebox is an agreed-upon, fixed length of time allocated to a specific topic or activity. It keeps meetings focused and efficient by preventing any single topic from consuming too much time. Sprints are a type of timebox, but the general concept applies to any activity."
+        },
+        {
+            "id": "d1cmt_mc010",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.9",
+            "tags": ["meeting", "types", "jad"],
+            "difficulty": "medium",
+            "question": "A type of collaborative meeting where the team and customer meet together and design a product in a working session is called:",
+            "options": [
+                {"key": "A", "text": "Focus group"},
+                {"key": "B", "text": "Workshop"},
+                {"key": "C", "text": "Joint Application Development (JAD)"},
+                {"key": "D", "text": "Daily standup"}
+            ],
+            "correct": "C",
+            "explanation": "Joint Application Development (JAD) is a collaborative meeting where the team and customer work together to design a product in a working session. Workshops define project requirements. Focus groups use trained moderators to guide discussions."
+        },
+        {
+            "id": "d1cmt_mc011",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.9",
+            "tags": ["meeting", "external-stakeholder"],
+            "difficulty": "medium",
+            "question": "How does an external stakeholder meeting differ from an internal stakeholder meeting?",
+            "options": [
+                {"key": "A", "text": "External meetings are less formal"},
+                {"key": "B", "text": "External meetings are public events with a more positive tone, focusing on successes and major external milestones"},
+                {"key": "C", "text": "There is no difference between the two"},
+                {"key": "D", "text": "Internal meetings are always shorter"}
+            ],
+            "correct": "B",
+            "explanation": "External stakeholder meetings are public events that adopt a more positive tone. They focus on successes rather than internal problems and reference major external milestones only. Internal meetings can be more candid about challenges and detailed issues."
+        },
+        {
+            "id": "d1cmt_mc012",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.10",
+            "tags": ["tuckman", "performing"],
+            "difficulty": "medium",
+            "question": "A project team has been working together for several months. They lead their own planning activities, regularly improve their processes, and just hit a new productivity record. Which Tuckman stage is this team in?",
+            "options": [
+                {"key": "A", "text": "Forming"},
+                {"key": "B", "text": "Storming"},
+                {"key": "C", "text": "Norming"},
+                {"key": "D", "text": "Performing"}
+            ],
+            "correct": "D",
+            "explanation": "This team is in the performing stage — the most productive stage. Teams here are high-performing and cohesive, know how to work together, lead their own planning, and don't need much guidance. They regularly improve processes and hit peak productivity."
+        },
+        {
+            "id": "d1cmt_mc013",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.10",
+            "tags": ["tuckman", "storming"],
+            "difficulty": "medium",
+            "question": "Which Tuckman team life cycle stage has the MOST conflict, with individuals competing for position and learning about each other?",
+            "options": [
+                {"key": "A", "text": "Forming"},
+                {"key": "B", "text": "Storming"},
+                {"key": "C", "text": "Norming"},
+                {"key": "D", "text": "Adjourning"}
+            ],
+            "correct": "B",
+            "explanation": "Storming is the stage with the most conflict. Team members compete for position, establish boundaries, and learn about each other's working styles. This is a natural and necessary part of team development. Effective conflict management helps teams move to norming."
+        },
+        {
+            "id": "d1cmt_mc014",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.10",
+            "tags": ["conflict-resolution", "collaborating"],
+            "difficulty": "hard",
+            "question": "Group A wants to plan on Monday afternoon; Group B wants Friday morning. Through discussion, they realize both times conflict with partners' schedules, so they agree on Tuesday afternoon instead. Which conflict resolution strategy was used?",
+            "options": [
+                {"key": "A", "text": "Compromising — both groups gave up something"},
+                {"key": "B", "text": "Forcing — management imposed a solution"},
+                {"key": "C", "text": "Collaborating — the parties designed a new solution that satisfies everyone"},
+                {"key": "D", "text": "Smoothing — focus was redirected to points of agreement"}
+            ],
+            "correct": "C",
+            "explanation": "This is collaborating (win-win). The parties worked together to design a new solution (Tuesday afternoon) that satisfies everyone. Compromising would mean meeting in the middle (e.g., Wednesday). Collaborating produces a solution better than either original position."
+        },
+        {
+            "id": "d1cmt_mc015",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.10",
+            "tags": ["conflict-resolution", "smoothing"],
+            "difficulty": "medium",
+            "question": "A conflict resolution strategy that attempts to redirect focus away from the conflict by finding points of agreement is called:",
+            "options": [
+                {"key": "A", "text": "Forcing"},
+                {"key": "B", "text": "Avoiding"},
+                {"key": "C", "text": "Smoothing"},
+                {"key": "D", "text": "Compromising"}
+            ],
+            "correct": "C",
+            "explanation": "Smoothing redirects focus away from the conflict by emphasizing areas of agreement. It doesn't resolve the underlying issue but reduces tension. Forcing imposes a solution. Avoiding ignores the conflict. Compromising meets in the middle."
+        },
+        {
+            "id": "d1cmt_mc016",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.10",
+            "tags": ["conflict", "substantive-emotional"],
+            "difficulty": "medium",
+            "question": "A disagreement between two team members about which database technology to use for the project is an example of:",
+            "options": [
+                {"key": "A", "text": "Emotional conflict"},
+                {"key": "B", "text": "Substantive conflict"},
+                {"key": "C", "text": "Groupthink"},
+                {"key": "D", "text": "Scope creep"}
+            ],
+            "correct": "B",
+            "explanation": "Substantive conflict is task-based — disagreements over goals, projects, or technical processes. Emotional conflict involves relationships and feelings (personality clashes, working styles, insecurity). A technology selection disagreement is substantive because it's about the work itself."
+        },
+        {
+            "id": "d1cmt_mc017",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.10",
+            "tags": ["team", "core-extended"],
+            "difficulty": "easy",
+            "question": "What is the difference between core and extended team members?",
+            "options": [
+                {"key": "A", "text": "Core members are external; extended members are internal"},
+                {"key": "B", "text": "Core members are full-time with specialized skills handling day-to-day work; extended members are part-time with specialized skills"},
+                {"key": "C", "text": "Core members are managers; extended members are individual contributors"},
+                {"key": "D", "text": "There is no difference"}
+            ],
+            "correct": "B",
+            "explanation": "Core team members are full-time members with specialized skills who handle the project's day-to-day operational work. Extended team members are part-time members with specialized skills who contribute to the project as needed."
+        },
+        {
+            "id": "d1cmt_mc018",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.10",
+            "tags": ["resource", "skills-gap"],
+            "difficulty": "medium",
+            "question": "Which THREE strategies are commonly used to close skills gaps on a project team?",
+            "options": [
+                {"key": "A", "text": "Training existing team members, adding new team members, and hiring external services"},
+                {"key": "B", "text": "Extending the timeline, reducing scope, and increasing the budget"},
+                {"key": "C", "text": "Ignoring the gap, documenting it as a risk, and proceeding as planned"},
+                {"key": "D", "text": "Replacing the project manager, reassigning the sponsor, and restructuring the team"}
+            ],
+            "correct": "A",
+            "explanation": "The three common strategies for closing skills gaps are: (1) training existing team members, (2) adding team members with the needed skills, and (3) hiring external services (outsourcing) to fill the gap."
+        },
+        {
+            "id": "d1cmt_mc019",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.10",
+            "tags": ["resource", "dedicated-shared"],
+            "difficulty": "easy",
+            "question": "What is the difference between a dedicated resource and a shared resource?",
+            "options": [
+                {"key": "A", "text": "Dedicated resources are more skilled than shared resources"},
+                {"key": "B", "text": "Dedicated resources work on one project at a time; shared resources work on two or more projects simultaneously"},
+                {"key": "C", "text": "Shared resources are external; dedicated resources are internal"},
+                {"key": "D", "text": "Dedicated resources are temporary; shared resources are permanent"}
+            ],
+            "correct": "B",
+            "explanation": "Dedicated resources work on one project at a time, giving their full attention. Shared resources work on two or more projects simultaneously, which means they split their time and availability across multiple commitments."
+        },
+        {
+            "id": "d1cmt_match001",
+            "type": "matching",
+            "domain": "1",
+            "objective": "1.10",
+            "tags": ["tuckman"],
+            "difficulty": "medium",
+            "question": "Match each Tuckman stage to its key characteristic.",
+            "pairs": [
+                {"left": "Forming", "right": "Low productivity, friendly introductions"},
+                {"left": "Storming", "right": "Most conflict, competing for position"},
+                {"left": "Norming", "right": "Increased productivity, learning to work together"},
+                {"left": "Performing", "right": "Highest productivity, cohesion and focus"},
+                {"left": "Adjourning", "right": "Concluding work, preparing to disband"}
+            ],
+            "explanation": "Tuckman's stages progress from forming (getting acquainted) through storming (conflict) to norming (finding rhythm), performing (peak productivity), and finally adjourning (wrapping up). Conflict decreases while productivity increases as the team matures."
+        },
+        {
+            "id": "d1cmt_match002",
+            "type": "matching",
+            "domain": "1",
+            "objective": "1.10",
+            "tags": ["conflict-resolution"],
+            "difficulty": "hard",
+            "question": "Match each conflict resolution strategy to its description.",
+            "pairs": [
+                {"left": "Smoothing", "right": "Redirects focus by finding points of agreement"},
+                {"left": "Forcing", "right": "Removes conflict by imposing a solution"},
+                {"left": "Compromising", "right": "Parties meet in the middle — everyone gives up something"},
+                {"left": "Collaborating", "right": "Parties design a new solution that satisfies everyone"},
+                {"left": "Avoiding", "right": "Ignores the conflict or chooses not to address it"}
+            ],
+            "explanation": "Five conflict resolution strategies: Smoothing minimizes differences. Forcing imposes a decision. Compromising splits the difference. Collaborating creates a win-win. Avoiding sidesteps the issue entirely. The best strategy depends on the situation."
+        },
+        {
+            "id": "d1cmt_dd001",
+            "type": "drag_drop",
+            "domain": "1",
+            "objective": "1.8",
+            "tags": ["communication", "types"],
+            "difficulty": "medium",
+            "question": "Categorize each communication method as Synchronous or Asynchronous.",
+            "categories": ["Synchronous", "Asynchronous"],
+            "items": [
+                {"text": "Video conference call", "correct_category": "Synchronous"},
+                {"text": "Email to the project team", "correct_category": "Asynchronous"},
+                {"text": "Face-to-face meeting", "correct_category": "Synchronous"},
+                {"text": "Chat message in a team channel", "correct_category": "Asynchronous"},
+                {"text": "Phone call with the sponsor", "correct_category": "Synchronous"},
+                {"text": "Posting a document to a shared file repository", "correct_category": "Asynchronous"}
+            ],
+            "explanation": "Synchronous communication is real-time (video calls, phone calls, face-to-face). Asynchronous communication has a delay between sending and receiving (email, chat messages, shared documents). Chat can sometimes feel synchronous but is classified as asynchronous."
+        },
+        {
+            "id": "d1cmt_dd002",
+            "type": "drag_drop",
+            "domain": "1",
+            "objective": "1.9",
+            "tags": ["meeting", "types"],
+            "difficulty": "medium",
+            "question": "Categorize each meeting type by its primary purpose.",
+            "categories": ["Informative", "Decisive", "Collaborative"],
+            "items": [
+                {"text": "Project status update to stakeholders", "correct_category": "Informative"},
+                {"text": "CCB meeting to approve or reject change requests", "correct_category": "Decisive"},
+                {"text": "JAD session where team and customer design a product", "correct_category": "Collaborative"},
+                {"text": "Sprint demo presenting new functionality", "correct_category": "Informative"},
+                {"text": "Workshop to define project requirements", "correct_category": "Collaborative"},
+                {"text": "Phase gate review with go/no-go decision", "correct_category": "Decisive"}
+            ],
+            "explanation": "Informative meetings distribute information (status updates, demos). Decisive meetings require attendees to make decisions (CCB reviews, phase gates). Collaborative meetings bring people together to work on shared goals (JAD sessions, workshops, brainstorming)."
+        },
+        {
+            "id": "d1cmt_order001",
+            "type": "ordering",
+            "domain": "1",
+            "objective": "1.10",
+            "tags": ["tuckman"],
+            "difficulty": "easy",
+            "question": "Place the Tuckman team life cycle stages in the correct order.",
+            "items": [
+                "Performing",
+                "Forming",
+                "Adjourning",
+                "Storming",
+                "Norming"
+            ],
+            "correct_order": [
+                "Forming",
+                "Storming",
+                "Norming",
+                "Performing",
+                "Adjourning"
+            ],
+            "explanation": "The Tuckman model follows: Forming (introductions) → Storming (conflict) → Norming (finding rhythm) → Performing (peak productivity) → Adjourning (wrapping up). A common mnemonic: 'Friendly Strangers Negotiate Performance Agreements.'"
+        }
+    ]
+}

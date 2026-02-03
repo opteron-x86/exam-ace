@@ -1,0 +1,399 @@
+{
+    "bank_id": "d2_closing_001",
+    "title": "Domain 2: Project Closing (2.5)",
+    "description": "Covers deliverable validation, contract closure, resource release, documentation archiving, closure meetings, lessons learned, project closeout report, sign-off, OCM and adoption, product transition, and post-project evaluation.",
+    "version": "1.0",
+    "questions": [
+        {
+            "id": "d2cl_mc001",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.5",
+            "tags": ["closing", "readiness"],
+            "difficulty": "easy",
+            "question": "A project is ready to enter the closing phase when:",
+            "options": [
+                {"key": "A", "text": "The project budget has been fully consumed"},
+                {"key": "B", "text": "All project objectives are met, it is canceled, or it is suspended"},
+                {"key": "C", "text": "The project sponsor requests it, regardless of deliverables"},
+                {"key": "D", "text": "The execution phase begins"}
+            ],
+            "correct": "B",
+            "explanation": "A project is ready to enter the closing phase when all project objectives are met, the project is canceled, or the project is suspended. In all three situations, the project must go through formal closing procedures."
+        },
+        {
+            "id": "d2cl_mc002",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.5",
+            "tags": ["closeout-report", "sign-off"],
+            "difficulty": "easy",
+            "question": "The final summary document of a project's performance, outcomes, and lessons learned that also serves as the official request to close the project is the:",
+            "options": [
+                {"key": "A", "text": "Project charter"},
+                {"key": "B", "text": "Project management plan"},
+                {"key": "C", "text": "Project closeout report"},
+                {"key": "D", "text": "Lessons learned report"}
+            ],
+            "correct": "C",
+            "explanation": "The project closeout report is the final summary of the project's performance, outcomes, and lessons learned. It serves as the official project sign-off request — the sponsor and stakeholders sign off on the report, which officially closes the project."
+        },
+        {
+            "id": "d2cl_mc003",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.5",
+            "tags": ["lessons-learned"],
+            "difficulty": "easy",
+            "question": "Sessions held at the end of a project or phase to discuss and document areas for improvement and capture insights for future projects are called:",
+            "options": [
+                {"key": "A", "text": "Sprint retrospectives"},
+                {"key": "B", "text": "Lessons learned sessions"},
+                {"key": "C", "text": "Phase gate reviews"},
+                {"key": "D", "text": "Status meetings"}
+            ],
+            "correct": "B",
+            "explanation": "Lessons learned sessions are conducted at the end of a project or phase to discuss and document what went well, what went poorly, and what the team would do differently. These insights are captured for use in future projects."
+        },
+        {
+            "id": "d2cl_mc004",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.5",
+            "tags": ["closure-meeting", "attendees"],
+            "difficulty": "medium",
+            "question": "Who attends the project closure meeting?",
+            "options": [
+                {"key": "A", "text": "Only the project manager and project sponsor"},
+                {"key": "B", "text": "The PM, project team, sponsor, and key stakeholders"},
+                {"key": "C", "text": "Only the executive steering committee"},
+                {"key": "D", "text": "The PM and external vendors only"}
+            ],
+            "correct": "B",
+            "explanation": "The project closure meeting is attended by the project manager, the project team, the project sponsor, and key stakeholders. This ensures all parties can discuss final outcomes, sign off on deliverables, and capture lessons learned."
+        },
+        {
+            "id": "d2cl_mc005",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.5",
+            "tags": ["sign-off"],
+            "difficulty": "medium",
+            "question": "When a stakeholder signs off on a project, what does this formally communicate?",
+            "options": [
+                {"key": "A", "text": "That they want more changes made to the project"},
+                {"key": "B", "text": "That they agree the completed work meets the agreed-upon requirements and the project can be closed"},
+                {"key": "C", "text": "That the project budget has been reconciled"},
+                {"key": "D", "text": "That all risks have been eliminated"}
+            ],
+            "correct": "B",
+            "explanation": "Project sign-off is documented communication from stakeholders indicating they agree to close the project. By signing off, they confirm that the completed work meets the agreed-upon requirements."
+        },
+        {
+            "id": "d2cl_mc006",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.5",
+            "tags": ["administrative-closure"],
+            "difficulty": "medium",
+            "question": "The project management process of verifying and documenting project results to formalize project or phase completion is called:",
+            "options": [
+                {"key": "A", "text": "Configuration management"},
+                {"key": "B", "text": "Administrative closure"},
+                {"key": "C", "text": "Quality assurance"},
+                {"key": "D", "text": "Change control"}
+            ],
+            "correct": "B",
+            "explanation": "Administrative closure is the process of verifying and documenting project results to formalize project or phase completion. It ensures all administrative tasks are complete before the project is officially closed."
+        },
+        {
+            "id": "d2cl_mc007",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.5",
+            "tags": ["ocm", "adoption"],
+            "difficulty": "medium",
+            "question": "A project sponsor is concerned that end users will not willingly adopt the new training platform being delivered by the project. What approach should the project team implement to increase adoption?",
+            "options": [
+                {"key": "A", "text": "Reduce the project scope to simplify the product"},
+                {"key": "B", "text": "Implement Organizational Change Management (OCM)"},
+                {"key": "C", "text": "Skip user training to save budget"},
+                {"key": "D", "text": "Extend the project timeline indefinitely"}
+            ],
+            "correct": "B",
+            "explanation": "OCM is a structured approach to building change plans that help people adapt to new business processes and technology. It manages the strategy, artifacts, and processes needed to increase end-user adoption."
+        },
+        {
+            "id": "d2cl_mc008",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.5",
+            "tags": ["ocm", "change-adoption"],
+            "difficulty": "medium",
+            "question": "What is the relationship between Organizational Change Management (OCM) and change adoption?",
+            "options": [
+                {"key": "A", "text": "They are the same thing"},
+                {"key": "B", "text": "OCM is the process of helping people adapt to change; change adoption measures how many people have adapted"},
+                {"key": "C", "text": "Change adoption drives OCM planning"},
+                {"key": "D", "text": "OCM only applies to IT projects"}
+            ],
+            "correct": "B",
+            "explanation": "OCM is the process of helping people adapt to change. Change adoption is an OCM metric that measures how many end-users use a new offering. Change adoption is usually the success metric of an OCM implementation."
+        },
+        {
+            "id": "d2cl_mc009",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.5",
+            "tags": ["knowledge-base", "ocm-tools"],
+            "difficulty": "medium",
+            "question": "A project team wants to build a set of FAQs that end users can access whenever they need help, and that the operations team can continue to add to over time. Which OCM tool is BEST suited for this?",
+            "options": [
+                {"key": "A", "text": "Classroom training sessions"},
+                {"key": "B", "text": "A knowledge base (KB)"},
+                {"key": "C", "text": "A project charter"},
+                {"key": "D", "text": "A risk register"}
+            ],
+            "correct": "B",
+            "explanation": "A knowledge base (KB) is a searchable database of FAQs, advice, and known troubleshooting issues. It works well when a system has many small pieces of information consumed on an ad hoc basis, and it is a modular, living system that the operations team can continue contributing to."
+        },
+        {
+            "id": "d2cl_mc010",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.5",
+            "tags": ["product-transition", "operational-handoff"],
+            "difficulty": "medium",
+            "question": "The formal hand-off of a project's outcome to its recipients, who will oversee the product's day-to-day activities going forward, is called:",
+            "options": [
+                {"key": "A", "text": "Project closing"},
+                {"key": "B", "text": "Product transition / operational handoff"},
+                {"key": "C", "text": "Phase gate review"},
+                {"key": "D", "text": "Sprint review"}
+            ],
+            "correct": "B",
+            "explanation": "Product transition (or operational handoff) is the formal transfer of a project's outputs to another organization or functional group that will oversee the product's day-to-day activities. A transition plan documents how this will occur."
+        },
+        {
+            "id": "d2cl_mc011",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.5",
+            "tags": ["post-project-evaluation"],
+            "difficulty": "medium",
+            "question": "Post-project evaluations primarily focus on:",
+            "options": [
+                {"key": "A", "text": "Identifying new projects to initiate"},
+                {"key": "B", "text": "The project's final results including performance metrics, organizational impact, deliverables, and stakeholder feedback"},
+                {"key": "C", "text": "Only the project's financial performance"},
+                {"key": "D", "text": "Assigning blame for project failures"}
+            ],
+            "correct": "B",
+            "explanation": "Post-project evaluations focus on the project's final results, including performance metrics, organizational impact, and deliverables. They compare expected and actual impacts and incorporate feedback from stakeholders including team members and customers."
+        },
+        {
+            "id": "d2cl_mc012",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.5",
+            "tags": ["budget-reconciliation"],
+            "difficulty": "medium",
+            "question": "The process of verifying that each financial transaction in the project budget is matched with a corresponding payment or activity is called:",
+            "options": [
+                {"key": "A", "text": "Cost aggregation"},
+                {"key": "B", "text": "Budget reconciliation"},
+                {"key": "C", "text": "Reserve analysis"},
+                {"key": "D", "text": "Earned value analysis"}
+            ],
+            "correct": "B",
+            "explanation": "Budget reconciliation verifies that each financial transaction in the project budget is matched with a corresponding payment or activity. It reconciles the project's records against the organization's financial records during the closing phase."
+        },
+        {
+            "id": "d2cl_mc013",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.5",
+            "tags": ["canceled-project", "deliverables"],
+            "difficulty": "medium",
+            "question": "A project is canceled before all deliverables are complete. How should the PM validate deliverables in this situation?",
+            "options": [
+                {"key": "A", "text": "No validation is needed since the project was canceled"},
+                {"key": "B", "text": "Prepare a summary outlining which deliverables are complete and to what degree"},
+                {"key": "C", "text": "Mark all deliverables as complete regardless of status"},
+                {"key": "D", "text": "Archive the project immediately without any documentation"}
+            ],
+            "correct": "B",
+            "explanation": "Even when a project is canceled or suspended, the PM should prepare a summary outlining which deliverables are complete and to what degree. This ensures proper documentation and helps inform future decisions about the work that was done."
+        },
+        {
+            "id": "d2cl_mc014",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.5",
+            "tags": ["operational-training"],
+            "difficulty": "easy",
+            "question": "Education provided to individuals to prepare them for using, maintaining, and improving a product long term is called:",
+            "options": [
+                {"key": "A", "text": "Sprint training"},
+                {"key": "B", "text": "Operational training"},
+                {"key": "C", "text": "Performance appraisal"},
+                {"key": "D", "text": "Quality assurance"}
+            ],
+            "correct": "B",
+            "explanation": "Operational training is education provided to prepare individuals for using, maintaining, and improving a product long term. It occurs during the project transition phase and can include computer-based training, product training events, and hands-on sessions."
+        },
+        {
+            "id": "d2cl_mc015",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.5",
+            "tags": ["go-live"],
+            "difficulty": "easy",
+            "question": "The moment a software or product moves from a test environment into production and users can access it for the first time is called:",
+            "options": [
+                {"key": "A", "text": "Sprint demo"},
+                {"key": "B", "text": "Phase gate"},
+                {"key": "C", "text": "Go-live"},
+                {"key": "D", "text": "Rollback"}
+            ],
+            "correct": "C",
+            "explanation": "Go-live is the moment a software or product moves from a test environment into production. It is the first time end users can access the product in a live environment."
+        },
+        {
+            "id": "d2cl_mc016",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.5",
+            "tags": ["reward-recognition"],
+            "difficulty": "easy",
+            "question": "A formal system used to reinforce positive behaviors or performance and maintain team morale during or after a project is called a:",
+            "options": [
+                {"key": "A", "text": "Performance appraisal system"},
+                {"key": "B", "text": "Reward and recognition system"},
+                {"key": "C", "text": "Escalation plan"},
+                {"key": "D", "text": "Change control process"}
+            ],
+            "correct": "B",
+            "explanation": "A reward and recognition system is a formal system used to reinforce behaviors or performance. Its purpose is to motivate the team to perform well and achieve and maintain the desired level of individual and team morale."
+        },
+        {
+            "id": "d2cl_ms001",
+            "type": "multiple_select",
+            "domain": "2",
+            "objective": "2.5",
+            "tags": ["closing-activities"],
+            "difficulty": "medium",
+            "select_count": 4,
+            "question": "Which FOUR of the following are activities performed during the project closing phase?",
+            "options": [
+                {"key": "A", "text": "Conducting lessons learned sessions"},
+                {"key": "B", "text": "Creating the work breakdown structure"},
+                {"key": "C", "text": "Releasing project resources"},
+                {"key": "D", "text": "Budget reconciliation"},
+                {"key": "E", "text": "Developing the project charter"},
+                {"key": "F", "text": "Archiving project documentation"}
+            ],
+            "correct": ["A", "C", "D", "F"],
+            "explanation": "Project closing activities include lessons learned sessions, releasing resources, budget reconciliation, and archiving documentation. WBS creation occurs during planning, and the project charter is developed during initiation."
+        },
+        {
+            "id": "d2cl_ms002",
+            "type": "multiple_select",
+            "domain": "2",
+            "objective": "2.5",
+            "tags": ["ocm-tools", "adoption"],
+            "difficulty": "medium",
+            "select_count": 3,
+            "question": "Which THREE of the following are tools or techniques that support Organizational Change Management (OCM) and adoption?",
+            "options": [
+                {"key": "A", "text": "Knowledge bases (KBs)"},
+                {"key": "B", "text": "Risk registers"},
+                {"key": "C", "text": "Operational training programs"},
+                {"key": "D", "text": "PERT charts"},
+                {"key": "E", "text": "Product training events and demonstrations"}
+            ],
+            "correct": ["A", "C", "E"],
+            "explanation": "KBs provide self-service support for end users, operational training prepares users for long-term product use, and product demonstrations show users how the product works. Risk registers and PERT charts are project management tools, not OCM tools."
+        },
+        {
+            "id": "d2cl_match001",
+            "type": "matching",
+            "domain": "2",
+            "objective": "2.5",
+            "tags": ["closing-documents"],
+            "difficulty": "hard",
+            "question": "Match each project closing document or activity to its correct description.",
+            "pairs": [
+                {"left": "Project closeout report", "right": "Final summary of performance and outcomes that serves as the official sign-off request"},
+                {"left": "Lessons learned report", "right": "Analysis of events that provides insight into how to improve processes in the future"},
+                {"left": "Budget reconciliation", "right": "Verification that each financial transaction matches a corresponding payment or activity"},
+                {"left": "Administrative closure", "right": "Process of verifying and documenting results to formalize project completion"}
+            ],
+            "explanation": "Each closing document serves a distinct purpose: the closeout report is the official closure request, lessons learned capture improvements, budget reconciliation verifies financial accuracy, and administrative closure formalizes completion."
+        },
+        {
+            "id": "d2cl_sc001",
+            "type": "scenario",
+            "domain": "2",
+            "objective": "2.5",
+            "tags": ["closing-process", "transition"],
+            "difficulty": "hard",
+            "scenario": "You are the PM for a CRM implementation project. The development team has completed all features, testing is done, and stakeholders have approved the deliverables. The operations team will take over the product's day-to-day management. You need to guide the project through the closing phase.",
+            "parts": [
+                {
+                    "id": "d2cl_sc001a",
+                    "type": "multiple_choice",
+                    "question": "What document should you prepare to describe how the project's outputs will be transferred to the operations team?",
+                    "options": [
+                        {"key": "A", "text": "Project charter"},
+                        {"key": "B", "text": "Transition plan"},
+                        {"key": "C", "text": "Risk register"},
+                        {"key": "D", "text": "Communication plan"}
+                    ],
+                    "correct": "B",
+                    "explanation": "A transition plan describes how the outputs of a project will be transferred to another organization or functional group within the performing organization."
+                },
+                {
+                    "id": "d2cl_sc001b",
+                    "type": "multiple_choice",
+                    "question": "The operations team will need to support the CRM long term. They need to understand many small tasks and troubleshooting steps. Which OCM tool is BEST for ongoing, self-service support?",
+                    "options": [
+                        {"key": "A", "text": "A one-time classroom training session"},
+                        {"key": "B", "text": "A knowledge base (KB)"},
+                        {"key": "C", "text": "A project status meeting"},
+                        {"key": "D", "text": "A Gantt chart"}
+                    ],
+                    "correct": "B",
+                    "explanation": "A knowledge base is a searchable database of FAQs, advice, and known issues. It is modular and can be continuously updated, making it ideal for ongoing self-service support."
+                },
+                {
+                    "id": "d2cl_sc001c",
+                    "type": "multiple_choice",
+                    "question": "After the transition, you need to ensure all financial records are accurate. Which closing activity should you perform?",
+                    "options": [
+                        {"key": "A", "text": "Reserve analysis"},
+                        {"key": "B", "text": "Budget reconciliation"},
+                        {"key": "C", "text": "Cost aggregation"},
+                        {"key": "D", "text": "Parametric estimating"}
+                    ],
+                    "correct": "B",
+                    "explanation": "Budget reconciliation verifies that each financial transaction in the project budget is matched with a corresponding payment or activity, reconciling the project's records against the organization's financial records."
+                },
+                {
+                    "id": "d2cl_sc001d",
+                    "type": "multiple_choice",
+                    "question": "What is the final document you need the sponsor to sign that officially closes the project?",
+                    "options": [
+                        {"key": "A", "text": "Project management plan"},
+                        {"key": "B", "text": "Project closeout report"},
+                        {"key": "C", "text": "Business case"},
+                        {"key": "D", "text": "Statement of work"}
+                    ],
+                    "correct": "B",
+                    "explanation": "The project closeout report serves as the official project sign-off request. When the sponsor and stakeholders sign it, the project is officially closed."
+                }
+            ],
+            "explanation": "Project closing involves a structured sequence: validating deliverables, transitioning outputs, reconciling finances, conducting lessons learned, archiving documentation, releasing resources, and obtaining formal sign-off via the closeout report."
+        }
+    ]
+}

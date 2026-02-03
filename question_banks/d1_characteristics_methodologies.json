@@ -1,0 +1,526 @@
+{
+    "bank_id": "d1_char_method_001",
+    "title": "Domain 1: Project Characteristics & Methodologies (1.1, 1.2)",
+    "description": "Covers project characteristics, organizational structures, methodologies (Waterfall, Agile, Scrum, Kanban, XP, SAFe, PRINCE2), and agile vs. waterfall comparisons.",
+    "version": "1.0",
+    "questions": [
+        {
+            "id": "d1cm_mc001",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.1",
+            "tags": ["project-characteristics"],
+            "difficulty": "easy",
+            "question": "Which THREE characteristics differentiate a project from operations?",
+            "options": [
+                {"key": "A", "text": "Projects are temporary, unique, and have a specific purpose"},
+                {"key": "B", "text": "Projects are ongoing, repetitive, and produce consistent outcomes"},
+                {"key": "C", "text": "Projects are permanent, routine, and scalable"},
+                {"key": "D", "text": "Projects are iterative, staffed by operations teams, and budget-neutral"}
+            ],
+            "correct": "A",
+            "explanation": "Projects are temporary (defined start and end), unique (create a one-of-a-kind product, service, or result), and have a specific reason or purpose. Operations are ongoing and repetitive, producing the same outcome every time."
+        },
+        {
+            "id": "d1cm_mc002",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.1",
+            "tags": ["project-characteristics", "progressive-elaboration"],
+            "difficulty": "medium",
+            "question": "A project team starts with high-level requirements and adds more detail as the project progresses and information becomes available. This process is known as:",
+            "options": [
+                {"key": "A", "text": "Scope creep"},
+                {"key": "B", "text": "Progressive elaboration"},
+                {"key": "C", "text": "Decomposition"},
+                {"key": "D", "text": "Rolling wave planning"}
+            ],
+            "correct": "B",
+            "explanation": "Progressive elaboration is the process of development in which additional layers of detail are defined over the course of a project. Unlike scope creep, progressive elaboration is a planned and controlled process of refining details within the approved scope."
+        },
+        {
+            "id": "d1cm_mc003",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.1",
+            "tags": ["organizational-structure", "functional"],
+            "difficulty": "medium",
+            "question": "In which organizational structure does the project manager have the LEAST authority over the project team?",
+            "options": [
+                {"key": "A", "text": "Projectized"},
+                {"key": "B", "text": "Strong matrix"},
+                {"key": "C", "text": "Weak matrix"},
+                {"key": "D", "text": "Functional"}
+            ],
+            "correct": "D",
+            "explanation": "In a functional organizational structure, the functional manager has the most authority and the project manager has the least. Reporting is hierarchical, with each individual reporting to a single functional manager. The PM role may not even formally exist."
+        },
+        {
+            "id": "d1cm_mc004",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.1",
+            "tags": ["organizational-structure", "matrix"],
+            "difficulty": "medium",
+            "question": "A company where employees report to both a functional manager for skill development and a project manager for day-to-day project work is BEST described as:",
+            "options": [
+                {"key": "A", "text": "Functional structure"},
+                {"key": "B", "text": "Projectized structure"},
+                {"key": "C", "text": "Matrix structure"},
+                {"key": "D", "text": "Flat structure"}
+            ],
+            "correct": "C",
+            "explanation": "A matrix organizational structure blends functional and project-based structures. Individuals report upward in the functional hierarchy but also report horizontally to one or more project managers. Matrix organizations can be weak, balanced, or strong depending on the PM's relative authority."
+        },
+        {
+            "id": "d1cm_mc005",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.1",
+            "tags": ["organizational-structure", "strong-matrix"],
+            "difficulty": "hard",
+            "question": "You are a PM in an organization where you assume line manager and budget responsibilities for the project team. Team members also support operational work, and functional managers provide support for skill development. What type of organizational structure is this?",
+            "options": [
+                {"key": "A", "text": "Projectized"},
+                {"key": "B", "text": "Weak matrix"},
+                {"key": "C", "text": "Strong matrix"},
+                {"key": "D", "text": "Balanced matrix"}
+            ],
+            "correct": "C",
+            "explanation": "This is a strong matrix because the PM has management responsibilities (line manager, budget) and the functional manager is a dotted-line manager providing skill development support. In a projectized structure, team members would not support operational work. In a weak matrix, the functional manager would hold the management responsibilities."
+        },
+        {
+            "id": "d1cm_mc006",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.1",
+            "tags": ["pmo"],
+            "difficulty": "easy",
+            "question": "Which organizational unit serves to improve project management performance by providing oversight, support, tools, and helpful methodologies to project managers?",
+            "options": [
+                {"key": "A", "text": "Change control board (CCB)"},
+                {"key": "B", "text": "Project management office (PMO)"},
+                {"key": "C", "text": "Steering committee"},
+                {"key": "D", "text": "Portfolio review board"}
+            ],
+            "correct": "B",
+            "explanation": "The PMO (Project Management Office) is a centralized, ongoing administrative unit or department that improves project management performance by providing oversight, support, tools, and helpful methodologies to project managers across the organization."
+        },
+        {
+            "id": "d1cm_mc007",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.1",
+            "tags": ["program", "portfolio"],
+            "difficulty": "medium",
+            "question": "What is the BEST description of the difference between a program and a portfolio?",
+            "options": [
+                {"key": "A", "text": "A program is a single large project; a portfolio is a collection of programs"},
+                {"key": "B", "text": "A program is a group of related projects with a common objective; a portfolio is a collection of projects, programs, and operational work to achieve strategic objectives"},
+                {"key": "C", "text": "A program is managed by the PMO; a portfolio is managed by the project manager"},
+                {"key": "D", "text": "A program is temporary; a portfolio is permanent"}
+            ],
+            "correct": "B",
+            "explanation": "A program is a group of related projects that have a common objective. A portfolio is a collection of projects, programs, and operational work managed together to achieve strategic business objectives. Portfolio projects are not necessarily related to each other."
+        },
+        {
+            "id": "d1cm_mc008",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.1",
+            "tags": ["waterfall"],
+            "difficulty": "easy",
+            "question": "Which methodology is described as linear and sequential, where each phase must be completed before the next phase begins and the project cannot revisit completed phases?",
+            "options": [
+                {"key": "A", "text": "Scrum"},
+                {"key": "B", "text": "Kanban"},
+                {"key": "C", "text": "Waterfall"},
+                {"key": "D", "text": "Spiral"}
+            ],
+            "correct": "C",
+            "explanation": "Waterfall is a linear and sequential methodology where project phases cascade — each phase starts only when all tasks in the previous phase are complete. Projects cannot move backward or revisit completed phases."
+        },
+        {
+            "id": "d1cm_mc009",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.1",
+            "tags": ["agile", "iterative", "incremental"],
+            "difficulty": "medium",
+            "question": "What is the difference between iterative and incremental development?",
+            "options": [
+                {"key": "A", "text": "Iterative means completing the project in one pass; incremental means repeating phases"},
+                {"key": "B", "text": "Iterative refers to repetitive steps or cycles; incremental refers to completing small portions one at a time"},
+                {"key": "C", "text": "They are the same concept with different names"},
+                {"key": "D", "text": "Iterative is a waterfall concept; incremental is an agile concept"}
+            ],
+            "correct": "B",
+            "explanation": "Iterative refers to a repetitive step or cycle — the team revisits and refines work through multiple passes. Incremental refers to completing one small portion at a time, adding to the product piece by piece. Agile combines both: iterative and incremental development (IID)."
+        },
+        {
+            "id": "d1cm_mc010",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["scrum", "roles"],
+            "difficulty": "easy",
+            "question": "In Scrum, which role enables the team to apply the framework and offers coaching, training, and guidance?",
+            "options": [
+                {"key": "A", "text": "Product owner"},
+                {"key": "B", "text": "Scrum master"},
+                {"key": "C", "text": "Project manager"},
+                {"key": "D", "text": "Program manager"}
+            ],
+            "correct": "B",
+            "explanation": "The Scrum master enables the team to apply the Scrum framework. They offer coaching, training, and guidance and remove impediments that block the team's progress. The product owner prioritizes work. The development team self-organizes to deliver it."
+        },
+        {
+            "id": "d1cm_mc011",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["scrum", "artifacts", "backlog"],
+            "difficulty": "medium",
+            "question": "What is the difference between a product backlog and a sprint backlog in Scrum?",
+            "options": [
+                {"key": "A", "text": "The product backlog is owned by the Scrum master; the sprint backlog is owned by the product owner"},
+                {"key": "B", "text": "The product backlog is an ordered list of all potential product changes; the sprint backlog contains items the team commits to complete in the current sprint"},
+                {"key": "C", "text": "The product backlog is fixed at project start; the sprint backlog changes continuously"},
+                {"key": "D", "text": "The product backlog tracks defects only; the sprint backlog tracks all work items"}
+            ],
+            "correct": "B",
+            "explanation": "The product backlog is a prioritized list of all potential product changes or enhancements — it is large and changes over time. The sprint backlog includes just the items the Scrum team selects and commits to complete in the current sprint. The Scrum team owns the sprint backlog."
+        },
+        {
+            "id": "d1cm_mc012",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["scrum", "events", "retrospective"],
+            "difficulty": "easy",
+            "question": "Which Scrum event is a process improvement session where the agile team reflects on the previous sprint and identifies ways to improve how they work together?",
+            "options": [
+                {"key": "A", "text": "Sprint planning"},
+                {"key": "B", "text": "Sprint review"},
+                {"key": "C", "text": "Sprint retrospective"},
+                {"key": "D", "text": "Daily Scrum"}
+            ],
+            "correct": "C",
+            "explanation": "The sprint retrospective is a process improvement session where the team reflects on the previous sprint and identifies ways to improve. The sprint review demonstrates the newest functionality. Sprint planning selects work for the upcoming sprint. The daily Scrum is a 15-minute status update."
+        },
+        {
+            "id": "d1cm_mc013",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["scrum", "events", "daily-scrum"],
+            "difficulty": "easy",
+            "question": "The daily Scrum is a short status update meeting. How long should it last?",
+            "options": [
+                {"key": "A", "text": "30 minutes"},
+                {"key": "B", "text": "15 minutes"},
+                {"key": "C", "text": "1 hour"},
+                {"key": "D", "text": "As long as needed"}
+            ],
+            "correct": "B",
+            "explanation": "The daily Scrum (also called a daily standup) is a short, 15-minute meeting where the complete team gets together for a quick status update. These meetings are typically conducted by standing in a circle to keep them brief."
+        },
+        {
+            "id": "d1cm_mc014",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["kanban"],
+            "difficulty": "medium",
+            "question": "Which agile methodology emphasizes controlling work in progress (WIP) and visualizing the flow of work through a board?",
+            "options": [
+                {"key": "A", "text": "Scrum"},
+                {"key": "B", "text": "Extreme Programming (XP)"},
+                {"key": "C", "text": "Kanban"},
+                {"key": "D", "text": "SAFe"}
+            ],
+            "correct": "C",
+            "explanation": "Kanban is a highly visual agile methodology that emphasizes controlling work in progress (WIP limits) and visualizing work. It uses a board with columns representing workflow stages. Unlike Scrum, Kanban does not use fixed-length sprints."
+        },
+        {
+            "id": "d1cm_mc015",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["xp"],
+            "difficulty": "medium",
+            "question": "Which agile framework places heavy emphasis on software engineering practices such as pair programming, test-driven development, and continuous integration?",
+            "options": [
+                {"key": "A", "text": "Scrum"},
+                {"key": "B", "text": "Kanban"},
+                {"key": "C", "text": "Extreme Programming (XP)"},
+                {"key": "D", "text": "PRINCE2"}
+            ],
+            "correct": "C",
+            "explanation": "Extreme Programming (XP) is an agile software development framework noted for its heavy emphasis on software engineering practices, including pair programming, test-driven development, continuous integration, and frequent releases."
+        },
+        {
+            "id": "d1cm_mc016",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["safe", "scaled-agile"],
+            "difficulty": "medium",
+            "question": "An organization with over 100 developers wants to use agile practices across multiple teams working on the same product. Which framework is specifically designed for agile at scale?",
+            "options": [
+                {"key": "A", "text": "Scrum"},
+                {"key": "B", "text": "SAFe (Scaled Agile Framework)"},
+                {"key": "C", "text": "Kanban"},
+                {"key": "D", "text": "Waterfall"}
+            ],
+            "correct": "B",
+            "explanation": "SAFe (Scaled Agile Framework) is a popular agile-at-scale framework incorporating multiple agile practices and frameworks. Scrum teams are typically 3-10 members. SAFe coordinates multiple agile teams working together toward larger objectives."
+        },
+        {
+            "id": "d1cm_mc017",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["devops", "ci-cd"],
+            "difficulty": "medium",
+            "question": "A practice that integrates software development and systems operations, with code updates rapidly committed to a repository and app updates rapidly deployed to production, is called:",
+            "options": [
+                {"key": "A", "text": "Waterfall"},
+                {"key": "B", "text": "PRINCE2"},
+                {"key": "C", "text": "DevOps with CI/CD"},
+                {"key": "D", "text": "Kanban"}
+            ],
+            "correct": "C",
+            "explanation": "DevOps integrates software development and systems operations. CI/CD (Continuous Integration/Continuous Deployment) is the practice within DevOps where code updates are rapidly committed to a repository (CI) and app/platform updates are rapidly deployed to production (CD)."
+        },
+        {
+            "id": "d1cm_mc018",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["prince2"],
+            "difficulty": "medium",
+            "question": "Which project management methodology predefines clear project phases, roles, and tasks, and focuses on controlling the management process rather than the technical work?",
+            "options": [
+                {"key": "A", "text": "Scrum"},
+                {"key": "B", "text": "PRINCE2"},
+                {"key": "C", "text": "XP"},
+                {"key": "D", "text": "Kanban"}
+            ],
+            "correct": "B",
+            "explanation": "PRINCE2 (PRojects IN Controlled Environments) is a process-based project management methodology that predefines clear project phases, roles, and tasks. It aims to control the project management process and is widely used in government and enterprise settings."
+        },
+        {
+            "id": "d1cm_mc019",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["agile-vs-waterfall", "requirements"],
+            "difficulty": "medium",
+            "question": "How does requirements gathering differ between agile and waterfall projects?",
+            "options": [
+                {"key": "A", "text": "Waterfall captures all requirements at the start; agile captures high-level requirements initially and updates them throughout the project"},
+                {"key": "B", "text": "Agile captures all requirements at the start; waterfall refines them iteratively"},
+                {"key": "C", "text": "Both methodologies handle requirements the same way"},
+                {"key": "D", "text": "Neither methodology formally gathers requirements"}
+            ],
+            "correct": "A",
+            "explanation": "In waterfall, the PM captures all requirements at the start of the project — the scope is fixed. In agile, only high-level requirements are captured initially. Requirements are continually updated and refined throughout the project as development progresses and more is learned."
+        },
+        {
+            "id": "d1cm_mc020",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["agile-vs-waterfall", "communication"],
+            "difficulty": "medium",
+            "question": "How does stakeholder communication differ between agile and waterfall projects?",
+            "options": [
+                {"key": "A", "text": "Agile limits stakeholder communication to the beginning and end of the project"},
+                {"key": "B", "text": "Waterfall projects have more frequent stakeholder communication than agile"},
+                {"key": "C", "text": "Agile involves stakeholders throughout the project at every iteration; waterfall communication is more limited and primarily managed through the PM"},
+                {"key": "D", "text": "Both methodologies communicate with stakeholders in the same way"}
+            ],
+            "correct": "C",
+            "explanation": "Stakeholder communication occurs throughout an entire agile project at every iteration. In waterfall, stakeholders share requirements at the start and receive the finished product at the end. They are primarily hands-off during the rest of the project, with the PM handling most communication."
+        },
+        {
+            "id": "d1cm_mc021",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["agile-vs-waterfall", "team-size"],
+            "difficulty": "easy",
+            "question": "What is the recommended team size for a single agile team?",
+            "options": [
+                {"key": "A", "text": "1-3 members"},
+                {"key": "B", "text": "3-10 members"},
+                {"key": "C", "text": "15-25 members"},
+                {"key": "D", "text": "No size limitation"}
+            ],
+            "correct": "B",
+            "explanation": "Agile teams are typically 3-10 members. Scaled agile teams can be any size because multiple agile teams work together. Waterfall project teams can also be any size on a single project team."
+        },
+        {
+            "id": "d1cm_mc022",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["agile", "user-stories"],
+            "difficulty": "medium",
+            "question": "In agile methodology, what term describes customer requirements or features that emphasize the functionality and how it adds value to the final product?",
+            "options": [
+                {"key": "A", "text": "Epics"},
+                {"key": "B", "text": "Features"},
+                {"key": "C", "text": "User stories"},
+                {"key": "D", "text": "Sprints"}
+            ],
+            "correct": "C",
+            "explanation": "User stories are customer requirements expressed in agile methodology. Each story emphasizes the functionality of the feature and how it adds to the final product. Epics are large deliverables spanning several iterations. Features are between epics and user stories in size."
+        },
+        {
+            "id": "d1cm_mc023",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["agile", "mvp"],
+            "difficulty": "medium",
+            "question": "A version of a product with just enough functionality to demonstrate how the final product will operate, intended for early adopters who provide feedback, is called:",
+            "options": [
+                {"key": "A", "text": "Prototype"},
+                {"key": "B", "text": "Minimum Viable Product (MVP)"},
+                {"key": "C", "text": "Sprint increment"},
+                {"key": "D", "text": "Release candidate"}
+            ],
+            "correct": "B",
+            "explanation": "A Minimum Viable Product (MVP) has just enough functionality to demonstrate how the final product will operate. It is intended for early adopters who provide feedback, helping build stakeholder confidence and guide future development."
+        },
+        {
+            "id": "d1cm_mc024",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["agile-vs-waterfall", "selection"],
+            "difficulty": "hard",
+            "question": "A PM is assigned to design a new data management system. The internal customers can't describe every feature they need but are excited to collaborate throughout the project. The team has up to one year. Which methodology is the BEST fit?",
+            "options": [
+                {"key": "A", "text": "Waterfall, because the timeline is fixed"},
+                {"key": "B", "text": "Agile, because the scope is not fixed and the customer is available to collaborate"},
+                {"key": "C", "text": "PRINCE2, because the project needs clear phases"},
+                {"key": "D", "text": "Waterfall, because internal projects always use waterfall"}
+            ],
+            "correct": "B",
+            "explanation": "Agile is the best fit because the scope is not fully defined (customers can't describe every feature) and the customer is available and willing to collaborate throughout the project. Waterfall requires fixed scope upfront. The fixed timeline actually supports agile's time-boxed approach."
+        },
+        {
+            "id": "d1cm_mc025",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.1",
+            "tags": ["sdlc"],
+            "difficulty": "medium",
+            "question": "The Software Development Life Cycle (SDLC) includes the processes of planning, analysis, design, implementation, and maintenance. How has SDLC adapted to support agile methodologies?",
+            "options": [
+                {"key": "A", "text": "SDLC was abandoned in favor of agile"},
+                {"key": "B", "text": "SDLC introduced iterative cycles such as spiral and agile models that repeat across all phases"},
+                {"key": "C", "text": "SDLC now requires all projects to use Scrum"},
+                {"key": "D", "text": "SDLC remained unchanged since agile does not use it"}
+            ],
+            "correct": "B",
+            "explanation": "SDLC started as a waterfall methodology and introduced iterative cycles to support agile approaches. The iterative SDLC model repeats research, development, and testing phases in small batches. The spiral and agile models iterate across all SDLC phases."
+        },
+        {
+            "id": "d1cm_ms001",
+            "type": "multiple_select",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["scrum", "roles"],
+            "difficulty": "easy",
+            "question": "Which THREE are the formal roles defined within the Scrum framework?",
+            "select_count": 3,
+            "options": [
+                {"key": "A", "text": "Product owner"},
+                {"key": "B", "text": "Project manager"},
+                {"key": "C", "text": "Scrum master"},
+                {"key": "D", "text": "Business analyst"},
+                {"key": "E", "text": "Developers"}
+            ],
+            "correct": ["A", "C", "E"],
+            "explanation": "The three Scrum roles are: Product Owner (prioritizes backlog), Scrum Master (enables the framework), and Developers (build the product). Project manager and business analyst are not formal Scrum roles, though their functions may be performed by other team members."
+        },
+        {
+            "id": "d1cm_ms002",
+            "type": "multiple_select",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["scrum", "events"],
+            "difficulty": "medium",
+            "question": "Which FOUR are Scrum events (ceremonies)?",
+            "select_count": 4,
+            "options": [
+                {"key": "A", "text": "Sprint planning"},
+                {"key": "B", "text": "Phase gate review"},
+                {"key": "C", "text": "Daily Scrum"},
+                {"key": "D", "text": "Sprint review"},
+                {"key": "E", "text": "Sprint retrospective"},
+                {"key": "F", "text": "Backlog grooming session"}
+            ],
+            "correct": ["A", "C", "D", "E"],
+            "explanation": "The four Scrum events are: Sprint Planning (select work for the sprint), Daily Scrum (15-minute standup), Sprint Review (demonstrate newest functionality to stakeholders), and Sprint Retrospective (team reflects and identifies improvements). Phase gate reviews are a waterfall concept. Backlog grooming/refinement is an ongoing activity, not a formal Scrum event."
+        },
+        {
+            "id": "d1cm_dd001",
+            "type": "drag_drop",
+            "domain": "1",
+            "objective": "1.1",
+            "tags": ["organizational-structure"],
+            "difficulty": "hard",
+            "question": "Categorize each characteristic by the organizational structure it BEST describes.",
+            "categories": ["Functional", "Matrix", "Projectized"],
+            "items": [
+                {"text": "PM has full authority over the team and budget", "correct_category": "Projectized"},
+                {"text": "Employees report to both a functional and a project manager", "correct_category": "Matrix"},
+                {"text": "PM role may not formally exist", "correct_category": "Functional"},
+                {"text": "Team operates as a separate unit within the organization", "correct_category": "Projectized"},
+                {"text": "Each individual reports to a single manager in the hierarchy", "correct_category": "Functional"},
+                {"text": "PM authority varies from weak to strong", "correct_category": "Matrix"}
+            ],
+            "explanation": "Functional: hierarchical reporting, PM has little authority. Projectized: PM has full authority, team is a separate unit. Matrix: dual reporting (functional + project), PM authority ranges from weak to strong depending on the matrix type."
+        },
+        {
+            "id": "d1cm_dd002",
+            "type": "drag_drop",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["scrum", "artifacts-events"],
+            "difficulty": "medium",
+            "question": "Categorize each item as a Scrum Artifact or a Scrum Event.",
+            "categories": ["Scrum Artifact", "Scrum Event"],
+            "items": [
+                {"text": "Product backlog", "correct_category": "Scrum Artifact"},
+                {"text": "Sprint planning", "correct_category": "Scrum Event"},
+                {"text": "Sprint backlog", "correct_category": "Scrum Artifact"},
+                {"text": "Daily Scrum", "correct_category": "Scrum Event"},
+                {"text": "Increment", "correct_category": "Scrum Artifact"},
+                {"text": "Sprint retrospective", "correct_category": "Scrum Event"}
+            ],
+            "explanation": "Scrum Artifacts: Product Backlog (ordered list of all product work), Sprint Backlog (items committed to for the sprint), and Increment (completed body of work). Scrum Events: Sprint Planning, Daily Scrum, Sprint Review, and Sprint Retrospective."
+        },
+        {
+            "id": "d1cm_match001",
+            "type": "matching",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["agile", "hierarchy"],
+            "difficulty": "medium",
+            "question": "Match each agile work item to its correct description, from largest to smallest.",
+            "pairs": [
+                {"left": "Epic", "right": "Equivalent in size to a project; lasts several iterations or months"},
+                {"left": "Feature", "right": "Larger than a user story, smaller than an epic"},
+                {"left": "User story", "right": "A single customer requirement emphasizing functionality and value"},
+                {"left": "Sprint goal", "right": "The primary value the team plans to deliver in a given sprint"}
+            ],
+            "explanation": "The agile work hierarchy from largest to smallest: Epics → Features → User Stories. Epics span months and are broken into features, which are refined into user stories. The sprint goal defines the value objective for a single sprint."
+        }
+    ]
+}

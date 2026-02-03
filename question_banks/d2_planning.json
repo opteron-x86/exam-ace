@@ -1,0 +1,598 @@
+{
+    "bank_id": "d2_planning_001",
+    "title": "Domain 2: Project Planning (2.3)",
+    "description": "Covers WBS/work packages/MECE/decomposition, scope definition and scope statements, resource assignment, communication plans, baseline establishment (scope/schedule/cost), risk assessment during planning, and backlog vs. WBS decisions.",
+    "version": "1.0",
+    "questions": [
+        {
+            "id": "d2pl_mc001",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["wbs", "definition"],
+            "difficulty": "easy",
+            "question": "A logical grouping of project deliverables arranged in a hierarchical structure that defines the total scope of work required to complete the project is called:",
+            "options": [
+                {"key": "A", "text": "Project schedule"},
+                {"key": "B", "text": "Work Breakdown Structure (WBS)"},
+                {"key": "C", "text": "Gantt chart"},
+                {"key": "D", "text": "Product backlog"}
+            ],
+            "correct": "B",
+            "explanation": "The Work Breakdown Structure (WBS) is a hierarchical decomposition of the total scope of work required to complete the project. It organizes deliverables into progressively smaller, manageable components called work packages."
+        },
+        {
+            "id": "d2pl_mc002",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["wbs", "work-package"],
+            "difficulty": "easy",
+            "question": "The smallest, most granular deliverable displayed at the lowest level of the WBS is called:",
+            "options": [
+                {"key": "A", "text": "A milestone"},
+                {"key": "B", "text": "A summary activity"},
+                {"key": "C", "text": "A work package"},
+                {"key": "D", "text": "An epic"}
+            ],
+            "correct": "C",
+            "explanation": "A work package is the smallest, most granular deliverable at the lowest level of the WBS. It is the level at which cost and duration can be reliably estimated, and it is the basis for assigning work to team members."
+        },
+        {
+            "id": "d2pl_mc003",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["wbs", "decomposition"],
+            "difficulty": "medium",
+            "question": "The technique of subdividing project deliverables into progressively smaller work packages to create the WBS is called:",
+            "options": [
+                {"key": "A", "text": "Progressive elaboration"},
+                {"key": "B", "text": "Decomposition"},
+                {"key": "C", "text": "Rolling wave planning"},
+                {"key": "D", "text": "Parametric estimation"}
+            ],
+            "correct": "B",
+            "explanation": "Decomposition is the technique of creating the WBS by subdividing project deliverables to the work package level. Each level breaks the work into smaller, more manageable and estimable components."
+        },
+        {
+            "id": "d2pl_mc004",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["wbs", "mece"],
+            "difficulty": "hard",
+            "question": "A project team discovers that two WBS level-2 deliverables overlap in scope, and a third deliverable is missing. The team says the WBS is not MECE. What does MECE mean?",
+            "options": [
+                {"key": "A", "text": "Measured, Evaluated, Controlled, Estimated"},
+                {"key": "B", "text": "Mutually Exclusive, Collectively Exhaustive — elements don't overlap and together cover all scope"},
+                {"key": "C", "text": "Managed, Executed, Closed, Evaluated"},
+                {"key": "D", "text": "Minimum Effort, Complete Execution"}
+            ],
+            "correct": "B",
+            "explanation": "MECE means Mutually Exclusive, Collectively Exhaustive. Each element exists without overlapping anything else (mutually exclusive), and all elements combined represent the entire scope (collectively exhaustive). If deliverables overlap or scope is missing, the WBS is not MECE."
+        },
+        {
+            "id": "d2pl_mc005",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["wbs", "dictionary"],
+            "difficulty": "medium",
+            "question": "An auxiliary document containing details about each element in the WBS, including descriptions, milestones, resources, and acceptance criteria, is called:",
+            "options": [
+                {"key": "A", "text": "WBS Dictionary"},
+                {"key": "B", "text": "Scope statement"},
+                {"key": "C", "text": "Activity list"},
+                {"key": "D", "text": "Requirements traceability matrix"}
+            ],
+            "correct": "A",
+            "explanation": "The WBS Dictionary is an auxiliary document containing details about each WBS element. It supplements the WBS structure with descriptions, milestones, responsible parties, resource requirements, quality requirements, and acceptance criteria for each work package."
+        },
+        {
+            "id": "d2pl_mc006",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["scope", "statement"],
+            "difficulty": "medium",
+            "question": "A document that defines the project and describes what it does and does not need to accomplish is called:",
+            "options": [
+                {"key": "A", "text": "Project charter"},
+                {"key": "B", "text": "Project scope statement"},
+                {"key": "C", "text": "Business case"},
+                {"key": "D", "text": "Requirements documentation"}
+            ],
+            "correct": "B",
+            "explanation": "The project scope statement defines the project and what it does and does not need to accomplish. It establishes the boundaries of the project by clearly stating what is included (in scope) and what is excluded (out of scope)."
+        },
+        {
+            "id": "d2pl_mc007",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["scope", "baseline"],
+            "difficulty": "hard",
+            "question": "The scope baseline is a component of the project management plan. Which THREE elements comprise the scope baseline?",
+            "options": [
+                {"key": "A", "text": "Detailed project scope statement, WBS, and WBS Dictionary"},
+                {"key": "B", "text": "Project charter, stakeholder register, and communication plan"},
+                {"key": "C", "text": "Cost baseline, schedule baseline, and quality plan"},
+                {"key": "D", "text": "Risk register, issue log, and change log"}
+            ],
+            "correct": "A",
+            "explanation": "The scope baseline has three components: the detailed project scope statement, the Work Breakdown Structure (WBS), and the WBS Dictionary. Together they define the approved project scope and are used to measure scope performance."
+        },
+        {
+            "id": "d2pl_mc008",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["backlog", "wbs-comparison"],
+            "difficulty": "hard",
+            "question": "A self-organized team is available for eight weeks with three fixed and four preferred deliverables. The sponsor approved removing preferred deliverables if time runs out. Should the PM create a WBS or a product backlog?",
+            "options": [
+                {"key": "A", "text": "WBS — because the project has defined deliverables"},
+                {"key": "B", "text": "Product backlog — because the project has flexible scope with fixed time and resources"},
+                {"key": "C", "text": "Both — a WBS for fixed deliverables and a backlog for preferred deliverables"},
+                {"key": "D", "text": "Neither — the team should decide on their own structure"}
+            ],
+            "correct": "B",
+            "explanation": "A product backlog is better because the project has flexible scope (preferred deliverables can be dropped) with fixed time (eight weeks) and resources (the team). A WBS works best when scope is fixed. A backlog allows prioritization so the most valuable work is completed first."
+        },
+        {
+            "id": "d2pl_mc009",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["planning", "sow"],
+            "difficulty": "medium",
+            "question": "A document that defines the expectations for a specific business arrangement, describing the work to be performed, deliverables, and timelines, is called:",
+            "options": [
+                {"key": "A", "text": "Project charter"},
+                {"key": "B", "text": "Statement of Work (SOW)"},
+                {"key": "C", "text": "Business case"},
+                {"key": "D", "text": "Change request"}
+            ],
+            "correct": "B",
+            "explanation": "A Statement of Work (SOW) defines the expectations for a specific business arrangement. It describes the work to be performed, deliverables, timelines, and terms. The procurement SOW is distributed to potential vendors for evaluation."
+        },
+        {
+            "id": "d2pl_mc010",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["planning", "baselines"],
+            "difficulty": "medium",
+            "question": "The three baselines that form the project management plan's performance measurement framework are:",
+            "options": [
+                {"key": "A", "text": "Risk baseline, quality baseline, and communication baseline"},
+                {"key": "B", "text": "Scope baseline, schedule baseline, and cost baseline"},
+                {"key": "C", "text": "Budget baseline, resource baseline, and milestone baseline"},
+                {"key": "D", "text": "Charter baseline, stakeholder baseline, and procurement baseline"}
+            ],
+            "correct": "B",
+            "explanation": "The three baselines are scope, schedule, and cost. The scope baseline defines approved work. The schedule baseline defines approved start/finish dates. The cost baseline is a time-phased budget for monitoring cost performance. Together they form the project's performance measurement framework."
+        },
+        {
+            "id": "d2pl_mc011",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["planning", "schedule-baseline"],
+            "difficulty": "medium",
+            "question": "The management-approved version of the project schedule that includes baseline start and finish dates is called:",
+            "options": [
+                {"key": "A", "text": "Project network diagram"},
+                {"key": "B", "text": "Gantt chart"},
+                {"key": "C", "text": "Schedule baseline"},
+                {"key": "D", "text": "Milestone chart"}
+            ],
+            "correct": "C",
+            "explanation": "The schedule baseline is the management-approved version of the project schedule. It is derived from schedule network analysis and includes baseline start and finish dates. It serves as the reference point against which actual schedule performance is measured."
+        },
+        {
+            "id": "d2pl_mc012",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["planning", "cost-baseline"],
+            "difficulty": "medium",
+            "question": "What is the difference between the project cost baseline and the project budget?",
+            "options": [
+                {"key": "A", "text": "They are the same thing"},
+                {"key": "B", "text": "The cost baseline includes the cost estimate and contingency reserve; the project budget adds the management reserve on top"},
+                {"key": "C", "text": "The project budget includes cost estimates only; the cost baseline adds all reserves"},
+                {"key": "D", "text": "The cost baseline is used in agile; the budget is used in waterfall"}
+            ],
+            "correct": "B",
+            "explanation": "The cost baseline = cost estimate + contingency reserve. The project budget = cost baseline + management reserve. The cost baseline is used for EVM performance measurement. Management reserves cover unknown risks and are outside the performance measurement baseline."
+        },
+        {
+            "id": "d2pl_mc013",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["planning", "communication-plan"],
+            "difficulty": "easy",
+            "question": "A document that describes the project team's approach to communicating project information, including what, when, how, and to whom, is called:",
+            "options": [
+                {"key": "A", "text": "Escalation plan"},
+                {"key": "B", "text": "Stakeholder engagement plan"},
+                {"key": "C", "text": "Communication plan"},
+                {"key": "D", "text": "RACI chart"}
+            ],
+            "correct": "C",
+            "explanation": "The communication plan documents the team's approach to communicating project information. It specifies what information is shared, when, how (channels), and to whom. It is a living document updated throughout the project."
+        },
+        {
+            "id": "d2pl_mc014",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["planning", "requirements-management"],
+            "difficulty": "medium",
+            "question": "A document that describes how project requirements will be analyzed, documented, and managed throughout the project life cycle is called:",
+            "options": [
+                {"key": "A", "text": "Requirements traceability matrix"},
+                {"key": "B", "text": "Requirements management plan"},
+                {"key": "C", "text": "Scope statement"},
+                {"key": "D", "text": "WBS Dictionary"}
+            ],
+            "correct": "B",
+            "explanation": "The requirements management plan describes how requirements will be analyzed, documented, and managed throughout the project life cycle. The RTM tracks requirements to deliverables. The scope statement defines boundaries. The WBS Dictionary describes WBS elements."
+        },
+        {
+            "id": "d2pl_mc015",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["planning", "rtm"],
+            "difficulty": "medium",
+            "question": "A document that associates project deliverables with the requirements for creating each deliverable, ensuring every requirement is tested and met, is called:",
+            "options": [
+                {"key": "A", "text": "RACI chart"},
+                {"key": "B", "text": "Requirements traceability matrix (RTM)"},
+                {"key": "C", "text": "Risk register"},
+                {"key": "D", "text": "Change log"}
+            ],
+            "correct": "B",
+            "explanation": "The requirements traceability matrix (RTM) associates project deliverables with requirements. It traces each requirement to its corresponding deliverable and test, ensuring nothing is missed. A requirement with no test in the RTM is not yet complete."
+        },
+        {
+            "id": "d2pl_mc016",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["planning", "rtm-usage"],
+            "difficulty": "medium",
+            "question": "You are reviewing the RTM and notice one requirement doesn't have any tests listed. What does this mean?",
+            "options": [
+                {"key": "A", "text": "The requirement has been removed from the project"},
+                {"key": "B", "text": "The requirement hasn't been met yet — it's incomplete"},
+                {"key": "C", "text": "The requirement doesn't need testing"},
+                {"key": "D", "text": "The requirement is in the next sprint"}
+            ],
+            "correct": "B",
+            "explanation": "A requirement with no tests in the RTM hasn't been met yet. The RTM tracks requirements through to verification. If there are no associated tests, the requirement hasn't been validated, meaning it is still incomplete."
+        },
+        {
+            "id": "d2pl_mc017",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["planning", "qa-plan"],
+            "difficulty": "medium",
+            "question": "Policies, procedures, and tools designed to ensure defect-free development and delivery are collectively called:",
+            "options": [
+                {"key": "A", "text": "Quality metrics"},
+                {"key": "B", "text": "Quality Assurance (QA) plan"},
+                {"key": "C", "text": "Test plan"},
+                {"key": "D", "text": "Defect log"}
+            ],
+            "correct": "B",
+            "explanation": "Quality Assurance (QA) encompasses policies, procedures, and tools designed to ensure defect-free development and delivery. The QA plan defines the overall quality approach. Quality metrics are actual measurements. The test plan details specific testing activities."
+        },
+        {
+            "id": "d2pl_mc018",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["planning", "cadence"],
+            "difficulty": "medium",
+            "question": "Why is it important to intentionally design the project cadence (frequency of meetings, demos, and checkpoints)?",
+            "options": [
+                {"key": "A", "text": "Cadence has no impact on the project"},
+                {"key": "B", "text": "The cadence sets the pace and tone — a fast cadence creates a fast-paced, adaptable project while a slow cadence creates a stable, predictable project"},
+                {"key": "C", "text": "Cadence only matters in agile projects"},
+                {"key": "D", "text": "Cadence is determined by the PMO and cannot be changed"}
+            ],
+            "correct": "B",
+            "explanation": "The cadence sets the pace and tone for the project. The frequency of meetings and demos affects work item sizing, change adaptability, and overall project velocity. A fast cadence creates a fast-paced, ever-changing project. A slow cadence creates a slow, stable project."
+        },
+        {
+            "id": "d2pl_mc019",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["planning", "constraints"],
+            "difficulty": "easy",
+            "question": "Factors that limit the way a project can be approached, such as time, budget, scope, quality, and resources, are called:",
+            "options": [
+                {"key": "A", "text": "Assumptions"},
+                {"key": "B", "text": "Constraints"},
+                {"key": "C", "text": "Risks"},
+                {"key": "D", "text": "Deliverables"}
+            ],
+            "correct": "B",
+            "explanation": "Constraints are factors that limit how the project can be approached. Common constraints include time, budget, scope, quality, resources, and regulatory requirements. Assumptions are statements taken to be true for planning purposes. Risks are uncertain future events."
+        },
+        {
+            "id": "d2pl_mc020",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["planning", "assumptions"],
+            "difficulty": "easy",
+            "question": "Statements that must be taken to be true in order to begin project planning, even though they haven't been proven, are called:",
+            "options": [
+                {"key": "A", "text": "Constraints"},
+                {"key": "B", "text": "Risks"},
+                {"key": "C", "text": "Assumptions"},
+                {"key": "D", "text": "Requirements"}
+            ],
+            "correct": "C",
+            "explanation": "Assumptions are statements that must be taken to be true to begin planning. For example, assuming a key vendor will be available or that the budget will be approved. Assumptions carry risk — if they prove false, the project plan may need to change."
+        },
+        {
+            "id": "d2pl_mc021",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["planning", "functional-nonfunctional"],
+            "difficulty": "medium",
+            "question": "Requirements that describe how a system operates rather than its features — such as scalability, portability, and extensibility — are called:",
+            "options": [
+                {"key": "A", "text": "Functional requirements"},
+                {"key": "B", "text": "Nonfunctional requirements (NFRs)"},
+                {"key": "C", "text": "Business requirements"},
+                {"key": "D", "text": "Solution requirements"}
+            ],
+            "correct": "B",
+            "explanation": "Nonfunctional requirements (NFRs) describe system attributes rather than features — how a system operates rather than what it does. Often called the 'ilities' because many end in '-ility' (scalability, portability, extensibility). Functional requirements describe what the system should do."
+        },
+        {
+            "id": "d2pl_mc022",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["planning", "agile-milestones"],
+            "difficulty": "hard",
+            "question": "A new PM plans to define sprint goals for the agile team and add them to the milestone chart. Why would you discourage this practice?",
+            "options": [
+                {"key": "A", "text": "Sprint goals don't belong on any chart"},
+                {"key": "B", "text": "The agile team creates sprint goals — the PM should not take sprint goal authority away from the team"},
+                {"key": "C", "text": "Milestone charts are not used in agile projects"},
+                {"key": "D", "text": "Sprint goals are always the same as project milestones"}
+            ],
+            "correct": "B",
+            "explanation": "The agile team creates their own sprint goals. While the PM needs to translate goals into project schedule items, they should not define sprint goals for the team. Self-organized teams own their sprint commitments. Taking this authority away undermines team autonomy."
+        },
+        {
+            "id": "d2pl_mc023",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["planning", "verification-validation"],
+            "difficulty": "hard",
+            "question": "How does verification differ from validation?",
+            "options": [
+                {"key": "A", "text": "They are the same process"},
+                {"key": "B", "text": "Verification is an objective internal assessment measuring if specs are met; validation is a subjective external measure of whether customer expectations are met"},
+                {"key": "C", "text": "Verification is performed by customers; validation is performed by the team"},
+                {"key": "D", "text": "Verification happens after delivery; validation happens during development"}
+            ],
+            "correct": "B",
+            "explanation": "Verification is objective and internal — it measures whether the project meets documented specifications ('Did we build it right?'). Validation is subjective and external — it measures whether the project meets customer expectations ('Did we build the right thing?')."
+        },
+        {
+            "id": "d2pl_mc024",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["planning", "human-resource-plan"],
+            "difficulty": "medium",
+            "question": "A document that provides guidance on how human resources should be defined, staffed, managed, controlled, and eventually released after the project ends is called:",
+            "options": [
+                {"key": "A", "text": "RACI chart"},
+                {"key": "B", "text": "Human resource plan"},
+                {"key": "C", "text": "Stakeholder engagement plan"},
+                {"key": "D", "text": "Project organizational chart"}
+            ],
+            "correct": "B",
+            "explanation": "The human resource plan provides guidance on how the project's human resources will be defined, staffed, managed, controlled, and eventually released after the project ends. It covers roles, responsibilities, staffing strategy, and team development."
+        },
+        {
+            "id": "d2pl_mc025",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["planning", "procurement-plan"],
+            "difficulty": "medium",
+            "question": "A document that outlines specifications for procuring work from outside sources, including contract types, evaluation processes, and how multiple providers will be managed, is called:",
+            "options": [
+                {"key": "A", "text": "Statement of Work (SOW)"},
+                {"key": "B", "text": "Master Service Agreement (MSA)"},
+                {"key": "C", "text": "Procurement management plan"},
+                {"key": "D", "text": "Vendor proposals"}
+            ],
+            "correct": "C",
+            "explanation": "The procurement management plan outlines specifications for procuring external work. It specifies contract types, the process for obtaining and evaluating bids, standardized procurement documents, and how multiple providers will be managed."
+        },
+        {
+            "id": "d2pl_match001",
+            "type": "matching",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["planning", "baselines"],
+            "difficulty": "medium",
+            "question": "Match each baseline to its purpose.",
+            "pairs": [
+                {"left": "Scope baseline", "right": "Defines the approved work — scope statement, WBS, and WBS Dictionary"},
+                {"left": "Schedule baseline", "right": "Defines the approved timeline — baseline start and finish dates"},
+                {"left": "Cost baseline", "right": "Defines the time-phased budget for monitoring cost performance"}
+            ],
+            "explanation": "The three baselines provide the framework for measuring project performance. Scope baseline defines what work is approved. Schedule baseline defines when it should happen. Cost baseline defines how much it should cost over time."
+        },
+        {
+            "id": "d2pl_match002",
+            "type": "matching",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["planning", "requirements"],
+            "difficulty": "medium",
+            "question": "Match each requirement type to its description.",
+            "pairs": [
+                {"left": "Business requirements", "right": "Define project scope, success factors, and constraints to achieve goals"},
+                {"left": "Functional requirements", "right": "Detail the desired functionality and capability of the project"},
+                {"left": "Nonfunctional requirements", "right": "Describe system attributes like scalability, performance, and reliability"},
+                {"left": "Solution requirements", "right": "Define criteria that a software or service solution must meet"}
+            ],
+            "explanation": "Business requirements set the overall project direction. Functional requirements specify what the system should do. Nonfunctional requirements specify how the system should behave. Solution requirements bridge business needs and technical implementation."
+        },
+        {
+            "id": "d2pl_dd001",
+            "type": "drag_drop",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["planning", "documents"],
+            "difficulty": "hard",
+            "question": "Categorize each planning document by the project management knowledge area it primarily supports.",
+            "categories": ["Scope Management", "Schedule Management", "Cost Management", "Communication Management"],
+            "items": [
+                {"text": "Work Breakdown Structure (WBS)", "correct_category": "Scope Management"},
+                {"text": "Project network diagram", "correct_category": "Schedule Management"},
+                {"text": "Cost baseline and budget", "correct_category": "Cost Management"},
+                {"text": "Communication plan", "correct_category": "Communication Management"},
+                {"text": "WBS Dictionary", "correct_category": "Scope Management"},
+                {"text": "Milestone chart", "correct_category": "Schedule Management"},
+                {"text": "Reserve analysis (contingency/management)", "correct_category": "Cost Management"},
+                {"text": "Escalation plan", "correct_category": "Communication Management"}
+            ],
+            "explanation": "Scope: WBS and WBS Dictionary define work boundaries. Schedule: network diagrams and milestone charts define timing and sequencing. Cost: baselines and reserve analysis define budgets. Communication: communication plans and escalation plans define information flow."
+        },
+        {
+            "id": "d2pl_order001",
+            "type": "ordering",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["wbs", "creation"],
+            "difficulty": "medium",
+            "question": "Place the WBS creation steps in the correct order.",
+            "items": [
+                "Decompose deliverables into work packages",
+                "Identify the project's major deliverables",
+                "Assign cost and duration estimates to work packages",
+                "Define the project scope statement",
+                "Create the WBS Dictionary"
+            ],
+            "correct_order": [
+                "Define the project scope statement",
+                "Identify the project's major deliverables",
+                "Decompose deliverables into work packages",
+                "Create the WBS Dictionary",
+                "Assign cost and duration estimates to work packages"
+            ],
+            "explanation": "WBS creation: (1) Start with the scope statement (what's in and out). (2) Identify major deliverables (level 2). (3) Decompose into work packages (lowest level). (4) Create the WBS Dictionary with details for each element. (5) Assign estimates to work packages for scheduling and budgeting."
+        },
+        {
+            "id": "d2pl_sc001",
+            "type": "scenario",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["planning", "scope", "wbs"],
+            "difficulty": "hard",
+            "scenario": "You are managing a project to develop a new employee onboarding portal. During planning, the team creates the following WBS level-2 items:\n\n1. Requirements Gathering\n2. UI/UX Design\n3. Backend Development\n4. Testing & QA\n5. Deployment\n6. User Training\n\nThe project scope statement says the portal must integrate with the existing HR system and include a mobile-responsive design.",
+            "parts": [
+                {
+                    "id": "d2pl_sc001a",
+                    "type": "multiple_choice",
+                    "question": "A team member argues that 'HR System Integration' should be a separate level-2 deliverable. Given the MECE principle, is this correct?",
+                    "options": [
+                        {"key": "A", "text": "Yes — HR integration is a distinct deliverable that should be its own level-2 item"},
+                        {"key": "B", "text": "No — HR integration is a work package under 'Backend Development' and adding it as level-2 would create overlap"},
+                        {"key": "C", "text": "It depends on the project manager's preference"},
+                        {"key": "D", "text": "No — HR integration is out of scope"}
+                    ],
+                    "correct": "A",
+                    "explanation": "HR System Integration is a significant deliverable called out in the scope statement. Making it a separate level-2 item ensures it is visible, has its own work packages, and does not get buried under Backend Development. As long as no overlap exists with other level-2 items, MECE is maintained. The key is that it warrants its own decomposition path."
+                },
+                {
+                    "id": "d2pl_sc001b",
+                    "type": "multiple_choice",
+                    "question": "The team forgot to include 'Project Management' activities (status meetings, reporting, stakeholder communication). Where should these appear?",
+                    "options": [
+                        {"key": "A", "text": "They should not be in the WBS — PM activities are not deliverables"},
+                        {"key": "B", "text": "As a separate level-2 item since PM activities span the entire project"},
+                        {"key": "C", "text": "Under 'Testing & QA'"},
+                        {"key": "D", "text": "They are automatically included in every work package"}
+                    ],
+                    "correct": "B",
+                    "explanation": "Project management activities (meetings, reporting, communication) are real work that consumes time and budget. They should appear as a level-2 item in the WBS to ensure they are planned, estimated, and tracked. Without this, the project schedule and budget will be incomplete."
+                },
+                {
+                    "id": "d2pl_sc001c",
+                    "type": "multiple_choice",
+                    "question": "Which document would contain the acceptance criteria for the 'UI/UX Design' deliverable?",
+                    "options": [
+                        {"key": "A", "text": "Project charter"},
+                        {"key": "B", "text": "Communication plan"},
+                        {"key": "C", "text": "WBS Dictionary"},
+                        {"key": "D", "text": "Risk register"}
+                    ],
+                    "correct": "C",
+                    "explanation": "The WBS Dictionary contains details about each WBS element, including descriptions, milestones, responsible parties, resource requirements, and acceptance criteria. The acceptance criteria for 'UI/UX Design' would be documented there."
+                }
+            ],
+            "explanation": "This scenario tests WBS creation principles: MECE compliance (no overlapping deliverables, all scope covered), ensuring PM activities are included as real work, and knowing that the WBS Dictionary holds the detailed acceptance criteria for each deliverable."
+        },
+        {
+            "id": "d2pl_ms001",
+            "type": "multiple_select",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["planning", "scope-baseline"],
+            "difficulty": "medium",
+            "question": "Which THREE elements make up the scope baseline?",
+            "select_count": 3,
+            "options": [
+                {"key": "A", "text": "Project scope statement"},
+                {"key": "B", "text": "Work Breakdown Structure (WBS)"},
+                {"key": "C", "text": "WBS Dictionary"},
+                {"key": "D", "text": "Project schedule"},
+                {"key": "E", "text": "Cost baseline"}
+            ],
+            "correct": ["A", "B", "C"],
+            "explanation": "The scope baseline consists of three elements: (1) the detailed project scope statement, (2) the WBS, and (3) the WBS Dictionary. The project schedule and cost baseline are separate baselines that together with the scope baseline form the project management plan's performance measurement framework."
+        },
+        {
+            "id": "d2pl_ms002",
+            "type": "multiple_select",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["planning", "risk-assessment"],
+            "difficulty": "medium",
+            "question": "During project planning, which THREE activities are part of the risk assessment process?",
+            "select_count": 3,
+            "options": [
+                {"key": "A", "text": "Identifying risks"},
+                {"key": "B", "text": "Signing vendor contracts"},
+                {"key": "C", "text": "Analyzing risks (qualitative/quantitative)"},
+                {"key": "D", "text": "Developing risk response strategies"},
+                {"key": "E", "text": "Conducting the project kickoff meeting"}
+            ],
+            "correct": ["A", "C", "D"],
+            "explanation": "Risk assessment during planning involves: (1) Identifying risks, (2) Analyzing their probability and impact (qualitative/quantitative), and (3) Developing response strategies. Signing contracts is a procurement activity. The kickoff meeting is an initiation activity."
+        }
+    ]
+}

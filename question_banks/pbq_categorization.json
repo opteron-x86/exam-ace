@@ -1,0 +1,191 @@
+{
+    "bank_id": "pbq_categorization_001",
+    "title": "PBQ: Categorization (Drag-Drop & Matching)",
+    "description": "Performance-based categorization questions using drag-drop and matching formats. Covers Agile vs. Waterfall artifacts, positive vs. negative risk responses, contract types, cloud models, communication types, organizational structures, dependency types, and estimating techniques.",
+    "version": "1.0",
+    "questions": [
+        {
+            "id": "cat_dd001",
+            "type": "drag_drop",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["agile", "waterfall", "roles"],
+            "difficulty": "medium",
+            "question": "Categorize each role as primarily associated with Agile, Waterfall, or Both methodologies.",
+            "categories": ["Agile", "Waterfall", "Both"],
+            "items": [
+                {"text": "Product owner", "correct_category": "Agile"},
+                {"text": "Scrum master", "correct_category": "Agile"},
+                {"text": "Project manager", "correct_category": "Both"},
+                {"text": "Functional manager", "correct_category": "Waterfall"},
+                {"text": "Business analyst", "correct_category": "Both"},
+                {"text": "Developers / Development team", "correct_category": "Both"}
+            ],
+            "explanation": "Product owner and Scrum master are Agile-specific roles. Functional managers are more prominent in traditional/Waterfall organizations. Project managers, business analysts, and developers exist in both methodologies, though their level of involvement and authority may differ."
+        },
+        {
+            "id": "cat_dd002",
+            "type": "drag_drop",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["agile", "waterfall", "events"],
+            "difficulty": "medium",
+            "question": "Categorize each meeting or event as primarily associated with Agile, Waterfall, or Both methodologies.",
+            "categories": ["Agile", "Waterfall", "Both"],
+            "items": [
+                {"text": "Sprint retrospective", "correct_category": "Agile"},
+                {"text": "Phase gate review", "correct_category": "Waterfall"},
+                {"text": "Daily standup (daily Scrum)", "correct_category": "Agile"},
+                {"text": "Kickoff meeting", "correct_category": "Both"},
+                {"text": "Sprint planning", "correct_category": "Agile"},
+                {"text": "Lessons learned session", "correct_category": "Both"},
+                {"text": "Change control board meeting", "correct_category": "Waterfall"},
+                {"text": "Sprint review / demo", "correct_category": "Agile"}
+            ],
+            "explanation": "Sprint retrospective, daily standup, sprint planning, and sprint review are Scrum events. Phase gate reviews and CCB meetings are traditional Waterfall activities. Kickoff meetings and lessons learned sessions occur in both methodologies."
+        },
+        {
+            "id": "cat_dd003",
+            "type": "drag_drop",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk-responses", "positive-negative"],
+            "difficulty": "hard",
+            "question": "Categorize each risk response strategy as a Negative Risk Response, Positive Risk Response, or Both.",
+            "categories": ["Negative Risk Response", "Positive Risk Response", "Both"],
+            "items": [
+                {"text": "Avoidance", "correct_category": "Negative Risk Response"},
+                {"text": "Mitigation", "correct_category": "Negative Risk Response"},
+                {"text": "Transference", "correct_category": "Negative Risk Response"},
+                {"text": "Exploitation", "correct_category": "Positive Risk Response"},
+                {"text": "Enhancement", "correct_category": "Positive Risk Response"},
+                {"text": "Sharing", "correct_category": "Positive Risk Response"},
+                {"text": "Acceptance", "correct_category": "Both"}
+            ],
+            "explanation": "Negative risk responses: avoidance (eliminate), mitigation (reduce probability/impact), transference (shift to third party). Positive risk responses: exploitation (guarantee it happens), enhancement (increase positive effects), sharing (extend benefits to others). Acceptance applies to both — the team acknowledges the risk without proactive action."
+        },
+        {
+            "id": "cat_dd004",
+            "type": "drag_drop",
+            "domain": "1",
+            "objective": "1.8",
+            "tags": ["communication-types"],
+            "difficulty": "medium",
+            "question": "Categorize each communication example as Synchronous or Asynchronous.",
+            "categories": ["Synchronous", "Asynchronous"],
+            "items": [
+                {"text": "Video conference call", "correct_category": "Synchronous"},
+                {"text": "Email", "correct_category": "Asynchronous"},
+                {"text": "Phone call", "correct_category": "Synchronous"},
+                {"text": "Chat message (Slack/Teams)", "correct_category": "Asynchronous"},
+                {"text": "Face-to-face meeting", "correct_category": "Synchronous"},
+                {"text": "Wiki / knowledge base update", "correct_category": "Asynchronous"}
+            ],
+            "explanation": "Synchronous communication is real-time — both parties exchange information simultaneously (video calls, phone calls, in-person meetings). Asynchronous communication is non-real-time — messages are sent and received at different times (email, chat, wikis)."
+        },
+        {
+            "id": "cat_dd005",
+            "type": "drag_drop",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["dependencies", "types"],
+            "difficulty": "hard",
+            "question": "Categorize each dependency example as Mandatory or Discretionary.",
+            "categories": ["Mandatory", "Discretionary"],
+            "items": [
+                {"text": "Foundation must be poured before framing a building", "correct_category": "Mandatory"},
+                {"text": "Running a code review before deployment per team best practices", "correct_category": "Discretionary"},
+                {"text": "An internal audit process required by corporate policy", "correct_category": "Mandatory"},
+                {"text": "Scheduling testing after development to optimize efficiency", "correct_category": "Discretionary"},
+                {"text": "Obtaining a building permit before starting construction", "correct_category": "Mandatory"},
+                {"text": "Completing documentation before training for convenience", "correct_category": "Discretionary"}
+            ],
+            "explanation": "Mandatory dependencies are inherent to the work itself and cannot be avoided (physical constraints, regulatory requirements). Discretionary dependencies are defined by the project team at their discretion based on best practices — they improve work but are not required."
+        },
+        {
+            "id": "cat_match001",
+            "type": "matching",
+            "domain": "1",
+            "objective": "1.1",
+            "tags": ["organizational-structure", "pm-authority"],
+            "difficulty": "hard",
+            "question": "Match each organizational structure to the correct description of the project manager's authority.",
+            "pairs": [
+                {"left": "Functional", "right": "PM has little to no formal authority; functional managers control resources and budget"},
+                {"left": "Weak matrix", "right": "PM coordinates work but functional managers retain most authority over resources"},
+                {"left": "Strong matrix", "right": "PM has significant authority; functional managers provide support and skill development"},
+                {"left": "Projectized", "right": "PM has full authority over the team, budget, and resources as a separate organizational unit"}
+            ],
+            "explanation": "PM authority increases across the spectrum: Functional (lowest) → Weak matrix → Strong matrix → Projectized (highest). In a functional structure, the PM is essentially a coordinator. In a projectized structure, the PM has complete control."
+        },
+        {
+            "id": "cat_match002",
+            "type": "matching",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["estimating-techniques"],
+            "difficulty": "hard",
+            "question": "Match each estimating technique with its correct description.",
+            "pairs": [
+                {"left": "Analogous estimating", "right": "Uses duration of previous similar activities to estimate future duration"},
+                {"left": "Parametric estimating", "right": "Uses project characteristics and historical data in a mathematical model"},
+                {"left": "Bottom-up estimating", "right": "Estimates each work package individually and rolls them up to higher levels"},
+                {"left": "Top-down estimating", "right": "Estimates the entire project at a high level and cascades down; best for early phases"}
+            ],
+            "explanation": "Analogous uses past project comparisons. Parametric uses mathematical formulas with historical data. Bottom-up builds estimates from the work package level up. Top-down starts at the project level and cascades down — least accurate but useful when information is sparse."
+        },
+        {
+            "id": "cat_match003",
+            "type": "matching",
+            "domain": "1",
+            "objective": "1.8",
+            "tags": ["communication-formality"],
+            "difficulty": "medium",
+            "question": "Match each communication type with its correct description.",
+            "pairs": [
+                {"left": "Formal communication", "right": "Official, procedural channels such as approval forms and governance meetings"},
+                {"left": "Informal communication", "right": "Unofficial information flows such as casual conversations and hallway discussions"},
+                {"left": "Verbal communication", "right": "Oral exchange of information such as phone calls and face-to-face meetings"},
+                {"left": "Nonverbal communication", "right": "Intentional and unintentional signals during verbal communication like body language"}
+            ],
+            "explanation": "Formal communication uses official channels (approval forms, governance meetings). Informal communication is unofficial (casual conversations). Verbal is oral exchange. Nonverbal includes body language, eye contact, and other unspoken signals that accompany verbal communication."
+        },
+        {
+            "id": "cat_dd006",
+            "type": "drag_drop",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["planning-artifacts", "phase-assignment"],
+            "difficulty": "medium",
+            "question": "Categorize each artifact or activity into the correct project phase where it is primarily created or performed.",
+            "categories": ["Discovery", "Initiation", "Planning", "Execution", "Closing"],
+            "items": [
+                {"text": "Business case", "correct_category": "Discovery"},
+                {"text": "Project charter", "correct_category": "Initiation"},
+                {"text": "Work breakdown structure (WBS)", "correct_category": "Planning"},
+                {"text": "Earned value management calculations", "correct_category": "Execution"},
+                {"text": "Lessons learned session", "correct_category": "Closing"},
+                {"text": "Stakeholder register", "correct_category": "Initiation"},
+                {"text": "Risk assessment", "correct_category": "Planning"},
+                {"text": "Project closeout report", "correct_category": "Closing"}
+            ],
+            "explanation": "Discovery: business case and feasibility. Initiation: charter and stakeholder identification. Planning: WBS, scope, schedule, risk assessment. Execution: performing work, EVM, monitoring. Closing: lessons learned, closeout report, sign-off, archiving."
+        },
+        {
+            "id": "cat_match004",
+            "type": "matching",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["precedence-relationships"],
+            "difficulty": "hard",
+            "question": "Match each precedence relationship type with the correct statement.",
+            "pairs": [
+                {"left": "Finish-to-Start (FS)", "right": "Activity A must finish before Activity B can begin"},
+                {"left": "Start-to-Start (SS)", "right": "Activity A must start before Activity B can start"},
+                {"left": "Finish-to-Finish (FF)", "right": "Activity A must finish before Activity B can finish"},
+                {"left": "Start-to-Finish (SF)", "right": "Activity A must start before Activity B can finish"}
+            ],
+            "explanation": "FS is the most common dependency type — the predecessor finishes, then the successor starts. SS means both must start together (or the predecessor first). FF means both must finish together (or predecessor first). SF is the rarest — the predecessor starting enables the successor to finish."
+        }
+    ]
+}

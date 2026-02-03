@@ -1,0 +1,2297 @@
+{
+    "bank_id": "d1_project_management_concepts",
+    "title": "Domain 1: Project Management Concepts",
+    "description": "Test",
+    "version": "1.0",
+    "questions": [
+        {
+            "id": "d1cm_mc001",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.1",
+            "tags": ["project-characteristics"],
+            "difficulty": "easy",
+            "question": "Which THREE characteristics differentiate a project from operations?",
+            "options": [
+                {"key": "A", "text": "Projects are temporary, unique, and have a specific purpose"},
+                {"key": "B", "text": "Projects are ongoing, repetitive, and produce consistent outcomes"},
+                {"key": "C", "text": "Projects are permanent, routine, and scalable"},
+                {"key": "D", "text": "Projects are iterative, staffed by operations teams, and budget-neutral"}
+            ],
+            "correct": "A",
+            "explanation": "Projects are temporary (defined start and end), unique (create a one-of-a-kind product, service, or result), and have a specific reason or purpose. Operations are ongoing and repetitive, producing the same outcome every time."
+        },
+        {
+            "id": "d1cm_mc002",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.1",
+            "tags": ["project-characteristics", "progressive-elaboration"],
+            "difficulty": "medium",
+            "question": "A project team starts with high-level requirements and adds more detail as the project progresses and information becomes available. This process is known as:",
+            "options": [
+                {"key": "A", "text": "Scope creep"},
+                {"key": "B", "text": "Progressive elaboration"},
+                {"key": "C", "text": "Decomposition"},
+                {"key": "D", "text": "Rolling wave planning"}
+            ],
+            "correct": "B",
+            "explanation": "Progressive elaboration is the process of development in which additional layers of detail are defined over the course of a project. Unlike scope creep, progressive elaboration is a planned and controlled process of refining details within the approved scope."
+        },
+        {
+            "id": "d1cm_mc003",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.1",
+            "tags": ["organizational-structure", "functional"],
+            "difficulty": "medium",
+            "question": "In which organizational structure does the project manager have the LEAST authority over the project team?",
+            "options": [
+                {"key": "A", "text": "Projectized"},
+                {"key": "B", "text": "Strong matrix"},
+                {"key": "C", "text": "Weak matrix"},
+                {"key": "D", "text": "Functional"}
+            ],
+            "correct": "D",
+            "explanation": "In a functional organizational structure, the functional manager has the most authority and the project manager has the least. Reporting is hierarchical, with each individual reporting to a single functional manager. The PM role may not even formally exist."
+        },
+        {
+            "id": "d1cm_mc004",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.1",
+            "tags": ["organizational-structure", "matrix"],
+            "difficulty": "medium",
+            "question": "A company where employees report to both a functional manager for skill development and a project manager for day-to-day project work is BEST described as:",
+            "options": [
+                {"key": "A", "text": "Functional structure"},
+                {"key": "B", "text": "Projectized structure"},
+                {"key": "C", "text": "Matrix structure"},
+                {"key": "D", "text": "Flat structure"}
+            ],
+            "correct": "C",
+            "explanation": "A matrix organizational structure blends functional and project-based structures. Individuals report upward in the functional hierarchy but also report horizontally to one or more project managers. Matrix organizations can be weak, balanced, or strong depending on the PM's relative authority."
+        },
+        {
+            "id": "d1cm_mc005",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.1",
+            "tags": ["organizational-structure", "strong-matrix"],
+            "difficulty": "hard",
+            "question": "You are a PM in an organization where you assume line manager and budget responsibilities for the project team. Team members also support operational work, and functional managers provide support for skill development. What type of organizational structure is this?",
+            "options": [
+                {"key": "A", "text": "Projectized"},
+                {"key": "B", "text": "Weak matrix"},
+                {"key": "C", "text": "Strong matrix"},
+                {"key": "D", "text": "Balanced matrix"}
+            ],
+            "correct": "C",
+            "explanation": "This is a strong matrix because the PM has management responsibilities (line manager, budget) and the functional manager is a dotted-line manager providing skill development support. In a projectized structure, team members would not support operational work. In a weak matrix, the functional manager would hold the management responsibilities."
+        },
+        {
+            "id": "d1cm_mc006",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.1",
+            "tags": ["pmo"],
+            "difficulty": "easy",
+            "question": "Which organizational unit serves to improve project management performance by providing oversight, support, tools, and helpful methodologies to project managers?",
+            "options": [
+                {"key": "A", "text": "Change control board (CCB)"},
+                {"key": "B", "text": "Project management office (PMO)"},
+                {"key": "C", "text": "Steering committee"},
+                {"key": "D", "text": "Portfolio review board"}
+            ],
+            "correct": "B",
+            "explanation": "The PMO (Project Management Office) is a centralized, ongoing administrative unit or department that improves project management performance by providing oversight, support, tools, and helpful methodologies to project managers across the organization."
+        },
+        {
+            "id": "d1cm_mc007",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.1",
+            "tags": ["program", "portfolio"],
+            "difficulty": "medium",
+            "question": "What is the BEST description of the difference between a program and a portfolio?",
+            "options": [
+                {"key": "A", "text": "A program is a single large project; a portfolio is a collection of programs"},
+                {"key": "B", "text": "A program is a group of related projects with a common objective; a portfolio is a collection of projects, programs, and operational work to achieve strategic objectives"},
+                {"key": "C", "text": "A program is managed by the PMO; a portfolio is managed by the project manager"},
+                {"key": "D", "text": "A program is temporary; a portfolio is permanent"}
+            ],
+            "correct": "B",
+            "explanation": "A program is a group of related projects that have a common objective. A portfolio is a collection of projects, programs, and operational work managed together to achieve strategic business objectives. Portfolio projects are not necessarily related to each other."
+        },
+        {
+            "id": "d1cm_mc008",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.1",
+            "tags": ["waterfall"],
+            "difficulty": "easy",
+            "question": "Which methodology is described as linear and sequential, where each phase must be completed before the next phase begins and the project cannot revisit completed phases?",
+            "options": [
+                {"key": "A", "text": "Scrum"},
+                {"key": "B", "text": "Kanban"},
+                {"key": "C", "text": "Waterfall"},
+                {"key": "D", "text": "Spiral"}
+            ],
+            "correct": "C",
+            "explanation": "Waterfall is a linear and sequential methodology where project phases cascade — each phase starts only when all tasks in the previous phase are complete. Projects cannot move backward or revisit completed phases."
+        },
+        {
+            "id": "d1cm_mc009",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.1",
+            "tags": ["agile", "iterative", "incremental"],
+            "difficulty": "medium",
+            "question": "What is the difference between iterative and incremental development?",
+            "options": [
+                {"key": "A", "text": "Iterative means completing the project in one pass; incremental means repeating phases"},
+                {"key": "B", "text": "Iterative refers to repetitive steps or cycles; incremental refers to completing small portions one at a time"},
+                {"key": "C", "text": "They are the same concept with different names"},
+                {"key": "D", "text": "Iterative is a waterfall concept; incremental is an agile concept"}
+            ],
+            "correct": "B",
+            "explanation": "Iterative refers to a repetitive step or cycle — the team revisits and refines work through multiple passes. Incremental refers to completing one small portion at a time, adding to the product piece by piece. Agile combines both: iterative and incremental development (IID)."
+        },
+        {
+            "id": "d1cm_mc010",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["scrum", "roles"],
+            "difficulty": "easy",
+            "question": "In Scrum, which role enables the team to apply the framework and offers coaching, training, and guidance?",
+            "options": [
+                {"key": "A", "text": "Product owner"},
+                {"key": "B", "text": "Scrum master"},
+                {"key": "C", "text": "Project manager"},
+                {"key": "D", "text": "Program manager"}
+            ],
+            "correct": "B",
+            "explanation": "The Scrum master enables the team to apply the Scrum framework. They offer coaching, training, and guidance and remove impediments that block the team's progress. The product owner prioritizes work. The development team self-organizes to deliver it."
+        },
+        {
+            "id": "d1cm_mc011",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["scrum", "artifacts", "backlog"],
+            "difficulty": "medium",
+            "question": "What is the difference between a product backlog and a sprint backlog in Scrum?",
+            "options": [
+                {"key": "A", "text": "The product backlog is owned by the Scrum master; the sprint backlog is owned by the product owner"},
+                {"key": "B", "text": "The product backlog is an ordered list of all potential product changes; the sprint backlog contains items the team commits to complete in the current sprint"},
+                {"key": "C", "text": "The product backlog is fixed at project start; the sprint backlog changes continuously"},
+                {"key": "D", "text": "The product backlog tracks defects only; the sprint backlog tracks all work items"}
+            ],
+            "correct": "B",
+            "explanation": "The product backlog is a prioritized list of all potential product changes or enhancements — it is large and changes over time. The sprint backlog includes just the items the Scrum team selects and commits to complete in the current sprint. The Scrum team owns the sprint backlog."
+        },
+        {
+            "id": "d1cm_mc012",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["scrum", "events", "retrospective"],
+            "difficulty": "easy",
+            "question": "Which Scrum event is a process improvement session where the agile team reflects on the previous sprint and identifies ways to improve how they work together?",
+            "options": [
+                {"key": "A", "text": "Sprint planning"},
+                {"key": "B", "text": "Sprint review"},
+                {"key": "C", "text": "Sprint retrospective"},
+                {"key": "D", "text": "Daily Scrum"}
+            ],
+            "correct": "C",
+            "explanation": "The sprint retrospective is a process improvement session where the team reflects on the previous sprint and identifies ways to improve. The sprint review demonstrates the newest functionality. Sprint planning selects work for the upcoming sprint. The daily Scrum is a 15-minute status update."
+        },
+        {
+            "id": "d1cm_mc013",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["scrum", "events", "daily-scrum"],
+            "difficulty": "easy",
+            "question": "The daily Scrum is a short status update meeting. How long should it last?",
+            "options": [
+                {"key": "A", "text": "30 minutes"},
+                {"key": "B", "text": "15 minutes"},
+                {"key": "C", "text": "1 hour"},
+                {"key": "D", "text": "As long as needed"}
+            ],
+            "correct": "B",
+            "explanation": "The daily Scrum (also called a daily standup) is a short, 15-minute meeting where the complete team gets together for a quick status update. These meetings are typically conducted by standing in a circle to keep them brief."
+        },
+        {
+            "id": "d1cm_mc014",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["kanban"],
+            "difficulty": "medium",
+            "question": "Which agile methodology emphasizes controlling work in progress (WIP) and visualizing the flow of work through a board?",
+            "options": [
+                {"key": "A", "text": "Scrum"},
+                {"key": "B", "text": "Extreme Programming (XP)"},
+                {"key": "C", "text": "Kanban"},
+                {"key": "D", "text": "SAFe"}
+            ],
+            "correct": "C",
+            "explanation": "Kanban is a highly visual agile methodology that emphasizes controlling work in progress (WIP limits) and visualizing work. It uses a board with columns representing workflow stages. Unlike Scrum, Kanban does not use fixed-length sprints."
+        },
+        {
+            "id": "d1cm_mc015",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["xp"],
+            "difficulty": "medium",
+            "question": "Which agile framework places heavy emphasis on software engineering practices such as pair programming, test-driven development, and continuous integration?",
+            "options": [
+                {"key": "A", "text": "Scrum"},
+                {"key": "B", "text": "Kanban"},
+                {"key": "C", "text": "Extreme Programming (XP)"},
+                {"key": "D", "text": "PRINCE2"}
+            ],
+            "correct": "C",
+            "explanation": "Extreme Programming (XP) is an agile software development framework noted for its heavy emphasis on software engineering practices, including pair programming, test-driven development, continuous integration, and frequent releases."
+        },
+        {
+            "id": "d1cm_mc016",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["safe", "scaled-agile"],
+            "difficulty": "medium",
+            "question": "An organization with over 100 developers wants to use agile practices across multiple teams working on the same product. Which framework is specifically designed for agile at scale?",
+            "options": [
+                {"key": "A", "text": "Scrum"},
+                {"key": "B", "text": "SAFe (Scaled Agile Framework)"},
+                {"key": "C", "text": "Kanban"},
+                {"key": "D", "text": "Waterfall"}
+            ],
+            "correct": "B",
+            "explanation": "SAFe (Scaled Agile Framework) is a popular agile-at-scale framework incorporating multiple agile practices and frameworks. Scrum teams are typically 3-10 members. SAFe coordinates multiple agile teams working together toward larger objectives."
+        },
+        {
+            "id": "d1cm_mc017",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["devops", "ci-cd"],
+            "difficulty": "medium",
+            "question": "A practice that integrates software development and systems operations, with code updates rapidly committed to a repository and app updates rapidly deployed to production, is called:",
+            "options": [
+                {"key": "A", "text": "Waterfall"},
+                {"key": "B", "text": "PRINCE2"},
+                {"key": "C", "text": "DevOps with CI/CD"},
+                {"key": "D", "text": "Kanban"}
+            ],
+            "correct": "C",
+            "explanation": "DevOps integrates software development and systems operations. CI/CD (Continuous Integration/Continuous Deployment) is the practice within DevOps where code updates are rapidly committed to a repository (CI) and app/platform updates are rapidly deployed to production (CD)."
+        },
+        {
+            "id": "d1cm_mc018",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["prince2"],
+            "difficulty": "medium",
+            "question": "Which project management methodology predefines clear project phases, roles, and tasks, and focuses on controlling the management process rather than the technical work?",
+            "options": [
+                {"key": "A", "text": "Scrum"},
+                {"key": "B", "text": "PRINCE2"},
+                {"key": "C", "text": "XP"},
+                {"key": "D", "text": "Kanban"}
+            ],
+            "correct": "B",
+            "explanation": "PRINCE2 (PRojects IN Controlled Environments) is a process-based project management methodology that predefines clear project phases, roles, and tasks. It aims to control the project management process and is widely used in government and enterprise settings."
+        },
+        {
+            "id": "d1cm_mc019",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["agile-vs-waterfall", "requirements"],
+            "difficulty": "medium",
+            "question": "How does requirements gathering differ between agile and waterfall projects?",
+            "options": [
+                {"key": "A", "text": "Waterfall captures all requirements at the start; agile captures high-level requirements initially and updates them throughout the project"},
+                {"key": "B", "text": "Agile captures all requirements at the start; waterfall refines them iteratively"},
+                {"key": "C", "text": "Both methodologies handle requirements the same way"},
+                {"key": "D", "text": "Neither methodology formally gathers requirements"}
+            ],
+            "correct": "A",
+            "explanation": "In waterfall, the PM captures all requirements at the start of the project — the scope is fixed. In agile, only high-level requirements are captured initially. Requirements are continually updated and refined throughout the project as development progresses and more is learned."
+        },
+        {
+            "id": "d1cm_mc020",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["agile-vs-waterfall", "communication"],
+            "difficulty": "medium",
+            "question": "How does stakeholder communication differ between agile and waterfall projects?",
+            "options": [
+                {"key": "A", "text": "Agile limits stakeholder communication to the beginning and end of the project"},
+                {"key": "B", "text": "Waterfall projects have more frequent stakeholder communication than agile"},
+                {"key": "C", "text": "Agile involves stakeholders throughout the project at every iteration; waterfall communication is more limited and primarily managed through the PM"},
+                {"key": "D", "text": "Both methodologies communicate with stakeholders in the same way"}
+            ],
+            "correct": "C",
+            "explanation": "Stakeholder communication occurs throughout an entire agile project at every iteration. In waterfall, stakeholders share requirements at the start and receive the finished product at the end. They are primarily hands-off during the rest of the project, with the PM handling most communication."
+        },
+        {
+            "id": "d1cm_mc021",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["agile-vs-waterfall", "team-size"],
+            "difficulty": "easy",
+            "question": "What is the recommended team size for a single agile team?",
+            "options": [
+                {"key": "A", "text": "1-3 members"},
+                {"key": "B", "text": "3-10 members"},
+                {"key": "C", "text": "15-25 members"},
+                {"key": "D", "text": "No size limitation"}
+            ],
+            "correct": "B",
+            "explanation": "Agile teams are typically 3-10 members. Scaled agile teams can be any size because multiple agile teams work together. Waterfall project teams can also be any size on a single project team."
+        },
+        {
+            "id": "d1cm_mc022",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["agile", "user-stories"],
+            "difficulty": "medium",
+            "question": "In agile methodology, what term describes customer requirements or features that emphasize the functionality and how it adds value to the final product?",
+            "options": [
+                {"key": "A", "text": "Epics"},
+                {"key": "B", "text": "Features"},
+                {"key": "C", "text": "User stories"},
+                {"key": "D", "text": "Sprints"}
+            ],
+            "correct": "C",
+            "explanation": "User stories are customer requirements expressed in agile methodology. Each story emphasizes the functionality of the feature and how it adds to the final product. Epics are large deliverables spanning several iterations. Features are between epics and user stories in size."
+        },
+        {
+            "id": "d1cm_mc023",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["agile", "mvp"],
+            "difficulty": "medium",
+            "question": "A version of a product with just enough functionality to demonstrate how the final product will operate, intended for early adopters who provide feedback, is called:",
+            "options": [
+                {"key": "A", "text": "Prototype"},
+                {"key": "B", "text": "Minimum Viable Product (MVP)"},
+                {"key": "C", "text": "Sprint increment"},
+                {"key": "D", "text": "Release candidate"}
+            ],
+            "correct": "B",
+            "explanation": "A Minimum Viable Product (MVP) has just enough functionality to demonstrate how the final product will operate. It is intended for early adopters who provide feedback, helping build stakeholder confidence and guide future development."
+        },
+        {
+            "id": "d1cm_mc024",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["agile-vs-waterfall", "selection"],
+            "difficulty": "hard",
+            "question": "A PM is assigned to design a new data management system. The internal customers can't describe every feature they need but are excited to collaborate throughout the project. The team has up to one year. Which methodology is the BEST fit?",
+            "options": [
+                {"key": "A", "text": "Waterfall, because the timeline is fixed"},
+                {"key": "B", "text": "Agile, because the scope is not fixed and the customer is available to collaborate"},
+                {"key": "C", "text": "PRINCE2, because the project needs clear phases"},
+                {"key": "D", "text": "Waterfall, because internal projects always use waterfall"}
+            ],
+            "correct": "B",
+            "explanation": "Agile is the best fit because the scope is not fully defined (customers can't describe every feature) and the customer is available and willing to collaborate throughout the project. Waterfall requires fixed scope upfront. The fixed timeline actually supports agile's time-boxed approach."
+        },
+        {
+            "id": "d1cm_mc025",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.1",
+            "tags": ["sdlc"],
+            "difficulty": "medium",
+            "question": "The Software Development Life Cycle (SDLC) includes the processes of planning, analysis, design, implementation, and maintenance. How has SDLC adapted to support agile methodologies?",
+            "options": [
+                {"key": "A", "text": "SDLC was abandoned in favor of agile"},
+                {"key": "B", "text": "SDLC introduced iterative cycles such as spiral and agile models that repeat across all phases"},
+                {"key": "C", "text": "SDLC now requires all projects to use Scrum"},
+                {"key": "D", "text": "SDLC remained unchanged since agile does not use it"}
+            ],
+            "correct": "B",
+            "explanation": "SDLC started as a waterfall methodology and introduced iterative cycles to support agile approaches. The iterative SDLC model repeats research, development, and testing phases in small batches. The spiral and agile models iterate across all SDLC phases."
+        },
+        {
+            "id": "d1cm_ms001",
+            "type": "multiple_select",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["scrum", "roles"],
+            "difficulty": "easy",
+            "question": "Which THREE are the formal roles defined within the Scrum framework?",
+            "select_count": 3,
+            "options": [
+                {"key": "A", "text": "Product owner"},
+                {"key": "B", "text": "Project manager"},
+                {"key": "C", "text": "Scrum master"},
+                {"key": "D", "text": "Business analyst"},
+                {"key": "E", "text": "Developers"}
+            ],
+            "correct": ["A", "C", "E"],
+            "explanation": "The three Scrum roles are: Product Owner (prioritizes backlog), Scrum Master (enables the framework), and Developers (build the product). Project manager and business analyst are not formal Scrum roles, though their functions may be performed by other team members."
+        },
+        {
+            "id": "d1cm_ms002",
+            "type": "multiple_select",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["scrum", "events"],
+            "difficulty": "medium",
+            "question": "Which FOUR are Scrum events (ceremonies)?",
+            "select_count": 4,
+            "options": [
+                {"key": "A", "text": "Sprint planning"},
+                {"key": "B", "text": "Phase gate review"},
+                {"key": "C", "text": "Daily Scrum"},
+                {"key": "D", "text": "Sprint review"},
+                {"key": "E", "text": "Sprint retrospective"},
+                {"key": "F", "text": "Backlog grooming session"}
+            ],
+            "correct": ["A", "C", "D", "E"],
+            "explanation": "The four Scrum events are: Sprint Planning (select work for the sprint), Daily Scrum (15-minute standup), Sprint Review (demonstrate newest functionality to stakeholders), and Sprint Retrospective (team reflects and identifies improvements). Phase gate reviews are a waterfall concept. Backlog grooming/refinement is an ongoing activity, not a formal Scrum event."
+        },
+        {
+            "id": "d1cm_dd001",
+            "type": "drag_drop",
+            "domain": "1",
+            "objective": "1.1",
+            "tags": ["organizational-structure"],
+            "difficulty": "hard",
+            "question": "Categorize each characteristic by the organizational structure it BEST describes.",
+            "categories": ["Functional", "Matrix", "Projectized"],
+            "items": [
+                {"text": "PM has full authority over the team and budget", "correct_category": "Projectized"},
+                {"text": "Employees report to both a functional and a project manager", "correct_category": "Matrix"},
+                {"text": "PM role may not formally exist", "correct_category": "Functional"},
+                {"text": "Team operates as a separate unit within the organization", "correct_category": "Projectized"},
+                {"text": "Each individual reports to a single manager in the hierarchy", "correct_category": "Functional"},
+                {"text": "PM authority varies from weak to strong", "correct_category": "Matrix"}
+            ],
+            "explanation": "Functional: hierarchical reporting, PM has little authority. Projectized: PM has full authority, team is a separate unit. Matrix: dual reporting (functional + project), PM authority ranges from weak to strong depending on the matrix type."
+        },
+        {
+            "id": "d1cm_dd002",
+            "type": "drag_drop",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["scrum", "artifacts-events"],
+            "difficulty": "medium",
+            "question": "Categorize each item as a Scrum Artifact or a Scrum Event.",
+            "categories": ["Scrum Artifact", "Scrum Event"],
+            "items": [
+                {"text": "Product backlog", "correct_category": "Scrum Artifact"},
+                {"text": "Sprint planning", "correct_category": "Scrum Event"},
+                {"text": "Sprint backlog", "correct_category": "Scrum Artifact"},
+                {"text": "Daily Scrum", "correct_category": "Scrum Event"},
+                {"text": "Increment", "correct_category": "Scrum Artifact"},
+                {"text": "Sprint retrospective", "correct_category": "Scrum Event"}
+            ],
+            "explanation": "Scrum Artifacts: Product Backlog (ordered list of all product work), Sprint Backlog (items committed to for the sprint), and Increment (completed body of work). Scrum Events: Sprint Planning, Daily Scrum, Sprint Review, and Sprint Retrospective."
+        },
+        {
+            "id": "d1cm_match001",
+            "type": "matching",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["agile", "hierarchy"],
+            "difficulty": "medium",
+            "question": "Match each agile work item to its correct description, from largest to smallest.",
+            "pairs": [
+                {"left": "Epic", "right": "Equivalent in size to a project; lasts several iterations or months"},
+                {"left": "Feature", "right": "Larger than a user story, smaller than an epic"},
+                {"left": "User story", "right": "A single customer requirement emphasizing functionality and value"},
+                {"left": "Sprint goal", "right": "The primary value the team plans to deliver in a given sprint"}
+            ],
+            "explanation": "The agile work hierarchy from largest to smallest: Epics → Features → User Stories. Epics span months and are broken into features, which are refined into user stories. The sprint goal defines the value objective for a single sprint."
+        }
+
+        {
+            "id": "d1cri_mc001",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.3",
+            "tags": ["change-control", "scope-creep"],
+            "difficulty": "easy",
+            "question": "Unapproved and uncontrolled changes that extend the project scope and impact cost, quality, or timing are known as:",
+            "options": [
+                {"key": "A", "text": "Progressive elaboration"},
+                {"key": "B", "text": "Scope creep"},
+                {"key": "C", "text": "Change management"},
+                {"key": "D", "text": "Requirements refinement"}
+            ],
+            "correct": "B",
+            "explanation": "Scope creep is the extension of the project scope caused by unapproved and uncontrolled changes. It impacts cost, quality, or timing. Unlike progressive elaboration (a planned refinement process), scope creep is unplanned and occurs without formal approval."
+        },
+        {
+            "id": "d1cri_mc002",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.3",
+            "tags": ["change-control", "ccb"],
+            "difficulty": "easy",
+            "question": "A formally chartered group responsible for reviewing, evaluating, approving, delaying, or rejecting changes to the project is called:",
+            "options": [
+                {"key": "A", "text": "Steering committee"},
+                {"key": "B", "text": "Project management office (PMO)"},
+                {"key": "C", "text": "Change control board (CCB)"},
+                {"key": "D", "text": "Stakeholder review panel"}
+            ],
+            "correct": "C",
+            "explanation": "The Change Control Board (CCB) is a formally chartered group responsible for reviewing, evaluating, approving, delaying, or rejecting changes to the project and recording and communicating such decisions."
+        },
+        {
+            "id": "d1cri_mc003",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.3",
+            "tags": ["change-control", "change-request"],
+            "difficulty": "medium",
+            "question": "Six weeks into a project, a key stakeholder asks to add three new data sources to the project's data model. What should the project manager advise the stakeholder to do?",
+            "options": [
+                {"key": "A", "text": "Tell the development team to add the data sources immediately"},
+                {"key": "B", "text": "Submit a change request form to initiate the change control process"},
+                {"key": "C", "text": "Reject the request since the project has already started"},
+                {"key": "D", "text": "Add the work to the project plan and inform the sponsor later"}
+            ],
+            "correct": "B",
+            "explanation": "The stakeholder should submit a change request form, which initiates the formal change control process. The form documents the request and gives the team the information needed to research the impacts before the CCB decides whether to approve it."
+        },
+        {
+            "id": "d1cri_mc004",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.3",
+            "tags": ["change-control", "preliminary-assessment"],
+            "difficulty": "hard",
+            "question": "During the first step of the change control process (Initiate Request), the PM conducts a preliminary assessment before the full impact assessment. Why would the PM do this?",
+            "options": [
+                {"key": "A", "text": "To approve the change without involving the CCB"},
+                {"key": "B", "text": "To clarify the request and eliminate unviable requests such as duplicates, out-of-scope, or technically infeasible changes"},
+                {"key": "C", "text": "To bypass the formal change control process for simple changes"},
+                {"key": "D", "text": "To calculate the exact cost of the change"}
+            ],
+            "correct": "B",
+            "explanation": "A preliminary assessment clarifies the request and eliminates unviable requests early. This includes changes outside the project's authority, duplicate requests, and requests that aren't feasible within the solution's capabilities. It saves time before conducting the more detailed impact assessment."
+        },
+        {
+            "id": "d1cri_mc005",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.3",
+            "tags": ["change-control", "ccb-decline"],
+            "difficulty": "medium",
+            "question": "What happens after the Change Control Board (CCB) declines a change request?",
+            "options": [
+                {"key": "A", "text": "The PM implements the change anyway if it's small"},
+                {"key": "B", "text": "The CCB notifies the requester that their change request was denied"},
+                {"key": "C", "text": "The request is automatically resubmitted for the next meeting"},
+                {"key": "D", "text": "The project sponsor overrides the CCB's decision"}
+            ],
+            "correct": "B",
+            "explanation": "When the CCB declines a change request, the requester is notified that their change was denied. The decision is documented in the change log. The requester may submit a revised request later, but the declined request is not automatically resubmitted."
+        },
+        {
+            "id": "d1cri_mc006",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.3",
+            "tags": ["change-control", "change-log"],
+            "difficulty": "easy",
+            "question": "Which document is used to maintain a list of all formal project change requests and their current status?",
+            "options": [
+                {"key": "A", "text": "Risk register"},
+                {"key": "B", "text": "Issue log"},
+                {"key": "C", "text": "Change log"},
+                {"key": "D", "text": "Defect log"}
+            ],
+            "correct": "C",
+            "explanation": "The change log is a document used to maintain a list of formal project change requests and their status (submitted, under review, approved, rejected, implemented). The risk register tracks risks, the issue log tracks issues, and the defect log tracks software defects."
+        },
+        {
+            "id": "d1cri_mc007",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "definition"],
+            "difficulty": "easy",
+            "question": "What is the BEST definition of a project risk?",
+            "options": [
+                {"key": "A", "text": "A problem that is currently affecting the project"},
+                {"key": "B", "text": "An unexpected event that may affect the project positively or negatively in the future"},
+                {"key": "C", "text": "An approved change to the project scope"},
+                {"key": "D", "text": "A defect found in the project deliverables"}
+            ],
+            "correct": "B",
+            "explanation": "A risk is any unexpected event that can affect your project. The effect might be either positive or negative, impacting personnel, processes, technology, or resources. Risks are future events that have not yet occurred. Issues are events that are currently happening."
+        },
+        {
+            "id": "d1cri_mc008",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "risk-vs-issue"],
+            "difficulty": "medium",
+            "question": "A cloud vendor is advertising a possible upcoming feature that would save the project team several hours per system update. Is this a risk, change, or issue?",
+            "options": [
+                {"key": "A", "text": "Issue — it is affecting the project now"},
+                {"key": "B", "text": "Change — it modifies the project scope"},
+                {"key": "C", "text": "Positive risk — it may happen in the future and would benefit the project"},
+                {"key": "D", "text": "Negative risk — it could disrupt the current workflow"}
+            ],
+            "correct": "C",
+            "explanation": "This is a positive risk because it is an event that may happen in the future, and it would positively impact the project if it occurs. It is not an issue (not currently happening), not a change (no request to modify scope), and not negative (it would be beneficial)."
+        },
+        {
+            "id": "d1cri_mc009",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "qualitative-analysis"],
+            "difficulty": "medium",
+            "question": "Which risk analysis method determines the probability and impact of identified risks using logical reasoning rather than numeric data?",
+            "options": [
+                {"key": "A", "text": "Quantitative risk analysis"},
+                {"key": "B", "text": "Monte Carlo simulation"},
+                {"key": "C", "text": "Qualitative risk analysis"},
+                {"key": "D", "text": "Decision tree analysis"}
+            ],
+            "correct": "C",
+            "explanation": "Qualitative risk analysis determines probability and impact using logical reasoning when numeric data is not readily available. It typically uses a probability and impact matrix to rate risks as high, medium, or low. Quantitative analysis uses numerical methods and mathematical models."
+        },
+        {
+            "id": "d1cri_mc010",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "quantitative-analysis", "monte-carlo"],
+            "difficulty": "hard",
+            "question": "A technique that simulates various outcomes of the project schedule to provide a statistical distribution of results using optimistic, most likely, and pessimistic estimates is called:",
+            "options": [
+                {"key": "A", "text": "Expected Monetary Value (EMV)"},
+                {"key": "B", "text": "Monte Carlo analysis"},
+                {"key": "C", "text": "Failure Mode and Effect Analysis (FMEA)"},
+                {"key": "D", "text": "Pareto analysis"}
+            ],
+            "correct": "B",
+            "explanation": "Monte Carlo analysis simulates many possible outcomes to provide a statistical distribution of results. It uses optimistic, most likely, and pessimistic estimates as inputs to predict probable schedule and cost outcomes. EMV calculates average outcomes. FMEA reviews failure modes of components."
+        },
+        {
+            "id": "d1cri_mc011",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "negative-response", "avoidance"],
+            "difficulty": "medium",
+            "question": "A project team identifies a risk that using a new, unproven technology could cause significant delays. They decide to use a proven technology instead, completely eliminating the risk. This is an example of:",
+            "options": [
+                {"key": "A", "text": "Risk mitigation"},
+                {"key": "B", "text": "Risk avoidance"},
+                {"key": "C", "text": "Risk transference"},
+                {"key": "D", "text": "Risk acceptance"}
+            ],
+            "correct": "B",
+            "explanation": "Risk avoidance eliminates the risk entirely by changing the project plan. By choosing proven technology over the risky unproven option, the team eliminated the source of the risk. Mitigation would reduce — but not eliminate — the probability or impact."
+        },
+        {
+            "id": "d1cri_mc012",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "positive-response", "sharing"],
+            "difficulty": "hard",
+            "question": "A project team identified an exciting new enterprise software but doesn't meet the minimum license quantity. They contact other teams to jointly purchase licenses. This is an example of which positive risk response strategy?",
+            "options": [
+                {"key": "A", "text": "Exploitation"},
+                {"key": "B", "text": "Enhancement"},
+                {"key": "C", "text": "Sharing"},
+                {"key": "D", "text": "Acceptance"}
+            ],
+            "correct": "C",
+            "explanation": "Sharing is a positive risk response where the team partners with others to extend the benefits of the opportunity. By collaborating with peer teams, they increase their ability to benefit from the risk. Exploitation tries to guarantee the opportunity happens. Enhancement increases its positive effects."
+        },
+        {
+            "id": "d1cri_mc013",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "negative-response", "acceptance"],
+            "difficulty": "medium",
+            "question": "The project team assigns an 'accept' response to a negative risk. What happens if the risk occurs?",
+            "options": [
+                {"key": "A", "text": "The team implements the mitigation plan"},
+                {"key": "B", "text": "The risk is transferred to a third party"},
+                {"key": "C", "text": "The team does nothing to manage the risk, and the project absorbs the impact"},
+                {"key": "D", "text": "The CCB reviews the risk and decides on a response"}
+            ],
+            "correct": "C",
+            "explanation": "Accepting a risk means the team will do nothing proactive to manage it. If the risk occurs, it will impact the project and the team accepts the consequences. This strategy is appropriate when the cost of other responses exceeds the impact of the risk."
+        },
+        {
+            "id": "d1cri_mc014",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "contingency", "mitigation"],
+            "difficulty": "medium",
+            "question": "What is the difference between a risk mitigation plan and a contingency plan?",
+            "options": [
+                {"key": "A", "text": "They are the same thing"},
+                {"key": "B", "text": "A mitigation plan is implemented before a risk occurs to reduce impact; a contingency plan is a strategy for how to react if a risk occurs"},
+                {"key": "C", "text": "A contingency plan is proactive; a mitigation plan is reactive"},
+                {"key": "D", "text": "A mitigation plan is for positive risks; a contingency plan is for negative risks"}
+            ],
+            "correct": "B",
+            "explanation": "A risk mitigation plan is implemented before a risk occurs to optimize (reduce) the probability or impact. A contingency plan is created before the risk but is only implemented if the risk actually occurs. It defines how the team will react."
+        },
+        {
+            "id": "d1cri_mc015",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "detectability"],
+            "difficulty": "medium",
+            "question": "What does high detectability mean in risk management?",
+            "options": [
+                {"key": "A", "text": "The risk is very likely to occur"},
+                {"key": "B", "text": "The risk will have a severe impact if it occurs"},
+                {"key": "C", "text": "You can quickly tell when a risk has occurred or will occur, allowing quick recovery or avoidance"},
+                {"key": "D", "text": "The risk cannot be identified until it impacts the project"}
+            ],
+            "correct": "C",
+            "explanation": "High detectability means you can quickly tell when a risk has occurred or will occur. This allows you to either recover quickly or avoid it entirely. For example, a fuel gauge warns you before you run out of gas — that's high detectability."
+        },
+        {
+            "id": "d1cri_mc016",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "risk-register"],
+            "difficulty": "easy",
+            "question": "Which document highlights the results of risk assessments in an easily comprehensible format, often using a 'traffic light' grid, so managers can understand risks associated with their workflows?",
+            "options": [
+                {"key": "A", "text": "Issue log"},
+                {"key": "B", "text": "Risk register"},
+                {"key": "C", "text": "Change log"},
+                {"key": "D", "text": "Lessons learned report"}
+            ],
+            "correct": "B",
+            "explanation": "The risk register documents identified risks, their analysis results (probability, impact), response strategies, and risk owners. It is often presented in a traffic-light format (red/yellow/green) for easy comprehension."
+        },
+        {
+            "id": "d1cri_mc017",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "regulatory"],
+            "difficulty": "medium",
+            "question": "Why are regulatory changes considered a project risk?",
+            "options": [
+                {"key": "A", "text": "Regulations never affect projects"},
+                {"key": "B", "text": "Any regulation change requires a thorough assessment to evaluate what needs updating, potentially requiring changes to the project plan"},
+                {"key": "C", "text": "Regulatory changes always cancel projects"},
+                {"key": "D", "text": "Only government projects are affected by regulations"}
+            ],
+            "correct": "B",
+            "explanation": "Regulation changes require a thorough environmental assessment to evaluate what needs updating. For instance, if privacy laws change during a project, all data fields must be compared to new regulations to ensure compliance. The project plan may need remediation tasks added."
+        },
+        {
+            "id": "d1cri_mc018",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.5",
+            "tags": ["issue-management", "definition"],
+            "difficulty": "easy",
+            "question": "What is the key difference between a risk and an issue?",
+            "options": [
+                {"key": "A", "text": "A risk has already occurred; an issue might occur in the future"},
+                {"key": "B", "text": "A risk might occur in the future; an issue is something already happening that you do not control"},
+                {"key": "C", "text": "Risks are positive; issues are negative"},
+                {"key": "D", "text": "There is no difference; the terms are interchangeable"}
+            ],
+            "correct": "B",
+            "explanation": "A risk is a future uncertain event that may affect the project (positively or negatively). An issue is something already happening in a project that you do not control. Issue management serves to document issues after they arise and recover from them."
+        },
+        {
+            "id": "d1cri_mc019",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.5",
+            "tags": ["issue-management", "escalation"],
+            "difficulty": "medium",
+            "question": "How do you know when it is time to escalate a problem?",
+            "options": [
+                {"key": "A", "text": "When the project manager decides it is important enough"},
+                {"key": "B", "text": "When predefined escalation triggers — established in the escalation plan — are met"},
+                {"key": "C", "text": "Whenever a stakeholder requests escalation"},
+                {"key": "D", "text": "Only at the end of a project phase"}
+            ],
+            "correct": "B",
+            "explanation": "Each escalation point includes a trigger that describes the conditions that initiate an escalation. These triggers are defined when the escalation plan is created and reviewed/approved by the escalation owners. This ensures consistent, objective criteria for escalation."
+        },
+        {
+            "id": "d1cri_mc020",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.5",
+            "tags": ["issue-management", "contingency"],
+            "difficulty": "medium",
+            "question": "A high-priority risk just turned into an issue. What can the project team use to respond quickly?",
+            "options": [
+                {"key": "A", "text": "Create a new risk register entry"},
+                {"key": "B", "text": "Submit a change request"},
+                {"key": "C", "text": "Execute the contingency plan that was prepared for the risk"},
+                {"key": "D", "text": "Convene the CCB for an emergency meeting"}
+            ],
+            "correct": "C",
+            "explanation": "When a risk becomes an issue, the team should execute the contingency plan that was prepared in advance for that risk. The contingency plan is the pre-planned response strategy for exactly this scenario, enabling a fast and coordinated reaction."
+        },
+        {
+            "id": "d1cri_mc021",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.5",
+            "tags": ["issue-management", "workaround"],
+            "difficulty": "medium",
+            "question": "A project team's cloud-based analysis application goes down. While waiting for the provider to restore service, the team creates a process to use local installations and upload files daily. This temporary measure is called:",
+            "options": [
+                {"key": "A", "text": "Risk mitigation"},
+                {"key": "B", "text": "A workaround"},
+                {"key": "C", "text": "A contingency plan"},
+                {"key": "D", "text": "A rollback"}
+            ],
+            "correct": "B",
+            "explanation": "A workaround is an alternative approach that allows the team to keep working while an issue is being resolved. It circumvents a problem as a temporary measure. Unlike a contingency plan (pre-planned), a workaround is often devised on the spot in response to an unforeseen issue."
+        },
+        {
+            "id": "d1cri_mc022",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.5",
+            "tags": ["issue-management", "root-cause", "five-why"],
+            "difficulty": "medium",
+            "question": "Which root cause analysis technique repeatedly asks 'why?' until you reach a solvable root cause?",
+            "options": [
+                {"key": "A", "text": "Fishbone diagram"},
+                {"key": "B", "text": "Pareto analysis"},
+                {"key": "C", "text": "Five-Why analysis"},
+                {"key": "D", "text": "Scatter diagram"}
+            ],
+            "correct": "C",
+            "explanation": "The Five-Why analysis looks for hidden root causes by continuing to ask 'why?' until you reach a solvable root cause. A fishbone diagram provides a structured visual method to identify multiple potential causes. Pareto analysis prioritizes causes by frequency."
+        },
+        {
+            "id": "d1cri_mc023",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.5",
+            "tags": ["issue-management", "severity-urgency"],
+            "difficulty": "medium",
+            "question": "When prioritizing issues, which TWO factors determine the order in which they should be addressed?",
+            "options": [
+                {"key": "A", "text": "Severity (impact) and urgency (time sensitivity)"},
+                {"key": "B", "text": "Cost and duration"},
+                {"key": "C", "text": "Popularity and visibility"},
+                {"key": "D", "text": "Team availability and sprint velocity"}
+            ],
+            "correct": "A",
+            "explanation": "Issues are prioritized based on severity (the extent of impact on the project, business, or end-users) and urgency (the relative time sensitivity). High severity and high urgency issues are addressed first."
+        },
+        {
+            "id": "d1cri_ms001",
+            "type": "multiple_select",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "negative-responses"],
+            "difficulty": "medium",
+            "question": "Which FOUR are strategies for responding to NEGATIVE risks?",
+            "select_count": 4,
+            "options": [
+                {"key": "A", "text": "Avoidance"},
+                {"key": "B", "text": "Exploitation"},
+                {"key": "C", "text": "Mitigation"},
+                {"key": "D", "text": "Enhancement"},
+                {"key": "E", "text": "Transference"},
+                {"key": "F", "text": "Acceptance"}
+            ],
+            "correct": ["A", "C", "E", "F"],
+            "explanation": "The four negative risk response strategies are: Avoidance (eliminate the risk), Mitigation (reduce probability or impact), Transference (shift to a third party, e.g., insurance), and Acceptance (take no proactive action). Exploitation and Enhancement are positive risk strategies."
+        },
+        {
+            "id": "d1cri_ms002",
+            "type": "multiple_select",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "positive-responses"],
+            "difficulty": "medium",
+            "question": "Which FOUR are strategies for responding to POSITIVE risks (opportunities)?",
+            "select_count": 4,
+            "options": [
+                {"key": "A", "text": "Avoidance"},
+                {"key": "B", "text": "Exploitation"},
+                {"key": "C", "text": "Enhancement"},
+                {"key": "D", "text": "Sharing"},
+                {"key": "E", "text": "Transference"},
+                {"key": "F", "text": "Acceptance"}
+            ],
+            "correct": ["B", "C", "D", "F"],
+            "explanation": "The four positive risk response strategies are: Exploitation (guarantee the opportunity happens), Enhancement (increase positive effects), Sharing (extend benefits to others), and Acceptance (acknowledge without proactive action). Avoidance and Transference are negative risk strategies."
+        },
+        {
+            "id": "d1cri_match001",
+            "type": "matching",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "positive-responses"],
+            "difficulty": "hard",
+            "question": "Match each POSITIVE risk response strategy with its correct description.",
+            "pairs": [
+                {"left": "Exploitation", "right": "Trying to guarantee that the positive risk will happen"},
+                {"left": "Enhancement", "right": "Attempting to increase the positive effects of the risk"},
+                {"left": "Sharing", "right": "Extending the benefits of the opportunity to others"},
+                {"left": "Acceptance", "right": "Acknowledging the opportunity without proactive action"}
+            ],
+            "explanation": "Exploitation ensures the opportunity materializes. Enhancement amplifies its benefits. Sharing partners with others to extend the positive outcome. Acceptance acknowledges the opportunity but takes no special action to pursue it."
+        },
+        {
+            "id": "d1cri_match002",
+            "type": "matching",
+            "domain": "1",
+            "objective": "1.5",
+            "tags": ["risk-issue-change", "definitions"],
+            "difficulty": "medium",
+            "question": "Match each project event type to its correct definition.",
+            "pairs": [
+                {"left": "Risk", "right": "An uncertain future event that could positively or negatively affect the project"},
+                {"left": "Issue", "right": "An event that is currently happening and outside the team's control"},
+                {"left": "Change", "right": "A modification to the project's scope, budget, or timeline"},
+                {"left": "Defect", "right": "A flaw or deviation in a deliverable that does not meet quality standards"}
+            ],
+            "explanation": "Risks are future and uncertain. Issues are present and uncontrolled. Changes are modifications to the project plan (requiring approval). Defects are quality problems in deliverables. Understanding the distinction drives the correct management response."
+        },
+        {
+            "id": "d1cri_dd001",
+            "type": "drag_drop",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "responses", "categorization"],
+            "difficulty": "hard",
+            "question": "Categorize each scenario as the correct risk response strategy.",
+            "categories": ["Avoidance", "Mitigation", "Transference", "Acceptance"],
+            "items": [
+                {"text": "Purchasing insurance to cover potential weather damage", "correct_category": "Transference"},
+                {"text": "Adding extra testing cycles to reduce the probability of defects", "correct_category": "Mitigation"},
+                {"text": "Choosing a different vendor to eliminate a supply chain risk", "correct_category": "Avoidance"},
+                {"text": "Documenting the risk and monitoring it without taking action", "correct_category": "Acceptance"},
+                {"text": "Outsourcing a high-risk component to a specialized contractor", "correct_category": "Transference"},
+                {"text": "Removing a risky feature from the project scope entirely", "correct_category": "Avoidance"}
+            ],
+            "explanation": "Avoidance eliminates the risk by changing the plan (different vendor, removing scope). Mitigation reduces probability or impact (extra testing). Transference shifts responsibility to a third party (insurance, outsourcing). Acceptance means monitoring without proactive action."
+        },
+        {
+            "id": "d1cri_order001",
+            "type": "ordering",
+            "domain": "1",
+            "objective": "1.3",
+            "tags": ["change-control", "process"],
+            "difficulty": "hard",
+            "question": "Place the change control process steps in the correct order.",
+            "items": [
+                "CCB reviews and decides (approve/reject/defer)",
+                "Implement approved change",
+                "Requester submits a change request form",
+                "Evaluate impacts (impact assessment)",
+                "Update change log and notify stakeholders"
+            ],
+            "correct_order": [
+                "Requester submits a change request form",
+                "Evaluate impacts (impact assessment)",
+                "CCB reviews and decides (approve/reject/defer)",
+                "Implement approved change",
+                "Update change log and notify stakeholders"
+            ],
+            "explanation": "The change control process flows: (1) Initiate — requester submits a change request form, (2) Evaluate — conduct an impact assessment, (3) Decide — the CCB reviews and approves, rejects, or defers, (4) Implement — execute the approved change, (5) Close — update the change log and notify stakeholders."
+        },
+        {
+            "id": "d1cri_sc001",
+            "type": "scenario",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "analysis", "response"],
+            "difficulty": "hard",
+            "scenario": "You are managing a project to launch a new customer portal. During risk assessment, the team identifies the following risk:\n\nRisk: The third-party payment API may experience downtime during the launch window, preventing customers from completing transactions.\n\nThe team rates this risk as:\n• Probability: High\n• Impact: High\n• Detectability: High (the API provider sends status alerts)",
+            "parts": [
+                {
+                    "id": "d1cri_sc001a",
+                    "type": "multiple_choice",
+                    "question": "Given the high probability and high impact, where would this risk appear on a probability and impact matrix?",
+                    "options": [
+                        {"key": "A", "text": "Low priority — the detectability offsets the probability"},
+                        {"key": "B", "text": "Medium priority — probability and impact average out"},
+                        {"key": "C", "text": "High priority — high probability combined with high impact"},
+                        {"key": "D", "text": "Not applicable — detectability removes it from the matrix"}
+                    ],
+                    "correct": "C",
+                    "explanation": "On a probability and impact matrix, high probability × high impact = high priority risk. Detectability is a separate factor that helps with response planning (you can react faster), but it does not reduce the risk's rating on the probability/impact matrix."
+                },
+                {
+                    "id": "d1cri_sc001b",
+                    "type": "multiple_choice",
+                    "question": "The team decides to build a backup payment processing system using a secondary API. If the primary API goes down, the system automatically switches. Which risk response strategy is this?",
+                    "options": [
+                        {"key": "A", "text": "Avoidance"},
+                        {"key": "B", "text": "Mitigation"},
+                        {"key": "C", "text": "Transference"},
+                        {"key": "D", "text": "Acceptance"}
+                    ],
+                    "correct": "B",
+                    "explanation": "This is mitigation — the team is reducing the impact of the risk (automatic failover minimizes downtime) without eliminating the risk entirely. The primary API could still go down (the risk exists), but the backup system reduces the impact if it does."
+                },
+                {
+                    "id": "d1cri_sc001c",
+                    "type": "multiple_choice",
+                    "question": "The team also prepares a documented procedure: if both APIs fail, customer service will process orders manually by phone. What type of plan is this?",
+                    "options": [
+                        {"key": "A", "text": "Mitigation plan"},
+                        {"key": "B", "text": "Risk register"},
+                        {"key": "C", "text": "Contingency plan"},
+                        {"key": "D", "text": "Workaround"}
+                    ],
+                    "correct": "C",
+                    "explanation": "This is a contingency plan — a pre-planned response strategy developed in advance that is only implemented if the risk becomes reality (both APIs fail). It differs from a workaround, which is created on the spot in response to an unforeseen issue."
+                }
+            ],
+            "explanation": "This scenario illustrates layered risk management: probability/impact assessment determines priority, mitigation reduces impact (backup system), and a contingency plan provides a fallback if the mitigation is insufficient. High detectability (status alerts) enables faster response."
+        }
+        {
+            "id": "d1sq_mc001",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["milestones"],
+            "difficulty": "easy",
+            "question": "A control point event in a project that has zero duration and triggers a reporting requirement or requires sponsor approval before proceeding is called:",
+            "options": [
+                {"key": "A", "text": "A deliverable"},
+                {"key": "B", "text": "A milestone"},
+                {"key": "C", "text": "A work package"},
+                {"key": "D", "text": "A phase gate"}
+            ],
+            "correct": "B",
+            "explanation": "A milestone is a control point event with zero duration that triggers a reporting requirement or requires sponsor/customer approval before proceeding. It marks a significant point but represents no actual work."
+        },
+        {
+            "id": "d1sq_mc002",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["dependencies", "finish-to-start"],
+            "difficulty": "easy",
+            "question": "Activity A must finish before Activity B can begin. What type of precedence relationship is this?",
+            "options": [
+                {"key": "A", "text": "Start-to-Start (SS)"},
+                {"key": "B", "text": "Finish-to-Finish (FF)"},
+                {"key": "C", "text": "Finish-to-Start (FS)"},
+                {"key": "D", "text": "Start-to-Finish (SF)"}
+            ],
+            "correct": "C",
+            "explanation": "Finish-to-Start (FS) means the predecessor must finish before the successor can start. This is the most common dependency type. Example: clearing dinner dishes (A) must finish before serving dessert (B) can begin."
+        },
+        {
+            "id": "d1sq_mc003",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["dependencies", "mandatory"],
+            "difficulty": "medium",
+            "question": "A dependency that is inherent to the work itself and usually affected by physical constraints, where activities MUST be performed in a specific sequence, is called:",
+            "options": [
+                {"key": "A", "text": "Discretionary dependency"},
+                {"key": "B", "text": "External dependency"},
+                {"key": "C", "text": "Mandatory dependency"},
+                {"key": "D", "text": "Internal dependency"}
+            ],
+            "correct": "C",
+            "explanation": "A mandatory dependency is inherent to the work and usually affected by physical constraints. Activities must be performed in a specific sequence for the work to be successful. For example, you must pour a foundation before framing walls."
+        },
+        {
+            "id": "d1sq_mc004",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["dependencies", "discretionary"],
+            "difficulty": "medium",
+            "question": "Why would a project team define a discretionary dependency between two activities?",
+            "options": [
+                {"key": "A", "text": "Because the work physically requires it"},
+                {"key": "B", "text": "Because an external party requires it"},
+                {"key": "C", "text": "Because it optimizes efficiency, lowers cost, or improves quality based on best practices"},
+                {"key": "D", "text": "Because regulations mandate the sequence"}
+            ],
+            "correct": "C",
+            "explanation": "Discretionary dependencies are optional and defined by the project team based on best practices. They improve work for the project by optimizing efficiency, lowering cost, or improving quality. The team has flexibility in sequencing when no mandatory or external dependency exists."
+        },
+        {
+            "id": "d1sq_mc005",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["critical-path", "float"],
+            "difficulty": "medium",
+            "question": "On a CPM diagram, Activity X has an Early Start (ES) of week 9 and a Late Start (LS) of week 12. What is the Total Float (TF)?",
+            "options": [
+                {"key": "A", "text": "0 weeks"},
+                {"key": "B", "text": "3 weeks"},
+                {"key": "C", "text": "9 weeks"},
+                {"key": "D", "text": "21 weeks"}
+            ],
+            "correct": "B",
+            "explanation": "TF = LS - ES = 12 - 9 = 3 weeks. Activity X can start as early as week 9 or as late as week 12 without delaying the project's finish date. Activities on the critical path have a TF of zero."
+        },
+        {
+            "id": "d1sq_mc006",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["critical-path", "definition"],
+            "difficulty": "easy",
+            "question": "The critical path in a project network diagram is defined as:",
+            "options": [
+                {"key": "A", "text": "The path with the shortest duration"},
+                {"key": "B", "text": "The path with the most resources"},
+                {"key": "C", "text": "The network path with the longest duration"},
+                {"key": "D", "text": "The path with the highest cost"}
+            ],
+            "correct": "C",
+            "explanation": "The critical path is the network path with the longest duration in the project. Activities on the critical path have zero total float — any delay to a critical path activity will delay the entire project's finish date."
+        },
+        {
+            "id": "d1sq_mc007",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["critical-path", "float"],
+            "difficulty": "hard",
+            "question": "An activity has a Total Float (TF) of 10 days and a Free Float (FF) of 5 days. What does this mean?",
+            "options": [
+                {"key": "A", "text": "The activity can shift 5 days before impacting the project, and 10 days before impacting successors"},
+                {"key": "B", "text": "The activity can shift up to 10 days without delaying the project, and up to 5 days without affecting the start of any immediate successor"},
+                {"key": "C", "text": "The activity has no scheduling flexibility"},
+                {"key": "D", "text": "The activity is on the critical path"}
+            ],
+            "correct": "B",
+            "explanation": "TF of 10 means the activity can shift up to 10 days without delaying the project's finish date. FF of 5 means it can shift up to 5 days without delaying the early start of any immediate successor. FF is always less than or equal to TF."
+        },
+        {
+            "id": "d1sq_mc008",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["pert", "estimation"],
+            "difficulty": "medium",
+            "question": "The PERT estimate formula is (O + 4M + P) / 6, where O = Optimistic, M = Most Likely, and P = Pessimistic. Why does the formula weight the most likely estimate by 4?",
+            "options": [
+                {"key": "A", "text": "Because optimistic outcomes are four times more common"},
+                {"key": "B", "text": "To produce a realistic estimate weighted toward the most probable outcome with slight adjustments for best/worst cases"},
+                {"key": "C", "text": "Because pessimistic outcomes are rare"},
+                {"key": "D", "text": "It is an arbitrary number with no significance"}
+            ],
+            "correct": "B",
+            "explanation": "The PERT weighted average formula gives the most likely estimate four times the weight because it is the most probable outcome. The optimistic and pessimistic estimates slightly adjust the calculation to account for uncertainty without skewing the result."
+        },
+        {
+            "id": "d1sq_mc009",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["pdm", "pert"],
+            "difficulty": "medium",
+            "question": "How does a Precedence Diagram Method (PDM) diagram differ from a PERT chart?",
+            "options": [
+                {"key": "A", "text": "PDM shows dependencies; PERT does not"},
+                {"key": "B", "text": "PDM includes activities, sequencing, and dependencies; PERT adds duration estimates to those elements"},
+                {"key": "C", "text": "They are identical tools with different names"},
+                {"key": "D", "text": "PERT shows dependencies; PDM shows only activities"}
+            ],
+            "correct": "B",
+            "explanation": "A PDM diagram includes activities, sequencing, and dependencies. A PERT chart includes all of those elements plus a duration estimate (typically using a weighted average of optimistic, most likely, and pessimistic durations)."
+        },
+        {
+            "id": "d1sq_mc010",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["resource-leveling"],
+            "difficulty": "medium",
+            "question": "A PM notices one developer is at 120% utilization while another is at 40%. The PM moves work from the overloaded developer to the underutilized one. This practice is known as:",
+            "options": [
+                {"key": "A", "text": "Resource leveling"},
+                {"key": "B", "text": "Resource smoothing"},
+                {"key": "C", "text": "Resource crashing"},
+                {"key": "D", "text": "Resource loading"}
+            ],
+            "correct": "B",
+            "explanation": "Resource smoothing redistributes work to create a more even workload distribution without changing the project schedule. Resource leveling adjusts the schedule to resolve resource conflicts, which may extend the project duration. Resource loading assigns work until capacity is consumed."
+        },
+        {
+            "id": "d1sq_mc011",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["estimation", "bottom-up"],
+            "difficulty": "medium",
+            "question": "Which estimation technique calculates the cost for each work package in the WBS and then aggregates them for progressively higher levels?",
+            "options": [
+                {"key": "A", "text": "Top-down estimating"},
+                {"key": "B", "text": "Analogous estimating"},
+                {"key": "C", "text": "Bottom-up estimating"},
+                {"key": "D", "text": "Parametric estimating"}
+            ],
+            "correct": "C",
+            "explanation": "Bottom-up estimating calculates the cost for each work package in the WBS and rolls the estimates up to progressively higher levels. It is the most accurate technique but also the most time-consuming. Top-down estimating starts with the whole project and cascades downward."
+        },
+        {
+            "id": "d1sq_mc012",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["estimation", "analogous"],
+            "difficulty": "medium",
+            "question": "An estimation technique that uses the duration or cost of a previous similar project to estimate the current project is called:",
+            "options": [
+                {"key": "A", "text": "Parametric estimating"},
+                {"key": "B", "text": "Bottom-up estimating"},
+                {"key": "C", "text": "Analogous estimating"},
+                {"key": "D", "text": "Three-point estimating"}
+            ],
+            "correct": "C",
+            "explanation": "Analogous estimating is a top-down technique that uses the duration or cost of previous similar activities to estimate future activities. It is less accurate than bottom-up but faster and useful when limited information is available."
+        },
+        {
+            "id": "d1sq_mc013",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.7",
+            "tags": ["quality", "retrospective"],
+            "difficulty": "easy",
+            "question": "After every sprint, an agile project team meets to reflect on their work and identify ways to improve. What is this quality activity called?",
+            "options": [
+                {"key": "A", "text": "Sprint review"},
+                {"key": "B", "text": "Sprint planning"},
+                {"key": "C", "text": "Retrospective"},
+                {"key": "D", "text": "Quality audit"}
+            ],
+            "correct": "C",
+            "explanation": "A retrospective is a process improvement session where the team reflects on the previous sprint and identifies ways to improve how they work together. It focuses on the team's process, not the product itself (that's the sprint review)."
+        },
+        {
+            "id": "d1sq_mc014",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.7",
+            "tags": ["quality", "sprint-review"],
+            "difficulty": "medium",
+            "question": "What is the primary purpose of a sprint review?",
+            "options": [
+                {"key": "A", "text": "To reflect on team processes and identify improvements"},
+                {"key": "B", "text": "To review the product's newest functionality with stakeholders and collaboratively decide what to work on next"},
+                {"key": "C", "text": "To assign tasks for the next sprint"},
+                {"key": "D", "text": "To audit the project's quality management system"}
+            ],
+            "correct": "B",
+            "explanation": "The sprint review is an informal end-of-sprint meeting where the agile team and stakeholders review the product's newest functionality, collaboratively adjust the backlog, and decide what to work on next. It focuses on the product, while the retrospective focuses on the process."
+        },
+        {
+            "id": "d1sq_mc015",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.7",
+            "tags": ["quality", "smoke-test"],
+            "difficulty": "medium",
+            "question": "A quality team wants to add a high-level system test after a build and before running detailed tests to confirm that core functions are operating as expected. Which test type should they use?",
+            "options": [
+                {"key": "A", "text": "Regression test"},
+                {"key": "B", "text": "Smoke test"},
+                {"key": "C", "text": "User acceptance test (UAT)"},
+                {"key": "D", "text": "Unit test"}
+            ],
+            "correct": "B",
+            "explanation": "A smoke test is a high-level system test performed after a build and before release. It is limited to the most crucial functions to ensure they work, without analyzing finer details. If the smoke test fails, the team knows not to invest time in detailed testing."
+        },
+        {
+            "id": "d1sq_mc016",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.7",
+            "tags": ["quality", "uat"],
+            "difficulty": "easy",
+            "question": "Which testing stage proves that a program is usable and fit for purpose in real-world conditions, usually one of the last stages before release?",
+            "options": [
+                {"key": "A", "text": "Unit testing"},
+                {"key": "B", "text": "Regression testing"},
+                {"key": "C", "text": "User Acceptance Testing (UAT)"},
+                {"key": "D", "text": "Smoke testing"}
+            ],
+            "correct": "C",
+            "explanation": "User Acceptance Testing (UAT) is usually one of the last stages before release. It proves that a program is usable and fit for purpose in real-world conditions. UAT is performed by end-users or their representatives."
+        },
+        {
+            "id": "d1sq_mc017",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.7",
+            "tags": ["quality", "regression-test"],
+            "difficulty": "medium",
+            "question": "After making changes to an application, the test team re-runs existing test cases to verify the changes haven't broken older functionality. This process is called:",
+            "options": [
+                {"key": "A", "text": "Smoke testing"},
+                {"key": "B", "text": "Stress testing"},
+                {"key": "C", "text": "Regression testing"},
+                {"key": "D", "text": "Unit testing"}
+            ],
+            "correct": "C",
+            "explanation": "Regression testing is the process of testing an application after changes are made to verify the changes haven't triggered problems in existing areas of code. It ensures that new updates don't break previously working functionality."
+        },
+        {
+            "id": "d1sq_mc018",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.7",
+            "tags": ["quality", "sla"],
+            "difficulty": "medium",
+            "question": "Why does a Service Level Agreement (SLA) benefit both parties?",
+            "options": [
+                {"key": "A", "text": "It only benefits the customer by holding the provider accountable"},
+                {"key": "B", "text": "It sets clear expectations and reduces friction by representing an agreed-upon standard between both parties"},
+                {"key": "C", "text": "It allows the provider to charge more for services"},
+                {"key": "D", "text": "It eliminates all risk from the service relationship"}
+            ],
+            "correct": "B",
+            "explanation": "An SLA benefits both parties by setting clear expectations and representing a mutual agreement. It reduces friction by giving both sides a clear reference point for acceptable performance, which improves the overall relationship."
+        },
+        {
+            "id": "d1sq_mc019",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.7",
+            "tags": ["kpi", "okr"],
+            "difficulty": "hard",
+            "question": "A project charter has the following objective: 'Respond to new customer contact requests within 48 hours.' Is this a KPI or an OKR?",
+            "options": [
+                {"key": "A", "text": "OKR — it sets an aspirational goal with measurable key results"},
+                {"key": "B", "text": "KPI — it sets an operational target with upper and lower limits measured over time"},
+                {"key": "C", "text": "Neither — it is a milestone"},
+                {"key": "D", "text": "Both — KPIs and OKRs are the same concept"}
+            ],
+            "correct": "B",
+            "explanation": "This is a KPI because it sets an operational target measured over a long time with clear limits: 0-48 hours is acceptable, 49+ hours is an issue. An OKR would set an aspirational objective paired with up to five measurable key results that introduce change."
+        },
+        {
+            "id": "d1sq_mc020",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.7",
+            "tags": ["kpi", "lagging-leading"],
+            "difficulty": "hard",
+            "question": "Which statement BEST describes the difference between leading and lagging indicators?",
+            "options": [
+                {"key": "A", "text": "Leading indicators measure past results; lagging indicators predict future performance"},
+                {"key": "B", "text": "Leading indicators measure inputs and predict future results; lagging indicators measure outputs after a process completes"},
+                {"key": "C", "text": "They measure the same things at different intervals"},
+                {"key": "D", "text": "Leading indicators are more accurate than lagging indicators"}
+            ],
+            "correct": "B",
+            "explanation": "Leading indicators measure the performance of inputs into a process — strong leading indicators should predict strong results. Lagging indicators measure results after a process completes, so they lag behind business decisions. Both are valuable for different purposes."
+        },
+        {
+            "id": "d1sq_fi001",
+            "type": "fill_in",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["pert", "estimation", "calculation"],
+            "difficulty": "hard",
+            "question": "Using the PERT formula (O + 4M + P) / 6, calculate the PERT estimate for an activity with the following durations: Optimistic = 4 days, Most Likely = 7 days, Pessimistic = 16 days. Round to one decimal place.",
+            "correct_answers": ["8.0", "8"],
+            "case_sensitive": false,
+            "explanation": "PERT = (O + 4M + P) / 6 = (4 + 4×7 + 16) / 6 = (4 + 28 + 16) / 6 = 48 / 6 = 8.0 days. The weighted average pulls the estimate toward the most likely value of 7, with slight adjustment for the pessimistic 16-day scenario."
+        },
+        {
+            "id": "d1sq_match001",
+            "type": "matching",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["dependencies"],
+            "difficulty": "hard",
+            "question": "Match each dependency type to its correct description.",
+            "pairs": [
+                {"left": "Finish-to-Start (FS)", "right": "Predecessor must finish before successor can start"},
+                {"left": "Start-to-Start (SS)", "right": "Predecessor must start before successor can start"},
+                {"left": "Finish-to-Finish (FF)", "right": "Predecessor must finish before successor can finish"},
+                {"left": "Start-to-Finish (SF)", "right": "Predecessor must start before successor can finish"}
+            ],
+            "explanation": "FS is the most common dependency type. SS allows parallel starts. FF links the completion of two activities. SF is the rarest — the predecessor's start controls when the successor can finish."
+        },
+        {
+            "id": "d1sq_match002",
+            "type": "matching",
+            "domain": "1",
+            "objective": "1.7",
+            "tags": ["testing"],
+            "difficulty": "medium",
+            "question": "Match each test type to its primary purpose.",
+            "pairs": [
+                {"left": "Unit test", "right": "Verifies a single block of code performs its intended action"},
+                {"left": "Smoke test", "right": "Quick check of core functions after a build, before detailed testing"},
+                {"left": "Regression test", "right": "Verifies changes haven't broken previously working features"},
+                {"left": "UAT", "right": "Proves the program is usable and fit for purpose in real-world conditions"},
+                {"left": "Stress test", "right": "Evaluates how software performs under extreme load"}
+            ],
+            "explanation": "Testing progresses from small scope (unit) to broad scope (UAT). Unit tests verify individual code blocks. Smoke tests confirm core functions work. Regression tests catch breakage from changes. UAT validates real-world usability. Stress tests push the system to its limits."
+        },
+        {
+            "id": "d1sq_dd001",
+            "type": "drag_drop",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["estimation-techniques"],
+            "difficulty": "hard",
+            "question": "Categorize each estimation technique as Top-Down or Bottom-Up.",
+            "categories": ["Top-Down", "Bottom-Up"],
+            "items": [
+                {"text": "Analogous estimating — uses a similar past project's duration", "correct_category": "Top-Down"},
+                {"text": "Parametric estimating — applies a mathematical model using project characteristics", "correct_category": "Top-Down"},
+                {"text": "Estimating each work package in the WBS and aggregating upward", "correct_category": "Bottom-Up"},
+                {"text": "Expert judgment on the overall project cost, cascaded to activities", "correct_category": "Top-Down"},
+                {"text": "Detailed resource and duration estimates for each individual activity", "correct_category": "Bottom-Up"}
+            ],
+            "explanation": "Top-down techniques (analogous, parametric, expert judgment on the whole) start with the big picture and work down — they're faster but less accurate. Bottom-up techniques estimate each work package individually and aggregate — they're more accurate but more time-consuming."
+        },
+        {
+            "id": "d1sq_order001",
+            "type": "ordering",
+            "domain": "1",
+            "objective": "1.7",
+            "tags": ["testing", "sequence"],
+            "difficulty": "medium",
+            "question": "Place the software testing activities in their typical sequence from earliest to latest in the development process.",
+            "items": [
+                "Smoke testing",
+                "Regression testing",
+                "Unit testing",
+                "User Acceptance Testing (UAT)",
+                "Performance / stress testing"
+            ],
+            "correct_order": [
+                "Unit testing",
+                "Smoke testing",
+                "Regression testing",
+                "Performance / stress testing",
+                "User Acceptance Testing (UAT)"
+            ],
+            "explanation": "Unit tests happen during development (earliest). Smoke tests verify core functions after a build. Regression tests check that changes haven't broken existing features. Performance/stress tests verify the system handles load. UAT is typically the last stage before release."
+        }
+
+        {
+            "id": "d1cmt_mc001",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.8",
+            "tags": ["communication", "synchronous"],
+            "difficulty": "easy",
+            "question": "A real-time exchange of information where the sender and recipient respond immediately, creating a continuous communication stream, is called:",
+            "options": [
+                {"key": "A", "text": "Asynchronous communication"},
+                {"key": "B", "text": "Synchronous communication"},
+                {"key": "C", "text": "Formal communication"},
+                {"key": "D", "text": "Written communication"}
+            ],
+            "correct": "B",
+            "explanation": "Synchronous communication is real-time — the sender and recipient exchange information immediately, creating a continuous stream. Examples include phone calls, video conferences, and face-to-face meetings. Asynchronous communication has a time delay between sending and receiving."
+        },
+        {
+            "id": "d1cmt_mc002",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.8",
+            "tags": ["communication", "asynchronous"],
+            "difficulty": "easy",
+            "question": "Which of the following is an example of asynchronous communication?",
+            "options": [
+                {"key": "A", "text": "A phone call between the PM and the sponsor"},
+                {"key": "B", "text": "A video conference with the project team"},
+                {"key": "C", "text": "An email sent to stakeholders with a project update"},
+                {"key": "D", "text": "A face-to-face daily standup meeting"}
+            ],
+            "correct": "C",
+            "explanation": "Email is asynchronous — the message is shared and received at different times. Phone calls, video conferences, and face-to-face meetings are synchronous because participants communicate in real time."
+        },
+        {
+            "id": "d1cmt_mc003",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.8",
+            "tags": ["communication", "nonverbal"],
+            "difficulty": "medium",
+            "question": "How does nonverbal communication affect verbal communication?",
+            "options": [
+                {"key": "A", "text": "Nonverbal communication has no effect on verbal exchanges"},
+                {"key": "B", "text": "The audience interprets both verbal and nonverbal cues together, so inconsistencies can create unintended messages"},
+                {"key": "C", "text": "Nonverbal communication only matters in written exchanges"},
+                {"key": "D", "text": "Nonverbal cues always override verbal messages"}
+            ],
+            "correct": "B",
+            "explanation": "The audience receives and interprets both verbal and nonverbal cues during communication. Inconsistencies between the two can create unexpected effects. For example, a sponsor having a sidebar conversation during your presentation might be interpreted as disengagement, even if that wasn't their intent."
+        },
+        {
+            "id": "d1cmt_mc004",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.8",
+            "tags": ["communication", "plan"],
+            "difficulty": "medium",
+            "question": "How often should the project communication plan be revised?",
+            "options": [
+                {"key": "A", "text": "Only at the beginning of the project"},
+                {"key": "B", "text": "Only at the end of each phase"},
+                {"key": "C", "text": "As often as needed throughout the project's life cycle whenever stakeholders, frequencies, or events change"},
+                {"key": "D", "text": "Never — once approved, the plan is final"}
+            ],
+            "correct": "C",
+            "explanation": "The communication plan should be updated as often as needed throughout the project life cycle. Changes are warranted whenever stakeholders change, communication frequencies need adjustment, or any event requires a modification to the plan."
+        },
+        {
+            "id": "d1cmt_mc005",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.8",
+            "tags": ["communication", "time-zones"],
+            "difficulty": "medium",
+            "question": "How can time zones affect a project's communication strategy?",
+            "options": [
+                {"key": "A", "text": "They have no impact on communication planning"},
+                {"key": "B", "text": "Team members across multiple time zones limit synchronous meeting availability, requiring more asynchronous communication and coordinated scheduling"},
+                {"key": "C", "text": "They only affect international projects"},
+                {"key": "D", "text": "They require all communication to be written"}
+            ],
+            "correct": "B",
+            "explanation": "Team members spread across multiple time zones limit the time available for synchronous meetings. The team may need to rely more on asynchronous communication (email, chat, shared documents) and coordinate to find meeting times that work for all participants."
+        },
+        {
+            "id": "d1cmt_mc006",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.8",
+            "tags": ["communication", "security", "nda"],
+            "difficulty": "medium",
+            "question": "A PM is working with third-party contractors who access documents through a secure file share and cannot download files. They have also signed NDAs. These measures exist to:",
+            "options": [
+                {"key": "A", "text": "Slow down the contractors' work"},
+                {"key": "B", "text": "Protect the communication security of confidential data from unauthorized access"},
+                {"key": "C", "text": "Comply with Scrum framework requirements"},
+                {"key": "D", "text": "Track billable hours for contractor invoicing"}
+            ],
+            "correct": "B",
+            "explanation": "These measures protect confidential data from unauthorized access. External parties like vendors or contractors may need to sign NDAs. Data transmitted electronically must move through encrypted, secure channels. Restricted download access limits data exfiltration risk."
+        },
+        {
+            "id": "d1cmt_mc007",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.8",
+            "tags": ["communication", "chat-sms"],
+            "difficulty": "easy",
+            "question": "How does the message transmission differ between chat messaging and SMS?",
+            "options": [
+                {"key": "A", "text": "Chat uses cellular networks; SMS uses internet connections"},
+                {"key": "B", "text": "Chat messages transmit via an internet connection; SMS messages transmit via cellular networks"},
+                {"key": "C", "text": "Both use the same transmission method"},
+                {"key": "D", "text": "Chat is synchronous; SMS is not a communication tool"}
+            ],
+            "correct": "B",
+            "explanation": "Chat messages transmit via an internet connection, while SMS messages transmit via cellular networks. This distinction matters for communication planning — chat requires internet access, while SMS works wherever there is cellular coverage."
+        },
+        {
+            "id": "d1cmt_mc008",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.9",
+            "tags": ["meeting", "facilitator-scribe"],
+            "difficulty": "medium",
+            "question": "Why is it helpful to have separate people fulfill the facilitator and scribe roles in a meeting?",
+            "options": [
+                {"key": "A", "text": "Company policy always requires it"},
+                {"key": "B", "text": "The facilitator should focus on meeting flow, and note-taking disrupts flow; the scribe can take thorough notes without moderating"},
+                {"key": "C", "text": "It reduces the total meeting time"},
+                {"key": "D", "text": "The scribe outranks the facilitator"}
+            ],
+            "correct": "B",
+            "explanation": "The facilitator should focus on ensuring the meeting flows efficiently and meets its objectives. Capturing notes would disrupt that flow. Likewise, the scribe can take more thorough, accurate notes without being distracted by moderating the conversation."
+        },
+        {
+            "id": "d1cmt_mc009",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.9",
+            "tags": ["meeting", "timebox"],
+            "difficulty": "easy",
+            "question": "An agreed-upon, fixed length of time allocated to a specific meeting topic or project activity is called:",
+            "options": [
+                {"key": "A", "text": "A deadline"},
+                {"key": "B", "text": "A timebox"},
+                {"key": "C", "text": "A sprint"},
+                {"key": "D", "text": "A milestone"}
+            ],
+            "correct": "B",
+            "explanation": "A timebox is an agreed-upon, fixed length of time allocated to a specific topic or activity. It keeps meetings focused and efficient by preventing any single topic from consuming too much time. Sprints are a type of timebox, but the general concept applies to any activity."
+        },
+        {
+            "id": "d1cmt_mc010",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.9",
+            "tags": ["meeting", "types", "jad"],
+            "difficulty": "medium",
+            "question": "A type of collaborative meeting where the team and customer meet together and design a product in a working session is called:",
+            "options": [
+                {"key": "A", "text": "Focus group"},
+                {"key": "B", "text": "Workshop"},
+                {"key": "C", "text": "Joint Application Development (JAD)"},
+                {"key": "D", "text": "Daily standup"}
+            ],
+            "correct": "C",
+            "explanation": "Joint Application Development (JAD) is a collaborative meeting where the team and customer work together to design a product in a working session. Workshops define project requirements. Focus groups use trained moderators to guide discussions."
+        },
+        {
+            "id": "d1cmt_mc011",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.9",
+            "tags": ["meeting", "external-stakeholder"],
+            "difficulty": "medium",
+            "question": "How does an external stakeholder meeting differ from an internal stakeholder meeting?",
+            "options": [
+                {"key": "A", "text": "External meetings are less formal"},
+                {"key": "B", "text": "External meetings are public events with a more positive tone, focusing on successes and major external milestones"},
+                {"key": "C", "text": "There is no difference between the two"},
+                {"key": "D", "text": "Internal meetings are always shorter"}
+            ],
+            "correct": "B",
+            "explanation": "External stakeholder meetings are public events that adopt a more positive tone. They focus on successes rather than internal problems and reference major external milestones only. Internal meetings can be more candid about challenges and detailed issues."
+        },
+        {
+            "id": "d1cmt_mc012",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.10",
+            "tags": ["tuckman", "performing"],
+            "difficulty": "medium",
+            "question": "A project team has been working together for several months. They lead their own planning activities, regularly improve their processes, and just hit a new productivity record. Which Tuckman stage is this team in?",
+            "options": [
+                {"key": "A", "text": "Forming"},
+                {"key": "B", "text": "Storming"},
+                {"key": "C", "text": "Norming"},
+                {"key": "D", "text": "Performing"}
+            ],
+            "correct": "D",
+            "explanation": "This team is in the performing stage — the most productive stage. Teams here are high-performing and cohesive, know how to work together, lead their own planning, and don't need much guidance. They regularly improve processes and hit peak productivity."
+        },
+        {
+            "id": "d1cmt_mc013",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.10",
+            "tags": ["tuckman", "storming"],
+            "difficulty": "medium",
+            "question": "Which Tuckman team life cycle stage has the MOST conflict, with individuals competing for position and learning about each other?",
+            "options": [
+                {"key": "A", "text": "Forming"},
+                {"key": "B", "text": "Storming"},
+                {"key": "C", "text": "Norming"},
+                {"key": "D", "text": "Adjourning"}
+            ],
+            "correct": "B",
+            "explanation": "Storming is the stage with the most conflict. Team members compete for position, establish boundaries, and learn about each other's working styles. This is a natural and necessary part of team development. Effective conflict management helps teams move to norming."
+        },
+        {
+            "id": "d1cmt_mc014",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.10",
+            "tags": ["conflict-resolution", "collaborating"],
+            "difficulty": "hard",
+            "question": "Group A wants to plan on Monday afternoon; Group B wants Friday morning. Through discussion, they realize both times conflict with partners' schedules, so they agree on Tuesday afternoon instead. Which conflict resolution strategy was used?",
+            "options": [
+                {"key": "A", "text": "Compromising — both groups gave up something"},
+                {"key": "B", "text": "Forcing — management imposed a solution"},
+                {"key": "C", "text": "Collaborating — the parties designed a new solution that satisfies everyone"},
+                {"key": "D", "text": "Smoothing — focus was redirected to points of agreement"}
+            ],
+            "correct": "C",
+            "explanation": "This is collaborating (win-win). The parties worked together to design a new solution (Tuesday afternoon) that satisfies everyone. Compromising would mean meeting in the middle (e.g., Wednesday). Collaborating produces a solution better than either original position."
+        },
+        {
+            "id": "d1cmt_mc015",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.10",
+            "tags": ["conflict-resolution", "smoothing"],
+            "difficulty": "medium",
+            "question": "A conflict resolution strategy that attempts to redirect focus away from the conflict by finding points of agreement is called:",
+            "options": [
+                {"key": "A", "text": "Forcing"},
+                {"key": "B", "text": "Avoiding"},
+                {"key": "C", "text": "Smoothing"},
+                {"key": "D", "text": "Compromising"}
+            ],
+            "correct": "C",
+            "explanation": "Smoothing redirects focus away from the conflict by emphasizing areas of agreement. It doesn't resolve the underlying issue but reduces tension. Forcing imposes a solution. Avoiding ignores the conflict. Compromising meets in the middle."
+        },
+        {
+            "id": "d1cmt_mc016",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.10",
+            "tags": ["conflict", "substantive-emotional"],
+            "difficulty": "medium",
+            "question": "A disagreement between two team members about which database technology to use for the project is an example of:",
+            "options": [
+                {"key": "A", "text": "Emotional conflict"},
+                {"key": "B", "text": "Substantive conflict"},
+                {"key": "C", "text": "Groupthink"},
+                {"key": "D", "text": "Scope creep"}
+            ],
+            "correct": "B",
+            "explanation": "Substantive conflict is task-based — disagreements over goals, projects, or technical processes. Emotional conflict involves relationships and feelings (personality clashes, working styles, insecurity). A technology selection disagreement is substantive because it's about the work itself."
+        },
+        {
+            "id": "d1cmt_mc017",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.10",
+            "tags": ["team", "core-extended"],
+            "difficulty": "easy",
+            "question": "What is the difference between core and extended team members?",
+            "options": [
+                {"key": "A", "text": "Core members are external; extended members are internal"},
+                {"key": "B", "text": "Core members are full-time with specialized skills handling day-to-day work; extended members are part-time with specialized skills"},
+                {"key": "C", "text": "Core members are managers; extended members are individual contributors"},
+                {"key": "D", "text": "There is no difference"}
+            ],
+            "correct": "B",
+            "explanation": "Core team members are full-time members with specialized skills who handle the project's day-to-day operational work. Extended team members are part-time members with specialized skills who contribute to the project as needed."
+        },
+        {
+            "id": "d1cmt_mc018",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.10",
+            "tags": ["resource", "skills-gap"],
+            "difficulty": "medium",
+            "question": "Which THREE strategies are commonly used to close skills gaps on a project team?",
+            "options": [
+                {"key": "A", "text": "Training existing team members, adding new team members, and hiring external services"},
+                {"key": "B", "text": "Extending the timeline, reducing scope, and increasing the budget"},
+                {"key": "C", "text": "Ignoring the gap, documenting it as a risk, and proceeding as planned"},
+                {"key": "D", "text": "Replacing the project manager, reassigning the sponsor, and restructuring the team"}
+            ],
+            "correct": "A",
+            "explanation": "The three common strategies for closing skills gaps are: (1) training existing team members, (2) adding team members with the needed skills, and (3) hiring external services (outsourcing) to fill the gap."
+        },
+        {
+            "id": "d1cmt_mc019",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.10",
+            "tags": ["resource", "dedicated-shared"],
+            "difficulty": "easy",
+            "question": "What is the difference between a dedicated resource and a shared resource?",
+            "options": [
+                {"key": "A", "text": "Dedicated resources are more skilled than shared resources"},
+                {"key": "B", "text": "Dedicated resources work on one project at a time; shared resources work on two or more projects simultaneously"},
+                {"key": "C", "text": "Shared resources are external; dedicated resources are internal"},
+                {"key": "D", "text": "Dedicated resources are temporary; shared resources are permanent"}
+            ],
+            "correct": "B",
+            "explanation": "Dedicated resources work on one project at a time, giving their full attention. Shared resources work on two or more projects simultaneously, which means they split their time and availability across multiple commitments."
+        },
+        {
+            "id": "d1cmt_match001",
+            "type": "matching",
+            "domain": "1",
+            "objective": "1.10",
+            "tags": ["tuckman"],
+            "difficulty": "medium",
+            "question": "Match each Tuckman stage to its key characteristic.",
+            "pairs": [
+                {"left": "Forming", "right": "Low productivity, friendly introductions"},
+                {"left": "Storming", "right": "Most conflict, competing for position"},
+                {"left": "Norming", "right": "Increased productivity, learning to work together"},
+                {"left": "Performing", "right": "Highest productivity, cohesion and focus"},
+                {"left": "Adjourning", "right": "Concluding work, preparing to disband"}
+            ],
+            "explanation": "Tuckman's stages progress from forming (getting acquainted) through storming (conflict) to norming (finding rhythm), performing (peak productivity), and finally adjourning (wrapping up). Conflict decreases while productivity increases as the team matures."
+        },
+        {
+            "id": "d1cmt_match002",
+            "type": "matching",
+            "domain": "1",
+            "objective": "1.10",
+            "tags": ["conflict-resolution"],
+            "difficulty": "hard",
+            "question": "Match each conflict resolution strategy to its description.",
+            "pairs": [
+                {"left": "Smoothing", "right": "Redirects focus by finding points of agreement"},
+                {"left": "Forcing", "right": "Removes conflict by imposing a solution"},
+                {"left": "Compromising", "right": "Parties meet in the middle — everyone gives up something"},
+                {"left": "Collaborating", "right": "Parties design a new solution that satisfies everyone"},
+                {"left": "Avoiding", "right": "Ignores the conflict or chooses not to address it"}
+            ],
+            "explanation": "Five conflict resolution strategies: Smoothing minimizes differences. Forcing imposes a decision. Compromising splits the difference. Collaborating creates a win-win. Avoiding sidesteps the issue entirely. The best strategy depends on the situation."
+        },
+        {
+            "id": "d1cmt_dd001",
+            "type": "drag_drop",
+            "domain": "1",
+            "objective": "1.8",
+            "tags": ["communication", "types"],
+            "difficulty": "medium",
+            "question": "Categorize each communication method as Synchronous or Asynchronous.",
+            "categories": ["Synchronous", "Asynchronous"],
+            "items": [
+                {"text": "Video conference call", "correct_category": "Synchronous"},
+                {"text": "Email to the project team", "correct_category": "Asynchronous"},
+                {"text": "Face-to-face meeting", "correct_category": "Synchronous"},
+                {"text": "Chat message in a team channel", "correct_category": "Asynchronous"},
+                {"text": "Phone call with the sponsor", "correct_category": "Synchronous"},
+                {"text": "Posting a document to a shared file repository", "correct_category": "Asynchronous"}
+            ],
+            "explanation": "Synchronous communication is real-time (video calls, phone calls, face-to-face). Asynchronous communication has a delay between sending and receiving (email, chat messages, shared documents). Chat can sometimes feel synchronous but is classified as asynchronous."
+        },
+        {
+            "id": "d1cmt_dd002",
+            "type": "drag_drop",
+            "domain": "1",
+            "objective": "1.9",
+            "tags": ["meeting", "types"],
+            "difficulty": "medium",
+            "question": "Categorize each meeting type by its primary purpose.",
+            "categories": ["Informative", "Decisive", "Collaborative"],
+            "items": [
+                {"text": "Project status update to stakeholders", "correct_category": "Informative"},
+                {"text": "CCB meeting to approve or reject change requests", "correct_category": "Decisive"},
+                {"text": "JAD session where team and customer design a product", "correct_category": "Collaborative"},
+                {"text": "Sprint demo presenting new functionality", "correct_category": "Informative"},
+                {"text": "Workshop to define project requirements", "correct_category": "Collaborative"},
+                {"text": "Phase gate review with go/no-go decision", "correct_category": "Decisive"}
+            ],
+            "explanation": "Informative meetings distribute information (status updates, demos). Decisive meetings require attendees to make decisions (CCB reviews, phase gates). Collaborative meetings bring people together to work on shared goals (JAD sessions, workshops, brainstorming)."
+        },
+        {
+            "id": "d1cmt_order001",
+            "type": "ordering",
+            "domain": "1",
+            "objective": "1.10",
+            "tags": ["tuckman"],
+            "difficulty": "easy",
+            "question": "Place the Tuckman team life cycle stages in the correct order.",
+            "items": [
+                "Performing",
+                "Forming",
+                "Adjourning",
+                "Storming",
+                "Norming"
+            ],
+            "correct_order": [
+                "Forming",
+                "Storming",
+                "Norming",
+                "Performing",
+                "Adjourning"
+            ],
+            "explanation": "The Tuckman model follows: Forming (introductions) → Storming (conflict) → Norming (finding rhythm) → Performing (peak productivity) → Adjourning (wrapping up). A common mnemonic: 'Friendly Strangers Negotiate Performance Agreements.'"
+        }
+
+        {
+            "id": "d1pv_mc001",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["procurement", "rfi"],
+            "difficulty": "medium",
+            "question": "A procurement specialist wants to research product options before creating a formal solicitation. Which document should they use?",
+            "options": [
+                {"key": "A", "text": "Request for Proposal (RFP)"},
+                {"key": "B", "text": "Request for Quote (RFQ)"},
+                {"key": "C", "text": "Request for Information (RFI)"},
+                {"key": "D", "text": "Purchase Order (PO)"}
+            ],
+            "correct": "C",
+            "explanation": "An RFI (Request for Information) is an educational tool used to research product options. It is useful when you need to learn more about solutions before creating a formal solicitation like an RFP or RFQ."
+        },
+        {
+            "id": "d1pv_mc002",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["procurement", "rfp"],
+            "difficulty": "easy",
+            "question": "A formal business document that announces a project, describes it, and solicits bids from qualified contractors to complete it is called:",
+            "options": [
+                {"key": "A", "text": "Request for Information (RFI)"},
+                {"key": "B", "text": "Request for Proposal (RFP)"},
+                {"key": "C", "text": "Statement of Work (SOW)"},
+                {"key": "D", "text": "Master Service Agreement (MSA)"}
+            ],
+            "correct": "B",
+            "explanation": "An RFP (Request for Proposal) is a formal business document that announces a project, describes it, and solicits bids from qualified contractors to complete it. It is more detailed than an RFI and seeks specific proposals including approach, timeline, and pricing."
+        },
+        {
+            "id": "d1pv_mc003",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["procurement", "rfq-rfb"],
+            "difficulty": "medium",
+            "question": "When deliverables are commodities with clear specifications and price is the primary determining factor, which solicitation document is commonly used?",
+            "options": [
+                {"key": "A", "text": "RFI"},
+                {"key": "B", "text": "RFP"},
+                {"key": "C", "text": "RFB / RFQ"},
+                {"key": "D", "text": "SOW"}
+            ],
+            "correct": "C",
+            "explanation": "A Request for Bid (RFB) or Request for Quote (RFQ) is used when deliverables are commodities with clear specifications and price is the primary factor. The buyer knows exactly what they want and is mainly comparing costs across vendors."
+        },
+        {
+            "id": "d1pv_mc004",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["procurement", "po-contract"],
+            "difficulty": "medium",
+            "question": "Why do you need to create a Purchase Order (PO) when a vendor has already signed a contract?",
+            "options": [
+                {"key": "A", "text": "A PO replaces the contract"},
+                {"key": "B", "text": "A contract establishes the agreement to purchase; a PO is the customer's order for specific goods or services that initiates the vendor's work"},
+                {"key": "C", "text": "A PO is only required for government projects"},
+                {"key": "D", "text": "A PO is optional if a contract exists"}
+            ],
+            "correct": "B",
+            "explanation": "A contract establishes an agreement to purchase at some point, but it doesn't specify when work should begin. A PO is the customer's order for specific goods or services, which initiates the vendor's actual work. When accepted, a PO forms a legally binding agreement."
+        },
+        {
+            "id": "d1pv_mc005",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["contract", "ffp"],
+            "difficulty": "medium",
+            "question": "A vendor agrees to create and send handmade greeting cards for $10,000. The price is set and will not change unless the scope changes. What type of contract is this?",
+            "options": [
+                {"key": "A", "text": "Cost-Plus Fixed Fee (CPFF)"},
+                {"key": "B", "text": "Time and Materials (T&M)"},
+                {"key": "C", "text": "Firm Fixed Price (FFP)"},
+                {"key": "D", "text": "Unit price contract"}
+            ],
+            "correct": "C",
+            "explanation": "A Firm Fixed Price (FFP) contract sets the total price at the outset. The vendor agrees to perform the work at the negotiated value, and the price is not subject to change unless the scope changes. FFP is favored by most buying organizations."
+        },
+        {
+            "id": "d1pv_mc006",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["contract", "unit-price"],
+            "difficulty": "medium",
+            "question": "A caterer charges $35 per guest for meals and beverage service at a project event. What type of contract is this?",
+            "options": [
+                {"key": "A", "text": "Firm Fixed Price (FFP)"},
+                {"key": "B", "text": "Cost-Plus Fixed Fee (CPFF)"},
+                {"key": "C", "text": "Unit price contract"},
+                {"key": "D", "text": "Time and Materials (T&M)"}
+            ],
+            "correct": "C",
+            "explanation": "A unit price contract pays the vendor a fixed price per unit of work delivered — in this case, $35 per guest. The total cost depends on the number of units (guests), but the per-unit price is fixed."
+        },
+        {
+            "id": "d1pv_mc007",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["contract", "t-and-m"],
+            "difficulty": "medium",
+            "question": "A contract where the buyer pays a negotiated hourly rate and full reimbursement for materials, combining aspects of both fixed-price and cost-reimbursable contracts, is called:",
+            "options": [
+                {"key": "A", "text": "Firm Fixed Price (FFP)"},
+                {"key": "B", "text": "Cost-Plus Award Fee (CPAF)"},
+                {"key": "C", "text": "Time and Materials (T&M)"},
+                {"key": "D", "text": "Fixed-Price Incentive Fee (FPIF)"}
+            ],
+            "correct": "C",
+            "explanation": "A Time and Materials (T&M) contract combines aspects of both fixed-price (negotiated hourly rate) and cost-reimbursable (full reimbursement for materials). T&M is useful when the scope of work cannot be precisely defined upfront."
+        },
+        {
+            "id": "d1pv_mc008",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["contract", "cost-plus"],
+            "difficulty": "hard",
+            "question": "A cost-reimbursable contract ensures the vendor is reimbursed for all allowable costs, plus receives a predetermined target fee and an additional incentive fee based on performance. This is a:",
+            "options": [
+                {"key": "A", "text": "Cost-Plus Fixed Fee (CPFF)"},
+                {"key": "B", "text": "Cost-Plus Incentive Fee (CPIF)"},
+                {"key": "C", "text": "Cost-Plus Award Fee (CPAF)"},
+                {"key": "D", "text": "Cost-Plus Percentage of Cost (CPPC)"}
+            ],
+            "correct": "B",
+            "explanation": "CPIF reimburses all allowable costs plus provides a predetermined target fee and an incentive fee tied to performance metrics. CPFF has a fixed fee only. CPAF awards fees based on broad subjective criteria. CPPC pays a percentage of all costs."
+        },
+        {
+            "id": "d1pv_mc009",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["vendor", "lowest-cost-vs-best-value"],
+            "difficulty": "medium",
+            "question": "When would you select a lowest-cost vendor instead of a best-value vendor?",
+            "options": [
+                {"key": "A", "text": "When the project has a large budget"},
+                {"key": "B", "text": "When vendors have no discernible difference and are providing a commoditized product or service"},
+                {"key": "C", "text": "When the project timeline is tight"},
+                {"key": "D", "text": "Lowest-cost should always be the default selection method"}
+            ],
+            "correct": "B",
+            "explanation": "Lowest-cost evaluation only works when vendors have no discernible difference — they are providing a commoditized product or service where quality, capability, and delivery are essentially equivalent. Otherwise, best-value evaluation considers multiple factors."
+        },
+        {
+            "id": "d1pv_mc010",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["vendor", "viability"],
+            "difficulty": "medium",
+            "question": "A vendor's proposal seems ideal, but the procurement manager rejects it because it lacks physical capacity. What does this mean?",
+            "options": [
+                {"key": "A", "text": "The vendor's proposal was too expensive"},
+                {"key": "B", "text": "The vendor cannot deliver the required volume of work"},
+                {"key": "C", "text": "The vendor doesn't have enough experience"},
+                {"key": "D", "text": "The vendor's technology is outdated"}
+            ],
+            "correct": "B",
+            "explanation": "Lacking physical capacity means the vendor cannot deliver the amount of work requested. For example, they could only produce 500 units per month when you need 1,000. Vendor viability assessment includes evaluating whether a vendor has the capacity, finances, and product to meet requirements."
+        },
+        {
+            "id": "d1pv_mc011",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["vendor", "monitoring"],
+            "difficulty": "medium",
+            "question": "You are monitoring a vendor's performance and identify a downward trend in quality. What should you do next?",
+            "options": [
+                {"key": "A", "text": "Immediately terminate the contract"},
+                {"key": "B", "text": "Meet with the vendor to review its performance"},
+                {"key": "C", "text": "Ignore the trend until it causes a project issue"},
+                {"key": "D", "text": "Assign the work to an internal team member"}
+            ],
+            "correct": "B",
+            "explanation": "When you identify a performance trend (positive or negative), the appropriate next step is to meet with the vendor to review performance data, discuss the trend, and collaboratively develop an action plan. Termination is a last resort after other remedies fail."
+        },
+        {
+            "id": "d1pv_mc012",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["procurement", "market-research"],
+            "difficulty": "easy",
+            "question": "A procurement specialist researches the industry to identify vendors who provide a needed service. This process is called:",
+            "options": [
+                {"key": "A", "text": "Competitive analysis"},
+                {"key": "B", "text": "Market research"},
+                {"key": "C", "text": "Benchmarking"},
+                {"key": "D", "text": "Source selection"}
+            ],
+            "correct": "B",
+            "explanation": "Market research is a vendor analysis process where the organization researches a product or service and the vendors that deliver it. Competitive analysis evaluates competitors in the same market. Benchmarking compares practices against industry standards."
+        },
+        {
+            "id": "d1pv_mc013",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["procurement", "capex-opex"],
+            "difficulty": "medium",
+            "question": "A data analyst purchases a one-year subscription to analytical software. Is this a capital expense (CapEx) or operational expense (OpEx)?",
+            "options": [
+                {"key": "A", "text": "CapEx — it's a software purchase"},
+                {"key": "B", "text": "OpEx — recurring subscriptions are operational expenses"},
+                {"key": "C", "text": "CapEx — all software is a capital expense"},
+                {"key": "D", "text": "Neither — subscriptions are not project expenses"}
+            ],
+            "correct": "B",
+            "explanation": "A recurring subscription is an operational expense (OpEx). OpEx covers ongoing business costs like utilities, payroll, and cloud subscriptions. CapEx covers fixed asset purchases like data centers, servers, and buildings. The distinction affects budgeting and financial reporting."
+        },
+        {
+            "id": "d1pv_mc014",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["procurement", "subscription"],
+            "difficulty": "medium",
+            "question": "You need project management software and opt for a cloud-based solution with an annual fee. Is this a buy, lease, or subscription purchase?",
+            "options": [
+                {"key": "A", "text": "Buy — you're paying for the product"},
+                {"key": "B", "text": "Lease — you're renting the software"},
+                {"key": "C", "text": "Subscription — you purchase access one year at a time for as long as you want"},
+                {"key": "D", "text": "License — you own perpetual rights"}
+            ],
+            "correct": "C",
+            "explanation": "This is a subscription — you purchase access one year at a time and continue as long as you want the product. Subscriptions differ from buying (permanent ownership) and leasing (fixed-term rental of physical assets)."
+        },
+        {
+            "id": "d1pv_match001",
+            "type": "matching",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["contract", "types"],
+            "difficulty": "hard",
+            "question": "Match each contract type to its defining characteristic.",
+            "pairs": [
+                {"left": "Firm Fixed Price (FFP)", "right": "Total price set at the outset, not subject to change unless scope changes"},
+                {"left": "Cost-Plus Fixed Fee (CPFF)", "right": "Vendor reimbursed for costs plus a fixed fee based on initial estimate"},
+                {"left": "Time and Materials (T&M)", "right": "Negotiated hourly rate plus full reimbursement for materials"},
+                {"left": "Unit price", "right": "Fixed price paid per unit of work delivered"},
+                {"left": "Cost-Plus Incentive Fee (CPIF)", "right": "Vendor reimbursed for costs plus a target fee and performance incentive"}
+            ],
+            "explanation": "FFP: total price fixed upfront (buyer's risk is lowest). CPFF: costs reimbursed + fixed fee. T&M: hybrid — fixed hourly rate + material costs. Unit price: per-unit pricing (total depends on quantity). CPIF: costs reimbursed + target fee + incentive for good performance."
+        },
+        {
+            "id": "d1pv_match002",
+            "type": "matching",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["procurement", "documents"],
+            "difficulty": "medium",
+            "question": "Match each procurement document to when it is used.",
+            "pairs": [
+                {"left": "RFI", "right": "When you need to learn about vendor capabilities before formal solicitation"},
+                {"left": "RFP", "right": "When you need detailed proposals including approach, timeline, and pricing"},
+                {"left": "RFQ / RFB", "right": "When specifications are clear and price is the primary factor"},
+                {"left": "SOW", "right": "When you need to describe the resources, goods, or services to be procured"}
+            ],
+            "explanation": "RFI gathers information for research. RFP solicits full proposals. RFQ/RFB seeks pricing for defined commodities. The SOW (Statement of Work) describes what needs to be procured and is distributed to potential vendors for evaluation."
+        },
+        {
+            "id": "d1pv_dd001",
+            "type": "drag_drop",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["contract", "risk-allocation"],
+            "difficulty": "hard",
+            "question": "Categorize each contract type by who bears the MOST financial risk.",
+            "categories": ["Buyer bears more risk", "Vendor bears more risk", "Risk is shared"],
+            "items": [
+                {"text": "Firm Fixed Price (FFP)", "correct_category": "Vendor bears more risk"},
+                {"text": "Cost-Plus Fixed Fee (CPFF)", "correct_category": "Buyer bears more risk"},
+                {"text": "Time and Materials (T&M)", "correct_category": "Risk is shared"},
+                {"text": "Cost-Plus Percentage of Cost (CPPC)", "correct_category": "Buyer bears more risk"},
+                {"text": "Fixed-Price Incentive Fee (FPIF)", "correct_category": "Risk is shared"}
+            ],
+            "explanation": "FFP: vendor bears risk — if costs overrun, the vendor absorbs them. Cost-plus contracts (CPFF, CPPC): buyer bears risk — they reimburse all costs regardless. T&M: shared — the hourly rate is fixed (vendor risk) but total cost depends on hours (buyer risk). FPIF: shared — the base is fixed but incentive adjustments create shared exposure."
+        },
+        {
+            "id": "d1pv_order001",
+            "type": "ordering",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["procurement", "process"],
+            "difficulty": "hard",
+            "question": "Place the procurement process steps in the correct order.",
+            "items": [
+                "Negotiate and award contract",
+                "Identify procurement need and create SOW",
+                "Manage vendor performance",
+                "Send solicitation documents (RFI/RFP/RFQ)",
+                "Evaluate vendor proposals and select vendor",
+                "Close contract"
+            ],
+            "correct_order": [
+                "Identify procurement need and create SOW",
+                "Send solicitation documents (RFI/RFP/RFQ)",
+                "Evaluate vendor proposals and select vendor",
+                "Negotiate and award contract",
+                "Manage vendor performance",
+                "Close contract"
+            ],
+            "explanation": "The procurement process: (1) Identify the need and document it in a SOW, (2) Send solicitation documents to potential vendors, (3) Evaluate received proposals against criteria, (4) Negotiate and award the contract to the selected vendor, (5) Manage vendor performance during execution, (6) Close the contract at project completion."
+        },
+        {
+            "id": "d1pv_sc001",
+            "type": "scenario",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["procurement", "selection", "contract"],
+            "difficulty": "hard",
+            "scenario": "You are the PM for a new office renovation project. The team needs to procure furniture from an external vendor. The budget is $50,000. You have identified three vendors:\n\n• Vendor A: Offers a complete set for $48,000 FFP, delivers in 3 weeks, has excellent references\n• Vendor B: Offers a complete set for $44,000 FFP, delivers in 6 weeks, has good references but limited capacity for custom orders\n• Vendor C: Offers T&M pricing at $200/hour plus materials (estimated $42,000-$55,000), delivers in 2 weeks, specializes in custom office designs",
+            "parts": [
+                {
+                    "id": "d1pv_sc001a",
+                    "type": "multiple_choice",
+                    "question": "If the project has a strict 4-week deadline and the furniture must be standard (not custom), which vendor should you select?",
+                    "options": [
+                        {"key": "A", "text": "Vendor A — meets deadline and budget with excellent references"},
+                        {"key": "B", "text": "Vendor B — lowest cost"},
+                        {"key": "C", "text": "Vendor C — fastest delivery"}
+                    ],
+                    "correct": "A",
+                    "explanation": "Vendor A meets the 4-week deadline (3 weeks), is within budget ($48,000), and has excellent references. Vendor B is cheapest but won't meet the 4-week deadline (6 weeks). Vendor C could deliver in time but the T&M pricing creates cost uncertainty ($42K-$55K could exceed budget)."
+                },
+                {
+                    "id": "d1pv_sc001b",
+                    "type": "multiple_choice",
+                    "question": "Vendor C's T&M contract creates what type of risk for the buyer?",
+                    "options": [
+                        {"key": "A", "text": "Schedule risk — T&M contracts always take longer"},
+                        {"key": "B", "text": "Cost risk — the final cost is uncertain and could exceed the budget"},
+                        {"key": "C", "text": "Quality risk — T&M vendors produce lower-quality work"},
+                        {"key": "D", "text": "No risk — the buyer controls the hourly rate"}
+                    ],
+                    "correct": "B",
+                    "explanation": "T&M contracts create cost risk for the buyer because the final cost depends on actual hours worked and materials used. The estimated range of $42,000-$55,000 means the project could exceed the $50,000 budget. With FFP, the vendor absorbs cost overrun risk."
+                },
+                {
+                    "id": "d1pv_sc001c",
+                    "type": "multiple_choice",
+                    "question": "If you selected Vendor A, what document would you issue to formally initiate their work after the contract is signed?",
+                    "options": [
+                        {"key": "A", "text": "Request for Proposal (RFP)"},
+                        {"key": "B", "text": "Statement of Work (SOW)"},
+                        {"key": "C", "text": "Purchase Order (PO)"},
+                        {"key": "D", "text": "Change request form"}
+                    ],
+                    "correct": "C",
+                    "explanation": "A Purchase Order (PO) is issued to formally initiate the vendor's work after the contract is signed. The contract establishes the agreement; the PO is the customer's order for specific goods or services that triggers the vendor to begin."
+                }
+            ],
+            "explanation": "This scenario combines vendor evaluation (comparing cost, timeline, capacity, and references), contract type risk analysis (FFP vs. T&M), and procurement process knowledge (PO to initiate work). Best-value evaluation considers multiple factors, not just the lowest price."
+        }
+    ]
+}

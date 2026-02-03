@@ -1,0 +1,526 @@
+{
+    "bank_id": "d2_disc_init_001",
+    "title": "Domain 2: Discovery & Initiation (2.1, 2.2)",
+    "description": "Covers business cases, feasibility studies, ROI/TCO, financial concepts, project charters, stakeholder identification/analysis/register, RAM/RACI, kickoff meetings, and existing artifact review.",
+    "version": "1.0",
+    "questions": [
+        {
+            "id": "d2di_mc001",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.1",
+            "tags": ["discovery", "business-case"],
+            "difficulty": "easy",
+            "question": "A brief document that justifies the investments made for a project and describes how a particular investment aligns with organizational policy is called:",
+            "options": [
+                {"key": "A", "text": "Project charter"},
+                {"key": "B", "text": "Business case"},
+                {"key": "C", "text": "Statement of Work (SOW)"},
+                {"key": "D", "text": "Project management plan"}
+            ],
+            "correct": "B",
+            "explanation": "A business case justifies the investment for a project and describes how it aligns with the organization's policy and strategic objectives. It is created during the discovery/concept phase, before the project is formally initiated."
+        },
+        {
+            "id": "d2di_mc002",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.1",
+            "tags": ["discovery", "phase"],
+            "difficulty": "medium",
+            "question": "You are investigating a new project idea and plan to determine if it would create a positive financial return. What project phase are you in?",
+            "options": [
+                {"key": "A", "text": "Initiation"},
+                {"key": "B", "text": "Planning"},
+                {"key": "C", "text": "Discovery / Concept"},
+                {"key": "D", "text": "Execution"}
+            ],
+            "correct": "C",
+            "explanation": "You are in the discovery (or concept) phase, which occurs before the project formally starts. Leaders and analysts review ideas for potential projects, analyze financial returns, study feasibility, and evaluate implementation options to decide if the project is practical."
+        },
+        {
+            "id": "d2di_mc003",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.1",
+            "tags": ["discovery", "problem-statement"],
+            "difficulty": "hard",
+            "question": "A coffee shop is preparing a business case for increasing online presence. Which problem statement is BEST for the business case?\n\nA) The company doesn't have a website and competitors have up to 12,000 social media followers.\nB) The company saw a 5% sales increase from one social media promotion, but 85% of local consumers can't connect with them online.",
+            "options": [
+                {"key": "A", "text": "Statement A — it focuses on competitive analysis"},
+                {"key": "B", "text": "Statement B — it focuses on the real business problem (lost revenue and customer reach) with outcome-focused data"},
+                {"key": "C", "text": "Both are equally effective"},
+                {"key": "D", "text": "Neither is appropriate for a business case"}
+            ],
+            "correct": "B",
+            "explanation": "Statement B is better because it focuses on the real business problems: lost revenue and inability to connect with customers. It uses data (5% sales increase, 85% unreachable market) and allows flexibility in solutions. Statement A focuses only on technology and competitors, limiting solutions to just building social media pages."
+        },
+        {
+            "id": "d2di_mc004",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.1",
+            "tags": ["discovery", "do-nothing"],
+            "difficulty": "medium",
+            "question": "When drafting options for a business case, why should you always include 'do nothing' as an option?",
+            "options": [
+                {"key": "A", "text": "It is a regulatory requirement"},
+                {"key": "B", "text": "Because the company can choose not to pursue the project, and not pursuing it frees funding for other projects"},
+                {"key": "C", "text": "It makes the business case longer and more thorough"},
+                {"key": "D", "text": "It is only needed for IT projects"}
+            ],
+            "correct": "B",
+            "explanation": "Always include 'do nothing' because the company can choose not to pursue the project. Not pursuing it means funding is available for other projects. Business cases help management allocate time and money to the most beneficial projects, and sometimes the best decision is to invest elsewhere."
+        },
+        {
+            "id": "d2di_mc005",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.1",
+            "tags": ["financial", "roi"],
+            "difficulty": "easy",
+            "question": "A metric used to calculate whether an asset is worth the cost of deploying and maintaining it is called:",
+            "options": [
+                {"key": "A", "text": "Total Cost of Ownership (TCO)"},
+                {"key": "B", "text": "Return on Investment (ROI)"},
+                {"key": "C", "text": "Net Present Value (NPV)"},
+                {"key": "D", "text": "Cost Performance Index (CPI)"}
+            ],
+            "correct": "B",
+            "explanation": "ROI (Return on Investment) is a metric that calculates whether an asset is worth the cost of deploying and maintaining it. It compares the gain from the investment against its cost. TCO calculates the total cost over the asset's lifespan."
+        },
+        {
+            "id": "d2di_mc006",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.1",
+            "tags": ["financial", "tco"],
+            "difficulty": "medium",
+            "question": "A financial measure that includes acquisition costs plus the costs to maintain and safely operate an asset over its entire lifespan is called:",
+            "options": [
+                {"key": "A", "text": "Return on Investment (ROI)"},
+                {"key": "B", "text": "Capital expense (CapEx)"},
+                {"key": "C", "text": "Total Cost of Ownership (TCO)"},
+                {"key": "D", "text": "Earned Value (EV)"}
+            ],
+            "correct": "C",
+            "explanation": "Total Cost of Ownership (TCO) includes acquisition costs plus all costs to maintain and safely operate the asset over its entire lifespan. TCO provides a more complete picture than just the purchase price, including maintenance, training, support, and decommissioning."
+        },
+        {
+            "id": "d2di_mc007",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.1",
+            "tags": ["discovery", "feasibility"],
+            "difficulty": "medium",
+            "question": "A study that analyzes the hardware, software, facilities, and databases needed for a proposed project to determine if it can be accomplished is called:",
+            "options": [
+                {"key": "A", "text": "Gap analysis"},
+                {"key": "B", "text": "Risk assessment"},
+                {"key": "C", "text": "Technical feasibility study"},
+                {"key": "D", "text": "Cost-benefit analysis"}
+            ],
+            "correct": "C",
+            "explanation": "A technical feasibility study analyzes the hardware, software, facilities, and databases needed for a proposed project to determine if it is technically achievable. It is conducted during the discovery phase to assess whether the organization can implement the proposed solution."
+        },
+        {
+            "id": "d2di_mc008",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.1",
+            "tags": ["discovery", "benefit-measurement"],
+            "difficulty": "hard",
+            "question": "A project selection decision model that analyzes predicted value through forecasted revenue, ROI, consumer demand, or Internal Rate of Return (IRR) is called:",
+            "options": [
+                {"key": "A", "text": "Mathematical model"},
+                {"key": "B", "text": "Benefit measurement model"},
+                {"key": "C", "text": "Criteria profiling"},
+                {"key": "D", "text": "Weighted scoring model"}
+            ],
+            "correct": "B",
+            "explanation": "Benefit measurement models are project selection decision models that analyze predicted value in different ways — forecasted revenue, ROI, consumer demand, or IRR. They help organizations compare and select the projects that deliver the most value."
+        },
+        {
+            "id": "d2di_mc009",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.2",
+            "tags": ["initiation", "charter"],
+            "difficulty": "easy",
+            "question": "A brief, formal document created during project initiation that outlines the project parameters, authorizes the project, and assigns the project manager is called:",
+            "options": [
+                {"key": "A", "text": "Business case"},
+                {"key": "B", "text": "Project management plan"},
+                {"key": "C", "text": "Project charter"},
+                {"key": "D", "text": "Scope statement"}
+            ],
+            "correct": "C",
+            "explanation": "The project charter is a brief, formal document created in the initiation phase that outlines project parameters, authorizes the project, and identifies the project manager. It serves as the official starting point for the project."
+        },
+        {
+            "id": "d2di_mc010",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.2",
+            "tags": ["initiation", "stakeholder-analysis"],
+            "difficulty": "medium",
+            "question": "The formal process of identifying all stakeholders by gathering quantitative and qualitative information about their needs, objectives, goals, and building coalitions at the project's onset is called:",
+            "options": [
+                {"key": "A", "text": "Stakeholder register"},
+                {"key": "B", "text": "Stakeholder engagement plan"},
+                {"key": "C", "text": "Stakeholder analysis"},
+                {"key": "D", "text": "Communication requirements analysis"}
+            ],
+            "correct": "C",
+            "explanation": "Stakeholder analysis is the formal process of identifying all stakeholders by gathering and analyzing quantitative and qualitative information about their needs, objectives, goals, and issues. It builds coalitions at the onset of the project."
+        },
+        {
+            "id": "d2di_mc011",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.2",
+            "tags": ["initiation", "stakeholder-register"],
+            "difficulty": "medium",
+            "question": "A document that identifies project stakeholders with their identification information, assessment, and classification is called:",
+            "options": [
+                {"key": "A", "text": "Stakeholder analysis"},
+                {"key": "B", "text": "Stakeholder register"},
+                {"key": "C", "text": "RAM/RACI chart"},
+                {"key": "D", "text": "Project organizational chart"}
+            ],
+            "correct": "B",
+            "explanation": "The stakeholder register is a document that identifies stakeholders with their identification information, assessment, and classification. It is the output of the stakeholder analysis process and is maintained throughout the project."
+        },
+        {
+            "id": "d2di_mc012",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.2",
+            "tags": ["initiation", "raci"],
+            "difficulty": "medium",
+            "question": "Why is a Responsibility Assignment Matrix (RAM) also called a RACI chart?",
+            "options": [
+                {"key": "A", "text": "RACI stands for Requirements, Activities, Controls, and Inputs"},
+                {"key": "B", "text": "RACI represents the four roles assigned to each task: Responsible, Accountable, Consulted, and Informed"},
+                {"key": "C", "text": "RACI is the name of the software used to create the chart"},
+                {"key": "D", "text": "RACI is an acronym for the project phases"}
+            ],
+            "correct": "B",
+            "explanation": "The RAM uses the acronym RACI to represent the four roles: Responsible (does the work), Accountable (ultimately answerable), Consulted (provides input before the work), and Informed (kept updated after the work). These letters fill the grid of the matrix."
+        },
+        {
+            "id": "d2di_mc013",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.2",
+            "tags": ["initiation", "kickoff"],
+            "difficulty": "easy",
+            "question": "The first meeting between the project manager, project team, and stakeholders that marks the end of the initiation phase and the start of project work is called:",
+            "options": [
+                {"key": "A", "text": "Sprint planning"},
+                {"key": "B", "text": "Phase gate review"},
+                {"key": "C", "text": "Project kickoff meeting"},
+                {"key": "D", "text": "Lessons learned session"}
+            ],
+            "correct": "C",
+            "explanation": "The project kickoff meeting is the first meeting between the PM, project team, and stakeholders or customers. It marks the end of the initiation phase and the start of actual project work. It sets expectations and aligns the team."
+        },
+        {
+            "id": "d2di_mc014",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.2",
+            "tags": ["initiation", "org-chart"],
+            "difficulty": "medium",
+            "question": "A PM wants to create a visual to help a 20-person team understand who is on the team and how they are organized. Which artifact should they develop?",
+            "options": [
+                {"key": "A", "text": "RACI chart"},
+                {"key": "B", "text": "Work Breakdown Structure"},
+                {"key": "C", "text": "Project organizational chart"},
+                {"key": "D", "text": "Gantt chart"}
+            ],
+            "correct": "C",
+            "explanation": "A project organizational chart is a visual representation of the project's organizational structure. It looks like a traditional org chart but shows only the project team. It's visual and easy to read, helping team members learn about each other and the authority distribution."
+        },
+        {
+            "id": "d2di_mc015",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.2",
+            "tags": ["initiation", "existing-artifacts"],
+            "difficulty": "medium",
+            "question": "Why should you review existing artifacts when you start a project?",
+            "options": [
+                {"key": "A", "text": "It is only necessary for new project managers"},
+                {"key": "B", "text": "It provides baseline understanding, refines your PM strategy, and gives essential background knowledge for informed decision-making"},
+                {"key": "C", "text": "It is required by Scrum methodology"},
+                {"key": "D", "text": "Only to check for compliance issues"}
+            ],
+            "correct": "B",
+            "explanation": "Reviewing existing artifacts provides a comprehensive understanding of the project's baseline for effective planning. It refines your PM strategy by grounding it in the project's initial framework and equips you with essential background knowledge for informed decision-making."
+        },
+        {
+            "id": "d2di_mc016",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.2",
+            "tags": ["stakeholder", "types", "sponsor"],
+            "difficulty": "easy",
+            "question": "Which stakeholder provides financial assistance to the project and may also have duties typically handled by the PM if they are external to the company?",
+            "options": [
+                {"key": "A", "text": "Functional manager"},
+                {"key": "B", "text": "End-user"},
+                {"key": "C", "text": "Project sponsor"},
+                {"key": "D", "text": "Business analyst"}
+            ],
+            "correct": "C",
+            "explanation": "The project sponsor provides financial assistance to the project. If the sponsor is outside the company (such as a customer), some of their duties may be the responsibility of the project manager. The sponsor is a key decision-maker and champion for the project."
+        },
+        {
+            "id": "d2di_mc017",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.2",
+            "tags": ["stakeholder", "end-user"],
+            "difficulty": "medium",
+            "question": "Why would a project team choose to include an end-user or customer on the team?",
+            "options": [
+                {"key": "A", "text": "It is a requirement of all project methodologies"},
+                {"key": "B", "text": "They offer end-user perspective on usability, suggest features or priorities, and collaborate on design"},
+                {"key": "C", "text": "To reduce project costs"},
+                {"key": "D", "text": "To handle the project's financial reporting"}
+            ],
+            "correct": "B",
+            "explanation": "End-users provide valuable perspective about usability, can suggest new features or development priorities, and collaborate with team members to design the product. Their involvement increases the likelihood that the final product meets real-world needs."
+        },
+        {
+            "id": "d2di_mc018",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.2",
+            "tags": ["stakeholder", "engagement-plan"],
+            "difficulty": "medium",
+            "question": "A management strategy created to increase stakeholder support and minimize negative impacts throughout the project life cycle is called:",
+            "options": [
+                {"key": "A", "text": "Communication plan"},
+                {"key": "B", "text": "Stakeholder engagement plan"},
+                {"key": "C", "text": "Risk management plan"},
+                {"key": "D", "text": "Change management plan"}
+            ],
+            "correct": "B",
+            "explanation": "The stakeholder engagement plan is a management strategy to increase stakeholder support and minimize negative impacts throughout the entire project life cycle. It goes beyond communication — it actively manages stakeholder expectations and involvement."
+        },
+        {
+            "id": "d2di_mc019",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.1",
+            "tags": ["financial", "capex-opex"],
+            "difficulty": "medium",
+            "question": "Purchasing a physical server for the company data center is classified as what type of expense?",
+            "options": [
+                {"key": "A", "text": "Operational expense (OpEx)"},
+                {"key": "B", "text": "Capital expense (CapEx)"},
+                {"key": "C", "text": "Contingency reserve"},
+                {"key": "D", "text": "Management reserve"}
+            ],
+            "correct": "B",
+            "explanation": "Capital expenses (CapEx) involve spending business funds to buy or maintain fixed business assets such as data centers, servers, and buildings. A physical server is a fixed asset. Operational expenses (OpEx) cover ongoing costs like utilities, payroll, and cloud subscriptions."
+        },
+        {
+            "id": "d2di_mc020",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.1",
+            "tags": ["financial", "cba"],
+            "difficulty": "medium",
+            "question": "A decision-making tool that compares the cost of a solution against the financial benefit it will provide to determine if it is a sound investment is called:",
+            "options": [
+                {"key": "A", "text": "Benefit measurement model"},
+                {"key": "B", "text": "Cost-benefit analysis (CBA)"},
+                {"key": "C", "text": "Earned Value Management"},
+                {"key": "D", "text": "Monte Carlo simulation"}
+            ],
+            "correct": "B",
+            "explanation": "A cost-benefit analysis (CBA) compares the cost of a solution against the financial benefit it provides to determine if the investment is worthwhile. It is used in project selection and procurement decisions."
+        },
+        {
+            "id": "d2di_mc021",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.2",
+            "tags": ["initiation", "steering-committee"],
+            "difficulty": "medium",
+            "question": "A governing body that oversees a project or program and guides priorities, policies, standards, and next steps is called:",
+            "options": [
+                {"key": "A", "text": "Change control board (CCB)"},
+                {"key": "B", "text": "Project management office (PMO)"},
+                {"key": "C", "text": "Steering committee"},
+                {"key": "D", "text": "Scrum team"}
+            ],
+            "correct": "C",
+            "explanation": "The steering committee is a governing body that oversees a project or program. It guides priorities, policies, standards, and next steps. It provides strategic direction while the PM handles day-to-day management."
+        },
+        {
+            "id": "d2di_match001",
+            "type": "matching",
+            "domain": "2",
+            "objective": "2.2",
+            "tags": ["stakeholder", "roles"],
+            "difficulty": "medium",
+            "question": "Match each project role to its primary responsibility.",
+            "pairs": [
+                {"left": "Project sponsor", "right": "Provides financial assistance and champions the project"},
+                {"left": "Project manager", "right": "Manages all aspects of the project day-to-day"},
+                {"left": "Business analyst", "right": "Translates between business needs and IT solutions"},
+                {"left": "SME (Subject Matter Expert)", "right": "Provides technical expertise in a particular area"},
+                {"left": "End-user", "right": "Will use the final product or service in real-world conditions"}
+            ],
+            "explanation": "Each role contributes differently: Sponsors fund and champion. PMs manage daily execution. BAs bridge business and technical needs. SMEs provide deep expertise. End-users represent the people who will actually use the deliverable."
+        },
+        {
+            "id": "d2di_match002",
+            "type": "matching",
+            "domain": "2",
+            "objective": "2.2",
+            "tags": ["raci"],
+            "difficulty": "medium",
+            "question": "Match each RACI designation to its meaning.",
+            "pairs": [
+                {"left": "R — Responsible", "right": "Person who does the work to complete the task"},
+                {"left": "A — Accountable", "right": "Person ultimately answerable for the task's completion"},
+                {"left": "C — Consulted", "right": "Person whose input is sought before the work is done"},
+                {"left": "I — Informed", "right": "Person who is kept updated after the work is completed"}
+            ],
+            "explanation": "RACI: Responsible does the work. Accountable is the single person who owns the outcome (only one 'A' per task). Consulted provides two-way input before the work. Informed receives one-way notification after the work."
+        },
+        {
+            "id": "d2di_dd001",
+            "type": "drag_drop",
+            "domain": "2",
+            "objective": "2.1",
+            "tags": ["financial", "categories"],
+            "difficulty": "medium",
+            "question": "Categorize each item as a Capital Expense (CapEx) or Operational Expense (OpEx).",
+            "categories": ["CapEx", "OpEx"],
+            "items": [
+                {"text": "Purchasing a new server", "correct_category": "CapEx"},
+                {"text": "Monthly cloud subscription fee", "correct_category": "OpEx"},
+                {"text": "Building a new data center", "correct_category": "CapEx"},
+                {"text": "Annual software licensing renewal", "correct_category": "OpEx"},
+                {"text": "Buying office furniture", "correct_category": "CapEx"},
+                {"text": "Monthly payroll for the project team", "correct_category": "OpEx"}
+            ],
+            "explanation": "CapEx: spending on fixed assets (servers, buildings, furniture) — typically one-time purchases. OpEx: ongoing operational costs (subscriptions, licensing, payroll) — recurring expenses. Cloud subscriptions shift traditional CapEx (buying servers) to OpEx (paying monthly for cloud services)."
+        },
+        {
+            "id": "d2di_order001",
+            "type": "ordering",
+            "domain": "2",
+            "objective": "2.2",
+            "tags": ["initiation", "sequence"],
+            "difficulty": "medium",
+            "question": "Place the project initiation activities in the correct order.",
+            "items": [
+                "Conduct stakeholder analysis and create stakeholder register",
+                "Develop the project charter",
+                "Hold the project kickoff meeting",
+                "Create the RACI/RAM",
+                "Review existing artifacts and business case"
+            ],
+            "correct_order": [
+                "Review existing artifacts and business case",
+                "Develop the project charter",
+                "Conduct stakeholder analysis and create stakeholder register",
+                "Create the RACI/RAM",
+                "Hold the project kickoff meeting"
+            ],
+            "explanation": "Initiation starts with reviewing what exists (business case, prior documents). The charter formally authorizes the project. Stakeholder analysis identifies who's involved. The RACI assigns responsibilities. The kickoff meeting marks the transition from initiation to project work."
+        },
+        {
+            "id": "d2di_sc001",
+            "type": "scenario",
+            "domain": "2",
+            "objective": "2.1",
+            "tags": ["discovery", "business-case", "financial"],
+            "difficulty": "hard",
+            "scenario": "Your organization is considering two potential projects for next quarter. Each requires a business case.\n\n• Project Alpha: New CRM system. Estimated cost: $150,000. Expected annual revenue increase: $60,000. Expected lifespan: 5 years.\n• Project Beta: Office automation tool. Estimated cost: $80,000. Expected annual savings: $25,000. Expected lifespan: 5 years.",
+            "parts": [
+                {
+                    "id": "d2di_sc001a",
+                    "type": "fill_in",
+                    "question": "What is the total expected benefit of Project Alpha over 5 years?",
+                    "correct_answers": ["300000", "$300,000", "$300000", "300,000"],
+                    "explanation": "Total benefit = $60,000/year × 5 years = $300,000."
+                },
+                {
+                    "id": "d2di_sc001b",
+                    "type": "fill_in",
+                    "question": "What is the simple ROI of Project Alpha over 5 years? Use: ROI = (Total Benefit - Cost) / Cost × 100. Round to the nearest whole percent.",
+                    "correct_answers": ["100", "100%"],
+                    "explanation": "ROI = ($300,000 - $150,000) / $150,000 × 100 = $150,000 / $150,000 × 100 = 100%. For every dollar invested, the project returns one additional dollar over 5 years."
+                },
+                {
+                    "id": "d2di_sc001c",
+                    "type": "fill_in",
+                    "question": "What is the simple ROI of Project Beta over 5 years? Round to the nearest whole percent.",
+                    "correct_answers": ["56", "56%"],
+                    "explanation": "Total benefit = $25,000 × 5 = $125,000. ROI = ($125,000 - $80,000) / $80,000 × 100 = $45,000 / $80,000 × 100 ≈ 56%. Beta has a lower ROI than Alpha."
+                },
+                {
+                    "id": "d2di_sc001d",
+                    "type": "multiple_choice",
+                    "question": "Based on ROI alone, which project should be recommended? And why might ROI alone not be sufficient for a final decision?",
+                    "options": [
+                        {"key": "A", "text": "Project Alpha (100% ROI). However, other factors like strategic alignment, risk, resource availability, and TCO should also be considered."},
+                        {"key": "B", "text": "Project Beta (56% ROI) because it costs less upfront."},
+                        {"key": "C", "text": "Neither project has a positive ROI."},
+                        {"key": "D", "text": "Both projects have identical ROI and no decision can be made."}
+                    ],
+                    "correct": "A",
+                    "explanation": "Project Alpha has the higher ROI (100% vs. 56%). However, ROI alone is not sufficient — decision-makers should also consider strategic alignment, risk, resource availability, TCO, and organizational priorities. That's why business cases include multiple analysis dimensions."
+                }
+            ],
+            "explanation": "This scenario demonstrates how financial analysis supports project selection during the discovery phase. ROI is a key metric, but it must be considered alongside other factors. Business cases present multiple dimensions of value to help management make informed decisions."
+        },
+        {
+            "id": "d2di_ms001",
+            "type": "multiple_select",
+            "domain": "2",
+            "objective": "2.2",
+            "tags": ["initiation", "charter-contents"],
+            "difficulty": "medium",
+            "question": "Which FOUR items are typically included in a project charter?",
+            "select_count": 4,
+            "options": [
+                {"key": "A", "text": "Project purpose and justification"},
+                {"key": "B", "text": "Detailed work breakdown structure"},
+                {"key": "C", "text": "High-level requirements and success criteria"},
+                {"key": "D", "text": "Summary budget and milestone schedule"},
+                {"key": "E", "text": "Complete vendor contracts"},
+                {"key": "F", "text": "Assigned project manager and authority level"}
+            ],
+            "correct": ["A", "C", "D", "F"],
+            "explanation": "A project charter typically includes: project purpose/justification, high-level requirements/success criteria, summary budget/milestones, and the assigned PM with authority level. The charter is a brief, high-level document — detailed WBS and vendor contracts come later during planning and execution."
+        },
+        {
+            "id": "d2di_ms002",
+            "type": "multiple_select",
+            "domain": "2",
+            "objective": "2.1",
+            "tags": ["discovery", "prequalified-vendors"],
+            "difficulty": "medium",
+            "question": "Which THREE criteria are used to determine if a vendor belongs on the prequalified (approved) vendors list?",
+            "select_count": 3,
+            "options": [
+                {"key": "A", "text": "Ability to deliver required products or services"},
+                {"key": "B", "text": "Financial stability and viability"},
+                {"key": "C", "text": "Located within 50 miles of the organization"},
+                {"key": "D", "text": "Meeting organizational quality and compliance standards"},
+                {"key": "E", "text": "Offering the absolute lowest price in the market"}
+            ],
+            "correct": ["A", "B", "D"],
+            "explanation": "Prequalified vendors are approved based on their ability to deliver, financial viability, and compliance with quality/organizational standards. Location proximity and lowest price are not qualification criteria — qualified vendors lists focus on capability, reliability, and standards compliance."
+        }
+    ]
+}

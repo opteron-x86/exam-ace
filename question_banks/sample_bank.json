@@ -1,0 +1,535 @@
+{
+    "bank_id": "sample_001",
+    "title": "Project+ PK0-005 — Sample Questions",
+    "description": "Starter question bank demonstrating all supported question types across all four exam domains.",
+    "version": "1.0",
+    "questions": [
+        {
+            "id": "mc001",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.1",
+            "tags": ["project-characteristics"],
+            "difficulty": "easy",
+            "question": "Which of the following is NOT a characteristic that differentiates a project from operations?",
+            "options": [
+                {"key": "A", "text": "Temporary with a defined start and end date"},
+                {"key": "B", "text": "Creates a unique product, service, or result"},
+                {"key": "C", "text": "Ongoing and repetitive in nature"},
+                {"key": "D", "text": "Progressively elaborated"}
+            ],
+            "correct": "C",
+            "explanation": "Projects are temporary, unique, and progressively elaborated. Ongoing and repetitive work is the definition of operations, not projects."
+        },
+        {
+            "id": "mc002",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.1",
+            "tags": ["organizational-structure"],
+            "difficulty": "medium",
+            "question": "An organization where the project manager has the most authority over the project team and budget is BEST described as which type of organizational structure?",
+            "options": [
+                {"key": "A", "text": "Functional"},
+                {"key": "B", "text": "Weak matrix"},
+                {"key": "C", "text": "Strong matrix"},
+                {"key": "D", "text": "Projectized"}
+            ],
+            "correct": "D",
+            "explanation": "In a projectized organizational structure, the project manager has the highest level of authority over the project team and budget. The team operates as a separate unit, and the PM has full control. In a strong matrix, the PM has significant but not complete authority."
+        },
+        {
+            "id": "mc003",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["agile", "scrum"],
+            "difficulty": "medium",
+            "question": "During a sprint, which Scrum role is responsible for selecting and prioritizing the work that the agile team will complete?",
+            "options": [
+                {"key": "A", "text": "Scrum master"},
+                {"key": "B", "text": "Product owner"},
+                {"key": "C", "text": "Development team"},
+                {"key": "D", "text": "Project manager"}
+            ],
+            "correct": "B",
+            "explanation": "The product owner is responsible for maximizing outcomes and selecting and prioritizing the work from the product backlog. The Scrum master enables the framework, and the development team self-organizes to complete the work."
+        },
+        {
+            "id": "mc004",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.3",
+            "tags": ["change-control"],
+            "difficulty": "medium",
+            "question": "Which group is formally responsible for reviewing, evaluating, and approving or rejecting change requests on a project?",
+            "options": [
+                {"key": "A", "text": "Steering committee"},
+                {"key": "B", "text": "Change control board (CCB)"},
+                {"key": "C", "text": "Project management office (PMO)"},
+                {"key": "D", "text": "Stakeholder review panel"}
+            ],
+            "correct": "B",
+            "explanation": "The change control board (CCB) is a formally chartered group responsible for reviewing, evaluating, approving, delaying, or rejecting changes to the project and recording and communicating such decisions."
+        },
+        {
+            "id": "mc005",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk-management"],
+            "difficulty": "medium",
+            "question": "A project team identifies a risk and decides to purchase insurance to cover the potential loss. This is an example of which negative risk response strategy?",
+            "options": [
+                {"key": "A", "text": "Avoidance"},
+                {"key": "B", "text": "Mitigation"},
+                {"key": "C", "text": "Transference"},
+                {"key": "D", "text": "Acceptance"}
+            ],
+            "correct": "C",
+            "explanation": "Risk transference is the practice of moving or sharing the responsibility of risk to another entity, such as by purchasing insurance. Avoidance eliminates the risk entirely, mitigation reduces probability or impact, and acceptance means no action is taken."
+        },
+        {
+            "id": "mc006",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["schedule-management", "critical-path"],
+            "difficulty": "hard",
+            "question": "On a critical path method (CPM) diagram, Activity X has an Early Start (ES) of 8 days and a Late Start (LS) of 8 days. What can be concluded about this activity?",
+            "options": [
+                {"key": "A", "text": "It has 8 days of float"},
+                {"key": "B", "text": "It is on the critical path"},
+                {"key": "C", "text": "It can be delayed without impacting the project"},
+                {"key": "D", "text": "It is a discretionary dependency"}
+            ],
+            "correct": "B",
+            "explanation": "When ES equals LS, the Total Float (TF = LS - ES) is zero. Activities with zero float are on the critical path, meaning any delay to them will directly delay the project's finish date."
+        },
+        {
+            "id": "mc007",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.10",
+            "tags": ["team-lifecycle", "tuckman"],
+            "difficulty": "easy",
+            "question": "A project team is experiencing the most conflict as members compete for position and learn about each other. According to Tuckman's model, which stage is the team in?",
+            "options": [
+                {"key": "A", "text": "Forming"},
+                {"key": "B", "text": "Storming"},
+                {"key": "C", "text": "Norming"},
+                {"key": "D", "text": "Performing"}
+            ],
+            "correct": "B",
+            "explanation": "Storming is the second team life cycle stage, characterized by the most conflict as individuals compete for position and learn about each other. Forming has low conflict; norming sees reduced conflict; performing is the most productive stage."
+        },
+        {
+            "id": "mc008",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.1",
+            "tags": ["discovery", "business-case"],
+            "difficulty": "easy",
+            "question": "During which project phase would a business case be developed to justify the investment for a project?",
+            "options": [
+                {"key": "A", "text": "Initiation"},
+                {"key": "B", "text": "Planning"},
+                {"key": "C", "text": "Discovery / Concept"},
+                {"key": "D", "text": "Execution"}
+            ],
+            "correct": "C",
+            "explanation": "The business case is developed during the discovery (concept) phase, which occurs before the project officially starts. Leaders and analysts review ideas and decide if they are practical by analyzing financial returns, feasibility, and implementation options."
+        },
+        {
+            "id": "mc009",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.2",
+            "tags": ["initiation", "charter"],
+            "difficulty": "easy",
+            "question": "Which document is a brief, formal document created in the project initiation phase that outlines the project parameters and authorizes the project?",
+            "options": [
+                {"key": "A", "text": "Project scope statement"},
+                {"key": "B", "text": "Project charter"},
+                {"key": "C", "text": "Work breakdown structure"},
+                {"key": "D", "text": "Project management plan"}
+            ],
+            "correct": "B",
+            "explanation": "The project charter is a brief, formal document created in the project initiation phase that outlines the project parameters. It formally authorizes the project and gives the project manager authority to apply organizational resources."
+        },
+        {
+            "id": "mc010",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.1",
+            "tags": ["project-tools", "gantt"],
+            "difficulty": "easy",
+            "question": "A project sponsor requests a visual timeline of the project's activities that shows start/finish dates, dependencies, and progress at a glance. Which tool should the project manager create?",
+            "options": [
+                {"key": "A", "text": "PERT chart"},
+                {"key": "B", "text": "Fishbone diagram"},
+                {"key": "C", "text": "Gantt chart"},
+                {"key": "D", "text": "Burndown chart"}
+            ],
+            "correct": "C",
+            "explanation": "A Gantt chart is the visual representation of a project schedule in a bar chart format. Activities are listed on the left with dates across the top/bottom, showing bars for start and finish dates, dependencies, and progress."
+        },
+        {
+            "id": "mc011",
+            "type": "multiple_choice",
+            "domain": "3",
+            "objective": "3.3",
+            "tags": ["quality-charts", "pareto"],
+            "difficulty": "medium",
+            "question": "The Pareto principle asserts that what percentage of problems can typically be solved by addressing what percentage of their root causes?",
+            "options": [
+                {"key": "A", "text": "90% of problems from 10% of causes"},
+                {"key": "B", "text": "80% of problems from 20% of causes"},
+                {"key": "C", "text": "70% of problems from 30% of causes"},
+                {"key": "D", "text": "60% of problems from 40% of causes"}
+            ],
+            "correct": "B",
+            "explanation": "The Pareto principle (80/20 rule) contends that approximately 80% of problems or defects are commonly due to approximately 20% of the causes. A Pareto chart illustrates this by ranking causes from most to least significant."
+        },
+        {
+            "id": "mc012",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.4",
+            "tags": ["cloud", "iaas-paas-saas"],
+            "difficulty": "easy",
+            "question": "Which cloud service model provisions fully developed application services to users, requiring no infrastructure or platform management from the customer?",
+            "options": [
+                {"key": "A", "text": "Infrastructure as a Service (IaaS)"},
+                {"key": "B", "text": "Platform as a Service (PaaS)"},
+                {"key": "C", "text": "Software as a Service (SaaS)"},
+                {"key": "D", "text": "Anything as a Service (XaaS)"}
+            ],
+            "correct": "C",
+            "explanation": "SaaS provisions fully developed application services to users. IaaS provisions virtual machines and network infrastructure. PaaS provisions application and database services as a development platform."
+        },
+        {
+            "id": "mc013",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.3",
+            "tags": ["compliance", "privacy"],
+            "difficulty": "medium",
+            "question": "Which regulation specifically protects the storage, reading, modification, and transmission of personal health care data in the United States?",
+            "options": [
+                {"key": "A", "text": "GDPR"},
+                {"key": "B", "text": "HIPAA"},
+                {"key": "C", "text": "PCI DSS"},
+                {"key": "D", "text": "SOX"}
+            ],
+            "correct": "B",
+            "explanation": "HIPAA (Health Insurance Portability and Accountability Act) is a U.S. federal law that protects the storage, reading, modification, and transmission of personal health care data. GDPR is a European Union regulation protecting personal data of EU citizens."
+        },
+        {
+            "id": "ms001",
+            "type": "multiple_select",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["agile", "scrum", "ceremonies"],
+            "difficulty": "medium",
+            "question": "Which TWO of the following are Scrum events (ceremonies)?",
+            "select_count": 2,
+            "options": [
+                {"key": "A", "text": "Sprint retrospective"},
+                {"key": "B", "text": "Phase gate review"},
+                {"key": "C", "text": "Daily standup (daily Scrum)"},
+                {"key": "D", "text": "Change control board meeting"},
+                {"key": "E", "text": "Milestone review"}
+            ],
+            "correct": ["A", "C"],
+            "explanation": "The Scrum events are: sprint planning, daily Scrum (standup), sprint review, and sprint retrospective. Phase gate reviews, CCB meetings, and milestone reviews are traditional/waterfall project management activities."
+        },
+        {
+            "id": "ms002",
+            "type": "multiple_select",
+            "domain": "1",
+            "objective": "1.10",
+            "tags": ["conflict-resolution"],
+            "difficulty": "medium",
+            "question": "Which THREE of the following are conflict resolution strategies?",
+            "select_count": 3,
+            "options": [
+                {"key": "A", "text": "Smoothing"},
+                {"key": "B", "text": "Decomposition"},
+                {"key": "C", "text": "Compromising"},
+                {"key": "D", "text": "Progressive elaboration"},
+                {"key": "E", "text": "Collaborating"}
+            ],
+            "correct": ["A", "C", "E"],
+            "explanation": "The five conflict resolution strategies are: smoothing, forcing, compromising, collaborating, and avoiding. Decomposition is a WBS technique, and progressive elaboration is a development process."
+        },
+        {
+            "id": "ms003",
+            "type": "multiple_select",
+            "domain": "2",
+            "objective": "2.5",
+            "tags": ["project-closing"],
+            "difficulty": "medium",
+            "question": "Which THREE of the following are activities performed during the project closing phase?",
+            "select_count": 3,
+            "options": [
+                {"key": "A", "text": "Conducting lessons learned sessions"},
+                {"key": "B", "text": "Creating the work breakdown structure"},
+                {"key": "C", "text": "Releasing project resources"},
+                {"key": "D", "text": "Archiving project documentation"},
+                {"key": "E", "text": "Developing the project schedule"}
+            ],
+            "correct": ["A", "C", "D"],
+            "explanation": "Project closing activities include validating deliverables, closing contracts, releasing resources, archiving documentation, conducting closure meetings, and capturing lessons learned. WBS creation and schedule development occur during planning."
+        },
+        {
+            "id": "match001",
+            "type": "matching",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk-management", "risk-responses"],
+            "difficulty": "hard",
+            "question": "Match each NEGATIVE risk response strategy with its correct description.",
+            "pairs": [
+                {"left": "Avoidance", "right": "Eliminating the risk by changing the project plan"},
+                {"left": "Mitigation", "right": "Reducing the probability or impact of the risk"},
+                {"left": "Transference", "right": "Shifting the impact to a third party (e.g., insurance)"},
+                {"left": "Acceptance", "right": "Acknowledging the risk without taking proactive action"}
+            ],
+            "explanation": "These are the four negative risk response strategies. Avoidance eliminates the risk entirely. Mitigation reduces probability or impact. Transference shifts responsibility to another party. Acceptance means the team is willing to accept the consequences if the risk occurs."
+        },
+        {
+            "id": "match002",
+            "type": "matching",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["procurement", "contract-types"],
+            "difficulty": "hard",
+            "question": "Match each contract type with its description.",
+            "pairs": [
+                {"left": "Firm Fixed-Price (FFP)", "right": "Price is set at the outset and not subject to change unless scope changes"},
+                {"left": "Cost-Plus Fixed Fee (CPFF)", "right": "Vendor reimbursed for costs plus receives a fixed fee based on estimated costs"},
+                {"left": "Time and Materials (T&M)", "right": "Buyer pays negotiated hourly rate plus full reimbursement for materials"},
+                {"left": "Unit Price", "right": "Vendor is paid a fixed price per unit of work delivered"}
+            ],
+            "explanation": "FFP contracts set price at the outset—most common for well-defined scope. CPFF reimburses all allowable costs plus a fixed fee. T&M combines fixed-price (rates) and cost-reimbursable (materials) aspects. Unit price pays per delivered unit."
+        },
+        {
+            "id": "order001",
+            "type": "ordering",
+            "domain": "2",
+            "objective": "2.1",
+            "tags": ["project-lifecycle"],
+            "difficulty": "easy",
+            "question": "Place the project life cycle phases in the correct chronological order, from first to last.",
+            "items": ["Execution", "Closing", "Discovery / Concept", "Planning", "Initiation"],
+            "correct_order": ["Discovery / Concept", "Initiation", "Planning", "Execution", "Closing"],
+            "explanation": "The project life cycle phases in order are: Discovery/Concept (evaluate the idea), Initiation (authorize the project), Planning (define scope, schedule, budget), Execution (perform the work), and Closing (validate deliverables and close out)."
+        },
+        {
+            "id": "order002",
+            "type": "ordering",
+            "domain": "1",
+            "objective": "1.10",
+            "tags": ["team-lifecycle", "tuckman"],
+            "difficulty": "easy",
+            "question": "Place Tuckman's team development stages in the correct order.",
+            "items": ["Performing", "Storming", "Adjourning", "Forming", "Norming"],
+            "correct_order": ["Forming", "Storming", "Norming", "Performing", "Adjourning"],
+            "explanation": "Tuckman's stages in order: Forming (introductions, low productivity), Storming (conflict, competition), Norming (increased productivity, learning to work together), Performing (highest productivity, cohesion), Adjourning (concluding work, disbanding)."
+        },
+        {
+            "id": "dd001",
+            "type": "drag_drop",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["agile", "waterfall", "comparison"],
+            "difficulty": "medium",
+            "question": "Categorize each artifact or practice as primarily associated with Agile, Waterfall, or Both methodologies.",
+            "categories": ["Agile", "Waterfall", "Both"],
+            "items": [
+                {"text": "Sprint backlog", "correct_category": "Agile"},
+                {"text": "Work Breakdown Structure (WBS)", "correct_category": "Waterfall"},
+                {"text": "Risk register", "correct_category": "Both"},
+                {"text": "Product backlog", "correct_category": "Agile"},
+                {"text": "Phase gate review", "correct_category": "Waterfall"},
+                {"text": "Gantt chart", "correct_category": "Both"}
+            ],
+            "explanation": "Sprint backlog and product backlog are Agile (Scrum) artifacts. WBS and phase gate reviews are traditional Waterfall practices. Risk registers and Gantt charts are used across both methodologies."
+        },
+        {
+            "id": "dd002",
+            "type": "drag_drop",
+            "domain": "4",
+            "objective": "4.4",
+            "tags": ["cloud", "service-models"],
+            "difficulty": "medium",
+            "question": "Categorize each example into the correct cloud service model.",
+            "categories": ["IaaS", "PaaS", "SaaS"],
+            "items": [
+                {"text": "Virtual machines and storage", "correct_category": "IaaS"},
+                {"text": "Application development tools and databases", "correct_category": "PaaS"},
+                {"text": "Email and CRM applications", "correct_category": "SaaS"},
+                {"text": "Network infrastructure provisioning", "correct_category": "IaaS"},
+                {"text": "Fully managed office productivity suite", "correct_category": "SaaS"},
+                {"text": "Container orchestration platform", "correct_category": "PaaS"}
+            ],
+            "explanation": "IaaS provides basic computing resources (VMs, storage, networking). PaaS adds development tools, databases, and platforms on top. SaaS delivers complete, ready-to-use applications to end users."
+        },
+        {
+            "id": "fi001",
+            "type": "fill_in",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["evm", "calculations", "cpi"],
+            "difficulty": "hard",
+            "question": "A project has an Earned Value (EV) of $45,000 and an Actual Cost (AC) of $50,000. Calculate the Cost Performance Index (CPI). Round to two decimal places.",
+            "correct_answers": ["0.90", "0.9", ".90", ".9"],
+            "case_sensitive": false,
+            "explanation": "CPI = EV / AC = $45,000 / $50,000 = 0.90. A CPI less than 1.0 indicates the project is over budget—for every dollar spent, only $0.90 in value is earned."
+        },
+        {
+            "id": "fi002",
+            "type": "fill_in",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["schedule-management", "pert"],
+            "difficulty": "hard",
+            "question": "Using the PERT formula (O + 4M + P) / 6, calculate the expected duration where: Optimistic (O) = 4 days, Most Likely (M) = 7 days, Pessimistic (P) = 16 days. Round to one decimal place.",
+            "correct_answers": ["8.0", "8"],
+            "case_sensitive": false,
+            "explanation": "PERT Estimate = (O + 4M + P) / 6 = (4 + 4×7 + 16) / 6 = (4 + 28 + 16) / 6 = 48 / 6 = 8.0 days."
+        },
+        {
+            "id": "fi003",
+            "type": "fill_in",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["schedule-management", "critical-path", "float"],
+            "difficulty": "medium",
+            "question": "Activity X has an Early Start (ES) of 10 days and a Late Start (LS) of 15 days. What is the Total Float (TF) for Activity X? Answer in days (number only).",
+            "correct_answers": ["5"],
+            "case_sensitive": false,
+            "explanation": "Total Float (TF) = LS - ES = 15 - 10 = 5 days. This means Activity X can be delayed by up to 5 days without delaying the project's finish date."
+        },
+        {
+            "id": "sc001",
+            "type": "scenario",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["evm", "calculations"],
+            "difficulty": "hard",
+            "scenario": "You are managing a software development project with the following Earned Value Management (EVM) data:\n\n• Budget at Completion (BAC): $100,000\n• Planned Value (PV): $60,000\n• Earned Value (EV): $50,000\n• Actual Cost (AC): $55,000",
+            "parts": [
+                {
+                    "id": "sc001a",
+                    "type": "fill_in",
+                    "question": "What is the Schedule Variance (SV)? Include the sign (+ or -) and a dollar amount.",
+                    "correct_answers": ["-10000", "-$10,000", "-$10000", "-10,000"],
+                    "explanation": "SV = EV - PV = $50,000 - $60,000 = -$10,000. Negative SV means behind schedule."
+                },
+                {
+                    "id": "sc001b",
+                    "type": "multiple_choice",
+                    "question": "Based on the SV calculation, what is the project's schedule status?",
+                    "options": [
+                        {"key": "A", "text": "Ahead of schedule"},
+                        {"key": "B", "text": "Behind schedule"},
+                        {"key": "C", "text": "On schedule"}
+                    ],
+                    "correct": "B",
+                    "explanation": "SV is negative (-$10,000), which means the project has earned less value than planned—it is behind schedule."
+                },
+                {
+                    "id": "sc001c",
+                    "type": "fill_in",
+                    "question": "What is the Cost Performance Index (CPI)? Round to two decimal places.",
+                    "correct_answers": ["0.91", ".91"],
+                    "explanation": "CPI = EV / AC = $50,000 / $55,000 ≈ 0.91. CPI < 1 indicates the project is over budget."
+                },
+                {
+                    "id": "sc001d",
+                    "type": "multiple_choice",
+                    "question": "If the current CPI is expected to continue, what is the Estimate at Completion (EAC)? Use the formula EAC = BAC / CPI. Round to the nearest whole dollar.",
+                    "options": [
+                        {"key": "A", "text": "$91,000"},
+                        {"key": "B", "text": "$100,000"},
+                        {"key": "C", "text": "$109,890"},
+                        {"key": "D", "text": "$110,000"}
+                    ],
+                    "correct": "D",
+                    "explanation": "EAC = BAC / CPI = $100,000 / 0.91 ≈ $109,890. The closest answer is $110,000, meaning the project is expected to cost about $10,000 more than budgeted."
+                }
+            ],
+            "explanation": "EVM provides objective measures of project performance. Negative SV indicates behind schedule. CPI < 1 indicates over budget. EAC = BAC / CPI estimates the total project cost if current trends continue."
+        },
+        {
+            "id": "mc014",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.5",
+            "tags": ["change-control-it", "rollback"],
+            "difficulty": "medium",
+            "question": "A software release has been deployed to the production environment and critical errors are discovered. The team decides to restore the system to the previous working state. This action is called:",
+            "options": [
+                {"key": "A", "text": "Refactoring"},
+                {"key": "B", "text": "Regression testing"},
+                {"key": "C", "text": "Rollback"},
+                {"key": "D", "text": "Continuous deployment"}
+            ],
+            "correct": "C",
+            "explanation": "A rollback restores a system to its last known good state. It is the recovery method when a release fails, allowing the team to fix the issue without continued impact on end users. A rollback plan should be prepared before any release."
+        },
+        {
+            "id": "mc015",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.2",
+            "tags": ["information-security"],
+            "difficulty": "medium",
+            "question": "An authentication scheme that requires the user to present at least two different types of credentials (e.g., something you know and something you have) is called:",
+            "options": [
+                {"key": "A", "text": "Single sign-on (SSO)"},
+                {"key": "B", "text": "Role-based access control (RBAC)"},
+                {"key": "C", "text": "Multifactor authentication (MFA)"},
+                {"key": "D", "text": "Least privilege"}
+            ],
+            "correct": "C",
+            "explanation": "Multifactor authentication (MFA) requires at least two different types of credentials. The factors include: something you know (password), something you have (token/smart card), something you are (biometric), something you do, or somewhere you are."
+        },
+        {
+            "id": "mc016",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.7",
+            "tags": ["quality-management", "testing"],
+            "difficulty": "medium",
+            "question": "Which type of testing runs a high-level test of the most important operations after a build and before running detailed tests to confirm core functions are working?",
+            "options": [
+                {"key": "A", "text": "Regression test"},
+                {"key": "B", "text": "Smoke test"},
+                {"key": "C", "text": "User acceptance testing (UAT)"},
+                {"key": "D", "text": "Unit test"}
+            ],
+            "correct": "B",
+            "explanation": "A smoke test checks the most critical functions after a build and before release. It is limited to core functions only and does not analyze finer details. Regression testing checks for problems caused by changes. UAT proves the program is fit for purpose."
+        },
+        {
+            "id": "mc017",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["planning", "wbs"],
+            "difficulty": "medium",
+            "question": "The smallest, most granular deliverable displayed at the lowest level of a Work Breakdown Structure is called a:",
+            "options": [
+                {"key": "A", "text": "Milestone"},
+                {"key": "B", "text": "Activity"},
+                {"key": "C", "text": "Work package"},
+                {"key": "D", "text": "Summary activity"}
+            ],
+            "correct": "C",
+            "explanation": "A work package is the smallest, most granular deliverable at the lowest level of the WBS. It represents a component that can be estimated, scheduled, and monitored. Activities are actions within work packages, and milestones are zero-duration events."
+        }
+    ]
+}

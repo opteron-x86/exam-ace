@@ -1,0 +1,387 @@
+{
+    "bank_id": "d4_esg_security_001",
+    "title": "Domain 4: ESG & Information Security (4.1, 4.2)",
+    "description": "Covers Environmental, Social, and Governance (ESG) concepts, environmental impact, regulations, company values, brand value, digital transformation, mergers & acquisitions, reorganization, MFA, least privilege, access control, physical security, digital security, operational security, data security, MDM, background screening, clearance requirements, and separation of duties.",
+    "version": "1.0",
+    "questions": [
+        {
+            "id": "d4es_mc001",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.1",
+            "tags": ["esg", "definition"],
+            "difficulty": "easy",
+            "question": "Organizational performance measures unrelated to financial performance that assess how an organization contributes to society are referred to as:",
+            "options": [
+                {"key": "A", "text": "Key performance indicators (KPIs)"},
+                {"key": "B", "text": "Environmental, Social, and Governance (ESG)"},
+                {"key": "C", "text": "Earned value management (EVM)"},
+                {"key": "D", "text": "Service-level agreements (SLAs)"}
+            ],
+            "correct": "B",
+            "explanation": "ESG (Environmental, Social, and Governance) measures are organizational performance indicators unrelated to financial performance. They assess how an organization contributes to society through environmental stewardship, social responsibility, and governance practices."
+        },
+        {
+            "id": "d4es_mc002",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.1",
+            "tags": ["regulations", "compliance"],
+            "difficulty": "easy",
+            "question": "Compliance-mandatory characteristics for specific products, services, or processes are called:",
+            "options": [
+                {"key": "A", "text": "Guidelines"},
+                {"key": "B", "text": "Best practices"},
+                {"key": "C", "text": "Regulations"},
+                {"key": "D", "text": "Recommendations"}
+            ],
+            "correct": "C",
+            "explanation": "Regulations are compliance-mandatory requirements for specific products, services, or processes. Unlike guidelines or best practices, regulations must be followed — they carry legal or regulatory enforcement."
+        },
+        {
+            "id": "d4es_mc003",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.1",
+            "tags": ["regulatory-risk"],
+            "difficulty": "medium",
+            "question": "Why are regulatory changes considered a project risk?",
+            "options": [
+                {"key": "A", "text": "They always increase the project budget"},
+                {"key": "B", "text": "They require a thorough environmental assessment to evaluate what needs to be updated for compliance"},
+                {"key": "C", "text": "They only affect IT projects"},
+                {"key": "D", "text": "They automatically cancel projects"}
+            ],
+            "correct": "B",
+            "explanation": "Any regulation change requires a thorough assessment to evaluate what needs to be updated. For example, if privacy laws change mid-project, all data fields must be compared to the new regulations for compliance, and the project plan may need remediation tasks."
+        },
+        {
+            "id": "d4es_mc004",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.1",
+            "tags": ["digital-transformation"],
+            "difficulty": "easy",
+            "question": "Adopting technology to increase an organization's efficiency and competitiveness by modernizing existing processes and creating new customer offerings is called:",
+            "options": [
+                {"key": "A", "text": "Reorganization"},
+                {"key": "B", "text": "Mergers and acquisitions"},
+                {"key": "C", "text": "Digital transformation"},
+                {"key": "D", "text": "Configuration management"}
+            ],
+            "correct": "C",
+            "explanation": "Digital transformation involves adopting technology to increase an organization's efficiency and competitiveness. It modernizes existing processes and creates new processes and customer offerings."
+        },
+        {
+            "id": "d4es_mc005",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.1",
+            "tags": ["mergers-acquisitions"],
+            "difficulty": "medium",
+            "question": "Legal processes that change company ownership — where two companies combine into a new entity or one company purchases another — are called:",
+            "options": [
+                {"key": "A", "text": "Digital transformation"},
+                {"key": "B", "text": "Reorganization"},
+                {"key": "C", "text": "Mergers and acquisitions (M&A)"},
+                {"key": "D", "text": "Portfolio management"}
+            ],
+            "correct": "C",
+            "explanation": "Mergers and acquisitions (M&A) are legal processes that change company ownership. A merger combines two companies into a new legal entity with both under new ownership. An acquisition occurs when Company A purchases Company B."
+        },
+        {
+            "id": "d4es_mc006",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.1",
+            "tags": ["reorganization"],
+            "difficulty": "easy",
+            "question": "An internal adjustment to the organization's hierarchy, reporting structure, job titles, and responsibilities is called a:",
+            "options": [
+                {"key": "A", "text": "Merger"},
+                {"key": "B", "text": "Reorganization"},
+                {"key": "C", "text": "Acquisition"},
+                {"key": "D", "text": "Digital transformation"}
+            ],
+            "correct": "B",
+            "explanation": "A reorganization is an internal adjustment to the organization's hierarchy, reporting structure, job titles, and responsibilities. Unlike M&A, it does not change company ownership."
+        },
+        {
+            "id": "d4es_mc007",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.1",
+            "tags": ["interconnectivity"],
+            "difficulty": "medium",
+            "question": "An assessment of the interrelated nature of business processes and systems — where a change or issue in one area has a ripple effect throughout the organization — is called:",
+            "options": [
+                {"key": "A", "text": "Gap analysis"},
+                {"key": "B", "text": "Interconnectivity"},
+                {"key": "C", "text": "Root cause analysis"},
+                {"key": "D", "text": "Cost aggregation"}
+            ],
+            "correct": "B",
+            "explanation": "Interconnectivity refers to how interrelated business processes and systems are. A change or issue in one area creates a ripple effect throughout the organization, making impact analysis critical before implementing changes."
+        },
+        {
+            "id": "d4es_mc008",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.2",
+            "tags": ["mfa", "authentication"],
+            "difficulty": "easy",
+            "question": "An authentication scheme that requires the user to present at least two different types of credentials is called:",
+            "options": [
+                {"key": "A", "text": "Single sign-on (SSO)"},
+                {"key": "B", "text": "Role-based access control (RBAC)"},
+                {"key": "C", "text": "Multifactor authentication (MFA)"},
+                {"key": "D", "text": "Least privilege"}
+            ],
+            "correct": "C",
+            "explanation": "Multifactor authentication (MFA) requires at least two different types of credentials. The factors include: something you know (password), something you have (token/smart card), something you are (biometric), something you do, or somewhere you are."
+        },
+        {
+            "id": "d4es_mc009",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.2",
+            "tags": ["least-privilege"],
+            "difficulty": "easy",
+            "question": "A basic security principle stating that something should be allocated the minimum necessary rights, privileges, or information to perform its role is called:",
+            "options": [
+                {"key": "A", "text": "Separation of duties"},
+                {"key": "B", "text": "Multifactor authentication"},
+                {"key": "C", "text": "Least privilege"},
+                {"key": "D", "text": "Access control"}
+            ],
+            "correct": "C",
+            "explanation": "The principle of least privilege states that users, systems, and processes should only have the minimum necessary rights, privileges, or information needed to perform their role — nothing more."
+        },
+        {
+            "id": "d4es_mc010",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.2",
+            "tags": ["access-control"],
+            "difficulty": "medium",
+            "question": "The process of determining and assigning privileges to resources, objects, and data, where each resource has a list specifying what subjects can do, is called:",
+            "options": [
+                {"key": "A", "text": "Access control"},
+                {"key": "B", "text": "Authentication"},
+                {"key": "C", "text": "Background screening"},
+                {"key": "D", "text": "Configuration management"}
+            ],
+            "correct": "A",
+            "explanation": "Access control is the process of determining and assigning privileges to resources, objects, and data. Each resource has an access control list (ACL) specifying what subjects (users and hosts) can do with that resource."
+        },
+        {
+            "id": "d4es_mc011",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.2",
+            "tags": ["sso"],
+            "difficulty": "medium",
+            "question": "An authentication technology that enables a user to authenticate once and receive authorizations for multiple services is called:",
+            "options": [
+                {"key": "A", "text": "MFA"},
+                {"key": "B", "text": "Single sign-on (SSO)"},
+                {"key": "C", "text": "Least privilege"},
+                {"key": "D", "text": "Separation of duties"}
+            ],
+            "correct": "B",
+            "explanation": "Single sign-on (SSO) enables a user to authenticate once and then access multiple services and applications without re-entering credentials. It simplifies the user experience while centralizing authentication management."
+        },
+        {
+            "id": "d4es_mc012",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.2",
+            "tags": ["separation-of-duties"],
+            "difficulty": "medium",
+            "question": "A security policy concept stating that duties and responsibilities should be divided among individuals to prevent ethical conflicts or abuse of powers is called:",
+            "options": [
+                {"key": "A", "text": "Least privilege"},
+                {"key": "B", "text": "Access control"},
+                {"key": "C", "text": "Separation of duties"},
+                {"key": "D", "text": "Background screening"}
+            ],
+            "correct": "C",
+            "explanation": "Separation of duties states that duties and responsibilities should be divided among different individuals to prevent ethical conflicts or abuse of powers. For example, the person who approves payments should not be the same person who processes them."
+        },
+        {
+            "id": "d4es_mc013",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.2",
+            "tags": ["mdm", "mobile-security"],
+            "difficulty": "medium",
+            "question": "The process and supporting technologies for tracking, controlling, and securing an organization's mobile infrastructure is called:",
+            "options": [
+                {"key": "A", "text": "Configuration management"},
+                {"key": "B", "text": "Mobile device management (MDM)"},
+                {"key": "C", "text": "Version control"},
+                {"key": "D", "text": "Change control"}
+            ],
+            "correct": "B",
+            "explanation": "Mobile device management (MDM) is the process and technologies for tracking, controlling, and securing an organization's mobile infrastructure. It helps manage security risks from smartphones and tablets used for work."
+        },
+        {
+            "id": "d4es_mc014",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.2",
+            "tags": ["background-screening"],
+            "difficulty": "easy",
+            "question": "A process that researches potential employees to confirm their employment history, criminal record, education, and previous addresses is called:",
+            "options": [
+                {"key": "A", "text": "Stakeholder analysis"},
+                {"key": "B", "text": "Background screening"},
+                {"key": "C", "text": "Gap analysis"},
+                {"key": "D", "text": "Performance appraisal"}
+            ],
+            "correct": "B",
+            "explanation": "Background screening is a process that researches potential employees to confirm their employment history, criminal record, education, and previous addresses. It is a security measure to verify the trustworthiness of individuals before hiring."
+        },
+        {
+            "id": "d4es_mc015",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.2",
+            "tags": ["clearance", "national-security"],
+            "difficulty": "medium",
+            "question": "A project manager receives an offer to manage a project that handles national security information. What may they be required to have before accepting?",
+            "options": [
+                {"key": "A", "text": "A PMP certification"},
+                {"key": "B", "text": "A security clearance"},
+                {"key": "C", "text": "An MBA degree"},
+                {"key": "D", "text": "A vendor contract"}
+            ],
+            "correct": "B",
+            "explanation": "Projects handling national security information require personnel to have appropriate security clearance. Clearance requirements are elevated access levels that allow a person to access restricted national security information."
+        },
+        {
+            "id": "d4es_mc016",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.2",
+            "tags": ["mfa-factors"],
+            "difficulty": "hard",
+            "question": "Which of the following represents a valid combination of MFA factors?",
+            "options": [
+                {"key": "A", "text": "Two different passwords"},
+                {"key": "B", "text": "A password and a security question"},
+                {"key": "C", "text": "A password (something you know) and a fingerprint scan (something you are)"},
+                {"key": "D", "text": "A username and a password"}
+            ],
+            "correct": "C",
+            "explanation": "Valid MFA requires two different types of factors. A password (something you know) combined with a fingerprint (something you are) represents two distinct factor types. Two passwords or a password and security question are both 'something you know' — the same factor type."
+        },
+        {
+            "id": "d4es_mc017",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.2",
+            "tags": ["nda", "communication-security"],
+            "difficulty": "medium",
+            "question": "A PM is working with third-party contractors who access documents through a secure file share and cannot download files. The contractors have also signed a specific agreement. Why would these measures be in place?",
+            "options": [
+                {"key": "A", "text": "To speed up project delivery"},
+                {"key": "B", "text": "To protect the communication security of confidential data from unauthorized access"},
+                {"key": "C", "text": "To reduce project costs"},
+                {"key": "D", "text": "To comply with agile methodology requirements"}
+            ],
+            "correct": "B",
+            "explanation": "Companies establish policies to protect confidential data from unauthorized access. External parties such as vendors or contractors may need to sign NDAs, and data transmitted electronically must move through encrypted channels. Restricting downloads adds another layer of protection."
+        },
+        {
+            "id": "d4es_mc018",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.2",
+            "tags": ["removable-media", "physical-security"],
+            "difficulty": "easy",
+            "question": "Optical discs, flash drives, and external hard disks that can be used to share files between computers are examples of:",
+            "options": [
+                {"key": "A", "text": "Cloud services"},
+                {"key": "B", "text": "Removable media"},
+                {"key": "C", "text": "Virtual machines"},
+                {"key": "D", "text": "SaaS applications"}
+            ],
+            "correct": "B",
+            "explanation": "Removable media includes optical discs, flash drives, and external hard disks used to store and share files between computers. They pose a security risk because they can be lost, stolen, or introduce malware."
+        },
+        {
+            "id": "d4es_ms001",
+            "type": "multiple_select",
+            "domain": "4",
+            "objective": "4.2",
+            "tags": ["mfa-factors"],
+            "difficulty": "medium",
+            "select_count": 3,
+            "question": "Which THREE of the following are valid MFA factor types?",
+            "options": [
+                {"key": "A", "text": "Something you know (password, PIN)"},
+                {"key": "B", "text": "Something you have (token, smart card)"},
+                {"key": "C", "text": "Something you install (software)"},
+                {"key": "D", "text": "Something you are (fingerprint, biometric)"},
+                {"key": "E", "text": "Something you delete (old files)"}
+            ],
+            "correct": ["A", "B", "D"],
+            "explanation": "The recognized MFA factor types include: something you know (password, PIN), something you have (token, smart card), something you are (biometric), something you do (typing pattern), and somewhere you are (location). Software installation and file deletion are not authentication factors."
+        },
+        {
+            "id": "d4es_ms002",
+            "type": "multiple_select",
+            "domain": "4",
+            "objective": "4.1",
+            "tags": ["esg", "governance-drivers"],
+            "difficulty": "medium",
+            "select_count": 3,
+            "question": "Which THREE of the following are organizational changes that can impact project governance and drive new projects?",
+            "options": [
+                {"key": "A", "text": "Digital transformation"},
+                {"key": "B", "text": "Sprint retrospectives"},
+                {"key": "C", "text": "Mergers and acquisitions"},
+                {"key": "D", "text": "Daily standups"},
+                {"key": "E", "text": "Reorganization"}
+            ],
+            "correct": ["A", "C", "E"],
+            "explanation": "Digital transformation, M&A, and reorganization are major organizational changes that impact governance and often generate new projects. Sprint retrospectives and daily standups are agile ceremonies within existing projects."
+        },
+        {
+            "id": "d4es_match001",
+            "type": "matching",
+            "domain": "4",
+            "objective": "4.2",
+            "tags": ["security-concepts"],
+            "difficulty": "hard",
+            "question": "Match each security concept to its correct description.",
+            "pairs": [
+                {"left": "Least privilege", "right": "Allocate only the minimum necessary rights to perform a role"},
+                {"left": "Separation of duties", "right": "Divide responsibilities among individuals to prevent abuse of power"},
+                {"left": "MFA", "right": "Require two or more different credential types for authentication"},
+                {"left": "Single sign-on (SSO)", "right": "Authenticate once and access multiple services without re-entering credentials"}
+            ],
+            "explanation": "Least privilege minimizes access rights. Separation of duties divides responsibilities. MFA requires multiple credential types. SSO enables one authentication for multiple services. Together, these form a layered security approach."
+        },
+        {
+            "id": "d4es_dd001",
+            "type": "drag_drop",
+            "domain": "4",
+            "objective": "4.2",
+            "tags": ["security-categories"],
+            "difficulty": "hard",
+            "question": "Categorize each security measure into its correct security domain.",
+            "categories": ["Physical Security", "Digital Security", "Operational Security"],
+            "items": [
+                {"text": "Badge access to server rooms", "correct_category": "Physical Security"},
+                {"text": "Encryption of data in transit", "correct_category": "Digital Security"},
+                {"text": "Background screening of employees", "correct_category": "Operational Security"},
+                {"text": "Security cameras and locked cabinets", "correct_category": "Physical Security"},
+                {"text": "Firewall and intrusion detection", "correct_category": "Digital Security"},
+                {"text": "Separation of duties policies", "correct_category": "Operational Security"}
+            ],
+            "explanation": "Physical security protects tangible assets (badge access, cameras, locks). Digital security protects data and systems (encryption, firewalls). Operational security involves procedures and policies (background screening, separation of duties)."
+        }
+    ]
+}

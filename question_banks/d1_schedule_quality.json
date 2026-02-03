@@ -1,0 +1,435 @@
+{
+    "bank_id": "d1_sched_quality_001",
+    "title": "Domain 1: Schedule & Quality Management (1.6, 1.7)",
+    "description": "Covers milestones, activity sequencing, dependencies, PERT, critical path method, float, resource estimation, testing types, SLAs, KPIs, audits, and retrospectives.",
+    "version": "1.0",
+    "questions": [
+        {
+            "id": "d1sq_mc001",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["milestones"],
+            "difficulty": "easy",
+            "question": "A control point event in a project that has zero duration and triggers a reporting requirement or requires sponsor approval before proceeding is called:",
+            "options": [
+                {"key": "A", "text": "A deliverable"},
+                {"key": "B", "text": "A milestone"},
+                {"key": "C", "text": "A work package"},
+                {"key": "D", "text": "A phase gate"}
+            ],
+            "correct": "B",
+            "explanation": "A milestone is a control point event with zero duration that triggers a reporting requirement or requires sponsor/customer approval before proceeding. It marks a significant point but represents no actual work."
+        },
+        {
+            "id": "d1sq_mc002",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["dependencies", "finish-to-start"],
+            "difficulty": "easy",
+            "question": "Activity A must finish before Activity B can begin. What type of precedence relationship is this?",
+            "options": [
+                {"key": "A", "text": "Start-to-Start (SS)"},
+                {"key": "B", "text": "Finish-to-Finish (FF)"},
+                {"key": "C", "text": "Finish-to-Start (FS)"},
+                {"key": "D", "text": "Start-to-Finish (SF)"}
+            ],
+            "correct": "C",
+            "explanation": "Finish-to-Start (FS) means the predecessor must finish before the successor can start. This is the most common dependency type. Example: clearing dinner dishes (A) must finish before serving dessert (B) can begin."
+        },
+        {
+            "id": "d1sq_mc003",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["dependencies", "mandatory"],
+            "difficulty": "medium",
+            "question": "A dependency that is inherent to the work itself and usually affected by physical constraints, where activities MUST be performed in a specific sequence, is called:",
+            "options": [
+                {"key": "A", "text": "Discretionary dependency"},
+                {"key": "B", "text": "External dependency"},
+                {"key": "C", "text": "Mandatory dependency"},
+                {"key": "D", "text": "Internal dependency"}
+            ],
+            "correct": "C",
+            "explanation": "A mandatory dependency is inherent to the work and usually affected by physical constraints. Activities must be performed in a specific sequence for the work to be successful. For example, you must pour a foundation before framing walls."
+        },
+        {
+            "id": "d1sq_mc004",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["dependencies", "discretionary"],
+            "difficulty": "medium",
+            "question": "Why would a project team define a discretionary dependency between two activities?",
+            "options": [
+                {"key": "A", "text": "Because the work physically requires it"},
+                {"key": "B", "text": "Because an external party requires it"},
+                {"key": "C", "text": "Because it optimizes efficiency, lowers cost, or improves quality based on best practices"},
+                {"key": "D", "text": "Because regulations mandate the sequence"}
+            ],
+            "correct": "C",
+            "explanation": "Discretionary dependencies are optional and defined by the project team based on best practices. They improve work for the project by optimizing efficiency, lowering cost, or improving quality. The team has flexibility in sequencing when no mandatory or external dependency exists."
+        },
+        {
+            "id": "d1sq_mc005",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["critical-path", "float"],
+            "difficulty": "medium",
+            "question": "On a CPM diagram, Activity X has an Early Start (ES) of week 9 and a Late Start (LS) of week 12. What is the Total Float (TF)?",
+            "options": [
+                {"key": "A", "text": "0 weeks"},
+                {"key": "B", "text": "3 weeks"},
+                {"key": "C", "text": "9 weeks"},
+                {"key": "D", "text": "21 weeks"}
+            ],
+            "correct": "B",
+            "explanation": "TF = LS - ES = 12 - 9 = 3 weeks. Activity X can start as early as week 9 or as late as week 12 without delaying the project's finish date. Activities on the critical path have a TF of zero."
+        },
+        {
+            "id": "d1sq_mc006",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["critical-path", "definition"],
+            "difficulty": "easy",
+            "question": "The critical path in a project network diagram is defined as:",
+            "options": [
+                {"key": "A", "text": "The path with the shortest duration"},
+                {"key": "B", "text": "The path with the most resources"},
+                {"key": "C", "text": "The network path with the longest duration"},
+                {"key": "D", "text": "The path with the highest cost"}
+            ],
+            "correct": "C",
+            "explanation": "The critical path is the network path with the longest duration in the project. Activities on the critical path have zero total float — any delay to a critical path activity will delay the entire project's finish date."
+        },
+        {
+            "id": "d1sq_mc007",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["critical-path", "float"],
+            "difficulty": "hard",
+            "question": "An activity has a Total Float (TF) of 10 days and a Free Float (FF) of 5 days. What does this mean?",
+            "options": [
+                {"key": "A", "text": "The activity can shift 5 days before impacting the project, and 10 days before impacting successors"},
+                {"key": "B", "text": "The activity can shift up to 10 days without delaying the project, and up to 5 days without affecting the start of any immediate successor"},
+                {"key": "C", "text": "The activity has no scheduling flexibility"},
+                {"key": "D", "text": "The activity is on the critical path"}
+            ],
+            "correct": "B",
+            "explanation": "TF of 10 means the activity can shift up to 10 days without delaying the project's finish date. FF of 5 means it can shift up to 5 days without delaying the early start of any immediate successor. FF is always less than or equal to TF."
+        },
+        {
+            "id": "d1sq_mc008",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["pert", "estimation"],
+            "difficulty": "medium",
+            "question": "The PERT estimate formula is (O + 4M + P) / 6, where O = Optimistic, M = Most Likely, and P = Pessimistic. Why does the formula weight the most likely estimate by 4?",
+            "options": [
+                {"key": "A", "text": "Because optimistic outcomes are four times more common"},
+                {"key": "B", "text": "To produce a realistic estimate weighted toward the most probable outcome with slight adjustments for best/worst cases"},
+                {"key": "C", "text": "Because pessimistic outcomes are rare"},
+                {"key": "D", "text": "It is an arbitrary number with no significance"}
+            ],
+            "correct": "B",
+            "explanation": "The PERT weighted average formula gives the most likely estimate four times the weight because it is the most probable outcome. The optimistic and pessimistic estimates slightly adjust the calculation to account for uncertainty without skewing the result."
+        },
+        {
+            "id": "d1sq_mc009",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["pdm", "pert"],
+            "difficulty": "medium",
+            "question": "How does a Precedence Diagram Method (PDM) diagram differ from a PERT chart?",
+            "options": [
+                {"key": "A", "text": "PDM shows dependencies; PERT does not"},
+                {"key": "B", "text": "PDM includes activities, sequencing, and dependencies; PERT adds duration estimates to those elements"},
+                {"key": "C", "text": "They are identical tools with different names"},
+                {"key": "D", "text": "PERT shows dependencies; PDM shows only activities"}
+            ],
+            "correct": "B",
+            "explanation": "A PDM diagram includes activities, sequencing, and dependencies. A PERT chart includes all of those elements plus a duration estimate (typically using a weighted average of optimistic, most likely, and pessimistic durations)."
+        },
+        {
+            "id": "d1sq_mc010",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["resource-leveling"],
+            "difficulty": "medium",
+            "question": "A PM notices one developer is at 120% utilization while another is at 40%. The PM moves work from the overloaded developer to the underutilized one. This practice is known as:",
+            "options": [
+                {"key": "A", "text": "Resource leveling"},
+                {"key": "B", "text": "Resource smoothing"},
+                {"key": "C", "text": "Resource crashing"},
+                {"key": "D", "text": "Resource loading"}
+            ],
+            "correct": "B",
+            "explanation": "Resource smoothing redistributes work to create a more even workload distribution without changing the project schedule. Resource leveling adjusts the schedule to resolve resource conflicts, which may extend the project duration. Resource loading assigns work until capacity is consumed."
+        },
+        {
+            "id": "d1sq_mc011",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["estimation", "bottom-up"],
+            "difficulty": "medium",
+            "question": "Which estimation technique calculates the cost for each work package in the WBS and then aggregates them for progressively higher levels?",
+            "options": [
+                {"key": "A", "text": "Top-down estimating"},
+                {"key": "B", "text": "Analogous estimating"},
+                {"key": "C", "text": "Bottom-up estimating"},
+                {"key": "D", "text": "Parametric estimating"}
+            ],
+            "correct": "C",
+            "explanation": "Bottom-up estimating calculates the cost for each work package in the WBS and rolls the estimates up to progressively higher levels. It is the most accurate technique but also the most time-consuming. Top-down estimating starts with the whole project and cascades downward."
+        },
+        {
+            "id": "d1sq_mc012",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["estimation", "analogous"],
+            "difficulty": "medium",
+            "question": "An estimation technique that uses the duration or cost of a previous similar project to estimate the current project is called:",
+            "options": [
+                {"key": "A", "text": "Parametric estimating"},
+                {"key": "B", "text": "Bottom-up estimating"},
+                {"key": "C", "text": "Analogous estimating"},
+                {"key": "D", "text": "Three-point estimating"}
+            ],
+            "correct": "C",
+            "explanation": "Analogous estimating is a top-down technique that uses the duration or cost of previous similar activities to estimate future activities. It is less accurate than bottom-up but faster and useful when limited information is available."
+        },
+        {
+            "id": "d1sq_mc013",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.7",
+            "tags": ["quality", "retrospective"],
+            "difficulty": "easy",
+            "question": "After every sprint, an agile project team meets to reflect on their work and identify ways to improve. What is this quality activity called?",
+            "options": [
+                {"key": "A", "text": "Sprint review"},
+                {"key": "B", "text": "Sprint planning"},
+                {"key": "C", "text": "Retrospective"},
+                {"key": "D", "text": "Quality audit"}
+            ],
+            "correct": "C",
+            "explanation": "A retrospective is a process improvement session where the team reflects on the previous sprint and identifies ways to improve how they work together. It focuses on the team's process, not the product itself (that's the sprint review)."
+        },
+        {
+            "id": "d1sq_mc014",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.7",
+            "tags": ["quality", "sprint-review"],
+            "difficulty": "medium",
+            "question": "What is the primary purpose of a sprint review?",
+            "options": [
+                {"key": "A", "text": "To reflect on team processes and identify improvements"},
+                {"key": "B", "text": "To review the product's newest functionality with stakeholders and collaboratively decide what to work on next"},
+                {"key": "C", "text": "To assign tasks for the next sprint"},
+                {"key": "D", "text": "To audit the project's quality management system"}
+            ],
+            "correct": "B",
+            "explanation": "The sprint review is an informal end-of-sprint meeting where the agile team and stakeholders review the product's newest functionality, collaboratively adjust the backlog, and decide what to work on next. It focuses on the product, while the retrospective focuses on the process."
+        },
+        {
+            "id": "d1sq_mc015",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.7",
+            "tags": ["quality", "smoke-test"],
+            "difficulty": "medium",
+            "question": "A quality team wants to add a high-level system test after a build and before running detailed tests to confirm that core functions are operating as expected. Which test type should they use?",
+            "options": [
+                {"key": "A", "text": "Regression test"},
+                {"key": "B", "text": "Smoke test"},
+                {"key": "C", "text": "User acceptance test (UAT)"},
+                {"key": "D", "text": "Unit test"}
+            ],
+            "correct": "B",
+            "explanation": "A smoke test is a high-level system test performed after a build and before release. It is limited to the most crucial functions to ensure they work, without analyzing finer details. If the smoke test fails, the team knows not to invest time in detailed testing."
+        },
+        {
+            "id": "d1sq_mc016",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.7",
+            "tags": ["quality", "uat"],
+            "difficulty": "easy",
+            "question": "Which testing stage proves that a program is usable and fit for purpose in real-world conditions, usually one of the last stages before release?",
+            "options": [
+                {"key": "A", "text": "Unit testing"},
+                {"key": "B", "text": "Regression testing"},
+                {"key": "C", "text": "User Acceptance Testing (UAT)"},
+                {"key": "D", "text": "Smoke testing"}
+            ],
+            "correct": "C",
+            "explanation": "User Acceptance Testing (UAT) is usually one of the last stages before release. It proves that a program is usable and fit for purpose in real-world conditions. UAT is performed by end-users or their representatives."
+        },
+        {
+            "id": "d1sq_mc017",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.7",
+            "tags": ["quality", "regression-test"],
+            "difficulty": "medium",
+            "question": "After making changes to an application, the test team re-runs existing test cases to verify the changes haven't broken older functionality. This process is called:",
+            "options": [
+                {"key": "A", "text": "Smoke testing"},
+                {"key": "B", "text": "Stress testing"},
+                {"key": "C", "text": "Regression testing"},
+                {"key": "D", "text": "Unit testing"}
+            ],
+            "correct": "C",
+            "explanation": "Regression testing is the process of testing an application after changes are made to verify the changes haven't triggered problems in existing areas of code. It ensures that new updates don't break previously working functionality."
+        },
+        {
+            "id": "d1sq_mc018",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.7",
+            "tags": ["quality", "sla"],
+            "difficulty": "medium",
+            "question": "Why does a Service Level Agreement (SLA) benefit both parties?",
+            "options": [
+                {"key": "A", "text": "It only benefits the customer by holding the provider accountable"},
+                {"key": "B", "text": "It sets clear expectations and reduces friction by representing an agreed-upon standard between both parties"},
+                {"key": "C", "text": "It allows the provider to charge more for services"},
+                {"key": "D", "text": "It eliminates all risk from the service relationship"}
+            ],
+            "correct": "B",
+            "explanation": "An SLA benefits both parties by setting clear expectations and representing a mutual agreement. It reduces friction by giving both sides a clear reference point for acceptable performance, which improves the overall relationship."
+        },
+        {
+            "id": "d1sq_mc019",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.7",
+            "tags": ["kpi", "okr"],
+            "difficulty": "hard",
+            "question": "A project charter has the following objective: 'Respond to new customer contact requests within 48 hours.' Is this a KPI or an OKR?",
+            "options": [
+                {"key": "A", "text": "OKR — it sets an aspirational goal with measurable key results"},
+                {"key": "B", "text": "KPI — it sets an operational target with upper and lower limits measured over time"},
+                {"key": "C", "text": "Neither — it is a milestone"},
+                {"key": "D", "text": "Both — KPIs and OKRs are the same concept"}
+            ],
+            "correct": "B",
+            "explanation": "This is a KPI because it sets an operational target measured over a long time with clear limits: 0-48 hours is acceptable, 49+ hours is an issue. An OKR would set an aspirational objective paired with up to five measurable key results that introduce change."
+        },
+        {
+            "id": "d1sq_mc020",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.7",
+            "tags": ["kpi", "lagging-leading"],
+            "difficulty": "hard",
+            "question": "Which statement BEST describes the difference between leading and lagging indicators?",
+            "options": [
+                {"key": "A", "text": "Leading indicators measure past results; lagging indicators predict future performance"},
+                {"key": "B", "text": "Leading indicators measure inputs and predict future results; lagging indicators measure outputs after a process completes"},
+                {"key": "C", "text": "They measure the same things at different intervals"},
+                {"key": "D", "text": "Leading indicators are more accurate than lagging indicators"}
+            ],
+            "correct": "B",
+            "explanation": "Leading indicators measure the performance of inputs into a process — strong leading indicators should predict strong results. Lagging indicators measure results after a process completes, so they lag behind business decisions. Both are valuable for different purposes."
+        },
+        {
+            "id": "d1sq_fi001",
+            "type": "fill_in",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["pert", "estimation", "calculation"],
+            "difficulty": "hard",
+            "question": "Using the PERT formula (O + 4M + P) / 6, calculate the PERT estimate for an activity with the following durations: Optimistic = 4 days, Most Likely = 7 days, Pessimistic = 16 days. Round to one decimal place.",
+            "correct_answers": ["8.0", "8"],
+            "case_sensitive": false,
+            "explanation": "PERT = (O + 4M + P) / 6 = (4 + 4×7 + 16) / 6 = (4 + 28 + 16) / 6 = 48 / 6 = 8.0 days. The weighted average pulls the estimate toward the most likely value of 7, with slight adjustment for the pessimistic 16-day scenario."
+        },
+        {
+            "id": "d1sq_match001",
+            "type": "matching",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["dependencies"],
+            "difficulty": "hard",
+            "question": "Match each dependency type to its correct description.",
+            "pairs": [
+                {"left": "Finish-to-Start (FS)", "right": "Predecessor must finish before successor can start"},
+                {"left": "Start-to-Start (SS)", "right": "Predecessor must start before successor can start"},
+                {"left": "Finish-to-Finish (FF)", "right": "Predecessor must finish before successor can finish"},
+                {"left": "Start-to-Finish (SF)", "right": "Predecessor must start before successor can finish"}
+            ],
+            "explanation": "FS is the most common dependency type. SS allows parallel starts. FF links the completion of two activities. SF is the rarest — the predecessor's start controls when the successor can finish."
+        },
+        {
+            "id": "d1sq_match002",
+            "type": "matching",
+            "domain": "1",
+            "objective": "1.7",
+            "tags": ["testing"],
+            "difficulty": "medium",
+            "question": "Match each test type to its primary purpose.",
+            "pairs": [
+                {"left": "Unit test", "right": "Verifies a single block of code performs its intended action"},
+                {"left": "Smoke test", "right": "Quick check of core functions after a build, before detailed testing"},
+                {"left": "Regression test", "right": "Verifies changes haven't broken previously working features"},
+                {"left": "UAT", "right": "Proves the program is usable and fit for purpose in real-world conditions"},
+                {"left": "Stress test", "right": "Evaluates how software performs under extreme load"}
+            ],
+            "explanation": "Testing progresses from small scope (unit) to broad scope (UAT). Unit tests verify individual code blocks. Smoke tests confirm core functions work. Regression tests catch breakage from changes. UAT validates real-world usability. Stress tests push the system to its limits."
+        },
+        {
+            "id": "d1sq_dd001",
+            "type": "drag_drop",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["estimation-techniques"],
+            "difficulty": "hard",
+            "question": "Categorize each estimation technique as Top-Down or Bottom-Up.",
+            "categories": ["Top-Down", "Bottom-Up"],
+            "items": [
+                {"text": "Analogous estimating — uses a similar past project's duration", "correct_category": "Top-Down"},
+                {"text": "Parametric estimating — applies a mathematical model using project characteristics", "correct_category": "Top-Down"},
+                {"text": "Estimating each work package in the WBS and aggregating upward", "correct_category": "Bottom-Up"},
+                {"text": "Expert judgment on the overall project cost, cascaded to activities", "correct_category": "Top-Down"},
+                {"text": "Detailed resource and duration estimates for each individual activity", "correct_category": "Bottom-Up"}
+            ],
+            "explanation": "Top-down techniques (analogous, parametric, expert judgment on the whole) start with the big picture and work down — they're faster but less accurate. Bottom-up techniques estimate each work package individually and aggregate — they're more accurate but more time-consuming."
+        },
+        {
+            "id": "d1sq_order001",
+            "type": "ordering",
+            "domain": "1",
+            "objective": "1.7",
+            "tags": ["testing", "sequence"],
+            "difficulty": "medium",
+            "question": "Place the software testing activities in their typical sequence from earliest to latest in the development process.",
+            "items": [
+                "Smoke testing",
+                "Regression testing",
+                "Unit testing",
+                "User Acceptance Testing (UAT)",
+                "Performance / stress testing"
+            ],
+            "correct_order": [
+                "Unit testing",
+                "Smoke testing",
+                "Regression testing",
+                "Performance / stress testing",
+                "User Acceptance Testing (UAT)"
+            ],
+            "explanation": "Unit tests happen during development (earliest). Smoke tests verify core functions after a build. Regression tests check that changes haven't broken existing features. Performance/stress tests verify the system handles load. UAT is typically the last stage before release."
+        }
+    ]
+}

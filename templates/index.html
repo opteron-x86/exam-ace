@@ -1,0 +1,223 @@
+{% extends "base.html" %}
+{% block title %}Project+ Quiz – Home{% endblock %}
+
+{% block content %}
+<div class="home-container">
+
+    <!-- Quick Stats -->
+    <section class="stats-bar">
+        <div class="stat-card">
+            <div class="stat-value">{{ stats.sessions.total_attempts or 0 }}</div>
+            <div class="stat-label">Attempts</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value">{{ "%.0f"|format(stats.sessions.avg_score or 0) }}%</div>
+            <div class="stat-label">Avg Score</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value">{{ "%.0f"|format(stats.sessions.best_score or 0) }}%</div>
+            <div class="stat-label">Best Score</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value">{{ stats.sessions.total_questions_answered or 0 }}</div>
+            <div class="stat-label">Questions</div>
+        </div>
+    </section>
+
+    <div class="home-grid">
+        <!-- Quiz Setup -->
+        <section class="card setup-card">
+            <h2>Start a Quiz</h2>
+
+            <form id="quiz-setup-form">
+                <!-- Question Banks -->
+                <fieldset>
+                    <legend>Question Banks</legend>
+                    {% if banks %}
+                    {% for bank in banks %}
+                    <label class="bank-option">
+                        <input type="checkbox" name="bank_files" value="{{ bank.file }}" checked>
+                        <div class="bank-info">
+                            <strong>{{ bank.title }}</strong>
+                            <span class="bank-meta">{{ bank.question_count }} questions</span>
+                            {% if bank.description %}
+                            <span class="bank-desc">{{ bank.description }}</span>
+                            {% endif %}
+                        </div>
+                    </label>
+                    {% endfor %}
+                    {% else %}
+                    <p class="empty-state">No question banks found. Add JSON files to the <code>question_banks/</code> folder.</p>
+                    {% endif %}
+                </fieldset>
+
+                <!-- Mode -->
+                <fieldset>
+                    <legend>Mode</legend>
+                    <div class="mode-toggle">
+                        <label class="mode-option selected" data-mode="study">
+                            <input type="radio" name="mode" value="study" checked>
+                            <div class="mode-content">
+                                <strong>&#128218; Study</strong>
+                                <span>Immediate feedback after each question</span>
+                            </div>
+                        </label>
+                        <label class="mode-option" data-mode="exam">
+                            <input type="radio" name="mode" value="exam">
+                            <div class="mode-content">
+                                <strong>&#128221; Exam</strong>
+                                <span>Timed, results shown at the end</span>
+                            </div>
+                        </label>
+                    </div>
+                </fieldset>
+
+                <!-- Options -->
+                <fieldset>
+                    <legend>Options</legend>
+
+                    <div class="form-row">
+                        <label for="count">Number of Questions</label>
+                        <input type="number" id="count" name="count" min="1" max="500" value="25" class="form-input">
+                        <span class="form-hint">Leave blank for all available</span>
+                    </div>
+
+                    <div class="form-row" id="time-limit-row">
+                        <label for="time_limit">Time Limit (minutes)</label>
+                        <input type="number" id="time_limit" name="time_limit" min="0" max="300" value="100" class="form-input">
+                        <span class="form-hint">0 for no limit</span>
+                    </div>
+
+                    <div class="form-row">
+                        <label>Domains</label>
+                        <div class="checkbox-group">
+                            {% for key, info in domain_weights.items() %}
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="domains" value="{{ key }}" checked>
+                                {{ info.name }} ({{ (info.weight * 100)|int }}%)
+                            </label>
+                            {% endfor %}
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <label>Difficulty</label>
+                        <div class="checkbox-group">
+                            <label class="checkbox-label"><input type="checkbox" name="difficulties" value="easy" checked> Easy</label>
+                            <label class="checkbox-label"><input type="checkbox" name="difficulties" value="medium" checked> Medium</label>
+                            <label class="checkbox-label"><input type="checkbox" name="difficulties" value="hard" checked> Hard</label>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <label>Question Types</label>
+                        <div class="checkbox-group">
+                            {% for key, label in question_types.items() %}
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="question_types" value="{{ key }}" checked>
+                                {{ label }}
+                            </label>
+                            {% endfor %}
+                        </div>
+                    </div>
+
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="randomize" checked>
+                        Randomize question order
+                    </label>
+                </fieldset>
+
+                <button type="submit" class="btn btn-primary btn-lg" id="start-btn">
+                    Start Quiz
+                </button>
+                <div id="setup-error" class="error-msg" style="display:none"></div>
+            </form>
+        </section>
+
+        <!-- Domain Performance -->
+        <section class="card">
+            <h2>Domain Performance</h2>
+            {% if stats.domains %}
+            <div class="domain-bars">
+                {% for d in stats.domains %}
+                <div class="domain-bar-row">
+                    <div class="domain-bar-label">
+                        Domain {{ d.domain }}
+                        <span class="domain-bar-pct">{{ d.pct }}%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill {% if d.pct >= 79 %}good{% elif d.pct >= 60 %}ok{% else %}poor{% endif %}"
+                             style="width: {{ d.pct }}%"></div>
+                    </div>
+                    <div class="domain-bar-detail">{{ d.correct }}/{{ d.total }}</div>
+                </div>
+                {% endfor %}
+            </div>
+            {% else %}
+            <p class="empty-state">Complete a quiz to see domain performance.</p>
+            {% endif %}
+        </section>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    // Mode toggle styling
+    document.querySelectorAll('.mode-option input').forEach(radio => {
+        radio.addEventListener('change', () => {
+            document.querySelectorAll('.mode-option').forEach(el => el.classList.remove('selected'));
+            radio.closest('.mode-option').classList.add('selected');
+            const isExam = radio.value === 'exam';
+            document.getElementById('time-limit-row').style.display = isExam ? '' : 'none';
+        });
+    });
+    // Initial state
+    document.getElementById('time-limit-row').style.display = 'none';
+
+    // Form submission
+    document.getElementById('quiz-setup-form').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const btn = document.getElementById('start-btn');
+        const errEl = document.getElementById('setup-error');
+        errEl.style.display = 'none';
+        btn.disabled = true;
+        btn.textContent = 'Loading...';
+
+        const form = e.target;
+        const getChecked = (name) => [...form.querySelectorAll(`[name="${name}"]:checked`)].map(i => i.value);
+        const mode = form.querySelector('[name="mode"]:checked').value;
+
+        const body = {
+            bank_files: getChecked('bank_files'),
+            mode: mode,
+            count: parseInt(form.count.value) || null,
+            domains: getChecked('domains'),
+            difficulties: getChecked('difficulties'),
+            question_types: getChecked('question_types'),
+            time_limit: mode === 'exam' ? (parseInt(form.time_limit.value) || 0) : 0,
+            randomize: form.randomize.checked,
+        };
+
+        try {
+            const resp = await fetch('/api/quiz/start', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify(body),
+            });
+            const data = await resp.json();
+            if (!resp.ok) {
+                throw new Error(data.error || 'Failed to start quiz');
+            }
+            // Store quiz data in sessionStorage for the quiz page
+            sessionStorage.setItem(`quiz_${data.session_id}`, JSON.stringify(data));
+            window.location.href = `/quiz/${data.session_id}`;
+        } catch (err) {
+            errEl.textContent = err.message;
+            errEl.style.display = 'block';
+            btn.disabled = false;
+            btn.textContent = 'Start Quiz';
+        }
+    });
+});
+</script>
+{% endblock %}

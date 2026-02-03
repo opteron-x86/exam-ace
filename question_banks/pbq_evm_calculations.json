@@ -1,0 +1,297 @@
+{
+    "bank_id": "pbq_evm_001",
+    "title": "PBQ: Earned Value Management Calculations",
+    "description": "Performance-based questions focused on EVM formulas: CPI, SPI, CV, SV, EAC, ETC, VAC, and multi-part scenario calculations. High difficulty.",
+    "version": "1.0",
+    "questions": [
+        {
+            "id": "evm_fi001",
+            "type": "fill_in",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["evm", "cost-variance"],
+            "difficulty": "medium",
+            "question": "A project has an Earned Value (EV) of $80,000 and an Actual Cost (AC) of $95,000. What is the Cost Variance (CV)? Include the sign and dollar amount (e.g., -5000).",
+            "correct_answers": ["-15000", "-$15,000", "-$15000", "-15,000"],
+            "case_sensitive": false,
+            "explanation": "CV = EV - AC = $80,000 - $95,000 = -$15,000. A negative CV indicates the project is over budget — it has spent $15,000 more than the value of work completed."
+        },
+        {
+            "id": "evm_fi002",
+            "type": "fill_in",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["evm", "schedule-variance"],
+            "difficulty": "medium",
+            "question": "A project has an Earned Value (EV) of $120,000 and a Planned Value (PV) of $100,000. What is the Schedule Variance (SV)? Include the sign and dollar amount (e.g., 5000).",
+            "correct_answers": ["20000", "$20,000", "$20000", "20,000", "+20000", "+$20,000"],
+            "case_sensitive": false,
+            "explanation": "SV = EV - PV = $120,000 - $100,000 = $20,000. A positive SV indicates the project is ahead of schedule — more value has been earned than was planned at this point."
+        },
+        {
+            "id": "evm_fi003",
+            "type": "fill_in",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["evm", "cpi"],
+            "difficulty": "medium",
+            "question": "A project has an Earned Value (EV) of $60,000 and an Actual Cost (AC) of $75,000. What is the Cost Performance Index (CPI)? Round to two decimal places.",
+            "correct_answers": ["0.80", "0.8", ".80", ".8"],
+            "case_sensitive": false,
+            "explanation": "CPI = EV / AC = $60,000 / $75,000 = 0.80. A CPI less than 1.0 means the project is over budget. For every dollar spent, only $0.80 of value is earned."
+        },
+        {
+            "id": "evm_fi004",
+            "type": "fill_in",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["evm", "spi"],
+            "difficulty": "medium",
+            "question": "A project has an Earned Value (EV) of $45,000 and a Planned Value (PV) of $50,000. What is the Schedule Performance Index (SPI)? Round to two decimal places.",
+            "correct_answers": ["0.90", "0.9", ".90", ".9"],
+            "case_sensitive": false,
+            "explanation": "SPI = EV / PV = $45,000 / $50,000 = 0.90. An SPI less than 1.0 means the project is behind schedule — only 90% of the planned work has been completed."
+        },
+        {
+            "id": "evm_fi005",
+            "type": "fill_in",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["evm", "eac"],
+            "difficulty": "hard",
+            "question": "A project has a BAC of $200,000 and a CPI of 0.80. Assuming the current cost performance trend continues, what is the Estimate at Completion (EAC)? Use the formula EAC = BAC / CPI. Round to the nearest whole dollar.",
+            "correct_answers": ["250000", "$250,000", "$250000", "250,000"],
+            "case_sensitive": false,
+            "explanation": "EAC = BAC / CPI = $200,000 / 0.80 = $250,000. The project is expected to cost $50,000 more than originally budgeted if the current cost performance trend continues."
+        },
+        {
+            "id": "evm_fi006",
+            "type": "fill_in",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["evm", "eac", "atypical"],
+            "difficulty": "hard",
+            "question": "A project has a BAC of $150,000, an EV of $60,000, and an AC of $70,000. The project manager believes the cost variance was caused by a one-time event and will not recur. What is the EAC using the atypical variance formula? EAC = AC + (BAC - EV).",
+            "correct_answers": ["160000", "$160,000", "$160000", "160,000"],
+            "case_sensitive": false,
+            "explanation": "EAC = AC + (BAC - EV) = $70,000 + ($150,000 - $60,000) = $70,000 + $90,000 = $160,000. This formula is used when the variance is atypical (a one-time event) and the remaining work is expected to proceed at the budgeted rate."
+        },
+        {
+            "id": "evm_fi007",
+            "type": "fill_in",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["evm", "etc"],
+            "difficulty": "hard",
+            "question": "A project has an EAC of $300,000 and an AC of $180,000. What is the Estimate to Complete (ETC)?",
+            "correct_answers": ["120000", "$120,000", "$120000", "120,000"],
+            "case_sensitive": false,
+            "explanation": "ETC = EAC - AC = $300,000 - $180,000 = $120,000. The ETC represents the expected cost to finish the remaining project work from this point forward."
+        },
+        {
+            "id": "evm_fi008",
+            "type": "fill_in",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["evm", "vac"],
+            "difficulty": "hard",
+            "question": "A project has a BAC of $500,000 and an EAC of $575,000. What is the Variance at Completion (VAC)? Include the sign.",
+            "correct_answers": ["-75000", "-$75,000", "-$75000", "-75,000"],
+            "case_sensitive": false,
+            "explanation": "VAC = BAC - EAC = $500,000 - $575,000 = -$75,000. A negative VAC means the project is expected to be over budget by $75,000 when complete."
+        },
+        {
+            "id": "evm_sc001",
+            "type": "scenario",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["evm", "full-analysis"],
+            "difficulty": "hard",
+            "scenario": "You are the project manager for a network infrastructure upgrade. The project is 50% through its planned duration. Here is the current EVM data:\n\n• Budget at Completion (BAC): $400,000\n• Planned Value (PV): $200,000\n• Earned Value (EV): $180,000\n• Actual Cost (AC): $210,000",
+            "parts": [
+                {
+                    "id": "evm_sc001a",
+                    "type": "fill_in",
+                    "question": "What is the Cost Variance (CV)? Include the sign.",
+                    "correct_answers": ["-30000", "-$30,000", "-$30000", "-30,000"],
+                    "explanation": "CV = EV - AC = $180,000 - $210,000 = -$30,000. The project is $30,000 over budget."
+                },
+                {
+                    "id": "evm_sc001b",
+                    "type": "fill_in",
+                    "question": "What is the Schedule Variance (SV)? Include the sign.",
+                    "correct_answers": ["-20000", "-$20,000", "-$20000", "-20,000"],
+                    "explanation": "SV = EV - PV = $180,000 - $200,000 = -$20,000. The project is behind schedule by $20,000 in earned value."
+                },
+                {
+                    "id": "evm_sc001c",
+                    "type": "fill_in",
+                    "question": "What is the CPI? Round to two decimal places.",
+                    "correct_answers": ["0.86", ".86"],
+                    "explanation": "CPI = EV / AC = $180,000 / $210,000 ≈ 0.857, rounded to 0.86. The project earns $0.86 in value for every dollar spent."
+                },
+                {
+                    "id": "evm_sc001d",
+                    "type": "multiple_choice",
+                    "question": "Based on the data, which statement BEST describes the project's status?",
+                    "options": [
+                        {"key": "A", "text": "Over budget and ahead of schedule"},
+                        {"key": "B", "text": "Under budget and behind schedule"},
+                        {"key": "C", "text": "Over budget and behind schedule"},
+                        {"key": "D", "text": "Under budget and ahead of schedule"}
+                    ],
+                    "correct": "C",
+                    "explanation": "CV is negative (over budget) and SV is negative (behind schedule). CPI < 1 confirms over budget. SPI would also be < 1, confirming behind schedule."
+                }
+            ],
+            "explanation": "This scenario tests the core EVM analysis workflow: calculate variances, derive indices, and interpret what they mean for the project. Negative CV = over budget. Negative SV = behind schedule. CPI < 1 = over budget. SPI < 1 = behind schedule."
+        },
+        {
+            "id": "evm_sc002",
+            "type": "scenario",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["evm", "forecasting", "eac"],
+            "difficulty": "hard",
+            "scenario": "You are managing a mobile application development project with the following data at the end of Month 4:\n\n• Budget at Completion (BAC): $250,000\n• Planned Value (PV): $150,000\n• Earned Value (EV): $125,000\n• Actual Cost (AC): $140,000\n\nThe project sponsor wants to know the projected final cost.",
+            "parts": [
+                {
+                    "id": "evm_sc002a",
+                    "type": "fill_in",
+                    "question": "What is the CPI? Round to two decimal places.",
+                    "correct_answers": ["0.89", ".89"],
+                    "explanation": "CPI = EV / AC = $125,000 / $140,000 ≈ 0.893, rounded to 0.89."
+                },
+                {
+                    "id": "evm_sc002b",
+                    "type": "fill_in",
+                    "question": "What is the SPI? Round to two decimal places.",
+                    "correct_answers": ["0.83", ".83"],
+                    "explanation": "SPI = EV / PV = $125,000 / $150,000 ≈ 0.833, rounded to 0.83."
+                },
+                {
+                    "id": "evm_sc002c",
+                    "type": "fill_in",
+                    "question": "Using EAC = BAC / CPI, what is the Estimate at Completion? Round to the nearest whole dollar.",
+                    "correct_answers": ["280899", "$280,899", "$280899", "280,899", "280898", "$280,898"],
+                    "explanation": "EAC = BAC / CPI = $250,000 / 0.89 ≈ $280,899. The project is forecasted to cost approximately $30,899 more than budgeted."
+                },
+                {
+                    "id": "evm_sc002d",
+                    "type": "fill_in",
+                    "question": "What is the Estimate to Complete (ETC)? Use ETC = EAC - AC. Round to the nearest whole dollar.",
+                    "correct_answers": ["140899", "$140,899", "$140899", "140,899", "140898", "$140,898"],
+                    "explanation": "ETC = EAC - AC = $280,899 - $140,000 = $140,899. This is the estimated cost to complete the remaining work."
+                }
+            ],
+            "explanation": "This scenario chains EVM calculations: CPI → EAC → ETC. The sponsor learns the project is trending toward a ~$31,000 overrun and still needs approximately $141,000 to finish."
+        },
+        {
+            "id": "evm_sc003",
+            "type": "scenario",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["evm", "budget", "reserves"],
+            "difficulty": "hard",
+            "scenario": "You are planning the budget for a data center migration project. The cost estimates for all work packages total $320,000. The risk assessment identified several known risks, and you have allocated a 10% contingency reserve. The PMO requires a 5% management reserve on top of the project budget.",
+            "parts": [
+                {
+                    "id": "evm_sc003a",
+                    "type": "fill_in",
+                    "question": "What is the contingency reserve amount?",
+                    "correct_answers": ["32000", "$32,000", "$32000", "32,000"],
+                    "explanation": "Contingency reserve = $320,000 × 10% = $32,000. This covers known risks that have been identified and accepted."
+                },
+                {
+                    "id": "evm_sc003b",
+                    "type": "fill_in",
+                    "question": "What is the cost baseline? (cost estimate + contingency reserve)",
+                    "correct_answers": ["352000", "$352,000", "$352000", "352,000"],
+                    "explanation": "Cost baseline = cost estimate + contingency reserve = $320,000 + $32,000 = $352,000. The cost baseline is used to measure cost performance."
+                },
+                {
+                    "id": "evm_sc003c",
+                    "type": "fill_in",
+                    "question": "What is the management reserve amount? (5% of the cost baseline)",
+                    "correct_answers": ["17600", "$17,600", "$17600", "17,600"],
+                    "explanation": "Management reserve = $352,000 × 5% = $17,600. Management reserves cover 'unknown unknown' risks and unplanned scope changes."
+                },
+                {
+                    "id": "evm_sc003d",
+                    "type": "fill_in",
+                    "question": "What is the total project budget? (cost baseline + management reserve)",
+                    "correct_answers": ["369600", "$369,600", "$369600", "369,600"],
+                    "explanation": "Project budget = cost baseline + management reserve = $352,000 + $17,600 = $369,600. The project budget is the total financial sum available for the project."
+                }
+            ],
+            "explanation": "The project budget is built in layers: cost estimate → add contingency reserve = cost baseline → add management reserve = project budget. Contingency reserves cover known risks. Management reserves cover unknown risks. The cost baseline (without management reserve) is used for EVM performance measurement."
+        },
+        {
+            "id": "evm_match001",
+            "type": "matching",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["evm", "formulas"],
+            "difficulty": "medium",
+            "question": "Match each EVM metric to its correct formula.",
+            "pairs": [
+                {"left": "Cost Variance (CV)", "right": "EV - AC"},
+                {"left": "Schedule Variance (SV)", "right": "EV - PV"},
+                {"left": "Cost Performance Index (CPI)", "right": "EV / AC"},
+                {"left": "Schedule Performance Index (SPI)", "right": "EV / PV"},
+                {"left": "Variance at Completion (VAC)", "right": "BAC - EAC"}
+            ],
+            "explanation": "These are the core EVM formulas. CV and SV measure variance in dollar terms (positive = favorable). CPI and SPI are ratios (> 1 = favorable, < 1 = unfavorable). VAC forecasts the final budget variance."
+        },
+        {
+            "id": "evm_match002",
+            "type": "matching",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["evm", "interpretation"],
+            "difficulty": "medium",
+            "question": "Match each EVM indicator value to its correct interpretation.",
+            "pairs": [
+                {"left": "CPI = 1.15", "right": "Under budget — earning $1.15 per dollar spent"},
+                {"left": "SPI = 0.85", "right": "Behind schedule — only 85% of planned work completed"},
+                {"left": "CV = -$10,000", "right": "Over budget by $10,000"},
+                {"left": "SV = $5,000", "right": "Ahead of schedule by $5,000 in earned value"}
+            ],
+            "explanation": "CPI > 1 = under budget. SPI < 1 = behind schedule. Negative CV = over budget. Positive SV = ahead of schedule. The key insight is that EV is always in the formula — it represents actual value delivered."
+        },
+        {
+            "id": "evm_mc001",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["evm", "eac", "formula-selection"],
+            "difficulty": "hard",
+            "question": "A project manager calculates that the project's cost variance was caused by a vendor's one-time pricing error that has been corrected. Which EAC formula is MOST appropriate to forecast the final project cost?",
+            "options": [
+                {"key": "A", "text": "EAC = BAC / CPI (assumes current CPI will continue)"},
+                {"key": "B", "text": "EAC = AC + (BAC - EV) (assumes remaining work at budgeted rate)"},
+                {"key": "C", "text": "EAC = AC + new bottom-up estimate"},
+                {"key": "D", "text": "EAC = BAC / (CPI × SPI)"}
+            ],
+            "correct": "B",
+            "explanation": "When the variance is atypical (a one-time event that won't recur), use EAC = AC + (BAC - EV). This assumes the remaining work will be completed at the original budgeted rate. Use BAC / CPI only when you expect the current CPI trend to continue."
+        },
+        {
+            "id": "evm_mc002",
+            "type": "multiple_choice",
+            "domain": "2",
+            "objective": "2.4",
+            "tags": ["evm", "budget", "baseline"],
+            "difficulty": "medium",
+            "question": "A project has a cost baseline of $200,000 and contingency reserves of $20,000. A risk event occurs and costs $8,000 from the contingency reserves. What is the new cost baseline?",
+            "options": [
+                {"key": "A", "text": "$180,000"},
+                {"key": "B", "text": "$192,000"},
+                {"key": "C", "text": "$200,000"},
+                {"key": "D", "text": "$208,000"}
+            ],
+            "correct": "C",
+            "explanation": "The cost baseline remains $200,000. Contingency reserves are part of the cost baseline, but spending them does not change the baseline itself. After the event, the contingency reserves decrease to $12,000, but the cost baseline figure used for performance measurement stays the same."
+        }
+    ]
+}

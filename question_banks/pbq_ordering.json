@@ -1,0 +1,128 @@
+{
+    "bank_id": "pbq_ordering_001",
+    "title": "PBQ: Ordering & Sequencing",
+    "description": "Performance-based ordering questions requiring correct sequencing of processes, stages, and activities. Covers project lifecycle, change control process, Tuckman stages, procurement process, closing activities, risk management, Scrum events, and scope management.",
+    "version": "1.0",
+    "questions": [
+        {
+            "id": "ord_order001",
+            "type": "ordering",
+            "domain": "2",
+            "objective": "2.1",
+            "tags": ["project-lifecycle"],
+            "difficulty": "easy",
+            "question": "Place the project life cycle phases in the correct chronological order, from first to last.",
+            "items": ["Planning", "Closing", "Initiation", "Discovery / Concept", "Execution"],
+            "correct_order": ["Discovery / Concept", "Initiation", "Planning", "Execution", "Closing"],
+            "explanation": "The project life cycle phases in order: Discovery/Concept (evaluate the idea and build the business case), Initiation (authorize the project with a charter), Planning (define scope, schedule, budget), Execution (perform the work), and Closing (validate deliverables and close out)."
+        },
+        {
+            "id": "ord_order002",
+            "type": "ordering",
+            "domain": "1",
+            "objective": "1.10",
+            "tags": ["tuckman", "team-lifecycle"],
+            "difficulty": "easy",
+            "question": "Place Tuckman's team development stages in the correct sequential order.",
+            "items": ["Norming", "Adjourning", "Forming", "Performing", "Storming"],
+            "correct_order": ["Forming", "Storming", "Norming", "Performing", "Adjourning"],
+            "explanation": "Tuckman's stages: Forming (introductions, low productivity), Storming (conflict, competition for position), Norming (increased productivity, learning to work together), Performing (highest productivity, cohesion), Adjourning (concluding work, disbanding)."
+        },
+        {
+            "id": "ord_order003",
+            "type": "ordering",
+            "domain": "1",
+            "objective": "1.3",
+            "tags": ["change-control-process"],
+            "difficulty": "medium",
+            "question": "Place the change control process steps in the correct order.",
+            "items": ["Communicate decision to stakeholders", "Submit change request form", "Change control board reviews and decides", "Evaluate impact of the change", "Implement approved change"],
+            "correct_order": ["Submit change request form", "Evaluate impact of the change", "Change control board reviews and decides", "Communicate decision to stakeholders", "Implement approved change"],
+            "explanation": "Change control process: (1) Initiate — submit the change request form. (2) Evaluate — assess the impact on scope, schedule, budget, and quality. (3) Decide — the CCB reviews and approves, delays, or rejects. (4) Communicate — notify the requester and stakeholders of the decision. (5) Implement — execute the approved change."
+        },
+        {
+            "id": "ord_order004",
+            "type": "ordering",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["procurement-process"],
+            "difficulty": "medium",
+            "question": "Place the procurement process steps in the correct order.",
+            "items": ["Evaluate vendor proposals", "Award contract", "Conduct market research", "Develop procurement SOW and documents", "Distribute solicitation (RFP/RFQ/RFI)"],
+            "correct_order": ["Conduct market research", "Develop procurement SOW and documents", "Distribute solicitation (RFP/RFQ/RFI)", "Evaluate vendor proposals", "Award contract"],
+            "explanation": "Procurement process: (1) Research the market and vendors. (2) Develop the procurement SOW and documents. (3) Distribute the solicitation. (4) Evaluate received proposals against selection criteria. (5) Award the contract to the selected vendor."
+        },
+        {
+            "id": "ord_order005",
+            "type": "ordering",
+            "domain": "2",
+            "objective": "2.5",
+            "tags": ["closing-activities"],
+            "difficulty": "medium",
+            "question": "Place these project closing activities in a logical sequence.",
+            "items": ["Archive project documentation", "Obtain formal project sign-off", "Conduct lessons learned session", "Validate deliverables with stakeholders", "Release project resources"],
+            "correct_order": ["Validate deliverables with stakeholders", "Conduct lessons learned session", "Obtain formal project sign-off", "Release project resources", "Archive project documentation"],
+            "explanation": "Closing sequence: (1) Validate all deliverables are accepted. (2) Conduct lessons learned to capture insights. (3) Obtain formal sign-off via the closeout report. (4) Release project resources back to the organization. (5) Archive all project documentation for future reference."
+        },
+        {
+            "id": "ord_order006",
+            "type": "ordering",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk-management-process"],
+            "difficulty": "medium",
+            "question": "Place the risk management steps in the correct order.",
+            "items": ["Monitor and control risks", "Identify risks", "Develop risk response strategies", "Analyze risks (qualitative and quantitative)", "Document risks in the risk register"],
+            "correct_order": ["Identify risks", "Analyze risks (qualitative and quantitative)", "Develop risk response strategies", "Document risks in the risk register", "Monitor and control risks"],
+            "explanation": "Risk management process: (1) Identify potential risks. (2) Analyze risks using qualitative and/or quantitative methods. (3) Develop response strategies (avoid, mitigate, transfer, accept, etc.). (4) Document everything in the risk register. (5) Monitor and control risks throughout the project."
+        },
+        {
+            "id": "ord_order007",
+            "type": "ordering",
+            "domain": "1",
+            "objective": "1.2",
+            "tags": ["scrum", "sprint-events"],
+            "difficulty": "medium",
+            "question": "Place the Scrum events in the correct order within a single sprint cycle.",
+            "items": ["Sprint retrospective", "Daily Scrum (standup)", "Sprint review", "Sprint planning"],
+            "correct_order": ["Sprint planning", "Daily Scrum (standup)", "Sprint review", "Sprint retrospective"],
+            "explanation": "Scrum events within a sprint: (1) Sprint planning — team selects work for the sprint backlog. (2) Daily Scrum — 15-minute daily status updates throughout the sprint. (3) Sprint review — demonstrate new functionality to stakeholders. (4) Sprint retrospective — team reflects on the sprint and identifies improvements."
+        },
+        {
+            "id": "ord_order008",
+            "type": "ordering",
+            "domain": "2",
+            "objective": "2.3",
+            "tags": ["wbs", "scope-management"],
+            "difficulty": "hard",
+            "question": "Place the scope management activities in the correct order for developing a WBS.",
+            "items": ["Identify work packages at the lowest level", "Define the project scope statement", "Collect and document requirements", "Decompose deliverables into smaller components", "Create the WBS dictionary"],
+            "correct_order": ["Collect and document requirements", "Define the project scope statement", "Decompose deliverables into smaller components", "Identify work packages at the lowest level", "Create the WBS dictionary"],
+            "explanation": "Scope management to WBS: (1) Collect requirements from stakeholders. (2) Define the project scope statement (what is and is not included). (3) Decompose major deliverables into smaller components. (4) Break down to work packages (the lowest, most granular level). (5) Create the WBS dictionary with details about each element."
+        },
+        {
+            "id": "ord_order009",
+            "type": "ordering",
+            "domain": "2",
+            "objective": "2.2",
+            "tags": ["initiation", "stakeholder-analysis"],
+            "difficulty": "medium",
+            "question": "Place the initiation activities in a logical sequence.",
+            "items": ["Conduct kickoff meeting", "Develop the project charter", "Create the responsibility assignment matrix (RAM)", "Identify and analyze stakeholders", "Obtain charter approval from sponsor"],
+            "correct_order": ["Develop the project charter", "Obtain charter approval from sponsor", "Identify and analyze stakeholders", "Create the responsibility assignment matrix (RAM)", "Conduct kickoff meeting"],
+            "explanation": "Initiation sequence: (1) Develop the project charter defining project parameters. (2) Get sponsor approval to formally authorize the project. (3) Identify stakeholders and conduct stakeholder analysis. (4) Create the RAM/RACI to assign responsibilities. (5) Conduct the kickoff meeting — marks the end of initiation and the start of project work."
+        },
+        {
+            "id": "ord_order010",
+            "type": "ordering",
+            "domain": "2",
+            "objective": "2.1",
+            "tags": ["agile", "backlog-refinement"],
+            "difficulty": "hard",
+            "question": "Place the agile backlog hierarchy from largest to smallest unit of work.",
+            "items": ["User story", "Feature", "Epic", "Task"],
+            "correct_order": ["Epic", "Feature", "User story", "Task"],
+            "explanation": "Agile backlog hierarchy from largest to smallest: Epic (equivalent to a project, lasts several iterations/months) → Feature (sizeable functionality, larger than a user story) → User story (individual customer requirement or feature) → Task (specific piece of work within a user story)."
+        }
+    ]
+}

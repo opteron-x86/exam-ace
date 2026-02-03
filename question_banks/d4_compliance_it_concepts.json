@@ -1,0 +1,421 @@
+{
+    "bank_id": "d4_compliance_it_001",
+    "title": "Domain 4: Compliance, Privacy & IT Concepts (4.3, 4.4)",
+    "description": "Covers GDPR, HIPAA, PII, PHI, intellectual property, trade secrets, confidentiality levels, IaaS/PaaS/SaaS, XaaS, databases, data warehouses, ERP, CRM, EDMS, CMS, tiered architecture, financial systems, and cloud computing concepts.",
+    "version": "1.0",
+    "questions": [
+        {
+            "id": "d4ci_mc001",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.3",
+            "tags": ["hipaa"],
+            "difficulty": "easy",
+            "question": "Which U.S. federal law specifically protects the storage, reading, modification, and transmission of personal health care data?",
+            "options": [
+                {"key": "A", "text": "GDPR"},
+                {"key": "B", "text": "HIPAA"},
+                {"key": "C", "text": "PCI DSS"},
+                {"key": "D", "text": "SOX"}
+            ],
+            "correct": "B",
+            "explanation": "HIPAA (Health Insurance Portability and Accountability Act) is a U.S. federal law that protects the storage, reading, modification, and transmission of personal health care data."
+        },
+        {
+            "id": "d4ci_mc002",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.3",
+            "tags": ["gdpr"],
+            "difficulty": "easy",
+            "question": "Provisions and requirements protecting the personal data of European Union citizens, restricting transfers of personal data outside the EU Single Market, are part of the:",
+            "options": [
+                {"key": "A", "text": "HIPAA"},
+                {"key": "B", "text": "SOX"},
+                {"key": "C", "text": "GDPR"},
+                {"key": "D", "text": "ITIL"}
+            ],
+            "correct": "C",
+            "explanation": "GDPR (General Data Protection Regulation) protects the personal data of EU citizens. Transfers of personal data outside the EU Single Market are restricted unless protected by equivalent regulations."
+        },
+        {
+            "id": "d4ci_mc003",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.3",
+            "tags": ["pii"],
+            "difficulty": "easy",
+            "question": "Data that can be used to identify, contact, or impersonate an individual is referred to as:",
+            "options": [
+                {"key": "A", "text": "PHI"},
+                {"key": "B", "text": "PII"},
+                {"key": "C", "text": "IP"},
+                {"key": "D", "text": "ESG"}
+            ],
+            "correct": "B",
+            "explanation": "Personally Identifiable Information (PII) is data that can be used to identify or contact an individual, or in the case of identity theft, to impersonate them. Examples include Social Security numbers, addresses, and phone numbers."
+        },
+        {
+            "id": "d4ci_mc004",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.3",
+            "tags": ["phi"],
+            "difficulty": "medium",
+            "question": "Data that includes information about an individual's past, present, or future health, related payments, and data used in the operation of a healthcare business is called:",
+            "options": [
+                {"key": "A", "text": "PII"},
+                {"key": "B", "text": "Personal Health Information (PHI)"},
+                {"key": "C", "text": "Trade secrets"},
+                {"key": "D", "text": "Intellectual property"}
+            ],
+            "correct": "B",
+            "explanation": "Personal Health Information (PHI) includes data about past, present, or future health, related payments, and data used in healthcare business operations. PHI is protected under HIPAA."
+        },
+        {
+            "id": "d4ci_mc005",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.3",
+            "tags": ["intellectual-property"],
+            "difficulty": "medium",
+            "question": "Data of commercial value that can be granted rights of ownership, such as copyrights, patents, and trademarks, is called:",
+            "options": [
+                {"key": "A", "text": "Trade secrets"},
+                {"key": "B", "text": "Intellectual property (IP)"},
+                {"key": "C", "text": "PII"},
+                {"key": "D", "text": "PHI"}
+            ],
+            "correct": "B",
+            "explanation": "Intellectual property (IP) is data of commercial value that can be granted rights of ownership through copyrights, patents, and trademarks. It represents protected creative and inventive work."
+        },
+        {
+            "id": "d4ci_mc006",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.3",
+            "tags": ["trade-secrets"],
+            "difficulty": "medium",
+            "question": "Intellectual property that gives a company a competitive advantage but has not been registered with a copyright, trademark, or patent is called:",
+            "options": [
+                {"key": "A", "text": "Open source"},
+                {"key": "B", "text": "Public domain"},
+                {"key": "C", "text": "Trade secrets"},
+                {"key": "D", "text": "PII"}
+            ],
+            "correct": "C",
+            "explanation": "Trade secrets are intellectual property that gives a company a competitive advantage but has not been formally registered with a copyright, trademark, or patent. Examples include proprietary formulas, processes, and business methods."
+        },
+        {
+            "id": "d4ci_mc007",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.3",
+            "tags": ["confidentiality", "data-classification"],
+            "difficulty": "medium",
+            "question": "How are confidential and restricted data different?",
+            "options": [
+                {"key": "A", "text": "They are the same classification level"},
+                {"key": "B", "text": "Both have limited access, but restricted data imposes stricter limits with need-to-know justification required"},
+                {"key": "C", "text": "Confidential data is public; restricted data is private"},
+                {"key": "D", "text": "Restricted data is less sensitive than confidential data"}
+            ],
+            "correct": "B",
+            "explanation": "Both confidential and restricted data have limited access, but restricted data imposes stricter limits. Access to restricted data must be justified and is only granted on a need-to-know basis."
+        },
+        {
+            "id": "d4ci_mc008",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.4",
+            "tags": ["iaas"],
+            "difficulty": "easy",
+            "question": "A cloud service model that provisions virtual machines and network infrastructure is called:",
+            "options": [
+                {"key": "A", "text": "SaaS"},
+                {"key": "B", "text": "PaaS"},
+                {"key": "C", "text": "IaaS"},
+                {"key": "D", "text": "XaaS"}
+            ],
+            "correct": "C",
+            "explanation": "Infrastructure as a Service (IaaS) provisions virtual machines and network infrastructure. The customer manages operating systems, applications, and data while the cloud provider manages the underlying hardware and networking."
+        },
+        {
+            "id": "d4ci_mc009",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.4",
+            "tags": ["paas"],
+            "difficulty": "easy",
+            "question": "A cloud service model that provisions application and database services as a platform for development is called:",
+            "options": [
+                {"key": "A", "text": "IaaS"},
+                {"key": "B", "text": "PaaS"},
+                {"key": "C", "text": "SaaS"},
+                {"key": "D", "text": "XaaS"}
+            ],
+            "correct": "B",
+            "explanation": "Platform as a Service (PaaS) provisions application and database services as a development platform. Developers can build, test, and deploy applications without managing the underlying infrastructure."
+        },
+        {
+            "id": "d4ci_mc010",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.4",
+            "tags": ["saas"],
+            "difficulty": "easy",
+            "question": "A cloud service model that provisions fully developed application services to users, requiring no infrastructure or platform management, is called:",
+            "options": [
+                {"key": "A", "text": "IaaS"},
+                {"key": "B", "text": "PaaS"},
+                {"key": "C", "text": "SaaS"},
+                {"key": "D", "text": "XaaS"}
+            ],
+            "correct": "C",
+            "explanation": "Software as a Service (SaaS) provisions fully developed application services to end users. Users simply access the application through a browser or app — all infrastructure, platform, and maintenance is handled by the provider."
+        },
+        {
+            "id": "d4ci_mc011",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.4",
+            "tags": ["iaas-paas", "distinction"],
+            "difficulty": "medium",
+            "question": "What is the key difference between IaaS and PaaS?",
+            "options": [
+                {"key": "A", "text": "IaaS is more expensive than PaaS"},
+                {"key": "B", "text": "IaaS provides basic computing services; PaaS provides computing services plus development tools"},
+                {"key": "C", "text": "PaaS is only available on-premises"},
+                {"key": "D", "text": "IaaS provides fully developed applications"}
+            ],
+            "correct": "B",
+            "explanation": "IaaS provides basic computing services like virtual machines and networking. PaaS adds development tools, databases, and application platforms on top of the infrastructure, enabling developers to build and deploy applications."
+        },
+        {
+            "id": "d4ci_mc012",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.4",
+            "tags": ["xaas"],
+            "difficulty": "medium",
+            "question": "The concept that most types of IT requirements can be deployed as a cloud service model is referred to as:",
+            "options": [
+                {"key": "A", "text": "IaaS"},
+                {"key": "B", "text": "DevOps"},
+                {"key": "C", "text": "XaaS (Anything as a Service)"},
+                {"key": "D", "text": "ITIL"}
+            ],
+            "correct": "C",
+            "explanation": "XaaS (Anything as a Service) is the concept that most types of IT requirements can be delivered as a cloud service model, extending beyond the traditional IaaS, PaaS, and SaaS categories."
+        },
+        {
+            "id": "d4ci_mc013",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.4",
+            "tags": ["crm"],
+            "difficulty": "medium",
+            "question": "You are pulling customer information from a system that shows customer interactions with the company and their purchase history. What type of system is this?",
+            "options": [
+                {"key": "A", "text": "ERP"},
+                {"key": "B", "text": "CRM"},
+                {"key": "C", "text": "EDMS"},
+                {"key": "D", "text": "Data warehouse"}
+            ],
+            "correct": "B",
+            "explanation": "A Customer Relationship Management (CRM) system organizes the relationship between a business and its customers for customer retention and satisfaction. It tracks customer interactions, purchase history, and communication."
+        },
+        {
+            "id": "d4ci_mc014",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.4",
+            "tags": ["erp"],
+            "difficulty": "easy",
+            "question": "Software that enables an organization to manage services, personnel, and IT resources across the enterprise is called:",
+            "options": [
+                {"key": "A", "text": "CRM"},
+                {"key": "B", "text": "CMS"},
+                {"key": "C", "text": "ERP (Enterprise Resource Planning)"},
+                {"key": "D", "text": "EDMS"}
+            ],
+            "correct": "C",
+            "explanation": "Enterprise Resource Planning (ERP) software enables an organization to manage services, personnel, and IT resources. It integrates core business processes such as finance, HR, supply chain, and operations."
+        },
+        {
+            "id": "d4ci_mc015",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.4",
+            "tags": ["database"],
+            "difficulty": "medium",
+            "question": "Data storage systems that organize electronic information into structured tables, allowing easy retrieval and interpretation, often operated using SQL, are called:",
+            "options": [
+                {"key": "A", "text": "Knowledge bases"},
+                {"key": "B", "text": "Databases"},
+                {"key": "C", "text": "Data warehouses"},
+                {"key": "D", "text": "File sharing platforms"}
+            ],
+            "correct": "B",
+            "explanation": "Databases organize electronic information into structured tables for easy retrieval and interpretation. Many are operated using Structured Query Language (SQL). Database design, programming, and administration require careful security consideration."
+        },
+        {
+            "id": "d4ci_mc016",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.4",
+            "tags": ["data-warehouse"],
+            "difficulty": "medium",
+            "question": "An extensive database that allows designers to create multiple dashboards using the same data set is called a:",
+            "options": [
+                {"key": "A", "text": "Knowledge base"},
+                {"key": "B", "text": "CRM system"},
+                {"key": "C", "text": "Data warehouse"},
+                {"key": "D", "text": "Ticketing system"}
+            ],
+            "correct": "C",
+            "explanation": "A data warehouse is an extensive database that allows designers to create multiple dashboards and reports using the same data set. It consolidates data from multiple sources for analysis and business intelligence."
+        },
+        {
+            "id": "d4ci_mc017",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.4",
+            "tags": ["tiered-architecture"],
+            "difficulty": "medium",
+            "question": "A modular software design that physically and logically separates software elements into separate, isolated tiers to increase system durability and reduce downtime is called:",
+            "options": [
+                {"key": "A", "text": "Monolithic architecture"},
+                {"key": "B", "text": "Multitiered architecture"},
+                {"key": "C", "text": "Flat architecture"},
+                {"key": "D", "text": "Cloud-native architecture"}
+            ],
+            "correct": "B",
+            "explanation": "Multitiered (tiered) architecture is a modular software design that physically and logically separates software elements into isolated tiers. This increases system durability, reduces downtime, and allows individual tiers to be updated independently."
+        },
+        {
+            "id": "d4ci_mc018",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.4",
+            "tags": ["cloud-computing"],
+            "difficulty": "medium",
+            "question": "Computing architecture where on-demand resources are provisioned with high availability, scalability, and elasticity, and billed based on metered utilization is called:",
+            "options": [
+                {"key": "A", "text": "On-premises computing"},
+                {"key": "B", "text": "Cloud computing"},
+                {"key": "C", "text": "Local installation"},
+                {"key": "D", "text": "Mainframe computing"}
+            ],
+            "correct": "B",
+            "explanation": "Cloud computing provisions on-demand resources with high availability, scalability, and elasticity. Customers are billed based on metered utilization (pay for what you use), provided by cloud service providers."
+        },
+        {
+            "id": "d4ci_mc019",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.4",
+            "tags": ["on-premises", "cloud"],
+            "difficulty": "medium",
+            "question": "A data analyst purchases a one-year subscription to a cloud-based analysis product. Is this a capital expense (CapEx) or operational expense (OpEx)?",
+            "options": [
+                {"key": "A", "text": "CapEx — it is a fixed asset purchase"},
+                {"key": "B", "text": "OpEx — recurring subscriptions are ongoing business costs"},
+                {"key": "C", "text": "Neither — subscriptions are not expenses"},
+                {"key": "D", "text": "Both CapEx and OpEx equally"}
+            ],
+            "correct": "B",
+            "explanation": "Cloud subscriptions are usually classified as operational expenses (OpEx) because they are recurring, ongoing business costs. CapEx refers to spending on fixed business assets like data centers, servers, and buildings."
+        },
+        {
+            "id": "d4ci_mc020",
+            "type": "multiple_choice",
+            "domain": "4",
+            "objective": "4.4",
+            "tags": ["financial-systems"],
+            "difficulty": "easy",
+            "question": "Systems that track an organization's finances including budgets, spending, and cost estimates are called:",
+            "options": [
+                {"key": "A", "text": "CRM systems"},
+                {"key": "B", "text": "Financial systems"},
+                {"key": "C", "text": "Ticketing systems"},
+                {"key": "D", "text": "Knowledge bases"}
+            ],
+            "correct": "B",
+            "explanation": "Financial systems track an organization's finances, including budgets, spending, and cost estimates. They provide the financial data needed for project budget management and reporting."
+        },
+        {
+            "id": "d4ci_ms001",
+            "type": "multiple_select",
+            "domain": "4",
+            "objective": "4.3",
+            "tags": ["privacy-regulations"],
+            "difficulty": "medium",
+            "select_count": 2,
+            "question": "Which TWO of the following are privacy regulations that protect personal data?",
+            "options": [
+                {"key": "A", "text": "GDPR"},
+                {"key": "B", "text": "ITIL"},
+                {"key": "C", "text": "HIPAA"},
+                {"key": "D", "text": "PRINCE2"},
+                {"key": "E", "text": "SAFe"}
+            ],
+            "correct": ["A", "C"],
+            "explanation": "GDPR protects personal data of EU citizens. HIPAA protects personal health care data in the United States. ITIL is an IT service management framework. PRINCE2 and SAFe are project management and agile frameworks, not privacy regulations."
+        },
+        {
+            "id": "d4ci_ms002",
+            "type": "multiple_select",
+            "domain": "4",
+            "objective": "4.4",
+            "tags": ["enterprise-systems"],
+            "difficulty": "medium",
+            "select_count": 3,
+            "question": "Which THREE of the following are enterprise software systems?",
+            "options": [
+                {"key": "A", "text": "ERP (Enterprise Resource Planning)"},
+                {"key": "B", "text": "CRM (Customer Relationship Management)"},
+                {"key": "C", "text": "WBS (Work Breakdown Structure)"},
+                {"key": "D", "text": "EDMS (Electronic Document Management System)"},
+                {"key": "E", "text": "PERT (Program Evaluation and Review Technique)"}
+            ],
+            "correct": ["A", "B", "D"],
+            "explanation": "ERP, CRM, and EDMS are enterprise software systems used across organizations. WBS is a project planning tool (a deliverable hierarchy), and PERT is a scheduling/estimation technique — neither is enterprise software."
+        },
+        {
+            "id": "d4ci_match001",
+            "type": "matching",
+            "domain": "4",
+            "objective": "4.3",
+            "tags": ["data-types", "privacy"],
+            "difficulty": "hard",
+            "question": "Match each data type or concept to its correct description.",
+            "pairs": [
+                {"left": "PII", "right": "Data that can be used to identify, contact, or impersonate an individual"},
+                {"left": "PHI", "right": "Data about past, present, or future health, payments, and healthcare business operations"},
+                {"left": "Intellectual property", "right": "Commercially valuable data that can be granted ownership rights through patents or copyrights"},
+                {"left": "Trade secrets", "right": "Unregistered IP that provides a competitive advantage"}
+            ],
+            "explanation": "PII covers personal identification data. PHI covers health-related data. IP covers formally registered creative and inventive work. Trade secrets are unregistered IP that still provide competitive value."
+        },
+        {
+            "id": "d4ci_dd001",
+            "type": "drag_drop",
+            "domain": "4",
+            "objective": "4.4",
+            "tags": ["cloud-models", "examples"],
+            "difficulty": "medium",
+            "question": "Categorize each example into the correct cloud service model.",
+            "categories": ["IaaS", "PaaS", "SaaS"],
+            "items": [
+                {"text": "Virtual machines and raw storage", "correct_category": "IaaS"},
+                {"text": "Application development tools and managed databases", "correct_category": "PaaS"},
+                {"text": "Email and CRM applications", "correct_category": "SaaS"},
+                {"text": "Network infrastructure and firewalls", "correct_category": "IaaS"},
+                {"text": "Container orchestration platform", "correct_category": "PaaS"},
+                {"text": "Fully managed office productivity suite", "correct_category": "SaaS"}
+            ],
+            "explanation": "IaaS provides basic computing resources (VMs, storage, networking, firewalls). PaaS adds development tools, managed databases, and platforms. SaaS delivers complete, ready-to-use applications like email and CRM."
+        }
+    ]
+}

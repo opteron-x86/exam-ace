@@ -1,0 +1,565 @@
+{
+    "bank_id": "d1_chg_risk_issue_001",
+    "title": "Domain 1: Change Control, Risk & Issue Management (1.3, 1.4, 1.5)",
+    "description": "Covers change control processes and CCB, risk identification/analysis/responses (positive and negative), risk registers, issue tracking, escalation, root cause analysis, and workarounds.",
+    "version": "1.0",
+    "questions": [
+        {
+            "id": "d1cri_mc001",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.3",
+            "tags": ["change-control", "scope-creep"],
+            "difficulty": "easy",
+            "question": "Unapproved and uncontrolled changes that extend the project scope and impact cost, quality, or timing are known as:",
+            "options": [
+                {"key": "A", "text": "Progressive elaboration"},
+                {"key": "B", "text": "Scope creep"},
+                {"key": "C", "text": "Change management"},
+                {"key": "D", "text": "Requirements refinement"}
+            ],
+            "correct": "B",
+            "explanation": "Scope creep is the extension of the project scope caused by unapproved and uncontrolled changes. It impacts cost, quality, or timing. Unlike progressive elaboration (a planned refinement process), scope creep is unplanned and occurs without formal approval."
+        },
+        {
+            "id": "d1cri_mc002",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.3",
+            "tags": ["change-control", "ccb"],
+            "difficulty": "easy",
+            "question": "A formally chartered group responsible for reviewing, evaluating, approving, delaying, or rejecting changes to the project is called:",
+            "options": [
+                {"key": "A", "text": "Steering committee"},
+                {"key": "B", "text": "Project management office (PMO)"},
+                {"key": "C", "text": "Change control board (CCB)"},
+                {"key": "D", "text": "Stakeholder review panel"}
+            ],
+            "correct": "C",
+            "explanation": "The Change Control Board (CCB) is a formally chartered group responsible for reviewing, evaluating, approving, delaying, or rejecting changes to the project and recording and communicating such decisions."
+        },
+        {
+            "id": "d1cri_mc003",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.3",
+            "tags": ["change-control", "change-request"],
+            "difficulty": "medium",
+            "question": "Six weeks into a project, a key stakeholder asks to add three new data sources to the project's data model. What should the project manager advise the stakeholder to do?",
+            "options": [
+                {"key": "A", "text": "Tell the development team to add the data sources immediately"},
+                {"key": "B", "text": "Submit a change request form to initiate the change control process"},
+                {"key": "C", "text": "Reject the request since the project has already started"},
+                {"key": "D", "text": "Add the work to the project plan and inform the sponsor later"}
+            ],
+            "correct": "B",
+            "explanation": "The stakeholder should submit a change request form, which initiates the formal change control process. The form documents the request and gives the team the information needed to research the impacts before the CCB decides whether to approve it."
+        },
+        {
+            "id": "d1cri_mc004",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.3",
+            "tags": ["change-control", "preliminary-assessment"],
+            "difficulty": "hard",
+            "question": "During the first step of the change control process (Initiate Request), the PM conducts a preliminary assessment before the full impact assessment. Why would the PM do this?",
+            "options": [
+                {"key": "A", "text": "To approve the change without involving the CCB"},
+                {"key": "B", "text": "To clarify the request and eliminate unviable requests such as duplicates, out-of-scope, or technically infeasible changes"},
+                {"key": "C", "text": "To bypass the formal change control process for simple changes"},
+                {"key": "D", "text": "To calculate the exact cost of the change"}
+            ],
+            "correct": "B",
+            "explanation": "A preliminary assessment clarifies the request and eliminates unviable requests early. This includes changes outside the project's authority, duplicate requests, and requests that aren't feasible within the solution's capabilities. It saves time before conducting the more detailed impact assessment."
+        },
+        {
+            "id": "d1cri_mc005",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.3",
+            "tags": ["change-control", "ccb-decline"],
+            "difficulty": "medium",
+            "question": "What happens after the Change Control Board (CCB) declines a change request?",
+            "options": [
+                {"key": "A", "text": "The PM implements the change anyway if it's small"},
+                {"key": "B", "text": "The CCB notifies the requester that their change request was denied"},
+                {"key": "C", "text": "The request is automatically resubmitted for the next meeting"},
+                {"key": "D", "text": "The project sponsor overrides the CCB's decision"}
+            ],
+            "correct": "B",
+            "explanation": "When the CCB declines a change request, the requester is notified that their change was denied. The decision is documented in the change log. The requester may submit a revised request later, but the declined request is not automatically resubmitted."
+        },
+        {
+            "id": "d1cri_mc006",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.3",
+            "tags": ["change-control", "change-log"],
+            "difficulty": "easy",
+            "question": "Which document is used to maintain a list of all formal project change requests and their current status?",
+            "options": [
+                {"key": "A", "text": "Risk register"},
+                {"key": "B", "text": "Issue log"},
+                {"key": "C", "text": "Change log"},
+                {"key": "D", "text": "Defect log"}
+            ],
+            "correct": "C",
+            "explanation": "The change log is a document used to maintain a list of formal project change requests and their status (submitted, under review, approved, rejected, implemented). The risk register tracks risks, the issue log tracks issues, and the defect log tracks software defects."
+        },
+        {
+            "id": "d1cri_mc007",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "definition"],
+            "difficulty": "easy",
+            "question": "What is the BEST definition of a project risk?",
+            "options": [
+                {"key": "A", "text": "A problem that is currently affecting the project"},
+                {"key": "B", "text": "An unexpected event that may affect the project positively or negatively in the future"},
+                {"key": "C", "text": "An approved change to the project scope"},
+                {"key": "D", "text": "A defect found in the project deliverables"}
+            ],
+            "correct": "B",
+            "explanation": "A risk is any unexpected event that can affect your project. The effect might be either positive or negative, impacting personnel, processes, technology, or resources. Risks are future events that have not yet occurred. Issues are events that are currently happening."
+        },
+        {
+            "id": "d1cri_mc008",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "risk-vs-issue"],
+            "difficulty": "medium",
+            "question": "A cloud vendor is advertising a possible upcoming feature that would save the project team several hours per system update. Is this a risk, change, or issue?",
+            "options": [
+                {"key": "A", "text": "Issue — it is affecting the project now"},
+                {"key": "B", "text": "Change — it modifies the project scope"},
+                {"key": "C", "text": "Positive risk — it may happen in the future and would benefit the project"},
+                {"key": "D", "text": "Negative risk — it could disrupt the current workflow"}
+            ],
+            "correct": "C",
+            "explanation": "This is a positive risk because it is an event that may happen in the future, and it would positively impact the project if it occurs. It is not an issue (not currently happening), not a change (no request to modify scope), and not negative (it would be beneficial)."
+        },
+        {
+            "id": "d1cri_mc009",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "qualitative-analysis"],
+            "difficulty": "medium",
+            "question": "Which risk analysis method determines the probability and impact of identified risks using logical reasoning rather than numeric data?",
+            "options": [
+                {"key": "A", "text": "Quantitative risk analysis"},
+                {"key": "B", "text": "Monte Carlo simulation"},
+                {"key": "C", "text": "Qualitative risk analysis"},
+                {"key": "D", "text": "Decision tree analysis"}
+            ],
+            "correct": "C",
+            "explanation": "Qualitative risk analysis determines probability and impact using logical reasoning when numeric data is not readily available. It typically uses a probability and impact matrix to rate risks as high, medium, or low. Quantitative analysis uses numerical methods and mathematical models."
+        },
+        {
+            "id": "d1cri_mc010",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "quantitative-analysis", "monte-carlo"],
+            "difficulty": "hard",
+            "question": "A technique that simulates various outcomes of the project schedule to provide a statistical distribution of results using optimistic, most likely, and pessimistic estimates is called:",
+            "options": [
+                {"key": "A", "text": "Expected Monetary Value (EMV)"},
+                {"key": "B", "text": "Monte Carlo analysis"},
+                {"key": "C", "text": "Failure Mode and Effect Analysis (FMEA)"},
+                {"key": "D", "text": "Pareto analysis"}
+            ],
+            "correct": "B",
+            "explanation": "Monte Carlo analysis simulates many possible outcomes to provide a statistical distribution of results. It uses optimistic, most likely, and pessimistic estimates as inputs to predict probable schedule and cost outcomes. EMV calculates average outcomes. FMEA reviews failure modes of components."
+        },
+        {
+            "id": "d1cri_mc011",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "negative-response", "avoidance"],
+            "difficulty": "medium",
+            "question": "A project team identifies a risk that using a new, unproven technology could cause significant delays. They decide to use a proven technology instead, completely eliminating the risk. This is an example of:",
+            "options": [
+                {"key": "A", "text": "Risk mitigation"},
+                {"key": "B", "text": "Risk avoidance"},
+                {"key": "C", "text": "Risk transference"},
+                {"key": "D", "text": "Risk acceptance"}
+            ],
+            "correct": "B",
+            "explanation": "Risk avoidance eliminates the risk entirely by changing the project plan. By choosing proven technology over the risky unproven option, the team eliminated the source of the risk. Mitigation would reduce — but not eliminate — the probability or impact."
+        },
+        {
+            "id": "d1cri_mc012",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "positive-response", "sharing"],
+            "difficulty": "hard",
+            "question": "A project team identified an exciting new enterprise software but doesn't meet the minimum license quantity. They contact other teams to jointly purchase licenses. This is an example of which positive risk response strategy?",
+            "options": [
+                {"key": "A", "text": "Exploitation"},
+                {"key": "B", "text": "Enhancement"},
+                {"key": "C", "text": "Sharing"},
+                {"key": "D", "text": "Acceptance"}
+            ],
+            "correct": "C",
+            "explanation": "Sharing is a positive risk response where the team partners with others to extend the benefits of the opportunity. By collaborating with peer teams, they increase their ability to benefit from the risk. Exploitation tries to guarantee the opportunity happens. Enhancement increases its positive effects."
+        },
+        {
+            "id": "d1cri_mc013",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "negative-response", "acceptance"],
+            "difficulty": "medium",
+            "question": "The project team assigns an 'accept' response to a negative risk. What happens if the risk occurs?",
+            "options": [
+                {"key": "A", "text": "The team implements the mitigation plan"},
+                {"key": "B", "text": "The risk is transferred to a third party"},
+                {"key": "C", "text": "The team does nothing to manage the risk, and the project absorbs the impact"},
+                {"key": "D", "text": "The CCB reviews the risk and decides on a response"}
+            ],
+            "correct": "C",
+            "explanation": "Accepting a risk means the team will do nothing proactive to manage it. If the risk occurs, it will impact the project and the team accepts the consequences. This strategy is appropriate when the cost of other responses exceeds the impact of the risk."
+        },
+        {
+            "id": "d1cri_mc014",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "contingency", "mitigation"],
+            "difficulty": "medium",
+            "question": "What is the difference between a risk mitigation plan and a contingency plan?",
+            "options": [
+                {"key": "A", "text": "They are the same thing"},
+                {"key": "B", "text": "A mitigation plan is implemented before a risk occurs to reduce impact; a contingency plan is a strategy for how to react if a risk occurs"},
+                {"key": "C", "text": "A contingency plan is proactive; a mitigation plan is reactive"},
+                {"key": "D", "text": "A mitigation plan is for positive risks; a contingency plan is for negative risks"}
+            ],
+            "correct": "B",
+            "explanation": "A risk mitigation plan is implemented before a risk occurs to optimize (reduce) the probability or impact. A contingency plan is created before the risk but is only implemented if the risk actually occurs. It defines how the team will react."
+        },
+        {
+            "id": "d1cri_mc015",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "detectability"],
+            "difficulty": "medium",
+            "question": "What does high detectability mean in risk management?",
+            "options": [
+                {"key": "A", "text": "The risk is very likely to occur"},
+                {"key": "B", "text": "The risk will have a severe impact if it occurs"},
+                {"key": "C", "text": "You can quickly tell when a risk has occurred or will occur, allowing quick recovery or avoidance"},
+                {"key": "D", "text": "The risk cannot be identified until it impacts the project"}
+            ],
+            "correct": "C",
+            "explanation": "High detectability means you can quickly tell when a risk has occurred or will occur. This allows you to either recover quickly or avoid it entirely. For example, a fuel gauge warns you before you run out of gas — that's high detectability."
+        },
+        {
+            "id": "d1cri_mc016",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "risk-register"],
+            "difficulty": "easy",
+            "question": "Which document highlights the results of risk assessments in an easily comprehensible format, often using a 'traffic light' grid, so managers can understand risks associated with their workflows?",
+            "options": [
+                {"key": "A", "text": "Issue log"},
+                {"key": "B", "text": "Risk register"},
+                {"key": "C", "text": "Change log"},
+                {"key": "D", "text": "Lessons learned report"}
+            ],
+            "correct": "B",
+            "explanation": "The risk register documents identified risks, their analysis results (probability, impact), response strategies, and risk owners. It is often presented in a traffic-light format (red/yellow/green) for easy comprehension."
+        },
+        {
+            "id": "d1cri_mc017",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "regulatory"],
+            "difficulty": "medium",
+            "question": "Why are regulatory changes considered a project risk?",
+            "options": [
+                {"key": "A", "text": "Regulations never affect projects"},
+                {"key": "B", "text": "Any regulation change requires a thorough assessment to evaluate what needs updating, potentially requiring changes to the project plan"},
+                {"key": "C", "text": "Regulatory changes always cancel projects"},
+                {"key": "D", "text": "Only government projects are affected by regulations"}
+            ],
+            "correct": "B",
+            "explanation": "Regulation changes require a thorough environmental assessment to evaluate what needs updating. For instance, if privacy laws change during a project, all data fields must be compared to new regulations to ensure compliance. The project plan may need remediation tasks added."
+        },
+        {
+            "id": "d1cri_mc018",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.5",
+            "tags": ["issue-management", "definition"],
+            "difficulty": "easy",
+            "question": "What is the key difference between a risk and an issue?",
+            "options": [
+                {"key": "A", "text": "A risk has already occurred; an issue might occur in the future"},
+                {"key": "B", "text": "A risk might occur in the future; an issue is something already happening that you do not control"},
+                {"key": "C", "text": "Risks are positive; issues are negative"},
+                {"key": "D", "text": "There is no difference; the terms are interchangeable"}
+            ],
+            "correct": "B",
+            "explanation": "A risk is a future uncertain event that may affect the project (positively or negatively). An issue is something already happening in a project that you do not control. Issue management serves to document issues after they arise and recover from them."
+        },
+        {
+            "id": "d1cri_mc019",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.5",
+            "tags": ["issue-management", "escalation"],
+            "difficulty": "medium",
+            "question": "How do you know when it is time to escalate a problem?",
+            "options": [
+                {"key": "A", "text": "When the project manager decides it is important enough"},
+                {"key": "B", "text": "When predefined escalation triggers — established in the escalation plan — are met"},
+                {"key": "C", "text": "Whenever a stakeholder requests escalation"},
+                {"key": "D", "text": "Only at the end of a project phase"}
+            ],
+            "correct": "B",
+            "explanation": "Each escalation point includes a trigger that describes the conditions that initiate an escalation. These triggers are defined when the escalation plan is created and reviewed/approved by the escalation owners. This ensures consistent, objective criteria for escalation."
+        },
+        {
+            "id": "d1cri_mc020",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.5",
+            "tags": ["issue-management", "contingency"],
+            "difficulty": "medium",
+            "question": "A high-priority risk just turned into an issue. What can the project team use to respond quickly?",
+            "options": [
+                {"key": "A", "text": "Create a new risk register entry"},
+                {"key": "B", "text": "Submit a change request"},
+                {"key": "C", "text": "Execute the contingency plan that was prepared for the risk"},
+                {"key": "D", "text": "Convene the CCB for an emergency meeting"}
+            ],
+            "correct": "C",
+            "explanation": "When a risk becomes an issue, the team should execute the contingency plan that was prepared in advance for that risk. The contingency plan is the pre-planned response strategy for exactly this scenario, enabling a fast and coordinated reaction."
+        },
+        {
+            "id": "d1cri_mc021",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.5",
+            "tags": ["issue-management", "workaround"],
+            "difficulty": "medium",
+            "question": "A project team's cloud-based analysis application goes down. While waiting for the provider to restore service, the team creates a process to use local installations and upload files daily. This temporary measure is called:",
+            "options": [
+                {"key": "A", "text": "Risk mitigation"},
+                {"key": "B", "text": "A workaround"},
+                {"key": "C", "text": "A contingency plan"},
+                {"key": "D", "text": "A rollback"}
+            ],
+            "correct": "B",
+            "explanation": "A workaround is an alternative approach that allows the team to keep working while an issue is being resolved. It circumvents a problem as a temporary measure. Unlike a contingency plan (pre-planned), a workaround is often devised on the spot in response to an unforeseen issue."
+        },
+        {
+            "id": "d1cri_mc022",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.5",
+            "tags": ["issue-management", "root-cause", "five-why"],
+            "difficulty": "medium",
+            "question": "Which root cause analysis technique repeatedly asks 'why?' until you reach a solvable root cause?",
+            "options": [
+                {"key": "A", "text": "Fishbone diagram"},
+                {"key": "B", "text": "Pareto analysis"},
+                {"key": "C", "text": "Five-Why analysis"},
+                {"key": "D", "text": "Scatter diagram"}
+            ],
+            "correct": "C",
+            "explanation": "The Five-Why analysis looks for hidden root causes by continuing to ask 'why?' until you reach a solvable root cause. A fishbone diagram provides a structured visual method to identify multiple potential causes. Pareto analysis prioritizes causes by frequency."
+        },
+        {
+            "id": "d1cri_mc023",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.5",
+            "tags": ["issue-management", "severity-urgency"],
+            "difficulty": "medium",
+            "question": "When prioritizing issues, which TWO factors determine the order in which they should be addressed?",
+            "options": [
+                {"key": "A", "text": "Severity (impact) and urgency (time sensitivity)"},
+                {"key": "B", "text": "Cost and duration"},
+                {"key": "C", "text": "Popularity and visibility"},
+                {"key": "D", "text": "Team availability and sprint velocity"}
+            ],
+            "correct": "A",
+            "explanation": "Issues are prioritized based on severity (the extent of impact on the project, business, or end-users) and urgency (the relative time sensitivity). High severity and high urgency issues are addressed first."
+        },
+        {
+            "id": "d1cri_ms001",
+            "type": "multiple_select",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "negative-responses"],
+            "difficulty": "medium",
+            "question": "Which FOUR are strategies for responding to NEGATIVE risks?",
+            "select_count": 4,
+            "options": [
+                {"key": "A", "text": "Avoidance"},
+                {"key": "B", "text": "Exploitation"},
+                {"key": "C", "text": "Mitigation"},
+                {"key": "D", "text": "Enhancement"},
+                {"key": "E", "text": "Transference"},
+                {"key": "F", "text": "Acceptance"}
+            ],
+            "correct": ["A", "C", "E", "F"],
+            "explanation": "The four negative risk response strategies are: Avoidance (eliminate the risk), Mitigation (reduce probability or impact), Transference (shift to a third party, e.g., insurance), and Acceptance (take no proactive action). Exploitation and Enhancement are positive risk strategies."
+        },
+        {
+            "id": "d1cri_ms002",
+            "type": "multiple_select",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "positive-responses"],
+            "difficulty": "medium",
+            "question": "Which FOUR are strategies for responding to POSITIVE risks (opportunities)?",
+            "select_count": 4,
+            "options": [
+                {"key": "A", "text": "Avoidance"},
+                {"key": "B", "text": "Exploitation"},
+                {"key": "C", "text": "Enhancement"},
+                {"key": "D", "text": "Sharing"},
+                {"key": "E", "text": "Transference"},
+                {"key": "F", "text": "Acceptance"}
+            ],
+            "correct": ["B", "C", "D", "F"],
+            "explanation": "The four positive risk response strategies are: Exploitation (guarantee the opportunity happens), Enhancement (increase positive effects), Sharing (extend benefits to others), and Acceptance (acknowledge without proactive action). Avoidance and Transference are negative risk strategies."
+        },
+        {
+            "id": "d1cri_match001",
+            "type": "matching",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "positive-responses"],
+            "difficulty": "hard",
+            "question": "Match each POSITIVE risk response strategy with its correct description.",
+            "pairs": [
+                {"left": "Exploitation", "right": "Trying to guarantee that the positive risk will happen"},
+                {"left": "Enhancement", "right": "Attempting to increase the positive effects of the risk"},
+                {"left": "Sharing", "right": "Extending the benefits of the opportunity to others"},
+                {"left": "Acceptance", "right": "Acknowledging the opportunity without proactive action"}
+            ],
+            "explanation": "Exploitation ensures the opportunity materializes. Enhancement amplifies its benefits. Sharing partners with others to extend the positive outcome. Acceptance acknowledges the opportunity but takes no special action to pursue it."
+        },
+        {
+            "id": "d1cri_match002",
+            "type": "matching",
+            "domain": "1",
+            "objective": "1.5",
+            "tags": ["risk-issue-change", "definitions"],
+            "difficulty": "medium",
+            "question": "Match each project event type to its correct definition.",
+            "pairs": [
+                {"left": "Risk", "right": "An uncertain future event that could positively or negatively affect the project"},
+                {"left": "Issue", "right": "An event that is currently happening and outside the team's control"},
+                {"left": "Change", "right": "A modification to the project's scope, budget, or timeline"},
+                {"left": "Defect", "right": "A flaw or deviation in a deliverable that does not meet quality standards"}
+            ],
+            "explanation": "Risks are future and uncertain. Issues are present and uncontrolled. Changes are modifications to the project plan (requiring approval). Defects are quality problems in deliverables. Understanding the distinction drives the correct management response."
+        },
+        {
+            "id": "d1cri_dd001",
+            "type": "drag_drop",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "responses", "categorization"],
+            "difficulty": "hard",
+            "question": "Categorize each scenario as the correct risk response strategy.",
+            "categories": ["Avoidance", "Mitigation", "Transference", "Acceptance"],
+            "items": [
+                {"text": "Purchasing insurance to cover potential weather damage", "correct_category": "Transference"},
+                {"text": "Adding extra testing cycles to reduce the probability of defects", "correct_category": "Mitigation"},
+                {"text": "Choosing a different vendor to eliminate a supply chain risk", "correct_category": "Avoidance"},
+                {"text": "Documenting the risk and monitoring it without taking action", "correct_category": "Acceptance"},
+                {"text": "Outsourcing a high-risk component to a specialized contractor", "correct_category": "Transference"},
+                {"text": "Removing a risky feature from the project scope entirely", "correct_category": "Avoidance"}
+            ],
+            "explanation": "Avoidance eliminates the risk by changing the plan (different vendor, removing scope). Mitigation reduces probability or impact (extra testing). Transference shifts responsibility to a third party (insurance, outsourcing). Acceptance means monitoring without proactive action."
+        },
+        {
+            "id": "d1cri_order001",
+            "type": "ordering",
+            "domain": "1",
+            "objective": "1.3",
+            "tags": ["change-control", "process"],
+            "difficulty": "hard",
+            "question": "Place the change control process steps in the correct order.",
+            "items": [
+                "CCB reviews and decides (approve/reject/defer)",
+                "Implement approved change",
+                "Requester submits a change request form",
+                "Evaluate impacts (impact assessment)",
+                "Update change log and notify stakeholders"
+            ],
+            "correct_order": [
+                "Requester submits a change request form",
+                "Evaluate impacts (impact assessment)",
+                "CCB reviews and decides (approve/reject/defer)",
+                "Implement approved change",
+                "Update change log and notify stakeholders"
+            ],
+            "explanation": "The change control process flows: (1) Initiate — requester submits a change request form, (2) Evaluate — conduct an impact assessment, (3) Decide — the CCB reviews and approves, rejects, or defers, (4) Implement — execute the approved change, (5) Close — update the change log and notify stakeholders."
+        },
+        {
+            "id": "d1cri_sc001",
+            "type": "scenario",
+            "domain": "1",
+            "objective": "1.4",
+            "tags": ["risk", "analysis", "response"],
+            "difficulty": "hard",
+            "scenario": "You are managing a project to launch a new customer portal. During risk assessment, the team identifies the following risk:\n\nRisk: The third-party payment API may experience downtime during the launch window, preventing customers from completing transactions.\n\nThe team rates this risk as:\n• Probability: High\n• Impact: High\n• Detectability: High (the API provider sends status alerts)",
+            "parts": [
+                {
+                    "id": "d1cri_sc001a",
+                    "type": "multiple_choice",
+                    "question": "Given the high probability and high impact, where would this risk appear on a probability and impact matrix?",
+                    "options": [
+                        {"key": "A", "text": "Low priority — the detectability offsets the probability"},
+                        {"key": "B", "text": "Medium priority — probability and impact average out"},
+                        {"key": "C", "text": "High priority — high probability combined with high impact"},
+                        {"key": "D", "text": "Not applicable — detectability removes it from the matrix"}
+                    ],
+                    "correct": "C",
+                    "explanation": "On a probability and impact matrix, high probability × high impact = high priority risk. Detectability is a separate factor that helps with response planning (you can react faster), but it does not reduce the risk's rating on the probability/impact matrix."
+                },
+                {
+                    "id": "d1cri_sc001b",
+                    "type": "multiple_choice",
+                    "question": "The team decides to build a backup payment processing system using a secondary API. If the primary API goes down, the system automatically switches. Which risk response strategy is this?",
+                    "options": [
+                        {"key": "A", "text": "Avoidance"},
+                        {"key": "B", "text": "Mitigation"},
+                        {"key": "C", "text": "Transference"},
+                        {"key": "D", "text": "Acceptance"}
+                    ],
+                    "correct": "B",
+                    "explanation": "This is mitigation — the team is reducing the impact of the risk (automatic failover minimizes downtime) without eliminating the risk entirely. The primary API could still go down (the risk exists), but the backup system reduces the impact if it does."
+                },
+                {
+                    "id": "d1cri_sc001c",
+                    "type": "multiple_choice",
+                    "question": "The team also prepares a documented procedure: if both APIs fail, customer service will process orders manually by phone. What type of plan is this?",
+                    "options": [
+                        {"key": "A", "text": "Mitigation plan"},
+                        {"key": "B", "text": "Risk register"},
+                        {"key": "C", "text": "Contingency plan"},
+                        {"key": "D", "text": "Workaround"}
+                    ],
+                    "correct": "C",
+                    "explanation": "This is a contingency plan — a pre-planned response strategy developed in advance that is only implemented if the risk becomes reality (both APIs fail). It differs from a workaround, which is created on the spot in response to an unforeseen issue."
+                }
+            ],
+            "explanation": "This scenario illustrates layered risk management: probability/impact assessment determines priority, mitigation reduces impact (backup system), and a contingency plan provides a fallback if the mitigation is insufficient. High detectability (status alerts) enables faster response."
+        }
+    ]
+}

@@ -1,0 +1,204 @@
+{
+    "bank_id": "pbq_sched_math_001",
+    "title": "PBQ: Scheduling & Estimation Math",
+    "description": "Performance-based questions focused on PERT estimates, critical path analysis, float calculations (TF and FF), reserve analysis, Monte Carlo concepts, and three-point estimation.",
+    "version": "1.0",
+    "questions": [
+        {
+            "id": "sched_fi001",
+            "type": "fill_in",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["pert", "three-point-estimate"],
+            "difficulty": "medium",
+            "question": "Using the PERT formula (O + 4M + P) / 6, calculate the expected duration where: Optimistic (O) = 6 days, Most Likely (M) = 10 days, Pessimistic (P) = 20 days. Round to one decimal place.",
+            "correct_answers": ["11.0", "11"],
+            "case_sensitive": false,
+            "explanation": "PERT Estimate = (O + 4M + P) / 6 = (6 + 4×10 + 20) / 6 = (6 + 40 + 20) / 6 = 66 / 6 = 11.0 days. The PERT formula weights the most likely estimate four times more heavily than the optimistic and pessimistic estimates."
+        },
+        {
+            "id": "sched_fi002",
+            "type": "fill_in",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["pert", "three-point-estimate"],
+            "difficulty": "hard",
+            "question": "Using the PERT formula, calculate the expected duration where: Optimistic (O) = 3 weeks, Most Likely (M) = 5 weeks, Pessimistic (P) = 13 weeks. Round to one decimal place.",
+            "correct_answers": ["6.0", "6"],
+            "case_sensitive": false,
+            "explanation": "PERT Estimate = (O + 4M + P) / 6 = (3 + 4×5 + 13) / 6 = (3 + 20 + 13) / 6 = 36 / 6 = 6.0 weeks. The weighted average pulls slightly toward the pessimistic end since the pessimistic estimate (13) is farther from the most likely (5) than the optimistic (3)."
+        },
+        {
+            "id": "sched_fi003",
+            "type": "fill_in",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["float", "total-float"],
+            "difficulty": "medium",
+            "question": "Activity Y has an Early Start (ES) of 12 days and a Late Start (LS) of 18 days. What is the Total Float (TF) for Activity Y? Answer in days (number only).",
+            "correct_answers": ["6"],
+            "case_sensitive": false,
+            "explanation": "Total Float (TF) = LS - ES = 18 - 12 = 6 days. Activity Y can be delayed by up to 6 days without delaying the project's finish date."
+        },
+        {
+            "id": "sched_fi004",
+            "type": "fill_in",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["float", "total-float"],
+            "difficulty": "medium",
+            "question": "Activity Z has an Early Finish (EF) of 25 days and a Late Finish (LF) of 25 days. What is the Total Float (TF)? Answer in days (number only).",
+            "correct_answers": ["0"],
+            "case_sensitive": false,
+            "explanation": "TF = LF - EF = 25 - 25 = 0 days. An activity with zero float is on the critical path — any delay to this activity will directly delay the project's finish date."
+        },
+        {
+            "id": "sched_sc001",
+            "type": "scenario",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["critical-path", "float", "network-diagram"],
+            "difficulty": "hard",
+            "scenario": "You are analyzing a project network with the following paths and durations:\n\n• Path 1: A(3) → B(5) → C(4) = 12 days\n• Path 2: A(3) → D(8) → E(6) = 17 days\n• Path 3: A(3) → D(8) → F(2) = 13 days\n\nAll paths start with Activity A and use Finish-to-Start dependencies.",
+            "parts": [
+                {
+                    "id": "sched_sc001a",
+                    "type": "fill_in",
+                    "question": "What is the project's total duration in days? (number only)",
+                    "correct_answers": ["17"],
+                    "explanation": "The project duration equals the longest path. Path 2 (A→D→E) = 17 days is the longest, so the project duration is 17 days."
+                },
+                {
+                    "id": "sched_sc001b",
+                    "type": "multiple_choice",
+                    "question": "Which path is the critical path?",
+                    "options": [
+                        {"key": "A", "text": "Path 1: A → B → C"},
+                        {"key": "B", "text": "Path 2: A → D → E"},
+                        {"key": "C", "text": "Path 3: A → D → F"}
+                    ],
+                    "correct": "B",
+                    "explanation": "The critical path is the longest path through the network — Path 2 (A→D→E) at 17 days. Activities on this path have zero float."
+                },
+                {
+                    "id": "sched_sc001c",
+                    "type": "fill_in",
+                    "question": "What is the Total Float for Activity C (on Path 1)? Answer in days.",
+                    "correct_answers": ["5"],
+                    "explanation": "Path 1 total is 12 days. The critical path is 17 days. TF for non-critical paths = Critical path duration - Path duration = 17 - 12 = 5 days. Activity C can be delayed by 5 days without impacting the project finish."
+                },
+                {
+                    "id": "sched_sc001d",
+                    "type": "fill_in",
+                    "question": "What is the Total Float for Activity F (on Path 3)? Answer in days.",
+                    "correct_answers": ["4"],
+                    "explanation": "Path 3 total is 13 days. TF = 17 - 13 = 4 days. Activity F can be delayed by 4 days without delaying the project."
+                }
+            ],
+            "explanation": "Critical path analysis identifies the longest path (zero float). Non-critical activities have float equal to the difference between the critical path duration and their path duration. Any delay to critical path activities delays the entire project."
+        },
+        {
+            "id": "sched_sc002",
+            "type": "scenario",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["pert", "estimation", "reserve"],
+            "difficulty": "hard",
+            "scenario": "You are estimating three key activities for a software project using PERT. The formula is (O + 4M + P) / 6.\n\n• Activity A: Optimistic = 2 days, Most Likely = 4 days, Pessimistic = 12 days\n• Activity B: Optimistic = 5 days, Most Likely = 8 days, Pessimistic = 11 days\n• Activity C: Optimistic = 3 days, Most Likely = 6 days, Pessimistic = 9 days\n\nAll three activities are sequential (Finish-to-Start).",
+            "parts": [
+                {
+                    "id": "sched_sc002a",
+                    "type": "fill_in",
+                    "question": "What is the PERT estimate for Activity A? Round to one decimal place.",
+                    "correct_answers": ["5.0", "5"],
+                    "explanation": "PERT(A) = (2 + 4×4 + 12) / 6 = (2 + 16 + 12) / 6 = 30 / 6 = 5.0 days."
+                },
+                {
+                    "id": "sched_sc002b",
+                    "type": "fill_in",
+                    "question": "What is the PERT estimate for Activity B? Round to one decimal place.",
+                    "correct_answers": ["8.0", "8"],
+                    "explanation": "PERT(B) = (5 + 4×8 + 11) / 6 = (5 + 32 + 11) / 6 = 48 / 6 = 8.0 days."
+                },
+                {
+                    "id": "sched_sc002c",
+                    "type": "fill_in",
+                    "question": "What is the PERT estimate for Activity C? Round to one decimal place.",
+                    "correct_answers": ["6.0", "6"],
+                    "explanation": "PERT(C) = (3 + 4×6 + 9) / 6 = (3 + 24 + 9) / 6 = 36 / 6 = 6.0 days."
+                },
+                {
+                    "id": "sched_sc002d",
+                    "type": "fill_in",
+                    "question": "Since all three activities are sequential, what is the total estimated project duration in days?",
+                    "correct_answers": ["19"],
+                    "explanation": "Total = PERT(A) + PERT(B) + PERT(C) = 5.0 + 8.0 + 6.0 = 19.0 days."
+                }
+            ],
+            "explanation": "PERT provides weighted average estimates that account for uncertainty. For sequential activities, the total duration is the sum of individual PERT estimates. The formula weights the most likely estimate 4× more than optimistic and pessimistic."
+        },
+        {
+            "id": "sched_fi005",
+            "type": "fill_in",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["critical-path", "duration"],
+            "difficulty": "medium",
+            "question": "A project has a duration of 30 weeks and the Early Finish (EF) of the project is 30 weeks. What is the Late Finish (LF) of the project? Answer in weeks (number only).",
+            "correct_answers": ["30"],
+            "case_sensitive": false,
+            "explanation": "A project's end date is a fixed point, so EF = LF = project duration. The project finish has EF = LF = 30 weeks and zero float, because the end of the project is always on the critical path."
+        },
+        {
+            "id": "sched_mc001",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["monte-carlo", "simulation"],
+            "difficulty": "hard",
+            "question": "A project manager uses a technique that generates many simulated outcomes by entering a realistic range of inputs to produce a statistical distribution of calculated results for the project schedule. This technique is:",
+            "options": [
+                {"key": "A", "text": "PERT analysis"},
+                {"key": "B", "text": "Critical path method"},
+                {"key": "C", "text": "Monte Carlo analysis"},
+                {"key": "D", "text": "Analogous estimating"}
+            ],
+            "correct": "C",
+            "explanation": "Monte Carlo analysis is a simulation technique that generates many simulated, likely outcomes for a real-world process. It enters a realistic range of inputs to generate a distribution of reasonable outcomes, helping predict optimistic, most likely, and pessimistic schedule results."
+        },
+        {
+            "id": "sched_mc002",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["reserve-analysis", "contingency"],
+            "difficulty": "medium",
+            "question": "A small project team calculates project reserves by adding 10% of the total cost estimate as a buffer. This simple approach is an example of:",
+            "options": [
+                {"key": "A", "text": "Monte Carlo simulation"},
+                {"key": "B", "text": "Percentage-based reserve analysis"},
+                {"key": "C", "text": "Bottom-up estimating"},
+                {"key": "D", "text": "Parametric estimating"}
+            ],
+            "correct": "B",
+            "explanation": "Small projects or organizations often use a simple percentage-based calculation method for reserves, adding a fixed percentage of the cost estimate as a contingency buffer. More sophisticated methods include Monte Carlo analysis and decision tree analysis."
+        },
+        {
+            "id": "sched_mc003",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.6",
+            "tags": ["emv", "decision-tree"],
+            "difficulty": "hard",
+            "question": "Expected Monetary Value (EMV) is calculated by multiplying the probability of an event by its financial impact. A risk has a 30% chance of occurring and would cost the project $50,000. What is the EMV?",
+            "options": [
+                {"key": "A", "text": "$5,000"},
+                {"key": "B", "text": "$15,000"},
+                {"key": "C", "text": "$35,000"},
+                {"key": "D", "text": "$50,000"}
+            ],
+            "correct": "B",
+            "explanation": "EMV = Probability × Impact = 0.30 × $50,000 = $15,000. EMV is used in decision tree analysis to calculate the average financial outcome of uncertain events and helps determine appropriate contingency reserves."
+        }
+    ]
+}

@@ -1,0 +1,373 @@
+{
+    "bank_id": "d1_procurement_001",
+    "title": "Domain 1: Procurement & Vendor Selection (1.11)",
+    "description": "Covers RFP/RFI/RFQ, contract types (FFP, CPFF, CPIF, CPAF, T&M, unit price), vendor evaluation, procurement documents, NDAs, POs, lease/rent/buy decisions, and vendor management.",
+    "version": "1.0",
+    "questions": [
+        {
+            "id": "d1pv_mc001",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["procurement", "rfi"],
+            "difficulty": "medium",
+            "question": "A procurement specialist wants to research product options before creating a formal solicitation. Which document should they use?",
+            "options": [
+                {"key": "A", "text": "Request for Proposal (RFP)"},
+                {"key": "B", "text": "Request for Quote (RFQ)"},
+                {"key": "C", "text": "Request for Information (RFI)"},
+                {"key": "D", "text": "Purchase Order (PO)"}
+            ],
+            "correct": "C",
+            "explanation": "An RFI (Request for Information) is an educational tool used to research product options. It is useful when you need to learn more about solutions before creating a formal solicitation like an RFP or RFQ."
+        },
+        {
+            "id": "d1pv_mc002",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["procurement", "rfp"],
+            "difficulty": "easy",
+            "question": "A formal business document that announces a project, describes it, and solicits bids from qualified contractors to complete it is called:",
+            "options": [
+                {"key": "A", "text": "Request for Information (RFI)"},
+                {"key": "B", "text": "Request for Proposal (RFP)"},
+                {"key": "C", "text": "Statement of Work (SOW)"},
+                {"key": "D", "text": "Master Service Agreement (MSA)"}
+            ],
+            "correct": "B",
+            "explanation": "An RFP (Request for Proposal) is a formal business document that announces a project, describes it, and solicits bids from qualified contractors to complete it. It is more detailed than an RFI and seeks specific proposals including approach, timeline, and pricing."
+        },
+        {
+            "id": "d1pv_mc003",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["procurement", "rfq-rfb"],
+            "difficulty": "medium",
+            "question": "When deliverables are commodities with clear specifications and price is the primary determining factor, which solicitation document is commonly used?",
+            "options": [
+                {"key": "A", "text": "RFI"},
+                {"key": "B", "text": "RFP"},
+                {"key": "C", "text": "RFB / RFQ"},
+                {"key": "D", "text": "SOW"}
+            ],
+            "correct": "C",
+            "explanation": "A Request for Bid (RFB) or Request for Quote (RFQ) is used when deliverables are commodities with clear specifications and price is the primary factor. The buyer knows exactly what they want and is mainly comparing costs across vendors."
+        },
+        {
+            "id": "d1pv_mc004",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["procurement", "po-contract"],
+            "difficulty": "medium",
+            "question": "Why do you need to create a Purchase Order (PO) when a vendor has already signed a contract?",
+            "options": [
+                {"key": "A", "text": "A PO replaces the contract"},
+                {"key": "B", "text": "A contract establishes the agreement to purchase; a PO is the customer's order for specific goods or services that initiates the vendor's work"},
+                {"key": "C", "text": "A PO is only required for government projects"},
+                {"key": "D", "text": "A PO is optional if a contract exists"}
+            ],
+            "correct": "B",
+            "explanation": "A contract establishes an agreement to purchase at some point, but it doesn't specify when work should begin. A PO is the customer's order for specific goods or services, which initiates the vendor's actual work. When accepted, a PO forms a legally binding agreement."
+        },
+        {
+            "id": "d1pv_mc005",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["contract", "ffp"],
+            "difficulty": "medium",
+            "question": "A vendor agrees to create and send handmade greeting cards for $10,000. The price is set and will not change unless the scope changes. What type of contract is this?",
+            "options": [
+                {"key": "A", "text": "Cost-Plus Fixed Fee (CPFF)"},
+                {"key": "B", "text": "Time and Materials (T&M)"},
+                {"key": "C", "text": "Firm Fixed Price (FFP)"},
+                {"key": "D", "text": "Unit price contract"}
+            ],
+            "correct": "C",
+            "explanation": "A Firm Fixed Price (FFP) contract sets the total price at the outset. The vendor agrees to perform the work at the negotiated value, and the price is not subject to change unless the scope changes. FFP is favored by most buying organizations."
+        },
+        {
+            "id": "d1pv_mc006",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["contract", "unit-price"],
+            "difficulty": "medium",
+            "question": "A caterer charges $35 per guest for meals and beverage service at a project event. What type of contract is this?",
+            "options": [
+                {"key": "A", "text": "Firm Fixed Price (FFP)"},
+                {"key": "B", "text": "Cost-Plus Fixed Fee (CPFF)"},
+                {"key": "C", "text": "Unit price contract"},
+                {"key": "D", "text": "Time and Materials (T&M)"}
+            ],
+            "correct": "C",
+            "explanation": "A unit price contract pays the vendor a fixed price per unit of work delivered — in this case, $35 per guest. The total cost depends on the number of units (guests), but the per-unit price is fixed."
+        },
+        {
+            "id": "d1pv_mc007",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["contract", "t-and-m"],
+            "difficulty": "medium",
+            "question": "A contract where the buyer pays a negotiated hourly rate and full reimbursement for materials, combining aspects of both fixed-price and cost-reimbursable contracts, is called:",
+            "options": [
+                {"key": "A", "text": "Firm Fixed Price (FFP)"},
+                {"key": "B", "text": "Cost-Plus Award Fee (CPAF)"},
+                {"key": "C", "text": "Time and Materials (T&M)"},
+                {"key": "D", "text": "Fixed-Price Incentive Fee (FPIF)"}
+            ],
+            "correct": "C",
+            "explanation": "A Time and Materials (T&M) contract combines aspects of both fixed-price (negotiated hourly rate) and cost-reimbursable (full reimbursement for materials). T&M is useful when the scope of work cannot be precisely defined upfront."
+        },
+        {
+            "id": "d1pv_mc008",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["contract", "cost-plus"],
+            "difficulty": "hard",
+            "question": "A cost-reimbursable contract ensures the vendor is reimbursed for all allowable costs, plus receives a predetermined target fee and an additional incentive fee based on performance. This is a:",
+            "options": [
+                {"key": "A", "text": "Cost-Plus Fixed Fee (CPFF)"},
+                {"key": "B", "text": "Cost-Plus Incentive Fee (CPIF)"},
+                {"key": "C", "text": "Cost-Plus Award Fee (CPAF)"},
+                {"key": "D", "text": "Cost-Plus Percentage of Cost (CPPC)"}
+            ],
+            "correct": "B",
+            "explanation": "CPIF reimburses all allowable costs plus provides a predetermined target fee and an incentive fee tied to performance metrics. CPFF has a fixed fee only. CPAF awards fees based on broad subjective criteria. CPPC pays a percentage of all costs."
+        },
+        {
+            "id": "d1pv_mc009",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["vendor", "lowest-cost-vs-best-value"],
+            "difficulty": "medium",
+            "question": "When would you select a lowest-cost vendor instead of a best-value vendor?",
+            "options": [
+                {"key": "A", "text": "When the project has a large budget"},
+                {"key": "B", "text": "When vendors have no discernible difference and are providing a commoditized product or service"},
+                {"key": "C", "text": "When the project timeline is tight"},
+                {"key": "D", "text": "Lowest-cost should always be the default selection method"}
+            ],
+            "correct": "B",
+            "explanation": "Lowest-cost evaluation only works when vendors have no discernible difference — they are providing a commoditized product or service where quality, capability, and delivery are essentially equivalent. Otherwise, best-value evaluation considers multiple factors."
+        },
+        {
+            "id": "d1pv_mc010",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["vendor", "viability"],
+            "difficulty": "medium",
+            "question": "A vendor's proposal seems ideal, but the procurement manager rejects it because it lacks physical capacity. What does this mean?",
+            "options": [
+                {"key": "A", "text": "The vendor's proposal was too expensive"},
+                {"key": "B", "text": "The vendor cannot deliver the required volume of work"},
+                {"key": "C", "text": "The vendor doesn't have enough experience"},
+                {"key": "D", "text": "The vendor's technology is outdated"}
+            ],
+            "correct": "B",
+            "explanation": "Lacking physical capacity means the vendor cannot deliver the amount of work requested. For example, they could only produce 500 units per month when you need 1,000. Vendor viability assessment includes evaluating whether a vendor has the capacity, finances, and product to meet requirements."
+        },
+        {
+            "id": "d1pv_mc011",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["vendor", "monitoring"],
+            "difficulty": "medium",
+            "question": "You are monitoring a vendor's performance and identify a downward trend in quality. What should you do next?",
+            "options": [
+                {"key": "A", "text": "Immediately terminate the contract"},
+                {"key": "B", "text": "Meet with the vendor to review its performance"},
+                {"key": "C", "text": "Ignore the trend until it causes a project issue"},
+                {"key": "D", "text": "Assign the work to an internal team member"}
+            ],
+            "correct": "B",
+            "explanation": "When you identify a performance trend (positive or negative), the appropriate next step is to meet with the vendor to review performance data, discuss the trend, and collaboratively develop an action plan. Termination is a last resort after other remedies fail."
+        },
+        {
+            "id": "d1pv_mc012",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["procurement", "market-research"],
+            "difficulty": "easy",
+            "question": "A procurement specialist researches the industry to identify vendors who provide a needed service. This process is called:",
+            "options": [
+                {"key": "A", "text": "Competitive analysis"},
+                {"key": "B", "text": "Market research"},
+                {"key": "C", "text": "Benchmarking"},
+                {"key": "D", "text": "Source selection"}
+            ],
+            "correct": "B",
+            "explanation": "Market research is a vendor analysis process where the organization researches a product or service and the vendors that deliver it. Competitive analysis evaluates competitors in the same market. Benchmarking compares practices against industry standards."
+        },
+        {
+            "id": "d1pv_mc013",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["procurement", "capex-opex"],
+            "difficulty": "medium",
+            "question": "A data analyst purchases a one-year subscription to analytical software. Is this a capital expense (CapEx) or operational expense (OpEx)?",
+            "options": [
+                {"key": "A", "text": "CapEx — it's a software purchase"},
+                {"key": "B", "text": "OpEx — recurring subscriptions are operational expenses"},
+                {"key": "C", "text": "CapEx — all software is a capital expense"},
+                {"key": "D", "text": "Neither — subscriptions are not project expenses"}
+            ],
+            "correct": "B",
+            "explanation": "A recurring subscription is an operational expense (OpEx). OpEx covers ongoing business costs like utilities, payroll, and cloud subscriptions. CapEx covers fixed asset purchases like data centers, servers, and buildings. The distinction affects budgeting and financial reporting."
+        },
+        {
+            "id": "d1pv_mc014",
+            "type": "multiple_choice",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["procurement", "subscription"],
+            "difficulty": "medium",
+            "question": "You need project management software and opt for a cloud-based solution with an annual fee. Is this a buy, lease, or subscription purchase?",
+            "options": [
+                {"key": "A", "text": "Buy — you're paying for the product"},
+                {"key": "B", "text": "Lease — you're renting the software"},
+                {"key": "C", "text": "Subscription — you purchase access one year at a time for as long as you want"},
+                {"key": "D", "text": "License — you own perpetual rights"}
+            ],
+            "correct": "C",
+            "explanation": "This is a subscription — you purchase access one year at a time and continue as long as you want the product. Subscriptions differ from buying (permanent ownership) and leasing (fixed-term rental of physical assets)."
+        },
+        {
+            "id": "d1pv_match001",
+            "type": "matching",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["contract", "types"],
+            "difficulty": "hard",
+            "question": "Match each contract type to its defining characteristic.",
+            "pairs": [
+                {"left": "Firm Fixed Price (FFP)", "right": "Total price set at the outset, not subject to change unless scope changes"},
+                {"left": "Cost-Plus Fixed Fee (CPFF)", "right": "Vendor reimbursed for costs plus a fixed fee based on initial estimate"},
+                {"left": "Time and Materials (T&M)", "right": "Negotiated hourly rate plus full reimbursement for materials"},
+                {"left": "Unit price", "right": "Fixed price paid per unit of work delivered"},
+                {"left": "Cost-Plus Incentive Fee (CPIF)", "right": "Vendor reimbursed for costs plus a target fee and performance incentive"}
+            ],
+            "explanation": "FFP: total price fixed upfront (buyer's risk is lowest). CPFF: costs reimbursed + fixed fee. T&M: hybrid — fixed hourly rate + material costs. Unit price: per-unit pricing (total depends on quantity). CPIF: costs reimbursed + target fee + incentive for good performance."
+        },
+        {
+            "id": "d1pv_match002",
+            "type": "matching",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["procurement", "documents"],
+            "difficulty": "medium",
+            "question": "Match each procurement document to when it is used.",
+            "pairs": [
+                {"left": "RFI", "right": "When you need to learn about vendor capabilities before formal solicitation"},
+                {"left": "RFP", "right": "When you need detailed proposals including approach, timeline, and pricing"},
+                {"left": "RFQ / RFB", "right": "When specifications are clear and price is the primary factor"},
+                {"left": "SOW", "right": "When you need to describe the resources, goods, or services to be procured"}
+            ],
+            "explanation": "RFI gathers information for research. RFP solicits full proposals. RFQ/RFB seeks pricing for defined commodities. The SOW (Statement of Work) describes what needs to be procured and is distributed to potential vendors for evaluation."
+        },
+        {
+            "id": "d1pv_dd001",
+            "type": "drag_drop",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["contract", "risk-allocation"],
+            "difficulty": "hard",
+            "question": "Categorize each contract type by who bears the MOST financial risk.",
+            "categories": ["Buyer bears more risk", "Vendor bears more risk", "Risk is shared"],
+            "items": [
+                {"text": "Firm Fixed Price (FFP)", "correct_category": "Vendor bears more risk"},
+                {"text": "Cost-Plus Fixed Fee (CPFF)", "correct_category": "Buyer bears more risk"},
+                {"text": "Time and Materials (T&M)", "correct_category": "Risk is shared"},
+                {"text": "Cost-Plus Percentage of Cost (CPPC)", "correct_category": "Buyer bears more risk"},
+                {"text": "Fixed-Price Incentive Fee (FPIF)", "correct_category": "Risk is shared"}
+            ],
+            "explanation": "FFP: vendor bears risk — if costs overrun, the vendor absorbs them. Cost-plus contracts (CPFF, CPPC): buyer bears risk — they reimburse all costs regardless. T&M: shared — the hourly rate is fixed (vendor risk) but total cost depends on hours (buyer risk). FPIF: shared — the base is fixed but incentive adjustments create shared exposure."
+        },
+        {
+            "id": "d1pv_order001",
+            "type": "ordering",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["procurement", "process"],
+            "difficulty": "hard",
+            "question": "Place the procurement process steps in the correct order.",
+            "items": [
+                "Negotiate and award contract",
+                "Identify procurement need and create SOW",
+                "Manage vendor performance",
+                "Send solicitation documents (RFI/RFP/RFQ)",
+                "Evaluate vendor proposals and select vendor",
+                "Close contract"
+            ],
+            "correct_order": [
+                "Identify procurement need and create SOW",
+                "Send solicitation documents (RFI/RFP/RFQ)",
+                "Evaluate vendor proposals and select vendor",
+                "Negotiate and award contract",
+                "Manage vendor performance",
+                "Close contract"
+            ],
+            "explanation": "The procurement process: (1) Identify the need and document it in a SOW, (2) Send solicitation documents to potential vendors, (3) Evaluate received proposals against criteria, (4) Negotiate and award the contract to the selected vendor, (5) Manage vendor performance during execution, (6) Close the contract at project completion."
+        },
+        {
+            "id": "d1pv_sc001",
+            "type": "scenario",
+            "domain": "1",
+            "objective": "1.11",
+            "tags": ["procurement", "selection", "contract"],
+            "difficulty": "hard",
+            "scenario": "You are the PM for a new office renovation project. The team needs to procure furniture from an external vendor. The budget is $50,000. You have identified three vendors:\n\n• Vendor A: Offers a complete set for $48,000 FFP, delivers in 3 weeks, has excellent references\n• Vendor B: Offers a complete set for $44,000 FFP, delivers in 6 weeks, has good references but limited capacity for custom orders\n• Vendor C: Offers T&M pricing at $200/hour plus materials (estimated $42,000-$55,000), delivers in 2 weeks, specializes in custom office designs",
+            "parts": [
+                {
+                    "id": "d1pv_sc001a",
+                    "type": "multiple_choice",
+                    "question": "If the project has a strict 4-week deadline and the furniture must be standard (not custom), which vendor should you select?",
+                    "options": [
+                        {"key": "A", "text": "Vendor A — meets deadline and budget with excellent references"},
+                        {"key": "B", "text": "Vendor B — lowest cost"},
+                        {"key": "C", "text": "Vendor C — fastest delivery"}
+                    ],
+                    "correct": "A",
+                    "explanation": "Vendor A meets the 4-week deadline (3 weeks), is within budget ($48,000), and has excellent references. Vendor B is cheapest but won't meet the 4-week deadline (6 weeks). Vendor C could deliver in time but the T&M pricing creates cost uncertainty ($42K-$55K could exceed budget)."
+                },
+                {
+                    "id": "d1pv_sc001b",
+                    "type": "multiple_choice",
+                    "question": "Vendor C's T&M contract creates what type of risk for the buyer?",
+                    "options": [
+                        {"key": "A", "text": "Schedule risk — T&M contracts always take longer"},
+                        {"key": "B", "text": "Cost risk — the final cost is uncertain and could exceed the budget"},
+                        {"key": "C", "text": "Quality risk — T&M vendors produce lower-quality work"},
+                        {"key": "D", "text": "No risk — the buyer controls the hourly rate"}
+                    ],
+                    "correct": "B",
+                    "explanation": "T&M contracts create cost risk for the buyer because the final cost depends on actual hours worked and materials used. The estimated range of $42,000-$55,000 means the project could exceed the $50,000 budget. With FFP, the vendor absorbs cost overrun risk."
+                },
+                {
+                    "id": "d1pv_sc001c",
+                    "type": "multiple_choice",
+                    "question": "If you selected Vendor A, what document would you issue to formally initiate their work after the contract is signed?",
+                    "options": [
+                        {"key": "A", "text": "Request for Proposal (RFP)"},
+                        {"key": "B", "text": "Statement of Work (SOW)"},
+                        {"key": "C", "text": "Purchase Order (PO)"},
+                        {"key": "D", "text": "Change request form"}
+                    ],
+                    "correct": "C",
+                    "explanation": "A Purchase Order (PO) is issued to formally initiate the vendor's work after the contract is signed. The contract establishes the agreement; the PO is the customer's order for specific goods or services that triggers the vendor to begin."
+                }
+            ],
+            "explanation": "This scenario combines vendor evaluation (comparing cost, timeline, capacity, and references), contract type risk analysis (FFP vs. T&M), and procurement process knowledge (PO to initiate work). Best-value evaluation considers multiple factors, not just the lowest price."
+        }
+    ]
+}
